@@ -29,6 +29,8 @@
 * [Android Studio and Kotlin Tutorial - Music Player](https://www.youtube.com/watch?v=DaLPIC4NbYU&list=PLCWfUPPluOgZNMafpr9T_7dPKJBq9-IC9&index=8&ab_channel=doctorcode)
 
 ### 👾 Asymptotics
+* [Berkeley CS 61A: Structure and Interpretation of Computer Programs](https://cs61a.org/)
+* [Berkeley CS 61B: Data Structures](https://fa23.datastructur.es/)
 * [PathFinding.js](https://qiao.github.io/PathFinding.js/visual/)
 * [VisuAlgo](https://visualgo.net/en)
 * [Big-O Cheat Sheat](https://www.bigocheatsheet.com/)

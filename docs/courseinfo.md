@@ -100,3 +100,7 @@ You may use any code presented in class without attribution. If you are not sure
 A number of USC’s schools provide support for students who need help with scholarly writing. Check with your advisor or program staff to find out more. Students whose primary language is not English should check with the American Language Institute (ali.usc.edu), which sponsors courses and workshops specifically for international students.
 
 The Office of Disability Services and Programs (dsp.usc.edu) provides certification for students with disabilities and helps arrange the relevant accommodations. If an officially declared emergency makes travel to campus infeasible, USC Emergency Information (emergency.usc.edu) will provide safety and other updates, including ways in which instruction will be continued by means of Blackboard, teleconferencing, and other technology. 
+
+## 💐 Acknowledgments
+
+Some course handout material derived from previous terms, professors, and GSIs. Thank you to Sean Bloom, Sam Roberts, and Margaret Moser.
