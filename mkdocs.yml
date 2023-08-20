@@ -1,4 +1,4 @@
-site_name: USC CTIN583
+site_name: USC CTIN583 Fall 2023
 site_url: https://usc-ctin583.github.io/
 theme:
   name: material
@@ -18,14 +18,16 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: teal
+      primary: indigo
       accent: purple 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: teal
-      accent: lime
+      primary: indigo
+      accent: purple
+  extra_css: 
+    - "stylesheets/extra.css"
 
 
 extra:
@@ -53,6 +55,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - tables
 
 copyright: |
   &copy; 2023 <a href="https://github.com/debbieyuen"  target="_blank" rel="noopener">Debbie Yuen</a>
