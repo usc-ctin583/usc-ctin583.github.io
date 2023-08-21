@@ -32,8 +32,6 @@ theme:
 
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/usc-ctin583
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/USCCinema
     - icon: fontawesome/brands/discord
