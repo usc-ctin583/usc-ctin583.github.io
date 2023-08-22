@@ -43,10 +43,6 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.com/channels/343612930056781825/687390873197084672
 
-plugins:
-  - search
-  - awesome-pages
-
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
