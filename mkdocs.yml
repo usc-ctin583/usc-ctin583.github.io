@@ -1,5 +1,11 @@
-site_name: USC CTIN583 Fall 2023
+site_name: USC CTIN583 Game Development (Fall 2023)
 site_url: https://usc-ctin583.github.io/
+
+nav: 
+  - index.md
+  - courseinfo.md
+  - resources.md
+  
 theme:
   name: material
   features:
@@ -36,6 +42,10 @@ extra:
       link: https://twitter.com/USCCinema
     - icon: fontawesome/brands/discord
       link: https://discord.com/channels/343612930056781825/687390873197084672
+
+plugins:
+  - search
+  - awesome-pages
 
 markdown_extensions:
   - pymdownx.highlight:
