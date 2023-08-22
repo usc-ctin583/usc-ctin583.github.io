@@ -1,10 +1,6 @@
 site_name: USC CTIN583 Game Development (Fall 2023)
 site_url: https://usc-ctin583.github.io/
 
-nav: 
-  - index.md
-  - courseinfo.md
-  - resources.md
   
 theme:
   name: material
@@ -60,6 +56,8 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - tables
+  - attr_list
+  - md_in_html
 
 copyright: |
   &copy; 2023 <a href="https://github.com/debbieyuen"  target="_blank" rel="noopener">Debbie Yuen</a>
