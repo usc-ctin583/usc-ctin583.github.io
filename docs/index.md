@@ -2,7 +2,7 @@
 ## 📓 Course Calendar
 | Week | Date                     | Lecture                                           | Lab and Discussions              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
-| 1    | ==Mon 8/21== <br> Wed 8/23   | ==No Class== <br> Introduction to Game Engines | <br> [Lab 0](Labs/lab0.md) | |
+| 1    | ==Mon 8/21== <br> Wed 8/23   | ==No Class== <br> [Introduction to Game Engines](https://www.icloud.com/keynote/0b9Z3oJLZPPXEXypJu4s9P11w#Lecture1) | <br> [Lab 0](Labs/lab0.md) | |
 | 2    | Mon 8/28 <br> Wed 8/30   | Godot <br> Unreal Engine |  [Lab 1](Labs/lab1.md) | | |
 | 3    | Mon 9/4 <br> Wed 9/6     | No Class (Labor Day) <br> Introduction to Unity | |
 | 4    | Mon 9/11 <br> Wed 9/13   | Variables and Data Types <br> Classes and Loops | Lab 2 |
