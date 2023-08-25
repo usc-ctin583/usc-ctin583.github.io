@@ -74,6 +74,9 @@
 * [Godot Tutorials](https://godottutorials.com/)
 * [GDQuest](https://www.gdquest.com/)
 * [Godot Docs](https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html)
+* [Games from Scratch](https://www.youtube.com/@gamefromscratch)
+* [KidsCanCode](https://www.youtube.com/@Kidscancode)
+* [Learn GDScript From Zero](https://gdquest.github.io/learn-gdscript/)
 
 ### 🍩 Blender
 * [Blender Guru](https://www.youtube.com/@blenderguru)
