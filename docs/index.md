@@ -12,8 +12,8 @@
 | 8    | Mon 10/9 <br> Wed 10/11  | Project 1 Critique <br> Unity 3D: Physics | Lab 6 | Project 1 Due |
 | 9    | Mon 10/16 <br> Wed 10/18 | Unity 3D: Multiplayer <br> Unity 3D: Graphics | Lab 7 | Project 2 |
 | 10   | Mon 10/23 <br> Wed 10/25 | Unity AR: AR Foundation <br> Unity AR: iOS/Android | Lab 8 |
-| 11   | Mon 10/30 <br> Wed 11/1  | Guest Speaker/Field Trip <br> Office Hours | Lab 9 | <br> Project 2 Checkpoint |
-| 12   | Mon 11/6 <br> Wed 11/8   | Guest Speaker/Field Trip <br> Office Hours | Lab 10 |
+| 11   | Mon 10/30 <br> Wed 11/1  | Office Hours <br> Office Hours | Lab 9 | <br> Project 2 Checkpoint |
+| 12   | Mon 11/6 <br> Wed 11/8   | Office Hours <br> Office Hours | Lab 10 |
 | 13   | Mon 11/13 <br> Wed 11/15 | Office Hours <br> Office Hours | | Project 2 Checkpoint|
 | 14   | Mon 11/20 <br> Wed 11/22 | No Class (Thanksgiving) <br> No Class (Thanksgiving) | | |
 | 15   | Mon 11/27 <br> Wed 11/29 | Office Hours <br> Office Hours | | Project 2 Checkpoint |
