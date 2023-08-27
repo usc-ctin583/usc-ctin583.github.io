@@ -2,10 +2,10 @@
 ## 📓 Course Calendar
 | Week | Date                     | Lecture                                           | Lab and Discussions              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
-| 1    | ==Mon 8/21== <br> ==Wed 8/23==   | ==No Class== <br> ==[Introduction to Game Engines](https://www.icloud.com/keynote/0b9Z3oJLZPPXEXypJu4s9P11w#Lecture1)== | <br> ==[Lab 0](Labs/lab0.md)== | |
-| 2    | Mon 8/28 <br> Wed 8/30   | [Godot: 2D Games](https://www.icloud.com/keynote/04anqoPcDLolGOwy6tP3XAq3w#Lecture2) <br> Unreal Engine |  [Lab 1](Labs/lab1.md) | | |
-| 3    | Mon 9/4 <br> Wed 9/6     | No Class (Labor Day) <br> AR/VR with [Stanford XR and BroadAR](https://www.broadar.com/) | |
-| 4    | Mon 9/11 <br> Wed 9/13   | Unity: Variables and Data Types <br> Unity: Classes and Loops | Lab 2 |
+| 1    | ==Mon 8/21== <br> ==Wed 8/23==   | ==No Class== <br> ==[Introduction to Game Engines](https://www.icloud.com/keynote/0b9Z3oJLZPPXEXypJu4s9P11w#Lecture1)== | <br> ==[Lab 0: Set up](Labs/lab0.md)== | |
+| 2    | Mon 8/28 <br> Wed 8/30   | [Godot: 2D Games](https://www.icloud.com/keynote/04anqoPcDLolGOwy6tP3XAq3w#Lecture2) <br> Unreal Engine: MetaHuman |  [Lab 1: Unreal Engine](Labs/lab1.md) | | |
+| 3    | ==Mon 9/4== <br> Wed 9/6     | ==No Class (Labor Day)== <br> AR/VR with [Stanford XR and BroadAR](https://www.broadar.com/) | |
+| 4    | Mon 9/11 <br> Wed 9/13   | Unity: Variables and Data Types <br> Unity: Classes and Loops | [Lab 2: Immersive Realities](Labs/lab2.md) |
 | 5    | Mon 9/18 <br> Wed 9/20   | Spatial Design with [Niantic Labs (RSVP)](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=a2tjZGhsdTdrZjlzM2Q5NTNwYjRndXRmb2sgZGVib3JhaHl1ZW4yMDE2QGJlcmtlbGV5LmVkdQ&tmsrc=deborahyuen2016%40berkeley.edu) <br> Unity: Arrays, Linked Lists, Recursion | Lab 3 |
 | 6    | Mon 9/25 <br> Wed 9/27   | Unity 3D: Player Movement <br> Unity 3D: Collisions | Lab 4 | Project 1 |
 | 7    | Mon 10/2 <br> Wed 10/4   | Unity 3D: Leveling <br> Unity 3D: Animation | Lab 5 | Project 1 Checkpoint |
@@ -15,7 +15,7 @@
 | 11   | Mon 10/30 <br> Wed 11/1  | Office Hours <br> Office Hours | Lab 9 | <br> Project 2 Checkpoint |
 | 12   | Mon 11/6 <br> Wed 11/8   | Office Hours <br> Office Hours | Lab 10 |
 | 13   | Mon 11/13 <br> Wed 11/15 | Office Hours <br> Office Hours | | Project 2 Checkpoint|
-| 14   | Mon 11/20 <br> Wed 11/22 | No Class (Thanksgiving) <br> No Class (Thanksgiving) | | |
+| 14   | ==Mon 11/20== <br> ==Wed 11/22== | ==No Class (Thanksgiving)== <br> ==No Class (Thanksgiving)== | | |
 | 15   | Mon 11/27 <br> Wed 11/29 | Office Hours <br> Office Hours | | Project 2 Checkpoint |
 | 16   | Mon 12/4 <br> Wed 12/6   | Office Hours <br> Final Presentations | | |
 | 17   | Mon 12/11 | No Class | | Project 2 Due|
