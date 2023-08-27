@@ -11,11 +11,36 @@ Student Assistant: Hao Liu
   * [Godot 4.1](https://godotengine.org/article/godot-4-1-is-here/)
   * [Unreal Engine 5](https://www.unrealengine.com/en-US/unreal-engine-5)
   * [Unity Editor Version 2021.3.29f1](https://docs.unity3d.com/560/Documentation/Manual/InstallingUnity.html)
-  * [Git]()
-  * [Git LFS]()
-  * [Perforce Helix Core]()
-  * 
+  * [Git](https://git-scm.com/)
+  * [Git LFS](https://git-lfs.com/)
+  * [Perforce Helix Core (P4V)](https://www.perforce.com/downloads/helix-visual-client-p4v)
+    
 ## Course Website Set Up
+
+Fork or clone the repo
+```bash
+$ git clone https://github.com/usc-ctin583/usc-ctin583.github.io.git
+```
+
+Check Python is installed
+```bash
+$ python --version
+```
+
+Install MkDocs
+```bash
+$ pip install mkdocs
+```
+
+Check MkDocs is installed
+```bash
+$ mkdocs --version
+```
+
+Install Material for MkDocs
+```bash
+$ pip install mkdocs-material
+```
 
 ## Contact
 Contact the Professor at yuend@usc.edu
