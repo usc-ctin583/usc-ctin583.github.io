@@ -51,4 +51,4 @@ $ mkdocs serve
 Fork this GitHub repo to build upon this course or create next year's website.
 
 ## Credits and References
-This website was created by Debbie. Reach Debbie at yuend@usc.edu. 
+Thank you to prior instructors who helped shape this course. This website was created by Debbie (yuend@usc.edu). 
