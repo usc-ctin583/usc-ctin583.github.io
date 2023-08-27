@@ -12,13 +12,17 @@ Perforce is known for its roots with version control. However, Perforce as a who
 ## GitHub
 GitHub is a platform and cloud-based service for software development and version control using Git. In order to use GitHub for large files, we must also download Git Large File Storage (LFS)
 
+!!! note "Create a GitHub account"
+
+    [Apply for GitHub Education](https://education.github.com/) and create an [account](https://github.com/).
+
 !!! note "Install Git"
 
-    Download [Perforce Helix Visual Client (P4V)](https://www.perforce.com/downloads/helix-visual-client-p4v).
+    [Install Git](https://git-scm.com/).
 
 !!! note "Install Git LFS"
 
-    Download [Perforce Helix Visual Client (P4V)](https://www.perforce.com/downloads/helix-visual-client-p4v).
+    [Download Git LFS](https://git-lfs.com/).
 
 ## Unity
 Unity is a cross-platform game engine for mobile, desktop, web, console, and headset games. In this course, we will be working primarily in Unity. If you do not have a Unity account, make sure to sign up with you usc.edu email to get access to Unity's Student Plan.
