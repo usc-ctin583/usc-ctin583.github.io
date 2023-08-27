@@ -1,4 +1,4 @@
-# USC CTIN 583: Game Development
+# USC CTIN 583: Game Development 👾
 
 This course teaches the art of creating digital game prototypes and introduces the world of game engines. The class briefly introduces industry standard game engines such as Unreal Engine and Godot then dives deep into the Unity game development using C# scripting. In class, students will be creating two games with Unity 3D and Unity AR while learning the fundamentals of C# scripting. This content is open-source and free to the public. If you're interested in learning, please visit our course [website](https://usc-ctin583.github.io/).
 
@@ -42,5 +42,13 @@ Install Material for MkDocs
 $ pip install mkdocs-material
 ```
 
-## Contact
-Contact the Professor at yuend@usc.edu
+Run and build Website
+```bash
+$ mkdocs serve
+```
+
+## Usage
+Fork this GitHub repo to build upon this course or create next year's website.
+
+## Credits and References
+This website was created by Debbie. Reach Debbie at yuend@usc.edu. 
