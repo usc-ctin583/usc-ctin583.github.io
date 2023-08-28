@@ -8,7 +8,7 @@
 | 4    | Mon 9/11 <br> Wed 9/13   | C#: Variables and Data Types <br> C#: Classes and Loops | [Lab 2: Immersive Realities](Labs/lab2.md) |
 | 5    | Mon 9/18 <br> Wed 9/20   | Spatial Design with [Niantic Labs (RSVP)](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=a2tjZGhsdTdrZjlzM2Q5NTNwYjRndXRmb2sgZGVib3JhaHl1ZW4yMDE2QGJlcmtlbGV5LmVkdQ&tmsrc=deborahyuen2016%40berkeley.edu) <br> C#: Arrays, Linked Lists, Recursion | Lab 3 |
 | 6    | Mon 9/25 <br> Wed 9/27   | Unity 3D: Player Movement <br> Unity 3D: Collisions | Lab 4 | Project 1 |
-| 7    | Mon 10/2 <br> Wed 10/4   | Unity 3D: Leveling <br> Unity 3D: Animation | Lab 5 | Project 1 Checkpoint |
+| 7    | Mon 10/2 <br> Wed 10/4   | Spatial Computing and Design with [Berkeley Engineering](https://bid.berkeley.edu/) <br> Unity 3D: Animation | Lab 5 | Project 1 Checkpoint |
 | 8    | Mon 10/9 <br> Wed 10/11  | Project 1 Critique <br> Unity 3D: Physics | Lab 6 | Project 1 Due |
 | 9    | Mon 10/16 <br> Wed 10/18 | Unity 3D: Multiplayer <br> Unity 3D: Graphics | Lab 7 | Project 2 |
 | 10   | Mon 10/23 <br> Wed 10/25 | Unity AR: AR Foundation <br> Unity AR: iOS/Android | Lab 8 |
