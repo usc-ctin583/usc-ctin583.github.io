@@ -3,9 +3,9 @@
 | Week | Date                     | Lecture                                           | Lab and Discussions              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
 | 1    | ==Mon 8/21== <br> ==Wed 8/23==   | ==No Class== <br> ==[Introduction to Game Engines](https://www.icloud.com/keynote/0b9Z3oJLZPPXEXypJu4s9P11w#Lecture1)== | <br> ==[Lab 0: Set up](Labs/lab0.md)== | |
-| 2    | ==Mon 8/28== <br> Wed 8/30   | ==[Godot: 2D Games](https://www.icloud.com/keynote/04anqoPcDLolGOwy6tP3XAq3w#Lecture2)== <br> Unreal Engine: MetaHuman |  ==[Lab 1: Unreal Engine](Labs/lab1.md)== | | |
-| 3    | ==Mon 9/4== <br> Wed 9/6     | ==No Class (Labor Day)== <br> AR/VR with [Stanford XR and BroadAR](https://www.broadar.com/) | |
-| 4    | Mon 9/11 <br> Wed 9/13   | C#: Variables and Data Types <br> C#: Classes and Loops | [Lab 2: Immersive Realities](Labs/lab2.md) |
+| 2    | ==Mon 8/28== <br> ==Wed 8/30==   | ==[Godot: 2D Games](https://www.icloud.com/keynote/04anqoPcDLolGOwy6tP3XAq3w#Lecture2)== <br> ==[Unreal Engine: MetaHuman]()== |  ==[Lab 1: Unreal Engine](Labs/lab1.md)== | | |
+| 3    | ==Mon 9/4== <br> Wed 9/6     | ==No Class (Labor Day)== <br> Unity and Perforce | |
+| 4    | Mon 9/11 <br> Wed 9/13   | C#: Game Development Data Structures <br> AR/VR with [Stanford XR and BroadAR](https://www.broadar.com/) | [Lab 2: Immersive Realities](Labs/lab2.md) |
 | 5    | Mon 9/18 <br> Wed 9/20   | Spatial Design with [Niantic Labs (RSVP)](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=a2tjZGhsdTdrZjlzM2Q5NTNwYjRndXRmb2sgZGVib3JhaHl1ZW4yMDE2QGJlcmtlbGV5LmVkdQ&tmsrc=deborahyuen2016%40berkeley.edu) <br> C#: Arrays, Linked Lists, Recursion | Lab 3 |
 | 6    | Mon 9/25 <br> Wed 9/27   | Unity 3D: Player Movement <br> Unity 3D: Collisions | Lab 4 | Project 1 |
 | 7    | Mon 10/2 <br> Wed 10/4   | Spatial Computing and Design with [Berkeley Engineering](https://bid.berkeley.edu/) <br> Unity 3D: Animation | Lab 5 | Project 1 Checkpoint |

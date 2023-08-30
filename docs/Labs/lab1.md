@@ -31,7 +31,7 @@ We are now ready to start learning Unreal Engine! Please try to do as much of th
 
 !!! note "Tutorial: Your First Hour in Unreal Engine 5.0"
 
-    Complete the Unreal Engine ["Your First Hour in Unreal Engine 5.0" tutorial](https://dev.epicgames.com/community/learning/courses/ZpX/your-first-hour-in-unreal-engine-5/RPwK/your-first-hour-in-unreal-engine-5-0-overview).
+    Complete the Unreal Engine ["Your First Hour in Unreal Engine 5.0" tutorial](https://dev.epicgames.com/community/learning/courses/3ke/your-first-hour-in-unreal-engine-5-2/Wp7K/unreal-engine-working-with-visuals).
 
 ## Unreal Engine Marketplace
 
