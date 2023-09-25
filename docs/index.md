@@ -7,9 +7,9 @@
 | 3    | ==Mon 9/4== <br> ==Wed 9/6==     | ==No Class (Labor Day)== <br> ==[Unity and Perforce](https://www.icloud.com/keynote/0545FBYqmgu62bVFrVxSeqzzA#Lecture3)== | |
 | 4    | ==Mon 9/11== <br> ==Wed 9/13==   | ==[C#: Data Structures, Namespaces](https://www.icloud.com/keynote/0b5y1M4VNtrdfL4vFyXrzgkeg#Lecture4)== <br> ==AR/VR with [Stanford XR and BroadAR](https://www.broadar.com/)== | ==[Lab 2: Immersive Realities](Labs/lab2.md)== |
 | 5    | ==Mon 9/18== <br> ==Wed 9/20==   | ==Spatial Design with [Niantic Labs (RSVP)](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=a2tjZGhsdTdrZjlzM2Q5NTNwYjRndXRmb2sgZGVib3JhaHl1ZW4yMDE2QGJlcmtlbGV5LmVkdQ&tmsrc=deborahyuen2016%40berkeley.edu)== <br> ==C#: Arrays, Coroutines, Recursion== | ==[Lab 3: Classes and Coroutines](Labs/lab3.md)== |
-| 6    | Mon 9/25 <br> Wed 9/27   | Unity 3D: Player Movement and Collisions <br> Unity 3D: Shaders | [Lab 4: Generics and Inheritence](Labs/lab4.md)| Project 1 |
-| 7    | Mon 10/2 <br> Wed 10/4   | Embodied Cognition with [Berkeley Engineering](https://bid.berkeley.edu/) <br> Unity 3D: 3D math | Lab 5 | Project 1 Checkpoint |
-| 8    | Mon 10/9 <br> Wed 10/11  | Project 1 Critique <br> Unity 3D: Physics and Animation | Lab 6 | Project 1 Due |
+| 6    | Mon 9/25 <br> Wed 9/27   | Unity 3D: Player Movement and Collisions <br> Unity 3D: Shaders | [Lab 4: Generics and Inheritence](Labs/lab4.md)| [Project 1: Advocacy](./Projects/project1.md) |
+| 7    | Mon 10/2 <br> Wed 10/4   | Embodied Cognition with [Berkeley Engineering](https://bid.berkeley.edu/) <br> Unity 3D: 3D math | Lab 5 | [Project 1 Checkpoint](./Projects/project1checkpoint.md) |
+| 8    | Mon 10/9 <br> Wed 10/11  | Project 1 Playtest and WebGL <br> Unity 3D: Physics and Animation | Lab 6 | **Project 1 Due** |
 | 9    | Mon 10/16 <br> Wed 10/18 | Unity 3D: Multiplayer <br> Unity 3D: Graphics | Lab 7 | Project 2 |
 | 10   | Mon 10/23 <br> Wed 10/25 | Unity AR: AR Foundation <br> Unity AR: iOS/Android | Lab 8 |
 | 11   | Mon 10/30 <br> Wed 11/1  | Office Hours <br> Office Hours | Lab 9 | <br> Project 2 Checkpoint |
@@ -18,7 +18,7 @@
 | 14   | ==Mon 11/20== <br> ==Wed 11/22== | ==No Class (Thanksgiving)== <br> ==No Class (Thanksgiving)== | | |
 | 15   | Mon 11/27 <br> Wed 11/29 | Office Hours <br> Office Hours | | Project 2 Checkpoint |
 | 16   | Mon 12/4 <br> Wed 12/6   | Office Hours <br> Final Presentations | | |
-| 17   | Mon 12/11 | No Class | | Project 2 Due|
+| 17   | Mon 12/11 | No Class | | **Project 2 Due** |
 
 ## ✌️ USC Academic Calendar
 * **Classes Begin:** August 21st
