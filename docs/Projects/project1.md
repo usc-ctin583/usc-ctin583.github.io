@@ -5,6 +5,14 @@
 ## 📙 Prompt
 Select a cause, set of values, or mission you care about. Through a 3D Unity URP game, advocate for that community through storytelling. Can you use your game to challenge beliefs, find purpose, uplift others, and spread compassion? In what form will that take? 
 
+Some potential topics:
+* Animal rights
+* Accessibility
+* Mental Health
+* Environmental justice
+* Sustainability
+
+
 ## 🎟️ Requirements
 * Unity 3D URP
 * Published as a WebGL build on a website
