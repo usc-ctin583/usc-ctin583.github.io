@@ -20,14 +20,18 @@ The intent of this project is to build, run, and publish a 3D Unity game that ta
     For this project, you must work alone! Please carefully read the Policy on Collaboration and Cheating to see what this means exactly. In particular, do not look for solutions online and use ChatGPT.
 
 
+## 👾 The Game
 Select a cause, set of values, or mission you care about. Through a 3D Unity URP game, advocate for that community through storytelling. Can you use your game to challenge beliefs, find purpose, uplift others, and spread compassion? In what form will that take? 
 
-Some potential topics:
+**Some potential topics:**
+
 * Animal rights
 * Accessibility
 * Mental Health
 * Environmental justice
 * Sustainability
+
+## 🎬 Getting Started
 
 
 ## 🎟️ Requirements
