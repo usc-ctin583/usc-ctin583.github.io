@@ -23,7 +23,7 @@ The intent of this project is to build, run, and publish a 3D Unity game that ta
 
 
 ## 👾 The Game
-Select a cause, set of values, or mission you care about. Through a 3D Unity URP game, advocate for that community through storytelling. Can you use your game to challenge beliefs, find purpose, uplift others, and spread compassion? In what form will that take? 
+Games have the power to reach, engage, and educate the public. No matter where we end up in life, sharing our knowledge, having and finding purpose, and inspiring others through our works are important in building a more equitable and sustainable world. Select a cause, set of values, or mission you care about and come up with an idea for a game that achieves meaningful social change. Pick something that matters to you and promote the cause and ideas through your game. Advocacy can take many forms such as storytelling, gameplay, and narrative mechanics that inspire players to take action. I challenge you to use your skills and creativity to create a short, fun, and complete game that challenges beliefs, investigates one’s purpose, uplifts others, and spreads compassion. 
 
 **Some potential topics:**
 
