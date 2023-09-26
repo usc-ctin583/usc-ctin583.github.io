@@ -53,8 +53,8 @@ Select a cause, set of values, or mission you care about. Through a 3D Unity URP
 | :--------- | :--------- |
 | Documentation | 10% |
 | Peer Feedback | 10% |
-| Checkpoint 1 | 30% |
+| Checkpoint 1 | 20% |
 | Published Website | 20% |
-| Playtest during class | 30% |
+| Playtest during class | 40% |
 | Total | 100% |
 
