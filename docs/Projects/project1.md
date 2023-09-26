@@ -1,6 +1,6 @@
 # ❤️ Project 1: Advocacy
 
-![Image title](../Projects/helpothers.jpg)
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/l1KVcrdl7rJpFnY2s" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/world-earth-l1KVcrdl7rJpFnY2s">via GIPHY</a></p>
 
 ## 📙 Introduction
 The intent of this project is to build, run, and publish a 3D Unity game that tackles a social justice issue. You will be implementing your own version of a WebGL single-player video game with multiple levels. Please feel free to start with the 3D Unity project we have been working on in class as a starting point. Make sure the game is in Unity URP and supports Perforce integration.
