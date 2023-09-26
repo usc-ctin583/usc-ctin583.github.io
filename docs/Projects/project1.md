@@ -14,7 +14,10 @@ The intent of this project is to build, run, and publish a 3D Unity game that ta
 * Collaborate and share projects via Perforce
 * Share and receive feedback on [itch.io](https://itch.io/) and other online platforms
 * Have a final product that you can add to your portfolio
+* Build a browser-based game with [GitHub pages](https://pages.github.com/) and WebGL
+* Experiment with Unity’s new [Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.8/manual/index.html)
 * Learn how to build interactive and immersive websites. See some examples on [awwwards](https://www.awwwards.com/websites/unity/)
+
 
 
 !!! warning "Policy on Collaboration and Cheating"
