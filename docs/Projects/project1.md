@@ -1,9 +1,16 @@
 # ❤️ Project 1: Advocacy
 
+!!! tip "Important Dates"
+    **Checkpoint 1:** Monday, October 2nd
+    
+    **Project Due:** Monday, October 9th
+
+
+
 <div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/l1KVcrdl7rJpFnY2s" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/world-earth-l1KVcrdl7rJpFnY2s">via GIPHY</a></p>
 
 ## 📙 Introduction
-The intent of this project is to build, run, and publish a 3D Unity game that tackles a social justice issue. You will be implementing your own version of a WebGL single-player video game with multiple levels. Please feel free to start with the 3D Unity project we have been working on in class as a starting point. I recommend making a copy of the class project to avoid confusing our class project from your project 1. Make sure the game is created with the Universal Render Pipeline ([URP](https://unity.com/srp/universal-render-pipeline)) and supports [Perforce](https://www.perforce.com/downloads/helix-visual-client-p4v) integration.
+The intent of this project is to build, run, and publish a 3D Unity game that tackles a social justice issue. You will be implementing your own version of a WebGL single-player video game with multiple levels. Please feel free to start with the 3D Unity project we have been working on in class as a starting point. I recommend making a copy of the class project to avoid confusing our class project from your project 1. If you would rather not use the 3D Unity project we have been working on in class, feel free to create a new 3D project from scratch. You may use any packages and assets as you see fit; however, please review the project requirements to ensure that you have integrated all required features. Last but not least - make sure the game is created with the Universal Render Pipeline ([URP](https://unity.com/srp/universal-render-pipeline)) and supports [Perforce](https://www.perforce.com/downloads/helix-visual-client-p4v) integration.
 
 **By the end of Project 1, you will:** 
 
@@ -21,7 +28,7 @@ The intent of this project is to build, run, and publish a 3D Unity game that ta
 
 
 !!! warning "Policy on Collaboration and Cheating"
-    For this project, you must work alone! Please carefully read the [Policy on Collaboration and Cheating]() to see what this means exactly. In particular, do not look for solutions online, use game templates, and generate code with AI such as ChatGPT. 
+    For this project, you must work alone! Please carefully read the [Policy on Collaboration and Cheating](https://ece-classes.usc.edu/ee591/pvs_sem/fall09/acad_integ.pdf) to see what this means exactly. In particular, do not look for solutions online, use game templates, and generate code with AI such as ChatGPT. 
 
 
 
@@ -35,15 +42,59 @@ Games have the power to reach, engage, and educate the public. No matter where w
 * Mental Health
 * Environmental justice
 * Sustainability
+* Civil Rights
+* Education
+* Health
+
 
 ## 🎬 Getting Started
+???+ note "Step 1: Create a new Unity project"
 
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
+
+    ![Image title](../Projects/urpUnity.png)
+
+???+ note "Step 2: Scene set up"
+
+    Right click in the **Hierarchy** and create a new plane at (0, 0, 0) and a 3D cube at (0, 1, 0).
+
+    ![Image title](../Projects/unityEditor.png)
+
+???+ note "Step 3: Package Manager"
+
+    In the Windows/Package Manager tab, add [Cinemachine](https://github.com/Unity-Technologies/com.unity.cinemachine) and [AI Navigation](https://github.com/Unity-Technologies/NavMeshComponents/tree/master) packages. If you are workinng in Unity versions older than 2022, please add the **AI Navigation** package by name `com.unity.ai.navigation`
+
+    ![Image title](../Projects/packageManager.png)
+
+???+ note "Step 4: Rigidbody and Box Collider"
+
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
+
+    ![Image title](../Projects/urpUnity.png)
+
+???+ note "Step 5: Camera and Cinemachine"
+
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
+
+    ![Image title](../Projects/urpUnity.png)
+
+???+ note "Step 6: Opponent Movement and NavMesh"
+
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
+
+    ![Image title](../Projects/urpUnity.png)
 
 ## 🎟️ Requirements
+
+**Your game should include the following requirements and features:**
+
 * Unity 3D URP
 * Published as a WebGL build on a website
 * Playable (Single player)
 * Use assets and sound effects 
+* Display score on screen
+* End and win game screens
+* Intro animation and instructions
 * Publish to [itch.io](https://itch.io/)
 
 ## 🧐 Questions
