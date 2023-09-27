@@ -68,21 +68,51 @@ Games have the power to reach, engage, and educate the public. No matter where w
 
 ???+ note "Step 4: Rigidbody and Box Collider"
 
-    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
+    In your Inspector panel, add the [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) and [Box Collider](https://docs.unity3d.com/Manual/class-BoxCollider.html) components. 
 
-    ![Image title](../Projects/urpUnity.png)
+    ![Image title](../Projects/rigidbody.png)
+
 
 ???+ note "Step 5: Camera and Cinemachine"
 
     Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
 
-    ![Image title](../Projects/urpUnity.png)
+    ![Image title](../Projects/cinemachine.png)
 
 ???+ note "Step 6: Opponent Movement and NavMesh"
 
     Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
 
-    ![Image title](../Projects/urpUnity.png)
+    ![Image title](../Projects/navmeshSurface.png)
+
+    ![Image title](../Projects/navmeshAgent.png)
+
+    === "C#"
+
+    ``` c# title="OpponenttMovement.cs" linenums="1"
+    using System;
+    using UnityEngine;
+    using UnityEngine.InputSystem;
+    using UnityEngine.AI;
+
+    public class OpponentMovement : MonoBehaviour
+    {
+        [SerializeField] private NavMeshAgent opponent;
+        [SerializeField] private Transform player;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            opponent = GetComponent<NavMeshAgent>();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            opponent.SetDestination(player.position);
+        }
+    }
+    ```
 
 ## 🎟️ Requirements
 

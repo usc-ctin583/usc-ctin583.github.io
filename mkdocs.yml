@@ -14,6 +14,8 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - content.code.annotate
+    - content.code.select
   language: en
   palette:
     - scheme: default
@@ -39,9 +41,12 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.com/channels/343612930056781825/687390873197084672
 
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
@@ -58,6 +63,8 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 copyright: |
   &copy; 2023 <a href="https://github.com/debbieyuen"  target="_blank" rel="noopener">Debbie Yuen</a>
