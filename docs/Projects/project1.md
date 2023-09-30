@@ -133,6 +133,7 @@ Games have the power to reach, engage, and educate the public. No matter where w
 * What is the moral message of your game?
 
 ## 💯 Grading
+We will be play testing your game during class!! Please make sure your game is published on itch.io by play test day and is 100% playable. 
 | Assignment | Percentage |
 | :--------- | :--------- |
 | Documentation | 10% |
