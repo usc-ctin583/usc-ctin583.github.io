@@ -1,1 +1,1 @@
-# Lab 6: Publishing Builds
+# 6️⃣ Lab 6: Publishing Builds

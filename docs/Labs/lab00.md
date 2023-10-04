@@ -1,4 +1,4 @@
-# Lab 0: Set Up
+# 0️⃣ Lab 0: Set Up
 
 In our next two class sessions, we will be learning Godot and Unreal Engine with the Perforce as our primary source control tool. 
 
