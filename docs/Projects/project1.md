@@ -118,29 +118,37 @@ Games have the power to reach, engage, and educate the public. No matter where w
 
 **Your game should include the following requirements and features:**
 
-* Unity 3D URP
-* Published as a WebGL build on a website
-* Playable (Single player)
-* Use assets and sound effects 
-* Display score on screen
-* End and win game screens
-* Intro animation and instructions
-* Publish to [itch.io](https://itch.io/)
+- [x] Short video game created with Unity 3D URP
+- [x] Published as a WebGL build so that we can add it to a ReactJS website later on
+- [x] Game can be short but must be playable. Can be single player
+- [x] Game must look complete - use assets and sound effects 
+- [x] If your game involves a scoring system, display score on screen
+- [x] Include end and win game screens
+- [x] The intro of the game is important. Design your intro with animations, instructions, and more
+- [x] You must use Cinemachine, NavMesh, and integrate some sort of player movement and collisions in your game
+- [x] And most importantly, publish to [itch.io](https://itch.io/)!!
 
 ## 🧐 Questions
+Putting thought into who is playing your game and how they will experience it is important. Imagine who your players are and how they will feel playing your game. Your game should draw some sort of positive emotion from your players - wonder, excitment, inspiration, happiness, hope, etc. 
+
+**Here are some questions to keep in mind:** 
+
 * Who is the video game made for?
 * What are the takeaway lessons players will learn from your game?
 * What is the moral message of your game?
+* Why are you creating this game? This game should be something you like too!
 
 ## 💯 Grading
 We will be play testing your game during class!! Please make sure your game is published on itch.io by play test day and is 100% playable. 
 
-| Assignment | Percentage |
-| :--------- | :--------- |
-| Documentation | 10% |
-| Peer Feedback | 10% |
-| Checkpoint 1 | 20% |
-| Published Website | 20% |
-| Playtest during class | 40% |
-| Total | 100% |
+| Assignment | Description | Percentage |
+| :--------- | :--------- | :--------- |
+| Documentation | Spend some time writing taglines and descriptions for your project. Take some videos and screenshots that you can use for your portfolio and resume. The instructors will be giving you feedback on this project through your portfolio. | 10% |
+| Peer Feedback | During *Week 7*, please meet with 2 of your classmates to give and receive feedback. It is important to give verbal and written feedback. Please fill out the google form for each student you gave feedback to. | 10% |
+| Checkpoint 1 | Check in with any instructor. Show they what you've been working on and ask them any questions you have. | 10% |
+| Published Website | By **Monday, October 9th (Playtest day)** you must have your game published on itch.io. | 30% |
+| Playtest during class | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on **Wednesday, October 11th**. | 40% |
+| **Total** | | **100%** |
 
+## 🦄 Support
+Ask for help! Don't be afraid to reach out to us and ask for help. Work together with your classmates and schedule office hours with the instructors whenever you need help and support.
