@@ -14,9 +14,9 @@
 | 10   | Mon 10/23 <br> Wed 10/25 | Unity 3D: Physics and Animation <br> Unity 3D: 3D Math | [Lab 8: Illumination](Labs/lab08.md) |
 | 11   | Mon 10/30 <br> Wed 11/1  | Unity 3D: Multiplayer <br> Unity 3D: Graphics | [Lab 9: VFX Graph](Labs/lab09.md) | <br> [Project 2 Checkpoint](Projects/project2checkpoint1.md) |
 | 12   | Mon 11/6 <br> Wed 11/8   | Unity AR: Marker-Based Game <br> Unity AR: Deployment iOS/Android | [Lab 10: Technical Interviews](Labs/lab10.md) |
-| 13   | Mon 11/13 <br> Wed 11/15 |  **Project 2 Playtest** <br> Office Hours | | [Project 2 Checkpoint](Projects/project2checkpoint2.md)|
+| 13   | Mon 11/13 <br> Wed 11/15 |  **Project 2 Playtest** <br> Check-in with both instructors | | [Project 2 Checkpoint](Projects/project2checkpoint2.md)|
 | 14   | ==Mon 11/20== <br> ==Wed 11/22== | ==No Class (Thanksgiving)== <br> ==No Class (Thanksgiving)== | | |
-| 15   | Mon 11/27 <br> Wed 11/29 | Office Hours <br> Office Hours | | [Project 2 Checkpoint](Projects/project2checkpoint3.md) |
+| 15   | Mon 11/27 <br> Wed 11/29 | Check-in with both instructors <br> Check-in with both instructors | | [Project 2 Checkpoint](Projects/project2checkpoint3.md) |
 | 16   | Mon 12/4 <br> Wed 12/6   | **Project 2 Playtest** <br> **Project 2 Final Presentations** | | |
 | 17   | ==Mon 12/11== | ==No Class== | | **Project 2 Due** |
 
