@@ -126,6 +126,8 @@ Games have the power to reach, engage, and educate the public. No matter where w
 - [x] Include end and win game screens
 - [x] The intro of the game is important. Design your intro with animations, instructions, and more
 - [x] You must use Cinemachine, NavMesh, and integrate some sort of player movement and collisions in your game
+- [x] Project must be shared with the instructors via Perforce
+- [x] You may choose to use Unity's old or new input systems
 - [x] And most importantly, publish to [itch.io](https://itch.io/)!!
 
 ## 🧐 Questions
