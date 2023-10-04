@@ -13,11 +13,11 @@
 | 9    | Mon 10/16 <br> Wed 10/18 | Unity ShaderGraph: Shaders <br> Unity ShaderGraph: Shaders | Lab : Raycasting | Project 2 |
 | 10   | Mon 10/23 <br> Wed 10/25 | Unity 3D: Physics and Animation <br> Unity 3D: 3D Math | Lab 8: Illumination |
 | 11   | Mon 10/30 <br> Wed 11/1  | Unity 3D: Multiplayer <br> Unity 3D: Graphics | Lab 9: VFX Graph | <br> Project 2 Checkpoint |
-| 12   | Mon 11/6 <br> Wed 11/8   | Unity AR: Marker-Based Game <br> Unity AR: Spatial Audio | Lab 10: Technical Interviews |
-| 13   | Mon 11/13 <br> Wed 11/15 | Unity AR: Movement and Colliders <br> Unity AR: Deployment iOS/Android | | Project 2 Checkpoint|
+| 12   | Mon 11/6 <br> Wed 11/8   | Unity AR: Marker-Based Game <br> Unity AR: Deployment iOS/Android | Lab 10: Technical Interviews |
+| 13   | Mon 11/13 <br> Wed 11/15 |  **Project 2 Playtest** <br> Office Hours | | Project 2 Checkpoint|
 | 14   | ==Mon 11/20== <br> ==Wed 11/22== | ==No Class (Thanksgiving)== <br> ==No Class (Thanksgiving)== | | |
 | 15   | Mon 11/27 <br> Wed 11/29 | Office Hours <br> Office Hours | | Project 2 Checkpoint |
-| 16   | Mon 12/4 <br> Wed 12/6   | Office Hours <br> Final Presentations | | |
+| 16   | Mon 12/4 <br> Wed 12/6   | Office Hours <br> **Project 2 Final Presentations** | | |
 | 17   | Mon 12/11 | No Class | | **Project 2 Due** |
 
 ## ✌️ USC Academic Calendar
