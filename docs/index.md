@@ -10,10 +10,10 @@
 | 6    |==Mon 9/25== <br> ==Wed 9/27==   | ==[Unity 3D: Player Movement and Collisions](https://www.icloud.com/keynote/01bSAfmd7C45UrRFrT-p8Ezeg#Lecture6)== <br> ==[Unity 3D: Object Oriented Programming](https://www.icloud.com/keynote/0920OrQoVdzLeXbAZZYG6Jp4g#Lecture6)== | ==[Lab 4: Generics and Inheritence](Labs/lab4.md)==| [Project 1: Advocacy](./Projects/project1.md) |
 | 7    | ==Mon 10/2== <br> Wed 10/4   | ==[Embodied Cognition with UC Berkeley](https://bid.berkeley.edu/)== <br> [Unity UI: uGUI and UI Toolkit](https://www.icloud.com/keynote/05dxP82d9x9mFhNSfsZrNJTAA#Lecture7) | ==[Lab 5: Quaternions](Labs/lab5.md)== | [Project 1 Checkpoint](./Projects/project1checkpoint.md) |
 | 8    | Mon 10/9 <br> Wed 10/11  | **Project 1 Playtest** <br> WebGL and ReactJS | [Lab 6: Publishing Builds](Labs/lab6.md) | **Project 1 Due** |
-| 9    | Mon 10/16 <br> Wed 10/18 | Unity ShaderGraph: Shaders <br> Unity ShaderGraph: Shaders | Lab : Raycasting | Project 2 |
-| 10   | Mon 10/23 <br> Wed 10/25 | Unity 3D: Physics and Animation <br> Unity 3D: 3D Math | Lab 8: Illumination |
-| 11   | Mon 10/30 <br> Wed 11/1  | Unity 3D: Multiplayer <br> Unity 3D: Graphics | Lab 9: VFX Graph | <br> Project 2 Checkpoint |
-| 12   | Mon 11/6 <br> Wed 11/8   | Unity AR: Marker-Based Game <br> Unity AR: Deployment iOS/Android | Lab 10: Technical Interviews |
+| 9    | Mon 10/16 <br> Wed 10/18 | Unity ShaderGraph: Shaders <br> Unity ShaderGraph: Shaders | [Lab 7: Raycasting](Labs/lab7.md) | Project 2 |
+| 10   | Mon 10/23 <br> Wed 10/25 | Unity 3D: Physics and Animation <br> Unity 3D: 3D Math | [Lab 8: Illumination](Labs/lab8.md) |
+| 11   | Mon 10/30 <br> Wed 11/1  | Unity 3D: Multiplayer <br> Unity 3D: Graphics | [Lab 9: VFX Graph](Labs/lab9.md) | <br> Project 2 Checkpoint |
+| 12   | Mon 11/6 <br> Wed 11/8   | Unity AR: Marker-Based Game <br> Unity AR: Deployment iOS/Android | [Lab 10: Technical Interviews](Labs/lab10.md) |
 | 13   | Mon 11/13 <br> Wed 11/15 |  **Project 2 Playtest** <br> Office Hours | | Project 2 Checkpoint|
 | 14   | ==Mon 11/20== <br> ==Wed 11/22== | ==No Class (Thanksgiving)== <br> ==No Class (Thanksgiving)== | | |
 | 15   | Mon 11/27 <br> Wed 11/29 | Office Hours <br> Office Hours | | Project 2 Checkpoint |
