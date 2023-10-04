@@ -1,4 +1,4 @@
-# 2️⃣ Lab 2: Immersive Realities
+# 🥽 Lab 2: Immersive Realities
 
 We have a couple of guest speakers who will be joining us remotely in the next couple of weeks. Please come prepared to their guest lectures with questions to ask each speaker and review their work at the links provided below. 
 

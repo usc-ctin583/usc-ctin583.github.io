@@ -1,1 +1,1 @@
-# 8️⃣ Lab 8: Publishing Builds
+# 💡 Lab 8: Illumination

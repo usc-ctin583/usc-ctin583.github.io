@@ -1,4 +1,4 @@
-# 3️⃣ Lab 3: Classes and Coroutines
+# 🎹 Lab 3: Classes and Coroutines
 
 ## Resources and Links
 * [Unity Learn: Classes](https://learn.unity.com/tutorial/classes-5)

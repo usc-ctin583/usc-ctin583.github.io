@@ -1,4 +1,4 @@
-# 1️⃣ Lab 1: Unreal Engine
+# 🎮 Lab 1: Unreal Engine
 
 The goals of this week's lab is to:
 
