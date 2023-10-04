@@ -5,11 +5,11 @@
 | 1    | ==Mon 8/21== <br> ==Wed 8/23==   | ==No Class== <br> ==[Introduction to Game Engines](https://www.icloud.com/keynote/0b9Z3oJLZPPXEXypJu4s9P11w#Lecture1)== | <br> ==[Lab 0: Set up](Labs/lab0.md)== | |
 | 2    | ==Mon 8/28== <br> ==Wed 8/30==   | ==[Godot: 2D Games](https://www.icloud.com/keynote/04anqoPcDLolGOwy6tP3XAq3w#Lecture2)== <br> ==[Unreal Engine: MetaHuman](https://www.icloud.com/keynote/01dlwiWmlwtOAvNPmBdCsM3gA#Lecture2)== |  ==[Lab 1: Unreal Engine](Labs/lab1.md)== | | |
 | 3    | ==Mon 9/4== <br> ==Wed 9/6==     | ==No Class (Labor Day)== <br> ==[Unity and Perforce](https://www.icloud.com/keynote/0545FBYqmgu62bVFrVxSeqzzA#Lecture3)== | |
-| 4    | ==Mon 9/11== <br> ==Wed 9/13==   | ==[C#: Data Structures, Namespaces](https://www.icloud.com/keynote/0b5y1M4VNtrdfL4vFyXrzgkeg#Lecture4)== <br> ==AR/VR with [Stanford XR and BroadAR](https://www.broadar.com/)== | ==[Lab 2: Immersive Realities](Labs/lab2.md)== |
-| 5    | ==Mon 9/18== <br> ==Wed 9/20==   | ==Spatial Design with [Niantic Labs (RSVP)](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=a2tjZGhsdTdrZjlzM2Q5NTNwYjRndXRmb2sgZGVib3JhaHl1ZW4yMDE2QGJlcmtlbGV5LmVkdQ&tmsrc=deborahyuen2016%40berkeley.edu)== <br> ==C#: Arrays, Coroutines, Recursion== | ==[Lab 3: Classes and Coroutines](Labs/lab3.md)== |
+| 4    | ==Mon 9/11== <br> ==Wed 9/13==   | ==[C#: Data Structures, Namespaces](https://www.icloud.com/keynote/0b5y1M4VNtrdfL4vFyXrzgkeg#Lecture4)== <br> ==[AR/VR with Stanford XR and BroadAR](https://calendar.usc.edu/event/augmented_and_virtual_realities)== | ==[Lab 2: Immersive Realities](Labs/lab2.md)== |
+| 5    | ==Mon 9/18== <br> ==Wed 9/20==   | ==[Spatial Design with Niantic Labs](https://calendar.usc.edu/event/designing_realities_redefining_experiential_design_with_augmented_and_virtual_reality)== <br> ==C#: Arrays, Coroutines, Recursion== | ==[Lab 3: Classes and Coroutines](Labs/lab3.md)== |
 | 6    |==Mon 9/25== <br> ==Wed 9/27==   | ==[Unity 3D: Player Movement and Collisions](https://www.icloud.com/keynote/01bSAfmd7C45UrRFrT-p8Ezeg#Lecture6)== <br> ==[Unity 3D: Object Oriented Programming](https://www.icloud.com/keynote/0920OrQoVdzLeXbAZZYG6Jp4g#Lecture6)== | ==[Lab 4: Generics and Inheritence](Labs/lab4.md)==| [Project 1: Advocacy](./Projects/project1.md) |
-| 7    | Mon 10/2 <br> Wed 10/4   | Embodied Cognition with [Berkeley Engineering](https://bid.berkeley.edu/) <br> [Unity UI: uGUI and UI Toolkit](https://www.icloud.com/keynote/05dxP82d9x9mFhNSfsZrNJTAA#Lecture7) | Lab 5: Quaternions | [Project 1 Checkpoint](./Projects/project1checkpoint.md) |
-| 8    | Mon 10/9 <br> Wed 10/11  | **Project 1 Playtest** <br> WebGL and ReactJS | Lab 6: Publishing Builds | **Project 1 Due** |
+| 7    | ==Mon 10/2== <br> Wed 10/4   | ==[Embodied Cognition with UC Berkeley](https://bid.berkeley.edu/)== <br> [Unity UI: uGUI and UI Toolkit](https://www.icloud.com/keynote/05dxP82d9x9mFhNSfsZrNJTAA#Lecture7) | ==[Lab 5: Quaternions](Labs/lab5.md)== | [Project 1 Checkpoint](./Projects/project1checkpoint.md) |
+| 8    | Mon 10/9 <br> Wed 10/11  | **Project 1 Playtest** <br> WebGL and ReactJS | [Lab 6: Publishing Builds](Labs/lab6.md) | **Project 1 Due** |
 | 9    | Mon 10/16 <br> Wed 10/18 | Unity ShaderGraph: Shaders <br> Unity ShaderGraph: Shaders | Lab : Raycasting | Project 2 |
 | 10   | Mon 10/23 <br> Wed 10/25 | Unity 3D: Physics and Animation <br> Unity 3D: 3D Math | Lab 8: Illumination |
 | 11   | Mon 10/30 <br> Wed 11/1  | Unity 3D: Multiplayer <br> Unity 3D: Graphics | Lab 9: VFX Graph | <br> Project 2 Checkpoint |
@@ -17,8 +17,8 @@
 | 13   | Mon 11/13 <br> Wed 11/15 |  **Project 2 Playtest** <br> Office Hours | | Project 2 Checkpoint|
 | 14   | ==Mon 11/20== <br> ==Wed 11/22== | ==No Class (Thanksgiving)== <br> ==No Class (Thanksgiving)== | | |
 | 15   | Mon 11/27 <br> Wed 11/29 | Office Hours <br> Office Hours | | Project 2 Checkpoint |
-| 16   | Mon 12/4 <br> Wed 12/6   | Office Hours <br> **Project 2 Final Presentations** | | |
-| 17   | Mon 12/11 | No Class | | **Project 2 Due** |
+| 16   | Mon 12/4 <br> Wed 12/6   | **Project 2 Playtest** <br> **Project 2 Final Presentations** | | |
+| 17   | ==Mon 12/11== | ==No Class== | | **Project 2 Due** |
 
 ## ✌️ USC Academic Calendar
 * **Classes Begin:** August 21st
