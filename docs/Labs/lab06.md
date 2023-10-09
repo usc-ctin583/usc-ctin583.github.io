@@ -33,4 +33,9 @@ You may also have different build settings for each player. Under `Edit/Project 
 ![Image title](../Labs/Screenshot%202023-10-08%20at%208.53.25%20PM.png)
 
 ## Marketing
+In 2022, Unity merged with ironSource. ironSource helps bring apps and user experiences by focusing on the app's business expansion in relation to the app economy. ironSource helps with monetization, marketing, analytics, and discovery capabilities that help developers scale their app-based businesses. Unity recommends ironSource  to help you monetize and market your game.
+
+**Resources:**
+
 * [How to Consistently Make Profitable Indie Games](https://www.youtube.com/watch?v=LlAc5sBtGkc&t=506s&ab_channel=BraceYourselfGames)
+* [How to Market a Game, Chris Zukowski](https://howtomarketagame.com/)
