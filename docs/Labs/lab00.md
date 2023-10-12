@@ -44,10 +44,16 @@ Unity is a cross-platform game engine for mobile, desktop, web, console, and hea
 !!! note "Install Unity Hub (Student)"
 
     Install the latest version of [Unity Hub](https://unity.com/products/unity-student).
+    Below is a screenshot of the latest Unity Hub. Check your version by going to `UnityHub/ About Unity Hub`.
+
+    ![Image title](../Labs/unityhubinstall.png) 
 
 !!! note "Install Unity"
 
-    Install Unity Editor Version 2021.3.29f1.
+    Install Unity Editor Version 2021.3.29f1 or above.
+    Make sure to also unclude the `WebGL Build Support` module.
+
+    ![Image title](../Labs/unityeditorinstall.png) 
 
 
 !!! note "Download the LEGO Microgame"
@@ -75,6 +81,8 @@ Unreal Engine is a game engine specifically designed for advanced real-time 3D c
 !!! note "Download Epic Games launcher"
 
     Follow the download [instructions](https://www.unrealengine.com/en-US/download).
+
+    ![Image title](../Labs/unrealengine.png)
 
 !!! note "Install Unreal Engine"
 
