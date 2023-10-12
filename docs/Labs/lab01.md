@@ -1,6 +1,8 @@
 # 🎮 Lab 1: Unreal Engine
 
-The goals of this week's lab is to:
+<div style="width:100%"><iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/hmlpo8x0EvCPPDmke7/video" width="480"></iframe></div>
+
+**The goals of this week's lab is to:**
 
 * Compare and contrast game engines for your development needs
 
