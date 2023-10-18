@@ -12,7 +12,7 @@
 | 8    | ==Mon 10/9== <br> ==Wed 10/11==  | ==[**Project 1 Playtest**](https://www.icloud.com/keynote/032rY3HMcI9uZPbOjrCWyEu8A#Lecture8)== <br> ==[WebGL and ReactJS](https://www.icloud.com/keynote/051QbdWeDu0UYmCHkm2WuFStQ#Lecture8)== | ==[Lab 6: Publishing Builds](Labs/lab06.md)== | ==**[Project 1 Due](Projects/project1due.md)**== |
 | 9    | ==Mon 10/16== <br> Wed 10/18 | ==[Unity UI: uGUI and UI Toolkit](https://www.icloud.com/keynote/05dxP82d9x9mFhNSfsZrNJTAA#Lecture7)== <br> Unity UI: UI Toolkit in World Space | [Lab 7: Raycasting](Labs/lab07.md) | [Project 2](Projects/project2.md) |
 | 10   | Mon 10/23 <br> Wed 10/25 | Unity 3D: Physics and Animation <br> Unity 3D: 3D Math | [Lab 8: Illumination](Labs/lab08.md) |
-| 11   | Mon 10/30 <br> Wed 11/1  | Unity 3D: Multiplayer <br> Unity 3D: Graphics | [Lab 9: VFX Graph](Labs/lab09.md) | <br> [Project 2 Checkpoint](Projects/project2checkpoint1.md) |
+| 11   | Mon 10/30 <br> Wed 11/1  | Unity Multiplayer: MQTT <br> Unity Multiplayer: Photon and Netcode | [Lab 9: VFX Graph](Labs/lab09.md) | <br> [Project 2 Checkpoint](Projects/project2checkpoint1.md) |
 | 12   | Mon 11/6 <br> Wed 11/8   | Unity AR: Marker-Based Game <br> Unity AR: Deployment iOS/Android | [Lab 10: Technical Interviews](Labs/lab10.md) |
 | 13   | Mon 11/13 <br> Wed 11/15 |  **Project 2 Playtest** <br> Check-in with both instructors | | [Project 2 Checkpoint](Projects/project2checkpoint2.md)|
 | 14   | ==Mon 11/20== <br> ==Wed 11/22== | ==No Class (Thanksgiving)== <br> ==No Class (Thanksgiving)== | | |
