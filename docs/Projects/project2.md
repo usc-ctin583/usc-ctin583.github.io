@@ -27,26 +27,43 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 
 ## 👾 The Game
 
-**PC:** 
+???+ example "PC"
 
-**Android:**
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
 
-**iOS:**
-* iMessage Game
-* WidgetKit experience
-* Standalone App
-* App Clip and microapps 
+    ![Image title](../Projects/cinemachine.png)
 
-**Microcontrollers:**
-Build to an Arduino 
+???+ example "Android Mobile"
 
-**Web:**
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
 
-**Twitch:**
+    ![Image title](../Projects/cinemachine.png)
 
-**YouTube:**
+???+ example "iOS Mobile"
 
-**Discord:**
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
+
+    ![Image title](../Projects/cinemachine.png)
+
+???+ example "Microcontrollers"
+
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
+
+    ![Image title](../Projects/cinemachine.png)
+
+???+ example "Websites"
+
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
+
+    ![Image title](../Projects/cinemachine.png)
+
+
+???+ example "Twitch, YouTube, Discord Integrations"
+
+    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
+
+    ![Image title](../Projects/cinemachine.png)
+
 
 ## 📝 The Paper
 
