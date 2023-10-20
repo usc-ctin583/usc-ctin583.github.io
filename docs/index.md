@@ -18,7 +18,7 @@
 | 14   | ==Mon 11/20== <br> ==Wed 11/22== | ==No Class (Thanksgiving)== <br> ==No Class (Thanksgiving)== | | |
 | 15   | Mon 11/27 <br> Wed 11/29 | Individual Tutoring (Android Mobile Games) <br> Individual Tutoring (PC Games with Steam) | | [Project 2 Checkpoint](Projects/project2checkpoint3.md) |
 | 16   | Mon 12/4 <br> Wed 12/6   | **Project 2 Playtest** <br> **Project 2 Final Presentations** | | |
-| 17   | Mon 12/11 | Individual Tutoring (Multiplayer: Photon) | | **Project 2 Due** |
+| 17   | Mon 12/11 | Individual Tutoring (Multiplayer with Photon) | | **Project 2 Due** |
 
 ## ✌️ USC Academic Calendar
 * **Classes Begin:** August 21st
