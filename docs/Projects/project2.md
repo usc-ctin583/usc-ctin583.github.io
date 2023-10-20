@@ -51,13 +51,13 @@ Build to an Arduino
 ## 📝 The Paper
 
 ## 🎟️ Requirements
-*Build and publish to a specific hardware and platform
-*Must include game user interface with UI Toolkit or ReactJS
-*Utilize Unity’s new Input Management System
-*The experience must look and feel completed
-*Play and test game on your selected hardware
-*2 pages of abstract for a research paper 
-*Must code with C# and not node-based 
+- [x] Build and publish to a specific hardware and platform
+- [x] Must include game user interface with UI Toolkit or ReactJS
+- [x] Utilize Unity’s new Input Management System
+- [x] The experience must look and feel completed
+- [x] Play and test game on your selected hardware
+- [x] Research paper 
+- [x] Must code with C# and not node-based 
 
 ## 💯 Grading
 We will be play testing your game during class!! Please make sure your game is published on itch.io by play test day and is 100% playable. 
