@@ -17,14 +17,16 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 
 **Questions to consider:**
 
-* Hello
+* What is a digital and software experience that you find interesting? Is there anything you've always wanted to try making? Think of an idea that gets you excited and let's try to create it with Unity, Unreal, or Godot! 
 
-* hello 
+* Art has a responsibility to contribute cultural and humanist dimensions to our definition of the future. How does the intersection of art and technology move us from ephemeral performance to sustainable innovation? Ideate on ideas for a project and then write about it in your research paper.
 
-* hello
+* How does your experience critically explore its social, cultural, and affective impact?
 
+* What is your experience's potential use case in the releam of emerging digital technologies? How does it impact users and citizens? Does your experience confront any major challenges of our time?
 
-## 👾 Examples
+## 👾 The Game
+
 **PC:** 
 
 **Android:**
@@ -46,6 +48,8 @@ Build to an Arduino
 
 **Discord:**
 
+## 📝 The Paper
+
 ## 🎟️ Requirements
 *Build and publish to a specific hardware and platform
 *Must include game user interface with UI Toolkit or ReactJS
@@ -60,11 +64,11 @@ We will be play testing your game during class!! Please make sure your game is p
 
 | Assignment | Description | Percentage |
 | :--------- | :--------- | :--------- |
-| Documentation | Spend some time writing taglines and descriptions for your project. Take some videos and screenshots that you can use for your portfolio and resume. The instructors will be giving you feedback on this project through your portfolio. | 10% |
-| Peer Feedback | During *Week 7*, please meet with 2 of your classmates to give and receive feedback. It is important to give verbal and written feedback. Please fill out the google form for each student you gave feedback to. | 10% |
-| Checkpoint 1 | Check in with any instructor. Show they what you've been working on and ask them any questions you have. | 10% |
-| Published Website | By **Monday, October 9th (Playtest day)** you must have your game published on itch.io. | 30% |
-| Playtest during class | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on **Wednesday, October 11th**. | 40% |
+| Peer Feedback | Please meet with your classmates to give and receive feedback. It is important to give verbal and written feedback. Collaborate on your projects and support each other. Please fill out the google form for each student you gave feedback to. | 10% |
+| Checkpoints and Playtests | Check in with any instructor. Show they what you've been working on and ask them any questions you have. Participation is mandatory on playtest days and your game should be working and running on your selected hardware.| 10% |
+| Research Paper | Spend some time writing taglines and descriptions for your project. Take some videos and screenshots that you can use for your portfolio and resume. The instructors will be giving you feedback on this project through your portfolio. | 20% |
+| Game Design | By **Monday, October 9th (Playtest day)** you must have your game published on itch.io. | 30% |
+| Published Game | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on **Wednesday, October 11th**. | 30% |
 | **Total** | | **100%** |
 
 ## 🦄 Support
