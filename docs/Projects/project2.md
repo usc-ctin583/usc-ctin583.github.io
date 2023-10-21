@@ -3,9 +3,9 @@
 !!! tip "Important Dates"
     | Checkpoint | Play Test | Submission |
     | ---------  | --------- | ---------- |
-    | **CP 1:** Wednesday, November 1st | **PT 1:** Monday, November 11th | **Final Presentation:** Wednesday, December 6th |
-    | **CP 2:** Monday, November 11th | **PT 2:** Monday, December 4th | **Project Due:** Monday, December 11th |
-    | **CP 3:** Monday, November 27th | | |
+    | **CP 1:** Wednesday, November 1st <br> <br> In pairs, pull Perforce projects and pair program in Visual Studio Code. | **PT 1:** Monday, November 11th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Final Presentation:** Wednesday, December 6th <br> <br> In class presentation about your project. Students will have the opportunity to play your game while you present your work. Your presentation should consist of a research poster. |
+    | **CP 2:** Monday, November 11th <br> <br> Read your classmate's papers and give them constructive feedback in their Google Docs. | **PT 2:** Monday, December 4th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Project Due:** Monday, December 11th <br> <br> Your final submission should include a link to your published game, Overleaf link to your research paper, and 2 PDF files for your paper and poster. |
+    | **CP 3:** Monday, November 27th <br> <br> In pairs, host a code review with Perforce. | | |
 
 <div style="width:100%;"><iframe allow="fullscreen" frameBorder="0" height="480" src="https://giphy.com/embed/pPDSR9Xr3QucF86I6J/video" width="480"></iframe></div>
 
@@ -15,7 +15,22 @@ Fluency in the “what’s” and “how’s” through game design is important
 
 Take this final project as an opportunity to grow your soft skills of why you love and chose to learn game development. Find something you want to dive into that will challenge the state of the art and enable you to advance through your career. Here is the opportunity to create an experience that excites you with any game engine of your choice in addition to the mentorship of your instructors. Carefully consider what your needs are and what you are trying to accomplish when deciding to develop with Unreal, Godot, or Unity. 
 
-**Questions to consider:**
+**By the end of this project you will:**
+
+* Participate in code reviews with [Perforce]()
+* Create UI to bring your project together with [UI Toolkit]()
+* Master UXML, USS, C# and/or HTML, CSS, and Javascript
+* Collaborate and share builds with [GitHub repositories]()
+* Pair programming in [Visual Studio Code]()
+* Create an software experience that you are proud of - game, AR/VR experience, app, website, etc.
+* Gain experience in what goes into publishing your projects and experiences
+* Understand why you picked your selected platform and the ins and outs of it
+* Work with your platform's respective SDKs 
+* Have expertise and background knowledge in the hardware you are publishing to
+* Have a published a game! 
+
+
+## 🧐 Questions
 
 * What is a digital and software experience that you find interesting? Is there anything you've always wanted to try making? Think of an idea that gets you excited and let's try to create it with Unity, Unreal, or Godot! 
 
@@ -27,15 +42,36 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 
 ## 👾 The Game
 
+Pick the platform you want to build for and publish to intentionally. Tailor your experience to the platform you selected. In project 2, I would like you to try publishing your experience or game and experiment with how you can take it to market. Consider the most natural inputs for your experience. Please note that many of these platforms do require a fee; however, you are welcome to use the instructor's account at no additional cost. 
+
+**Some examples:**
+
 ???+ example "PC"
 
-    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
+    **Resources:**
+
+    * Hi
+    * Hi
+    * Hi
+
+    | Platform |           About            | Cost |
+    | -------- | -------------------------- | ---- | 
+    | **Steam** | | $99 one time fee| 
+    | **Epic Games Store** | | | 
 
     ![Image title](../Projects/cinemachine.png)
 
 ???+ example "Android Mobile"
+    
 
-    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
+    Publishing to the Android Play Store requires a $25 one time fee for your first application. All other apps following will be covered and will not have an additional fee. 
+
+    **Resources:**
+
+    * Hi
+    * Hi
+    * Hi
+    
 
     ![Image title](../Projects/cinemachine.png)
 
@@ -68,12 +104,15 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 ## 📝 The Paper
 
 ## 🎟️ Requirements
+In short, the main requirement is to create a game and write a paper. 
+
 - [x] Build and publish to a specific hardware and platform
-- [x] Must include game user interface with UI Toolkit or ReactJS
-- [x] Utilize Unity’s new Input Management System
+- [x] Must include game user interface with [UI Toolkit]() or [ReactJS]()
+- [x] Utilize Unity’s new [Input Management System]()
 - [x] The experience must look and feel completed
 - [x] Play and test game on your selected hardware
-- [x] Research paper 
+- [x] Research paper with [OverLeaf]()
+- [x] Research poster with [Adobe InDesgin]()
 - [x] Must code with C# and not node-based 
 
 ## 💯 Grading
