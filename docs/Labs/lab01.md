@@ -1,6 +1,6 @@
 # 🎮 Lab 1: Unreal Engine
 
-<div style="width:100%"><iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/hmlpo8x0EvCPPDmke7/video" width="480"></iframe></div>
+<div style="width:100%"><div style="height:0;padding-bottom:56.26959247648903%;position:relative;width:100%"><iframe allowfullscreen="" frameBorder="0" height="100%" src="https://giphy.com/embed/hmlpo8x0EvCPPDmke7/video" style="left:0;position:absolute;top:0" width="100%"></iframe></div></div>
 
 **The goals of this week's lab is to:**
 
@@ -35,6 +35,8 @@ We are now ready to start learning Unreal Engine! Please try to do as much of th
 
     Complete the Unreal Engine ["Your First Hour in Unreal Engine 5.0" tutorial](https://dev.epicgames.com/community/learning/courses/3ke/your-first-hour-in-unreal-engine-5-2/Wp7K/unreal-engine-working-with-visuals).
 
+    ![Image title](../Labs/firsthourunrealengine.png)
+
 ## Unreal Engine Marketplace
 
 A great way to start creating your own game is with starter templates. There are many free and for-sale templates that you can find. Check out the Unreal Engine Marketplace.
@@ -42,3 +44,5 @@ A great way to start creating your own game is with starter templates. There are
 !!! note "Unreal Templates and Assets"
 
     Visit the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/content-cat/assets/blueprints?count=20&sortBy=effectiveDate&sortDir=DESC&start=0) and the [Templates Reference](https://docs.unrealengine.com/5.2/en-US/unreal-engine-templates-reference/).
+
+    ![Image title](../Labs/unrealenginemarket.png)
