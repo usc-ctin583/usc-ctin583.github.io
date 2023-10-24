@@ -7,7 +7,7 @@
     | **CP 2:** Monday, November 11th <br> <br> Read your classmate's papers and give them constructive feedback in their Google Docs. | **PT 2:** Monday, December 4th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Project Due:** Monday, December 11th <br> <br> Your final submission should include a link to your published game, Overleaf link to your research paper, and 2 PDF files for your paper and poster. |
     | **CP 3:** Monday, November 27th <br> <br> In pairs, host a code review with Perforce. | | |
 
-<div style="width:100%;"><iframe allow="fullscreen" frameBorder="0" height="480" src="https://giphy.com/embed/pPDSR9Xr3QucF86I6J/video" width="480"></iframe></div>
+<div style="width:100%;height:0;padding-bottom:35%;position:relative;"><iframe src="https://giphy.com/embed/9age78wuTYN0tzfIR7" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/9age78wuTYN0tzfIR7">via GIPHY</a></p>
 
 ## 📙 Introduction
 
@@ -29,6 +29,11 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 * Have expertise and background knowledge in the hardware you are publishing to
 * Have a published a game! 
 
+!!! warning "Policy on Collaboration and Cheating"
+    For this project, you must work individually or in teams! Please carefully read the [Policy on Collaboration and Cheating](https://ece-classes.usc.edu/ee591/pvs_sem/fall09/acad_integ.pdf) to see what this means exactly. In particular, do not look for solutions online, use game templates, and generate code with AI such as ChatGPT. 
+
+!!! danger "Legal Licensing and Copyrights"
+    For this project, you will be publishing a game, app, or other kind of software experience! Please make sure to read the copyrights when using templates, packages, and assets. Read [Unity's Terms of Service](https://unity.com/legal/as-terms) for reference.
 
 ## 🧐 Questions
 
