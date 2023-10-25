@@ -83,18 +83,21 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | You must have a Mac and have [XCode](https://developer.apple.com/xcode/) installed. | [Unity Learn: Publishing for iOS](https://learn.unity.com/tutorial/publishing-for-ios) | 
     | Cost is covered by the class. However, if you want to publish on your own it is a $100 a year to be part of the [Apple Developer Program](https://developer.apple.com/programs/). Apps are free to publish after the yearly developer program fee. | [Apple Developer: Submit your iOS apps to the Apple Store](https://developer.apple.com/ios/submit/) | 
     | Apple is very particular about how your app looks. You must follow Apple's [Guidelines](https://developer.apple.com/app-store/guidelines/) such as their [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/). | [Unity Documentation: Build for iOS](https://docs.unity3d.com/Manual/iphone-BuildProcess.html) |
-    | Within Unity, build your game to iOS and enable the [Build App Bundle](https://docs.unity3d.com/Manual/android-BuildProcess.html) for iOS. | [How to Build & Run Unity to iOS for Testing](https://www.youtube.com/watch?v=-Hr4-XNCf8Y&ab_channel=samyam) |
+    | Within Unity, build your game to iOS and enable the [Build App Bundle](https://docs.unity3d.com/Manual/android-BuildProcess.html) for iOS. There will be other packages to add depending on what kind of Apple platform you are designing for. | [How to Build & Run Unity to iOS for Testing](https://www.youtube.com/watch?v=-Hr4-XNCf8Y&ab_channel=samyam) |
+    | You are welcome to build for any Apple platform and experience. This includes [widgets](https://developer.apple.com/design/human-interface-guidelines/widgets), [iMessage games](https://developer.apple.com/imessage/), [App clips](https://developer.apple.com/app-clips/), [Vision Pro](https://developer.apple.com/visionos/), and [standalone apps](https://developer.apple.com/). | [Apple Game Center](https://developer.apple.com/game-center/) |
 
     ![Image title](../Projects/Project2/AppleStore.png)
 
 ???+ example "Microcontrollers"
 
-    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
+    | Requirements |           Resources            |
+    | ------------ | ------------------------------ | 
+    | You will be working with electronics and if you like, designing an encasing for your screen to turn it into a game console, mini arcade machine, or anything you want! | [Designing my own Game Console](https://www.youtube.com/watch?v=gkook0l_gsM&t=321s&ab_channel=LeandroLinares) | 
+    | Cost is covered by the class and the instructor will provide a [Raspberry Pi]() or [Arduino](). However, if you want to purchase your own microcontrollers they are usually between $20-35 USD. | [Run Unity game on Raspberry Pi 4 with Picade arcade machine](https://medium.com/geekculture/run-unity-game-on-raspberry-pi-4-with-picade-arcade-machine-c54210d64b7a) | 
+    | Install the [Arduinio IDE](https://www.arduino.cc/en/software). This will help you build your project to your selected microcontroller. | [How to integrate Arduino with Unity - hardware work with software](https://www.youtube.com/watch?v=SD3iUnLNjY0&ab_channel=CodetoCreate) |
+    | Within Unity, build your game to WebGL. Unity supports microcontrollers like Raspberry Pi. Documentation [here](https://projects.raspberrypi.org/en/projects/unity-guide/0). | [How to Integrate Arduino with Unity 3D](https://www.iottechtrends.com/integrate-arduino-with-unity-3d/) |
 
-    <div class="video-wrapper">
-    <iframe width="1280" height="720" src="https://www.youtube.com/watch?v=gkook0l_gsM&t=321s&ab_channel=LeandroLinares" frameborder="0" allowfullscreen></iframe></div>
-
-    ![Image title](../Projects/cinemachine.png)
+    ![Image title](../Projects/Project2/pi.jpeg)
 
 ???+ example "Websites"
 
