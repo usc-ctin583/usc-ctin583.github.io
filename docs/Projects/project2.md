@@ -53,29 +53,25 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
 
 ???+ example "PC"
 
-    **Resources:**
+    | Requirements |           Resources            |
+    | ------------ | ------------------------------ | 
+    | Create your own [Steamworks Account](https://partner.steamgames.com/). The instructor/class has their own account as well. | [How to publish your game on Steam](https://fungies.io/2023/03/04/how-to-publish-your-game-on-steam/) | 
+    | $100 USD per game. This is a mandatory fee for each game unless you make $1,000 on your game | [ Joining Steamworks Distribution Program](https://partner.steamgames.com/steamdirect)| 
+    | Make sure your game meets Steam's [Terms of Service](https://store.steampowered.com/eula/767560_eula_0#:~:text=You%20agree%20not%20to%20use,Terms%20of%20Use%20are%20reserved). | [Steamworks Documentation: Getting Started](https://partner.steamgames.com/doc/gettingstarted) |
+    | Supports latest version of Windows. Make sure you have a Windows PC to test your game. | [Integrating Unity Games with Steamworks](https://blog.theknightsofunity.com/integrating-unity-game-steamworks/) |
+    | Install [Steamworks SDK](https://docs.unity.com/ugs/manual/authentication/manual/platform-signin-steam) for your selected game engine. | [How to Launch a Game on Steam - Before Release](https://www.youtube.com/watch?v=CAQsIDxI7rU&ab_channel=CodeMonkey)
 
-    * Hi
-    * Hi
-    * Hi
-
-    | Platform |           About            | Cost |
-    | -------- | -------------------------- | ---- | 
-    | **Steam** | | $99 one time fee| 
-    | **Epic Games Store** | | | 
-
-    ![Image title](../Projects/cinemachine.png)
+    ![Image title](../Projects/Project2/steam.png)
 
 ???+ example "Android Mobile"
-    
 
-    Publishing to the Android Play Store requires a $25 one time fee for your first application. All other apps following will be covered and will not have an additional fee. 
-
-    **Resources:**
-
-    * Hi
-    * Hi
-    * Hi
+    | Requirements |           Resources            |
+    | ------------ | ------------------------------ | 
+    | Create your own [Steamworks Account](https://partner.steamgames.com/). The instructor/class has their own account as well. | [How to publish your game on Steam](https://fungies.io/2023/03/04/how-to-publish-your-game-on-steam/) | 
+    | $100 USD per game. This is a mandatory fee for each game unless you make $1,000 on your game | [ Joining Steamworks Distribution Program](https://partner.steamgames.com/steamdirect)| 
+    | Make sure your game meets Steam's [Terms of Service](https://store.steampowered.com/eula/767560_eula_0#:~:text=You%20agree%20not%20to%20use,Terms%20of%20Use%20are%20reserved). | [Steamworks Documentation: Getting Started](https://partner.steamgames.com/doc/gettingstarted) |
+    | Supports latest version of Windows. Make sure you have a Windows PC to test your game. | [Integrating Unity Games with Steamworks](https://blog.theknightsofunity.com/integrating-unity-game-steamworks/) |
+    | Install [Steamworks SDK](https://docs.unity.com/ugs/manual/authentication/manual/platform-signin-steam) for your selected game engine. | [How to Launch a Game on Steam - Before Release](https://www.youtube.com/watch?v=CAQsIDxI7rU&ab_channel=CodeMonkey)
     
 
     ![Image title](../Projects/cinemachine.png)
