@@ -139,13 +139,18 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | : -------- |
     | [Twitch Chat Integration](https://www.kodeco.com/24373608-how-to-create-a-twitch-chat-game-with-unity): Create a game for Twitch's chat or integrate your game with Twitch. |
     | [Facebook Web Games and Instant Games](https://developers.facebook.com/docs/unity/getting-started/canvas/): Make games with WeBGL for Facebook websites and Facebook messenger. |
-    | YouTube Advertisement Games with [AppMana](https://appmana.com/): Integrate your game into advertisements so that users can actively engage in media |
-    | 
+    | YouTube Advertisement Games with [AppMana](https://appmana.com/): Integrate your game into advertisements so that users can actively engage in media. |
+    | With Snapchat's [Lens Studio](https://ar.snap.com/lens-studio) and [Snap Kit Unity SDKs](https://docs.snap.com/snap-kit/creative-kit/Tutorials/unity) try creating an interactive, AR game.|
+    | [Making Games in Discord](https://www.youtube.com/watch?v=KiO5A3s91NA&ab_channel=GeorgiaGameDevelopersAssociation): Create games with Discord's Bot API. |
 
-    ![Image title](../Projects/cinemachine.png)
+    ![Image title](../Projects/Project2/twitch.png)
 
 
 ## 📝 The Paper
+
+Your research paper can span areas including but not limited to animation, simulation, imaging, geometry, modeling, rendering, human-computer interaction, haptics, fabrication, robotics, visualization, audio, optics, programming languages, immersive experiences, and anything that aims to advance the state of the art that is related to your game or software experience.
+
+More information coming soon!
 
 ## 🎟️ Requirements
 In short, the main requirement is to create a game and write a paper. 
