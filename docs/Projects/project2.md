@@ -47,7 +47,9 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 
 ## 👾 The Game
 
-Pick the platform you want to build for and publish to intentionally. Tailor your experience to the platform you selected. In project 2, I would like you to try publishing your experience or game and experiment with how you can take it to market. Consider the most natural inputs for your experience. Please note that many of these platforms do require a fee; however, you are welcome to use the instructor's account at no additional cost. **I ENCOURAGE YOU TO TRY SOMETHING NEW 🔥**
+Pick the platform you want to build for and publish to intentionally. Tailor your experience to the platform you selected. In project 2, I would like you to try publishing your experience or game and experiment with how you can take it to market. Consider the most natural inputs for your experience. Please note that many of these platforms do require a fee; however, you are welcome to use the instructor's account at no additional cost. 
+
+**🔥 I ENCOURAGE YOU TO TRY SOMETHING NEW 🔥**
 
 **Some examples:**
 
@@ -119,12 +121,12 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
 
 ???+ example "Websites"
 
-    | Requirements |           Resources            |
-    | ------------ | ------------------------------ | 
-    | GitHub account with [GitHub Pages](https://pages.github.com/) set up. With [GitHub Education](https://education.github.com/pack), you can create a private repo for your website. If you do not have GitHub Education, you will need to make your build public. | [React Unity WebGL](https://react-unity-webgl.dev/) | 
-    | Cost is **FREE** unless you want a custom domain which can cost between $5 - $10 a month to buy a domain.| [Google Domains](https://domains.google/) |
-    | Install a web framework such as ReactJS | [GoDaddy domains](https://www.godaddy.com/) |
-    | Within Unity, build your game to WebGL | [Best Unity Websites](https://www.awwwards.com/websites/unity/) |
+    | Requirements |                         Resources                        |
+    | : ------------ | : -------------------------------------------------------- | 
+    | GitHub account with [GitHub Pages](https://pages.github.com/) set up. With [GitHub Education](https://education.github.com/pack), you can create a private repo for your website. If you do not have GitHub Education, you will need to make your build public. | [React Unity WebGL    ](https://react-unity-webgl.dev/) | 
+    | Cost is **FREE** unless you want a custom domain which can cost between $5 - $10 a month to buy a domain.| [Custom Domains: Google Domains](https://domains.google/) |
+    | Install a web framework such as ReactJS | [Custom Domains: GoDaddy domains](https://www.godaddy.com/) |
+    | Within Unity, build your game to WebGL | [Awwwwards: Best Unity Websites in 2021](https://www.awwwards.com/websites/unity/) |
 
     ![Image title](../Projects/Project2/AwwwardsUnity.png)
 
@@ -132,6 +134,13 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
 ???+ example "Social Media Integrations"
 
     You are welcome to make a game for a specific social media platform such as Snapchat, Facebook Messenger, YouTube, Twitch, and Discord. Please see some of the resources listed below.
+
+    | Resources |
+    | : -------- |
+    | [Twitch Chat Integration](https://www.kodeco.com/24373608-how-to-create-a-twitch-chat-game-with-unity): Create a game for Twitch's chat or integrate your game with Twitch. |
+    | [Facebook Web Games and Instant Games](https://developers.facebook.com/docs/unity/getting-started/canvas/): Make games with WeBGL for Facebook websites and Facebook messenger. |
+    | YouTube Advertisement Games with [AppMana](https://appmana.com/): Integrate your game into advertisements so that users can actively engage in media |
+    | 
 
     ![Image title](../Projects/cinemachine.png)
 
@@ -147,7 +156,7 @@ In short, the main requirement is to create a game and write a paper.
 - [x] The experience must look and feel completed
 - [x] Play and test game on your selected hardware
 - [x] Research paper with [OverLeaf]()
-- [x] Research poster with [Adobe InDesgin]()
+- [x] Research poster with [Adobe InDesign]()
 - [x] Must code with C# and not node-based 
 
 ## 💯 Grading
@@ -156,10 +165,10 @@ We will be play testing your game during class!! Please make sure your game is p
 | Assignment | Description | Percentage |
 | :--------- | :--------- | :--------- |
 | Peer Feedback | Please meet with your classmates to give and receive feedback. It is important to give verbal and written feedback. Collaborate on your projects and support each other. Please fill out the google form for each student you gave feedback to. | 10% |
-| Checkpoints and Playtests | Check in with any instructor. Show they what you've been working on and ask them any questions you have. Participation is mandatory on playtest days and your game should be working and running on your selected hardware.| 10% |
-| Research Paper | Spend some time writing taglines and descriptions for your project. Take some videos and screenshots that you can use for your portfolio and resume. The instructors will be giving you feedback on this project through your portfolio. | 20% |
-| Game Design | By **Monday, October 9th (Playtest day)** you must have your game published on itch.io. | 30% |
-| Published Game | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on **Wednesday, October 11th**. | 30% |
+| Checkpoints and Playtests | Check in with any instructor. Show they what you've been working on and ask them any questions you have. Complete the [check in assignments](../Projects/project2checkpoint1.md) with your classmates to practice collaborating over code. Participation is mandatory on playtest days and your game should be working and running on your selected hardware.| 10% |
+| Research Paper | Write your research paper in Google Docs and share it with the instructors. For your submission, your research paper should be properly formated with [Overleaf](https://www.overleaf.com/) and exported as a PDF. It should also come in the format as a poster, designed with [Adobe InDesign](https://www.adobe.com/products/indesign.html). | 20% |
+| Game Design | We will be evaluating your game's overall experience. Your game should look and feel complete with assets, sounds, and user interface. Your game should be completed by **Monday, December 4th** and you are free to use the rest of the time to prepare your project to be published. | 30% |
+| Published Game | It is mandatory to publish your game. The process of publishing your game can be as long as 1 - 3 weeks. Please plan ahead and have your published game submitted by **Monday, December 11th**. | 30% |
 | **Total** | | **100%** |
 
 ## 🦄 Support
@@ -178,4 +187,6 @@ Ask for help! Don't be afraid to reach out to us and ask for help. Work together
 
     That is okay! Ideally, you will have a published app on the platform of your choice. But if it doesn't work out, we will at least publish to [GitHub Pages](https://pages.github.com/) and [itch.io](https://itch.io/).
 
+!!! question "Why do we need to learn how to pair program and participate in code reviews ?"
 
+    Game development is a collaborative effort so it is important to learn how to collaborate on designs and code. There are many great tools that will support collaboration within Visual Studio Code, Perforce, GitHub, and Unity.
