@@ -10,10 +10,3 @@ By now, you have worked on project 2 for two weeks! It is time now to get feedba
 
     ![Image title](../Projects/Screenshot%202023-10-02%20at%203.01.03%20PM.png)
     
-| Student | Student |
-| :--------- | :--------- |
-| Yiyi | Youbin |
-| Xinyun | Nile |
-| Sam | Yiyi |
-| Nile | Youbin |
-| Sam | Xinyun |

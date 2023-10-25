@@ -9,11 +9,3 @@ By now, you have worked on project 1 for a week! It is time now to get feedback 
     Fill out the [Google form](https://forms.gle/VzmmsTqbDHXrFVrM7) after you have given each each classmate verbal feedback. The feedback will be shared with your classmate.
 
     ![Image title](../Projects/Screenshot%202023-10-02%20at%203.01.03%20PM.png)
-    
-| Student | Student |
-| :--------- | :--------- |
-| Yiyi | Youbin |
-| Xinyun | Nile |
-| Sam | Yiyi |
-| Nile | Youbin |
-| Sam | Xinyun |
