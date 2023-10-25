@@ -67,14 +67,14 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
 
     | Requirements |           Resources            |
     | ------------ | ------------------------------ | 
-    | Create your own [Steamworks Account](https://partner.steamgames.com/). The instructor/class has their own account as well. | [How to publish your game on Steam](https://fungies.io/2023/03/04/how-to-publish-your-game-on-steam/) | 
-    | $100 USD per game. This is a mandatory fee for each game unless you make $1,000 on your game | [ Joining Steamworks Distribution Program](https://partner.steamgames.com/steamdirect)| 
-    | Make sure your game meets Steam's [Terms of Service](https://store.steampowered.com/eula/767560_eula_0#:~:text=You%20agree%20not%20to%20use,Terms%20of%20Use%20are%20reserved). | [Steamworks Documentation: Getting Started](https://partner.steamgames.com/doc/gettingstarted) |
-    | Supports latest version of Windows. Make sure you have a Windows PC to test your game. | [Integrating Unity Games with Steamworks](https://blog.theknightsofunity.com/integrating-unity-game-steamworks/) |
-    | Install [Steamworks SDK](https://docs.unity.com/ugs/manual/authentication/manual/platform-signin-steam) for your selected game engine. | [How to Launch a Game on Steam - Before Release](https://www.youtube.com/watch?v=CAQsIDxI7rU&ab_channel=CodeMonkey)
+    | Create your own [Google Play Developer account](https://play.google.com/console/about/). The instructor/class has their own account as well. | [Android Developers: Publish your app](https://developer.android.com/studio/publish) | 
+    | Cost is covered by the class. However, if you want to publish on your own it is a $25 one time fee. Apps are free to publish after the entrance fee. | [ Joining Steamworks Distribution Program](https://partner.steamgames.com/steamdirect)| 
+    | Accept Google Play's [Terms of Service](https://play.google.com/intl/en-US_us/about/play-terms/index.html). | [Steamworks Documentation: Getting Started](https://partner.steamgames.com/doc/gettingstarted) |
+    | Download [Android Studio](https://developer.android.com/studio) on your computer. | [Integrating Unity Games with Steamworks](https://blog.theknightsofunity.com/integrating-unity-game-steamworks/) |
+    | Within Unity, build your game to Android and enable the Builld App Bundle for Android. | [How to Launch a Game on Steam - Before Release](https://www.youtube.com/watch?v=CAQsIDxI7rU&ab_channel=CodeMonkey)
     
 
-    ![Image title](../Projects/cinemachine.png)
+    ![Image title](../Projects/Project2/GooglePlay.png)
 
 ???+ example "iOS Mobile"
 
