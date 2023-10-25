@@ -73,8 +73,15 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | Download [Android Studio](https://developer.android.com/studio) on your computer. | [Android Developers: Build your game in Unity](https://developer.android.com/games/engines/unity/build-in-unity) |
     | Within Unity, build your game to Android and enable the [Build App Bundle](https://docs.unity3d.com/Manual/android-BuildProcess.html) for Android. | [Developer's Guide to Releasing a Unity Game on Google Play](https://www.youtube.com/watch?v=GTaXWgKz0e8&ab_channel=LlamAcademy) |
     
-
     ![Image title](../Projects/Project2/GooglePlay.png)
+    Publishing to the Google Play Store is a relatively straightforward process.
+    <br>
+    <br>
+    <br>
+    <br>
+    ![Image title](../Projects/Project2/AndroidWidgetGame.png)
+    An example of Android widget games.
+
 
 ???+ example "iOS Mobile"
 
@@ -87,6 +94,17 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | You are welcome to build for any Apple platform and experience. This includes [widgets](https://developer.apple.com/design/human-interface-guidelines/widgets), [iMessage games](https://developer.apple.com/imessage/), [App clips](https://developer.apple.com/app-clips/), [Vision Pro](https://developer.apple.com/visionos/), and [standalone apps](https://developer.apple.com/). | [Apple Game Center](https://developer.apple.com/game-center/) |
 
     ![Image title](../Projects/Project2/AppleStore.png)
+
+    A preview of XCode and it's simulator. 
+    <br>
+    <br>
+    <br>
+    <br>
+
+    ![Image title](../Projects/Project2/PenguinGame.png)
+
+    An example of an iMessage game, GamePigeon, for text messages. 
+
 
 ???+ example "Microcontrollers"
 
@@ -101,12 +119,17 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
 
 ???+ example "Websites"
 
-    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
+    | Requirements |           Resources            |
+    | ------------ | ------------------------------ | 
+    | GitHub account with [GitHub Pages](https://pages.github.com/) set up. With [GitHub Education](https://education.github.com/pack), you can create a private repo for your website. If you do not have GitHub Education, you will need to make your build public. | [React Unity WebGL](https://react-unity-webgl.dev/) | 
+    | Cost is **FREE** unless you want a custom domain which can cost between $5 - $10 a month to buy a domain.| [Google Domains](https://domains.google/) |
+    | Install a web framework such as ReactJS | [GoDaddy domains](https://www.godaddy.com/) |
+    | Within Unity, build your game to WebGL | [Best Unity Websites](https://www.awwwards.com/websites/unity/) |
 
-    ![Image title](../Projects/cinemachine.png)
+    ![Image title](../Projects/Project2/AwwwardsUnity.png)
 
 
-???+ example "Twitch, YouTube, Discord Integrations"
+???+ example "Social Media Integrations"
 
     Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
 
