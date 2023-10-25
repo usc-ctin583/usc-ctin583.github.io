@@ -47,7 +47,7 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 
 ## 👾 The Game
 
-Pick the platform you want to build for and publish to intentionally. Tailor your experience to the platform you selected. In project 2, I would like you to try publishing your experience or game and experiment with how you can take it to market. Consider the most natural inputs for your experience. Please note that many of these platforms do require a fee; however, you are welcome to use the instructor's account at no additional cost. 
+Pick the platform you want to build for and publish to intentionally. Tailor your experience to the platform you selected. In project 2, I would like you to try publishing your experience or game and experiment with how you can take it to market. Consider the most natural inputs for your experience. Please note that many of these platforms do require a fee; however, you are welcome to use the instructor's account at no additional cost. **I ENCOURAGE YOU TO TRY SOMETHING NEW 🔥**
 
 **Some examples:**
 
@@ -131,7 +131,7 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
 
 ???+ example "Social Media Integrations"
 
-    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
+    You are welcome to make a game for a specific social media platform such as Snapchat, Facebook Messenger, YouTube, Twitch, and Discord. Please see some of the resources listed below.
 
     ![Image title](../Projects/cinemachine.png)
 
@@ -163,5 +163,19 @@ We will be play testing your game during class!! Please make sure your game is p
 | **Total** | | **100%** |
 
 ## 🦄 Support
+
 Ask for help! Don't be afraid to reach out to us and ask for help. Work together with your classmates and schedule office hours with the instructors whenever you need help and support.
+
+!!! question "Do I need to learn all the different languages for each platform? What if I don't know Swift/Kotlin/Javascript/C++/Java ?"
+
+    Don't worry! You don't need to know all the languages and don't need to know everything about each language. You will work a little bit in those languages to make minor tweaks. Plus, the instructors are here to help you!
+
+!!! question "A research paper usually takes a lot of work. Are we really going to write out a full research paper ?"
+
+    It will be a research paper but it will be scaled down and shortened! We will be learning how to style write a professional paper that can be submitted for conferences in the future. 
+
+!!! question "What if they don't approve the game I submitted ?"
+
+    That is okay! Ideally, you will have a published app on the platform of your choice. But if it doesn't work out, we will at least publish to [GitHub Pages](https://pages.github.com/) and [itch.io](https://itch.io/).
+
 
