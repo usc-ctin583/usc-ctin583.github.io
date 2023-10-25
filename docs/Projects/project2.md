@@ -51,7 +51,7 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
 
 **Some examples:**
 
-???+ example "PC"
+???+ example "PC: Windows, Mac, Linux"
 
     | Requirements |           Resources            |
     | ------------ | ------------------------------ | 
@@ -68,23 +68,31 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | Requirements |           Resources            |
     | ------------ | ------------------------------ | 
     | Create your own [Google Play Developer account](https://play.google.com/console/about/). The instructor/class has their own account as well. | [Android Developers: Publish your app](https://developer.android.com/studio/publish) | 
-    | Cost is covered by the class. However, if you want to publish on your own it is a $25 one time fee. Apps are free to publish after the entrance fee. | [ Joining Steamworks Distribution Program](https://partner.steamgames.com/steamdirect)| 
-    | Accept Google Play's [Terms of Service](https://play.google.com/intl/en-US_us/about/play-terms/index.html). | [Steamworks Documentation: Getting Started](https://partner.steamgames.com/doc/gettingstarted) |
-    | Download [Android Studio](https://developer.android.com/studio) on your computer. | [Integrating Unity Games with Steamworks](https://blog.theknightsofunity.com/integrating-unity-game-steamworks/) |
-    | Within Unity, build your game to Android and enable the Builld App Bundle for Android. | [How to Launch a Game on Steam - Before Release](https://www.youtube.com/watch?v=CAQsIDxI7rU&ab_channel=CodeMonkey)
+    | Cost is covered by the class. However, if you want to publish on your own it is a $25 one time fee. Apps are free to publish after the entrance fee. | [Publish your UNITY game on Google Play Store](https://www.youtube.com/watch?v=UXl_C3ZnRLc&ab_channel=CocoCode)| 
+    | Accept Google Play's [Terms of Service](https://play.google.com/intl/en-US_us/about/play-terms/index.html). | [How to Publish to Android](https://learn.unity.com/tutorial/how-to-publish-to-android-2) |
+    | Download [Android Studio](https://developer.android.com/studio) on your computer. | [Android Developers: Build your game in Unity](https://developer.android.com/games/engines/unity/build-in-unity) |
+    | Within Unity, build your game to Android and enable the [Build App Bundle](https://docs.unity3d.com/Manual/android-BuildProcess.html) for Android. | [Developer's Guide to Releasing a Unity Game on Google Play](https://www.youtube.com/watch?v=GTaXWgKz0e8&ab_channel=LlamAcademy) |
     
 
     ![Image title](../Projects/Project2/GooglePlay.png)
 
 ???+ example "iOS Mobile"
 
-    Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
+    | Requirements |           Resources            |
+    | ------------ | ------------------------------ | 
+    | You must have a Mac and have [XCode](https://developer.apple.com/xcode/) installed. | [Unity Learn: Publishing for iOS](https://learn.unity.com/tutorial/publishing-for-ios) | 
+    | Cost is covered by the class. However, if you want to publish on your own it is a $100 a year to be part of the [Apple Developer Program](https://developer.apple.com/programs/). Apps are free to publish after the yearly developer program fee. | [Apple Developer: Submit your iOS apps to the Apple Store](https://developer.apple.com/ios/submit/) | 
+    | Apple is very particular about how your app looks. You must follow Apple's [Guidelines](https://developer.apple.com/app-store/guidelines/) such as their [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/). | [Unity Documentation: Build for iOS](https://docs.unity3d.com/Manual/iphone-BuildProcess.html) |
+    | Within Unity, build your game to iOS and enable the [Build App Bundle](https://docs.unity3d.com/Manual/android-BuildProcess.html) for iOS. | [How to Build & Run Unity to iOS for Testing](https://www.youtube.com/watch?v=-Hr4-XNCf8Y&ab_channel=samyam) |
 
-    ![Image title](../Projects/cinemachine.png)
+    ![Image title](../Projects/Project2/AppleStore.png)
 
 ???+ example "Microcontrollers"
 
     Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.* iMessage Game
+
+    <div class="video-wrapper">
+    <iframe width="1280" height="720" src="https://www.youtube.com/watch?v=gkook0l_gsM&t=321s&ab_channel=LeandroLinares" frameborder="0" allowfullscreen></iframe></div>
 
     ![Image title](../Projects/cinemachine.png)
 
