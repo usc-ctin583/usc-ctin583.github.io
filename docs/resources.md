@@ -1,6 +1,6 @@
 # Resources
 
-### Assets and Packages
+## 📦 Assets and Packages
 * [Yarn Spinner](): Open-source tool for writing game dialogue
 * [Kenny](https://kenney.nl/): Free game assets
 
