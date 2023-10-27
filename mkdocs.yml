@@ -4,7 +4,7 @@ site_url: https://usc-ctin583.github.io/
   
 theme:
   name: material
-  logo: assets/images/USC_Logo.png
+  logo: assets/images/favicon.png
   features:
     - navigation.tabs
     - navigation.sections
