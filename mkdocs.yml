@@ -1,9 +1,10 @@
-site_name: USC CTIN583 Game Development (Fall 2023)
+site_name: USC Game Development (Fall 2023)
 site_url: https://usc-ctin583.github.io/
 
   
 theme:
   name: material
+  logo: assets/images/USC_Logo.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -39,6 +40,8 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/USCCinema
     - icon: fontawesome/brands/discord
+      link: https://discord.com/channels/343612930056781825/687390873197084672
+    - icon: fontawesome/brands/github
       link: https://discord.com/channels/343612930056781825/687390873197084672
 
 
