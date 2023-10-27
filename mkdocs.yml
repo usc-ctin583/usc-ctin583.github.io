@@ -4,6 +4,7 @@ site_url: https://ctin583.usc.edu/
 
   
 theme:
+  logo: assets/images/shield.png
   name: material
   features:
     - navigation.tabs
