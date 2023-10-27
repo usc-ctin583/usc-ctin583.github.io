@@ -1,4 +1,9 @@
 # Resources
+
+### Assets and Packages
+* [Yarn Spinner](): Open-source tool for writing game dialogue
+* [Kenny](https://kenney.nl/): Free game assets
+
 ## 🗺️ Guides for Concepts
 ### 👩‍💻 C-Sharp
 * [Unity C# Intermediate Scripting Tutorials](https://www.youtube.com/playlist?list=PLi-b-_6rqNkwCL7oXRfjT0uVCI77jWMen)
@@ -82,6 +87,7 @@
 * [Blender Guru](https://www.youtube.com/@blenderguru)
 * [Blender Tutorials](https://www.blender.org/support/tutorials/)
 * [Chris Holt](https://www.youtube.com/@CurtisHolt)
+
 ## 💪 Interview Preparation
 ### ❤️ Mentorship
 * [ADPList](https://adplist.org/): Find mentorship
