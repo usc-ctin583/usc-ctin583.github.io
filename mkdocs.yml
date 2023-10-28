@@ -1,11 +1,14 @@
-site_name: USC Game Development (Fall 2023)
+site_name: CTIN 583 Game Development (Fall 2023)
 # site_url: https://usc-ctin583.github.io/
+site_description: "Course website for USC's Game Development class"
+site_author: Debbie Yuen
 site_url: https://ctin583.usc.edu/
 
   
 theme:
-  logo: assets/images/shield.png
   name: material
+  logo: uscLogo-03.png
+  favicon: favicon3.png
   features:
     - navigation.tabs
     - navigation.sections
