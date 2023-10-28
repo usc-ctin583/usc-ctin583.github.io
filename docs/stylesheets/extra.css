@@ -7,6 +7,14 @@
   --md-typeset-mark-color: rgba(253, 224, 33, 0.4);
 }
 
+/* .md-typeset {
+  font-family: 'Helvetica';
+} */
+
+/* .md-header__title { */
+  /* font-size: 5rem; */
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+/* } */
 #logo_light_mode {
   display: var(--md-footer-logo-light-mode);
 }
