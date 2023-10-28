@@ -7,7 +7,7 @@ site_url: https://ctin583.usc.edu/
   
 theme:
   name: material
-  logo: uscLogo-03.png
+  logo: usclogo2-03.png
   favicon: favicon3.png
   features:
     - navigation.tabs
