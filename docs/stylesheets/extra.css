@@ -7,6 +7,15 @@
   --md-typeset-mark-color: rgba(253, 224, 33, 0.4);
 }
 
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #990000;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #990000;
+  --md-text-link-color:         #990000;
+  --md-typeset-a-color: #E43D30;
+  --md-typeset-mark-color: rgba(253, 224, 33, 0.4);
+}
+
 /* .md-typeset {
   font-family: 'Helvetica';
 } */
@@ -15,6 +24,7 @@
   /* font-size: 5rem; */
   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 /* } */
+
 #logo_light_mode {
   display: var(--md-footer-logo-light-mode);
 }
