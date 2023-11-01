@@ -195,3 +195,8 @@ Ask for help! Don't be afraid to reach out to us and ask for help. Work together
 !!! question "Why do we need to learn how to pair program and participate in code reviews ?"
 
     Game development is a collaborative effort so it is important to learn how to collaborate on designs and code. There are many great tools that will support collaboration within Visual Studio Code, Perforce, GitHub, and Unity.
+
+!!! question "What if I don't want to publish my game ?"
+
+    It is required to publish your game for project 2. Going through the process of sharing and putting up your game is an important part of the development experience. You will learn A LOT. At minimum, you should be publish your game to [GitHub Pages](https://pages.github.com/) and [itch.io](https://itch.io/).
+
