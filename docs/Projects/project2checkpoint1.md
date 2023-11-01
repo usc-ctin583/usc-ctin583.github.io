@@ -14,22 +14,26 @@ For this checkpoint, please open one Perforce depot project with at least one cl
 * VSCode: [Collaborate with Live Share](https://code.visualstudio.com/learn/collaboration/live-share)
 * Microsoft Learn: [What is Visual Studio Live Share ?](https://learn.microsoft.com/en-us/visualstudio/liveshare/)
 * Microsoft Learn: [Common Use Cases and Pair Programming](https://learn.microsoft.com/en-us/visualstudio/liveshare/reference/use-cases#pair-programming)
-
-## 🔥 Getting Started
-
-!!! note "Windows VSCode Plugin"
-
-    Fill out the [Google form](https://forms.gle/VzmmsTqbDHXrFVrM7) after you have given each each classmate verbal feedback. The feedback will be shared with your classmate.
-
-    ![Image title](../Projects/Screenshot%202023-10-02%20at%203.01.03%20PM.png)
+* Perforce: [Developer & Code Collaboration Tools](https://www.perforce.com/solutions/developer-collaboration)
 
 ## 🤖 Perforce
+With more and more teams working remotely, and more companies hiring employees in different geographic regions, code collaboration tools are important for improving the efficiency of remote teamwork. They enable clearer communication between team members, and many offer features that support teamwork in real-time. 
+
+Code collaboration tools improve code quality (and therefore quality of the final product) in a number of ways, depending on the type of tool in question. Version control maintains a full history of every iteration of your code, allowing you to easily roll back to a previous version or identify exactly where an issue originated. Code review tools help catch bugs (and catch them early), improve code readability, and help maintain best practices. ([Perforce](https://www.perforce.com/solutions/developer-collaboration))
 
 !!! note "Perforce Streams"
 
-    Fill out the [Google form](https://forms.gle/VzmmsTqbDHXrFVrM7) after you have given each each classmate verbal feedback. The feedback will be shared with your classmate.
+    [Perforce Streams](https://www.perforce.com/video-tutorials/vcs/streams-overview) are how branching and merging are performed within Helix Core. [Streams](https://www.perforce.com/video-tutorials/vcs/streams-overview) bring built-in intelligence to managing how changes flow from one branch or codeline to another. This makes it more convenient for developers by helping team members visualize the bigger picture. [Perforce Steams](https://www.perforce.com/video-tutorials/vcs/streams-overview) also helps bypass tedious configuration details so that teams can start working right away. 
 
-    ![Image title](../Projects/Screenshot%202023-10-02%20at%203.01.03%20PM.png)
+    [Streams](https://www.perforce.com/video-tutorials/vcs/streams-overview) are similar to channels that help you and your team make sure each change gets to the right place in the correct manner. A unique feature of P4V is the [Stream Graph](https://www.perforce.com/manuals/p4v/Content/P4V/streams.graph.html). The Stream Graph shows your project's codelines and branches, quickly creating and easily flows of changes between workflows. It also helps with orienting the project with its hierarchy and detailed connections between streams. 
+
+    ![Image title](../Projects/Project2/Pair%20Programming/perforcestreams.png)
+
+!!! note "Windows VSCode Plugin"
+
+    Sign in and connect to the Perforce server. Navigate to our class folder.
+
+    ![Image title](../Projects/Project2/Pair%20Programming/pairprogrammingsignin.png)
 
 ## 🔵 Visual Studio Code
 
