@@ -14,10 +14,10 @@
 | 9    | ==Mon 10/16== <br> ==Wed 10/18== | ==[Unity UI: uGUI and UI Toolkit](https://www.icloud.com/keynote/05dxP82d9x9mFhNSfsZrNJTAA#Lecture7)== <br> ==[Unity UI: UI Toolkit in World Space](https://www.icloud.com/keynote/0f8PvRkhwyFuoYn02FVCtJnyQ#Lecture9)== | ==[Lab 7: Raycasting](Labs/lab07.md)== | [Project 2: Outside the Box](Projects/project2.md) |
 | 10   | ==Mon 10/23== <br> ==Wed 10/25== | ==[Unity 3D: Mecanim Animation](https://www.icloud.com/keynote/06aC7YI4Dfhus0rUU6kLUnT3Q#Lecture10)== <br> ==[Unity 3D: Advanced Cinemachine](https://www.icloud.com/keynote/090pVb415sSet7PFsC_TzDpQw#Lecture10)== | ==[Lab 8: Illumination](Labs/lab08.md)== |
 | 11   | ==Mon 10/30== <br> ==Wed 11/1==  | ==[Yarn Spinner for Unity](https://www.icloud.com/keynote/012lleSf44gJC4BdO84HmbRUg#Lecture11)== <br> ==[Variable Management C# and Yarn](https://www.icloud.com/keynote/001VeMlaVJtt1EM4tcWbnIGKg#Lecture11)== | ==[Lab 9: VFX Graph](Labs/lab09.md)== | <br> [Pair Programming](Projects/project2checkpoint1.md) |
-| 12   | Mon 11/6 <br> Wed 11/8   | Unity AR: Vuforia Engine <br> Unity AR: Marker-Based Game | [Lab 10: Technical Interviews](Labs/lab10.md) |
-| 13   | Mon 11/13 <br> Wed 11/15 |  **Project 2 Playtest** <br> Individual Tutoring (iOS Mobile Games) | | [Paper Checkpoint](Projects/project2checkpoint2.md)|
+| 12   | Mon 11/6 <br> Wed 11/8   | Unity Math: Vector Geometry <br> Unity Math: Vector Geometry | [Lab 10: Technical Interviews](Labs/lab10.md) |
+| 13   | Mon 11/13 <br> Wed 11/15 |  **Project 2 Playtest** <br> Individual Tutoring (Android/iOS Mobile Games) | | [Paper Checkpoint](Projects/project2checkpoint2.md)|
 | 14   | ==Mon 11/20== <br> ==Wed 11/22== | ==No Class (Thanksgiving)== <br> ==No Class (Thanksgiving)== | | |
-| 15   | Mon 11/27 <br> Wed 11/29 | Individual Tutoring (Android Mobile Games) <br> Individual Tutoring (PC Games with Steam) | | [Code Review](Projects/project2checkpoint3.md) |
+| 15   | Mon 11/27 <br> Wed 11/29 | Individual Tutoring (Developing Oculus VR Apps) <br> Individual Tutoring (Vuforia Engine for Unity AR) | | [Code Review](Projects/project2checkpoint3.md) |
 | 16   | Mon 12/4 <br> Wed 12/6   | **Project 2 Playtest** <br> **Project 2 Final Presentations** | | |
 | 17   | Mon 12/11 | Individual Tutoring (Multiplayer with Photon) | | **Project 2 Due** |
 
