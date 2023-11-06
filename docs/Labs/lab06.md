@@ -9,7 +9,7 @@
 
 
 ## Builds
-<iframe src="https://giphy.com/embed/1K64ALJFeedkcwUc6C" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/build-built-memeland-1K64ALJFeedkcwUc6C">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/1K64ALJFeedkcwUc6C" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/build-built-memeland-1K64ALJFeedkcwUc6C">via GIPHY</a></p>
 
 During class, we have been running our projects within the Unity Editor. This is a great way to quickly test things and iterate. Now we want players to experience our games! 
 
