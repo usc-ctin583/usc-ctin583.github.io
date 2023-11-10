@@ -150,7 +150,7 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
 
 Your research paper can span areas including but not limited to animation, simulation, imaging, geometry, modeling, rendering, human-computer interaction, haptics, fabrication, robotics, visualization, audio, optics, programming languages, immersive experiences, and anything that aims to advance the state of the art that is related to your game or software experience.
 
-More information coming soon!
+More information coming soon!!
 
 ## 🎟️ Requirements
 In short, the main requirement is to create a game and write a paper. 
