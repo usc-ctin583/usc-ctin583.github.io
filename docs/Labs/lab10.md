@@ -10,7 +10,7 @@ Iterative process.
 - [x] **Resume:** Build
 - [x] **Portfolio:** Build
 - [x] **Practice:** Build
-- [x] **Interviewing:**  build
+- [x] **Interviewing:**  build building
 
 You can do it :)
 
