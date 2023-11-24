@@ -3,7 +3,6 @@ site_name: CTIN 583 Game Development (Fall 2023)
 site_description: "Course website for USC's Game Development class"
 site_author: Debbie Yuen
 site_url: https://ctin583.usc.edu/
-
   
 theme:
   name: material
@@ -43,6 +42,7 @@ extra_css:
 extra:
   version:
     provider: mike
+    default: latest
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/USCCinema
@@ -50,6 +50,18 @@ extra:
       link: https://discord.com/channels/343612930056781825/687390873197084672
     - icon: fontawesome/brands/github
       link: https://discord.com/channels/343612930056781825/687390873197084672
+
+plugins:
+  - search
+  - awesome-pages
+  - mike:
+      # these fields are all optional; the defaults are as below...
+      version_selector: true # set to false to leave out the version selector
+      css_dir: css # the directory to put the version selector's CSS
+      javascript_dir: js # the directory to put the version selector's JS
+      canonical_version:
+        latest # the version for <link rel="canonical">; `null`
+        # uses the version specified via `mike deploy`
 
 markdown_extensions:
   - pymdownx.highlight:
