@@ -3,14 +3,8 @@
 This page provides an overview of the policies for this course as taught at the University of Southern California. We meet Mondays and Wednesdays 4:00pm - 5:50pm PST at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/).
 
 ## 🧜‍♀️ Staff
-* Adjunct Assistant Professor Deborah (Debbie) Yuen
-    * Email: yuend@usc.edu
-    * Discord: @debbiey
-    * OH: Monday, Wednesdays 1:00 pm - 3:00 pm
-
+* Course Instructor Debbie Yuen
 * Student Assistant Haocheng Liu
-    * Contact via Discord
-    * OH: TBA
 
 ## 📅 Section Dates
 * **First day of classes:** Monday, August 21, 2023
