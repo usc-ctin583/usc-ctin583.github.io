@@ -150,7 +150,45 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
 
 Your research paper can span areas including but not limited to animation, simulation, imaging, geometry, modeling, rendering, human-computer interaction, haptics, fabrication, robotics, visualization, audio, optics, programming languages, immersive experiences, and anything that aims to advance the state of the art that is related to your game or software experience.
 
-More information coming soon!!
+???+ abstract "Association for Computing Machinery (ACM)"
+
+    You are welcome to make a game for a specific social media platform such as Snapchat, Facebook Messenger, YouTube, Twitch, and Discord. Please see some of the resources listed below.
+
+    ![Image title](../Projects/Project2)
+
+???+ abstract "LaTeX"
+
+    You are welcome to make a game for a specific social media platform such as Snapchat, Facebook Messenger, YouTube, Twitch, and Discord. Please see some of the resources listed below.
+
+    ![Image title](../Projects/Project2)
+
+???+ abstract "Overleaf"
+
+    You are welcome to make a game for a specific social media platform such as Snapchat, Facebook Messenger, YouTube, Twitch, and Discord. Please see some of the resources listed below.
+
+    ![Image title](../Projects/Project2)
+
+???+ abstract "Short Art Papers"
+
+    How do we come to terms with contemporary media art culture that consists of varied practices ranging from craft to design to installation, software, hardware, choreography, mixed-media, and more? What current trajectories exist now that algorithmic processes, decades in the making, have finally advanced so much that they can generate usable code, graphics, and sounds from spoken or written prompts? What new methods or questions are needed as we leave visual space and return to acoustic space where orality, ambience, and overlapping and touchless media reign? How do we define and navigate the intersectional suprastructure that allows certain media practices to flourish while others are starved or co-opted? How do we process the entirety of this networked sphere of media intercourse under real planetary constraints? The SIGGRAPH Art Papers track is the premier place to publish critical findings within these diverse fields of art practices where they converge on screen, through interactive methods, within digital, mechanical, or biological interfaces. 
+    - [SIGGRAPH 2024, Art Papers](https://s2024.siggraph.org/program/art-papers/)
+
+    Short Art Papers are limited to 2,500-words and; 10 pages (including all references, tables, figures and figure captions. Papers should be proofed and completely anonymized.
+    Submission example for SIGGRAPH 2024 [here](https://ssl.linklings.net/conferences/siggraph/?page=SampleForm&id=ArtPapersShortSubmission&site=siggraph2024).
+    
+    **Necessary information to include:**
+
+    - [x] **Title of Short Paper:**
+    - [x] **Abstract:** A 250-word (maximum) abstract summarizing the key points of the paper. Indicate paragraph breaks by a blank line in the text field; all other text formatting will be lost.
+    - [x] **Why It Matters:** A 100 word (maximum) abstract explaining why your artwork is important for the whole SIGGRAPH community, in a large sense, from raising critical issues to opening perspectives or generating solutions. Indicate paragraph breaks by a blank line in the text field; all other text formatting will be lost.
+
+    ![Image title](../Projects/Project2)
+
+???+ abstract "Short Technical Papers"
+
+    You are welcome to make a game for a specific social media platform such as Snapchat, Facebook Messenger, YouTube, Twitch, and Discord. Please see some of the resources listed below.
+
+    ![Image title](../Projects/Project2)
 
 ## 🎟️ Requirements
 In short, the main requirement is to create a game and write a paper. 
