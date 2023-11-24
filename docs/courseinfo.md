@@ -3,8 +3,8 @@
 This page provides an overview of the policies for this course as taught at the University of Southern California. We meet Mondays and Wednesdays 4:00pm - 5:50pm PST at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/).
 
 ## 🧜‍♀️ Staff
-* Course Instructor Debbie Yuen
-* Student Assistant Haocheng Liu
+* **Course Instructor:** Debbie Yuen
+* **Student Assistant:** Haocheng Liu
 
 ## 📅 Section Dates
 * **First day of classes:** Monday, August 21, 2023
