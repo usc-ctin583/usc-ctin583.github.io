@@ -18,8 +18,9 @@ critique brings together a range of disciplinary stakeholders: students and inst
 - [x] **Completeness:** the report includes all required elements, as detailed in the Overleaf template.
 
 **Helpful Resources:**
-- [University of California on Overleaf](https://www.overleaf.com/edu/usc)
-- [The LaTeX Project](https://www.latex-project.org/)
-- [What is Peer Review?](https://authorservices.wiley.com/Reviewers/journal-reviewers/what-is-peer-review/index.html)
-- [Instructor's Guide for Giving Feedback](https://owl.purdue.edu/owl/general_writing/the_writing_process/feedback/instructor_guide_giving%20feedback.html)
-- [OWL: General Format](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html)
+
+* [University of California on Overleaf](https://www.overleaf.com/edu/usc)
+* [The LaTeX Project](https://www.latex-project.org/)
+* [What is Peer Review?](https://authorservices.wiley.com/Reviewers/journal-reviewers/what-is-peer-review/index.html)
+* [Instructor's Guide for Giving Feedback](https://owl.purdue.edu/owl/general_writing/the_writing_process/feedback/instructor_guide_giving%20feedback.html)
+* [OWL: General Format](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html)
