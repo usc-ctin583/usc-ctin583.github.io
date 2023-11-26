@@ -3,6 +3,8 @@
 ## 📦 Assets and Packages
 * [Yarn Spinner](): Open-source tool for writing game dialogue
 * [Kenny](https://kenney.nl/): Free game assets
+* [freesound](https://freesound.org/): Find any sound you like
+
 
 ## 🥳 Fun Times
 * [My First 10 Years of Game Development](https://www.youtube.com/watch?v=egukLtEhyP0&ab_channel=SebastianLague): A YouTube video by Sebastian Lague
@@ -12,6 +14,8 @@
 * [With Those We Love Alive](https://xrafstar.monster/games/twine/wtwla/): Text adventure game
 * [The Tiniest Room](https://erik108.itch.io/the-tiniest-room): Text adventure game
 * [Introduction to Game Design, Prototyping, and Development: From Concept to Playable Game with Unity and C#](https://www.amazon.com/dp/0136619940?ref_=cm_sw_r_cp_ud_dp_WHTTQHEJ021VFCF74JMZ): For a more structured learning approach to Unity and programming, a book by Jeremy Gibson Bond
+* [A Dark Room](https://adarkroom.doublespeakgames.com/): Content Warning (GORE) A minimalist text adventure
+* [Thirty Flights of Loving](https://store.steampowered.com/app/214700/Thirty_Flights_of_Loving/): Radical art simplification, cinematic use of camera, not explaining very much
 
 ## 🗺️ Guides for Concepts
 ### 👩‍💻 C-Sharp
