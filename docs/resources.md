@@ -11,6 +11,7 @@
 * [Queers in Love at the End of the World](https://w.itch.io/end-of-the-world): NSFW Text adventure game
 * [With Those We Love Alive](https://xrafstar.monster/games/twine/wtwla/): Text adventure game
 * [The Tiniest Room](https://erik108.itch.io/the-tiniest-room): Text adventure game
+* [Introduction to Game Design, Prototyping, and Development: From Concept to Playable Game with Unity and C#](https://www.amazon.com/dp/0136619940?ref_=cm_sw_r_cp_ud_dp_WHTTQHEJ021VFCF74JMZ): For a more structured learning approach to Unity and programming, a book by Jeremy Gibson Bond
 
 ## 🗺️ Guides for Concepts
 ### 👩‍💻 C-Sharp
@@ -85,6 +86,7 @@
 * [Kodeco: How to Make a Game like Bomberman with Unity](https://www.kodeco.com/244-how-to-make-a-game-like-bomberman-with-unity): Ever want to blow up your friends? Learn how to make a game like a Bomberman with Unity 3D in this step by step tutorial that will have you setting bombs off with ease. By Brian Broom.
 * [Noob Tuts: Unity GameObjects and Components: ](https://noobtuts.com/unity/gameobjects-and-components) An article that explains Unity and how to work with it effectively.
 * [Brackleys: Scriptable Objects: ](https://www.youtube.com/watch?v=aPXvoWVabPY&list=PLkrp1Ff_OrPmgGmDEMMhN35WnFdlPnNjh&index=11&ab_channel=Brackeys) Includes an example of how scriptable objects are useful
+* [LinkedIn Learning: Unity 3D](https://www.linkedin.com/learning/topics/unity-3d?trk=lynda_redirect_learning): Login with USC ID or your LinkedIn account
 
 ### 🎮 Unreal Engine
 * [Unreal Sensei](https://www.youtube.com/watch?v=k-zMkzmduqI&ab_channel=UnrealSensei)
