@@ -5,6 +5,7 @@
 * [Kenny](https://kenney.nl/): Free game assets
 * [freesound](https://freesound.org/): Find any sound you like
 * [ComfyUI](https://github.com/comfyanonymous/ComfyUI): Design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface
+* [Eleven Labs](https://elevenlabs.io/): Convert text to speech online for free with our AI voice generator. Create natural AI voices instantly in any language
 
 
 ## 🥳 Fun Times
@@ -20,9 +21,10 @@
 
 ## 🗺️ Guides for Concepts
 ### 👩‍💻 C-Sharp
-* [Unity C# Intermediate Scripting Tutorials](https://www.youtube.com/playlist?list=PLi-b-_6rqNkwCL7oXRfjT0uVCI77jWMen)
-* [Coding in C# in Unity for Beginners](https://unity.com/how-to/learning-c-sharp-unity-beginners)
-* [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA)
+* [Unity C# Intermediate Scripting Tutorials](https://www.youtube.com/playlist?list=PLi-b-_6rqNkwCL7oXRfjT0uVCI77jWMen): Comprehensive playlist of important C# concepts that commonly used in Unity scripting
+* [Coding in C# in Unity for Beginners](https://unity.com/how-to/learning-c-sharp-unity-beginners): The very basics of coding, like variables, functions and classes, and how to use them in Unity
+* [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA): Brackeys allows anyone - no matter their budget - to create top-quality games
+* [The C# Player’s Guide](https://csharpplayersguide.com/): An entertaining programming book that teaches you C# through games
 
 ### 👩‍💻 C++
 * [The Cherno](https://www.youtube.com/@TheCherno)
