@@ -1,7 +1,7 @@
 # Calendars
 
 ## 📓 Course Calendar
-| Week | Date                     | Lecture                                           | Lab and Discussions              | Project |
+| Week | Date                     | Lecture                                           | Lab              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
 | 1    | Mon 8/21 <br> Wed 8/23   | No Class <br> [Introduction to Game Engines](https://www.icloud.com/keynote/0b9Z3oJLZPPXEXypJu4s9P11w#Lecture1) | <br> [Lab 0: Set up](Labs/lab00.md) | |
 | 2    | Mon 8/28 <br> Wed 8/30   | [Godot: 2D Games](https://www.icloud.com/keynote/04anqoPcDLolGOwy6tP3XAq3w#Lecture2) <br> [Unreal Engine: MetaHuman](https://www.icloud.com/keynote/01dlwiWmlwtOAvNPmBdCsM3gA#Lecture2) |  [Lab 1: Unreal Engine](Labs/lab01.md) | | |

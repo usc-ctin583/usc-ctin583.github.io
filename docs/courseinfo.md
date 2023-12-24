@@ -27,13 +27,11 @@ All designers need the ability to communicate their ideas to others. Because gam
 ## 📚 Assignments
 
 ### 🥼 Labs
-There will be weekly lab assignments that will be completed with your lab partner. These assignments will help inform your two projects later on down the line. 
+There will be weekly lab assignments that consists of homework assignments including readings, videos, and computer set-up instructionsthat will be completed individually or with a lab partner. These assignments will help inform your two projects later on down the line. 
 
-### 🔖 Discussions
-Discussions are individual homework assignments including readings, videos, and computer set-up instructions. 
 
 ### ⭐️ Project 1
-The first project will be a 3D Unity game designed by you and your project partner! 
+The first project will be an individual individual project to create a 3D Unity game
 
 ### ⭐️ Project 2
 The final project can be an individual or paired project in which you work on developing a game of your choice. 
@@ -43,8 +41,13 @@ We will be using our Discord channel to communicate.
 
 ## 🛍️ Materials
 * Unity 2020 or higher
+* Unreal 5
+* Godot 4.2
 * Mouse
 * Perforce
+* GitHub
+* Visual Studio
+* Visual Studio Code
 
 ## 💯 Grading
 | Assignment | Percentage |
