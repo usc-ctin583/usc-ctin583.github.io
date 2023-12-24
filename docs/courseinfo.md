@@ -113,6 +113,8 @@ The [Office of Disability Services and Programs](dsp.usc.edu) provides certifica
 
 ## 💐 Acknowledgments
 
+Some course handout material were derived from previous terms, professors, and GSIs. Firstly, I would not have been able to teach this course without my Student Assistant, **Haocheng Liu**. Thank you to **Professor Sean Bloom** and **Professor Margaret Moser** for sharing your past lectures, resources, and assignmments with me. Thank you to **Professor Sam Roberts** for showing me the way from day one. Last but not least, thank you to **Professor Peter Brinson** for welcoming me into the VLab and sharing your knowledge, expertise, and wisdom with me throughout the entire semester. 
+
 This course was heavily inspired by how courses are structured, run, and organized at UC Berkeley's [Computer Science]() and [Industrial Engineering and Operations Research]() departments. It was at my alumna matter where I learned how to make teaching content more accessible through course websites, Gradescope, Jupyter Notebooks, Labs, and much more. The following courses websites listed below significantly improved my learning experience at UC Berkeley and influenced my website's design.
 
 * `INDENG 135/235`: [Applied Data Science with Venture Applications: Data-X](https://datax.berkeley.edu/)
@@ -123,8 +125,6 @@ This course was heavily inspired by how courses are structured, run, and organiz
 * `MECENG/NWMEDIA C205`: [Critical Making](http://make.berkeley.edu)
 * `COMPSCI 70`: [Discrete Mathematics and Probability Theory](https://www2.eecs.berkeley.edu/Courses/CS70/)
 
-Thank you to my own professor, [Professor Björn Hartmann](https://people.eecs.berkeley.edu/~bjoern/), whom taught me so much about the AR/VR space, how to navigate the Unity Engine, and make custom Unity packages. Thank you for responding to my messages in providing guidance on my curriculum and in selecting guest speakers for the course. 
-
-Some course handout material were derived from previous terms, professors, and GSIs. Firstly, I would not have been able to teach this course without my Student Assistant, **Haocheng Liu**. Thank you to **Professor Sean Bloom** and **Professor Margaret Moser** for sharing your past lectures, resources, and assignmments with me. Thank you to **Professor Sam Roberts** for showing me the way from day one. Last but not least, thank you to **Professor Peter Brinson** for welcoming me into the VLab and sharing your knowledge, expertise, and wisdom with me throughout the entire semester. 
+Thank you to my own professor, [Professor Björn Hartmann](https://people.eecs.berkeley.edu/~bjoern/) (EECS), whom taught me so much about the AR/VR space, how to navigate the Unity Engine, and make custom Unity packages. Thank you for responding to my messages in providing guidance on my curriculum and in selecting guest speakers for the course. And thank you to [Professor Emeritus Dennis Lieu](https://me.berkeley.edu/people/dennis-k-lieu/) (MECENG) for mentoring me in what it means to teach at the college level. 
 
 The content here is far from complete and I am always seeking ways to improve my teaching skills and content. Please feel free to reach out if you have any suggestions! I am always open to feedback as I develop my own curriculum.
