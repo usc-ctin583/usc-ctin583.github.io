@@ -4,6 +4,7 @@
 * [Yarn Spinner](): Open-source tool for writing game dialogue
 * [Kenny](https://kenney.nl/): Free game assets
 * [freesound](https://freesound.org/): Find any sound you like
+* [ComfyUI](https://github.com/comfyanonymous/ComfyUI): Design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface
 
 
 ## 🥳 Fun Times

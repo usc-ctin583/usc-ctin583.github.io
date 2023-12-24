@@ -41,7 +41,7 @@
     * TuTh 7:00 pm - 10:00 pm PST ([Google Meet]())
 
 * **Haocheng Liu:**
-    *  M 10:00 am - 12:00 pm PST (On Campus & Discord Voice Channel)
+    *  M 10:00 am - 12:00 pm PST ([On Campus & Discord Voice Channel]())
 
 ## 🏆 Contest Calendar
 | Contest        | Category | Deadline |
