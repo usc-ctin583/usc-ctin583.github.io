@@ -1,10 +1,13 @@
 # Course Info
 
-This page provides an overview of the policies for this course as taught at the University of Southern California. We meet Mondays and Wednesdays 4:00pm - 5:50pm PST at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/).
+!!! tip "Dates and Times"
+    We hope to see you at our in-person lectures and labs every Monday and Wednesday **4:00 - 5:50pm PST** at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/)
+
+This page provides an overview of the policies for this course as taught at [USC Games](https://games.usc.edu/) within the [University of Southern California, School of Cinematic Arts](https://cinema.usc.edu/). We meet Mondays and Wednesdays 4:00pm - 5:50pm PST at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/). Please direct any questions you have in the `# landing-page` channel in the CTIN 583 Discord.
 
 ## 🧜‍♀️ Staff
-* **Course Instructor:** Debbie Yuen
-* **Student Assistant:** Haocheng Liu
+* **Course Instructor:** Deborah (Debbie) Yuen
+* **Student Assistant:** Haocheng (Hao) Liu
 
 ## 📅 Section Dates
 * **First day of classes:** Monday, August 21, 2023
@@ -17,6 +20,9 @@ This page provides an overview of the policies for this course as taught at the 
 * **End of session:** Wednesday, December 13, 2023
 
 ## 📇 Course Description
+
+<div style="width:100%;height:0;padding-bottom:67%;position:relative;"><iframe src="https://giphy.com/embed/1fnwSUTsHRyGXEYMos" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/1fnwSUTsHRyGXEYMos">via GIPHY</a></p>
+
 This course teaches the art of creating digital game prototypes and introduces the world of game engines. The class briefly introduces industry standard game engines such as Unreal Engine and Godot then dives deep into the Unity game development using C# scripting. In class, students will be creating two games with Unity 3D and Unity AR while learning the fundamentals of C# scripting. 
 
 Unity is a professional tool in widespread use, including on award-winning, high-profile games such as Monument Valley, Hearthstone, Threes!, and Pokémon Go. It can be used to create games for many platforms, from desktop to mobile to consoles. We will also discuss the role of prototyping in the creative process and introduce the use of version control systems in developing code.
@@ -30,11 +36,15 @@ All designers need the ability to communicate their ideas to others. Because gam
 There will be weekly lab assignments that consists of homework assignments including readings, videos, and computer set-up instructionsthat will be completed individually or with a lab partner. These assignments will help inform your two projects later on down the line. 
 
 
-### ⭐️ Project 1
-The first project will be an individual individual project to create a 3D Unity game
+### ⭐️ **Project 1:** Advocacy
+The first project will be an individual individual project to create a 3D Unity game. 
 
-### ⭐️ Project 2
+The intent of this project is to build, run, and publish a 3D Unity game that tackles a social justice issue. You will be implementing your own version of a WebGL single-player video game with multiple levels. Please feel free to start with the 3D Unity project we have been working on in class as a starting point. I recommend making a copy of the class project to avoid confusing our class project from your project 1. If you would rather not use the 3D Unity project we have been working on in class, feel free to create a new 3D project from scratch. You may use any packages and assets as you see fit; however, please review the project requirements to ensure that you have integrated all required features. Last but not least - make sure the game is created with the Universal Render Pipeline ([URP](https://unity.com/srp/universal-render-pipeline)) and supports [Perforce](https://www.perforce.com/downloads/helix-visual-client-p4v) integration.
+
+### ⭐️ **Project 2:** Outside the Box
 The final project can be an individual or paired project in which you work on developing a game of your choice. 
+
+There will be a lot of freedom for you to decide on what you want to work on for your final project. Please take this final project as an opportunity to grow your soft skills of why you love and chose to learn game development. Find something you want to dive into that will challenge the state of the art and enable you to advance through your career. Here is the opportunity to create an experience that excites you with any game engine of your choice in addition to the mentorship of your instructors. Carefully consider what your needs are and what you are trying to accomplish when deciding to develop with Unreal, Godot, Unity, or maybe some other game engine. 
 
 ## ☎️ Communication
 We will be using our Discord channel to communicate. 
@@ -61,9 +71,9 @@ We will be using our Discord channel to communicate.
 ## 🏫 Absence Policy
 Students are expected to attend every class. This is for your own sake – we will move quickly, and it is easy to fall behind. The following guidelines, from the Interactive Media Division handbook, apply to all students:
 
-* Two unexcused absences: lowers course grade by one half grade point, e.g. from A- to B+
-* Three unexcused absences: lowers course grade by one full grade point, e.g. from B to C
-* Four or more unexcused absences: request to withdraw from the course (instructor’s discretion)
+- [x] Two unexcused absences: lowers course grade by one half grade point, e.g. from A- to B+
+- [x] Three unexcused absences: lowers course grade by one full grade point, e.g. from B to C
+- [x] Four or more unexcused absences: request to withdraw from the course (instructor’s discretion)
 
 You must contact me as soon as possible regarding your absence. Generally, I will expect to hear from you before class; in exigent circumstances, I would expect to hear from you within 24 hours. If you are sick, stay home. You need to be healthy to learn, and so do your classmates (and instructors). I also do not distinguish between mental health and physical health. If you cannot complete an
 assignment on time or come to class because of mental health issues, you must contact me promptly, just as with physical health problems.
@@ -78,25 +88,28 @@ If you have a concern about any aspect of the class, you are encouraged to speak
 
 Behavior that persistently or grossly interferes with classroom activities is considered disruptive behavior and may be subject to disciplinary action. Such behavior inhibits other students' ability to learn and an instructor's ability to teach. A student responsible for disruptive behavior may be required to leave class pending discussion and resolution of the problem and may be reported to the Office of Student Judicial Affairs for disciplinary action. 
 
-Discrimination, sexual assault, intimate partner violence, stalking, and harassment are prohibited by the university. You are encouraged to report all incidents to the Office of Equity and Diversity/Title IX Office (equity.usc.edu) and/or to the Department of Public Safety (dps.usc.edu). This is important for the health and safety of the whole USC community. Faculty and staff must report any information regarding an incident to the Title IX Coordinator who will provide outreach and information to the affected party. The Sexual Assault Resource Center webpage (sarc.usc.edu) fully describes reporting options. Relationship and Sexual Violence Services (engemannshc.usc.edu/rsvp) provides 24/7 confidential support.
+Discrimination, sexual assault, intimate partner violence, stalking, and harassment are prohibited by the university. You are encouraged to report all incidents to the [Office of Equity and Diversity/Title IX Office](equity.usc.edu) and/or to the [Department of Public Safety](dps.usc.edu). This is important for the health and safety of the whole USC community. Faculty and staff must report any information regarding an incident to the Title IX Coordinator who will provide outreach and information to the affected party. [The Sexual Assault Resource Center webpage](sarc.usc.edu) fully describes reporting options. [Relationship and Sexual Violence Services](engemannshc.usc.edu/rsvp) provides 24/7 confidential support.
 
 ## 🏄‍♂️ Academic Integrity
-Plagiarism – presenting someone else’s ideas as your own, either verbatim or recast in your own words or code – is a serious academic offense with serious consequences. Please familiarize yourself with the discussion of plagiarism in SCampus in Part B, Section 11, “Behavior Violating University Standards” (policy.usc.edu/student/scampus/part-b). Other forms of academic dishonesty are equally unacceptable. See additional information in SCampus and university policies on scientific misconduct (policy.usc.edu/scientificmisconduct). 
+Plagiarism – presenting someone else’s ideas as your own, either verbatim or recast in your own words or code – is a serious academic offense with serious consequences. Please familiarize yourself with the discussion of plagiarism in SCampus in Part B, Section 11, [“Behavior Violating University Standards”](policy.usc.edu/student/scampus/part-b). Other forms of academic dishonesty are equally unacceptable. See additional information in SCampus and university policies on [scientific misconduct](policy.usc.edu/scientificmisconduct). 
 
-General principles of academic honesty include the concept of respect for the intellectual property of others, the expectation that individual work will be submitted unless otherwise allowed by an instructor, and the obligations both to protect one’s own academic work from misuse by others as well as to avoid using another’s work as one’s own. All students are expected to understand and abide by these principles. Students will be referred to the Office of Student Judicial Affairs and Community Standards for further review, should there be any suspicion of academic dishonesty. The Review process can be found at www.usc.edu/student-affairs/SJACS/. 
+General principles of academic honesty include the concept of respect for the intellectual property of others, the expectation that individual work will be submitted unless otherwise allowed by an instructor, and the obligations both to protect one’s own academic work from misuse by others as well as to avoid using another’s work as one’s own. All students are expected to understand and abide by these principles. Students will be referred to the [Office of Student Judicial Affairs and Community Standards](www.usc.edu/student-affairs/SJACS/) for further review, should there be any suspicion of academic dishonesty. The Review process can be found at [USC Student Affairs](www.usc.edu/student-affairs/SJACS/). 
 
-For this class, you are encouraged to copy and modify code from online sources and from class demonstration projects. You are also welcome to work together on individual assignments. However, you must always label and provide attribution for work that is not your own, using a credits screen in your game or a credits.txt file delivered with your build.
+For this class, you are encouraged to copy and modify code from online sources and from class demonstration projects. You are also welcome to work together on individual assignments. However, you must always label and provide attribution for work that is not your own, using a credits screen in your game or a `credits.txt` file delivered with your build.
 
-You must provide attribution:
-* If you use more than 3 lines of code from an external source without substantially modifying it
-* If you use any assets (images, textures, sounds, etc.) that are not your own work
+**You must provide attribution:**
+
+- [x] If you use more than 3 lines of code from an external source without substantially modifying it
+- [x] If you use any assets (images, textures, sounds, etc.) that are not your own work
+- [x] If you pair programmed with another student, give credits to both you and the other student
+- [x] If you use references from a resource such as a paper, remember to include citations
 
 You may use any code presented in class without attribution. If you are not sure whether you need to document something, document it. If you are uncertain about what constitutes plagiarism, it is your responsibility to ask the instructor for clarification.
 
 ## 🐶 Support Systems
-A number of USC’s schools provide support for students who need help with scholarly writing. Check with your advisor or program staff to find out more. Students whose primary language is not English should check with the American Language Institute (ali.usc.edu), which sponsors courses and workshops specifically for international students.
+A number of USC’s schools provide support for students who need help with scholarly writing. Check with your advisor or program staff to find out more. Students whose primary language is not English should check with the [American Language Institute](ali.usc.edu), which sponsors courses and workshops specifically for international students.
 
-The Office of Disability Services and Programs (dsp.usc.edu) provides certification for students with disabilities and helps arrange the relevant accommodations. If an officially declared emergency makes travel to campus infeasible, USC Emergency Information (emergency.usc.edu) will provide safety and other updates, including ways in which instruction will be continued by means of Blackboard, teleconferencing, and other technology. 
+The [Office of Disability Services and Programs](dsp.usc.edu) provides certification for students with disabilities and helps arrange the relevant accommodations. If an officially declared emergency makes travel to campus infeasible, [USC Emergency Information](emergency.usc.edu) will provide safety and other updates, including ways in which instruction will be continued by means of Blackboard, teleconferencing, and other technology. 
 
 ## 💐 Acknowledgments
 
