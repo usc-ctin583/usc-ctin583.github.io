@@ -47,7 +47,7 @@ The final project can be an individual or paired project in which you work on de
 There will be a lot of freedom for you to decide on what you want to work on for your final project. Please take this final project as an opportunity to grow your soft skills of why you love and chose to learn game development. Find something you want to dive into that will challenge the state of the art and enable you to advance through your career. Here is the opportunity to create an experience that excites you with any game engine of your choice in addition to the mentorship of your instructors. Carefully consider what your needs are and what you are trying to accomplish when deciding to develop with Unreal, Godot, Unity, or maybe some other game engine. 
 
 ## ☎️ Communication
-We will be using our Discord channel to communicate. 
+We will be using our Discord channel to communicate. If you have not joined our Discord channel yet, please reach out to the Student Assistant via email or during class. They will be able to provide you the link to join. Within our Discord channel, the main channels we will be using are the `# fa23-general` and `# fa23-announcement`. These two channels are only for students who are currently enrolled. Following the course, you will then be added to the `# alumni` channel of students who have taken the course previously. Open office hours will be via Discord's Voice channel in `# office hours` and remote, individual office hours will be hosted via Discord Call, Zoom, or Google Meet. 
 
 ## 🛍️ Materials
 * Unity 2020 or higher
@@ -113,4 +113,18 @@ The [Office of Disability Services and Programs](dsp.usc.edu) provides certifica
 
 ## 💐 Acknowledgments
 
-Some course handout material derived from previous terms, professors, and GSIs. Thank you to Sean Bloom, Sam Roberts, and Margaret Moser.
+This course was heavily inspired by how courses are structured, run, and organized at UC Berkeley's [Computer Science]() and [Industrial Engineering and Operations Research]() departments. It was at my alumna matter where I learned how to make teaching content more accessible through course websites, Gradescope, Jupyter Notebooks, Labs, and much more. The following courses websites listed below significantly improved my learning experience at UC Berkeley and influenced my website's design.
+
+* `INDENG 135/235`: [Applied Data Science with Venture Applications: Data-X](https://datax.berkeley.edu/)
+* `COMPSCI/STAT C8`: [The Foundations of Data Science: Data-8](https://www.data8.org/)
+* `COMPSCI 61A`: [Structure and Interpretation of Computer Programs](https://cs61a.org/)
+* `COMPSCI 61B`: [Data Structures](https://datastructur.es/)
+* `COMPSCI 61C`: [Great Ideas in Computer Architecture (Machine Structures)](https://cs61c.org)
+* `MECENG/NWMEDIA C205`: [Critical Making](http://make.berkeley.edu)
+* `COMPSCI 70`: [Discrete Mathematics and Probability Theory](https://www2.eecs.berkeley.edu/Courses/CS70/)
+
+Thank you to my own professor, [Professor Björn Hartmann](https://people.eecs.berkeley.edu/~bjoern/), whom taught me so much about the AR/VR space, how to navigate the Unity Engine, and make custom Unity packages. Thank you for responding to my messages in providing guidance on my curriculum and in selecting guest speakers for the course. 
+
+Some course handout material were derived from previous terms, professors, and GSIs. Firstly, I would not have been able to teach this course without my Student Assistant, **Haocheng Liu**. Thank you to **Professor Sean Bloom** and **Professor Margaret Moser** for sharing your past lectures, resources, and assignmments with me. Thank you to **Professor Sam Roberts** for showing me the way from day one. Last but not least, thank you to **Professor Peter Brinson** for welcoming me into the VLab and sharing your knowledge, expertise, and wisdom with me throughout the entire semester. 
+
+The content here is far from complete and I am always seeking ways to improve my teaching skills and content. Please feel free to reach out if you have any suggestions! I am always open to feedback as I develop my own curriculum.
