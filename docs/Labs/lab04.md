@@ -11,9 +11,48 @@
 
 ## Generics
 
-Generics allow us to create code that is more "generic" so that it can be used and reused. Remember **"DRY"** in programming? Also known as **"Don't Repeat Yourself."** Generics are really helpful here in preventing the need for duplicate code - which is always a great thing. 
+Generics allow us to create code that is more "generic" so that it can be used and reused. Remember **"DRY"** in programming? Also known as **"Don't Repeat Yourself."** Generics are really helpful here in preventing the need for duplicate code - which is always a great thing. They help solve the problem of making classes or methods that would differ only by the types they use, leaving placeholders for types that can be filled in when used.
 
-Generics are created by adding `<T>` after the class name. `<T>` represents the generic type that gets set while being called. We can have multiple generic types in a class by separating them with commas like `<T, U, V>`. When declaring generics in Unity, the general naming convention starts from T and moves alphabetically down as T, U, V, etc. 
+Generics are created by adding `<T>` after the class name. `<T>` represents the generic type that gets set while being called. We can have multiple generic types in a class by separating them with commas like `<T, U, V>`. When declaring generics in Unity, the general naming convention starts from T and moves alphabetically down as T, U, V, etc. Feel free to make generic methods and gneeric types with multiple type parameters!
+
+To make your life easier, here are some existing and common generic types:
+
+* `Random` generates pseudo-random numbers
+* `DateTime` gets the current time and stores time and date values
+* `TimeSpan`represents a length of time
+* `List<T>` is a popular and versatile generic collection -- use it instead of arrays for most things
+* `IEnumerable<T>`is an interface for almost any collection type. The basis for `foreach` loops
+* `Dictionary<TKeym, TValue>` can look up one piece of information from another
+* `Nullable<T>` is a struct that can express the concept of a missing value for value types
+* `ValueTuple` is the secret sauce behind tuples in C#
+* `StringBuilder` is a less memory-intensive way to build strings a little at a time
+
+Any type definition that is defined as a generic is a **generic type**. These include classes, structs, or interfaces that leave placeholders the type it uses. They are similar to methods with parameters where they allow programmers to throw in a value. Below is an example of how you would define a generic type. 
+
+=== "C#"
+
+``` c# linenums="1"
+// Defining a Generic Type
+public class DefineGenericType List<T> {
+  private T[] items = new T[0]
+  public T Get ItemAt(int index) => items[index];
+  public void SetItemAt(int index, T value) => items[index] = value;
+
+  public void Add(T newValue) {
+    T[] updated = new T[items.Length + 1];
+
+    for (int index = 0; index < items.Length; index++ ) {
+      updated[index] = items[index];
+    }
+
+    updated[^1] = newValue;
+    items = updated;
+  }
+}
+    
+```
+
+When we defined the `DefineGenericType` class above, the `<T>` served as a placeholder for some type. This placeholder type is called a **generic type parameter**. It works just like a method parameter, except it works at a higher leve land stands in for a specific type taht will be chosen later. Conveniently, it can be used throughout the class an in several places in your code. 
 
 === "C#"
 
@@ -37,3 +76,22 @@ Rigidbody rb = go.GetComponent<Rigidbody>();
     
 ```
 ## Inheritence
+
+Class inheritance means that a class can inherit from any other class that isn't sealed. Other classes can also inherit and override from your class. Classes that inherit must derive from another base class so that it can inherit data and behavior. This base class is specified by appending a colon and the name of the base class bollowing the derived class name. Inheritence lets you derive new classes based on existing ones. The new class inherits everything except constructors from the base class. Inheritence is important in accomplishing two things. 
+
+* Enables the treatment of subtypes as the more generalized type
+* Consolides code that would have otherwise been duplicated or copy-and-pasted
+
+In the C# language, a class can only directly inherit from one base class. You cannot directly derive from moe than one. The class then can directly implement one or more interfaces. By default, all classes inherit from `object` aka their base class, but you are able to claim a different class as the base class as well. 
+
+=== "C#"
+
+``` c# title="ClassInheritance.cs" linenums="1"
+// Declaring an object of type MyClass.
+public class Manager: Employee
+{
+    // Employee fields, properties, methods and events are inherited
+    // New Manager fields, properties, methods and events go here
+}
+    
+```

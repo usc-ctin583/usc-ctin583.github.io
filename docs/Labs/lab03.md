@@ -11,7 +11,15 @@
 
 
 ## Classes
-Classes are reference types that are `null` by default until you explicitly create an instance of the class by using the `new` operator or assign it an object of a compatible type that may have been created elseswhere. 
+Being the king of the object-oriented world, classes are essential concepts to grasp. Classes are reference types that are `null` by default until you explicitly create an instance of the class by using the `new` operator or assign it an object of a compatible type that may have been created elseswhere. They are some of the most powerful ways to define new types by bundling data (fields) and operations on that data (methods).
+
+
+
+**Some important definitions:**
+
+* `Object`: A thing in your software, responsible for a slice of the entire program. They define what information the object must remember and the capabilities it can perform when requested
+* `Classes`: Categorized C# objects to establish variables and methods of any object. Think of classes as a blueprint or pattern for objects that belong in a subset
+* `Constructor`: Helps new instances that are created by classes, to be ready for use. They are special methods that run when an object comes to life to ensure it begins life in a good state. They must use the same name as the class, and they cannot list a return type
 
 === "C#"
 
@@ -33,22 +41,7 @@ public class Customer
 Customer object1 = new Customer();
     
 ```
-## Class inheritance
-Class inheritance means that a class can inherit from any other class that isn't sealed. Other classes can also inherit and override from your class. Classes that inherit must derive from another base class so that it can inherit data and behavior. This base class is specified by appending a colon and the name of the base class bollowing the derived class name. 
 
-In the C# language, a class can only directly inherit from one base class. The class then can directly implement one or more interfaces. 
-
-=== "C#"
-
-``` c# title="ClassInheritance.cs" linenums="1"
-// Declaring an object of type MyClass.
-public class Manager: Employee
-{
-    // Employee fields, properties, methods and events are inherited
-    // New Manager fields, properties, methods and events go here
-}
-    
-```
 ## Couroutines
 Courtines are really powerful in Unity by how they hook into Unity's core loop by running every frame. When a coroutine, it runs like a function until it reaches a `yield` statment. It then sets a sort of bookmark and `yields`, which tells the rest of the game to proceed. Each frame right after the `Update` function, Unity calls the coroutine again. The coroutine returns to its bookmark and checks its yield condition. When the yield condition is `true`, for exa mple, when 1.5 seconds have passed, the bookmark is deleted and the rest of the coroutine function runs as usual. Coroutines are functions and you call them with the following syntax. 
 
