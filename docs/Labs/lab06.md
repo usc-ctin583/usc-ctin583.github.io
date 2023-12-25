@@ -11,7 +11,7 @@
 ## Builds
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/1K64ALJFeedkcwUc6C" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/build-built-memeland-1K64ALJFeedkcwUc6C">via GIPHY</a></p>
 
-During class, we have been running our projects within the Unity Editor. This is a great way to quickly test things and iterate. Now we want players to experience our games! 
+During class, we have been running our projects within the Unity Editor. This is a great way to quickly test things and iterate. Now we want players to experience our games! In order to publish your game or any program you create, we will need to take our compiled program. Then, we want to put it into the form we want to deliver it in and make it available to other playeers. The form you publish your game as is heavily depenedntly on what type of project you are working on. In Unity, a `WebGL` build allows you to publish to a web server like a website so that players can access it through their browsers. A mobile app typically goes through a store like Google Play or Apple's App Store. A `desktop` build might be published on Steam. The starting point shares a common theme - complile the code and then package the compiled code and files together. 
 
 What is a **build**? A **build** is a standalone version of your game, so our players don't need to open our projects in Unity. They can double-click on the program to run the game. The term **Build** is used interchangeably with **application** or **executable**. They all mean the same thing. 
 
@@ -36,6 +36,7 @@ Unity allows developers to build games for a variety of platforms. Exporting you
 * It is not recommended to rename the folder name that was automatically generated for you. It might break things. If you want to change the name, make a whole new and separate build
 * Be careful and precise as you follow the steps, including all punctuation and capitalization
 
+After you build your Unity game, don't forget to publish and deploy! Publishing assembles the ouutput into the desired format but does not deploy the prog ram. Deployment doesn't have to be complicatd. Putting everything into a *.zip* file or another archive format and then email the file or place it on a website for people to download is a fast way of deploying your gae. 
 
 ## Rendering Quality
 For each device or platform you build to, it is important to consider the quality and the rendering settings of the game. Feel free to adjust and set a certain quality level for different platforms and levels within the game. This will take some experimentation to get to a setting that works best for your game. Edit the settings under `Edit/Project Settings/Quality`.

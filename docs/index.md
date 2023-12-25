@@ -18,7 +18,7 @@
 | 13   | Mon 11/13 <br> Wed 11/15 |  [**Project 2 Playtest**]() <br> Individual Tutoring ([Android/iOS Mobile Games]()) | | [Paper Checkpoint](Projects/project2checkpoint2.md) |
 | 14   | Mon 11/20 <br> Tue 11/21 <br> Wed 11/22 | Individual Tutoring ([Lua for Game Consoles]()) <br> Individual Tutoring ([Publishing for Steam]()) <br> No Class (Thanksgiving) | | |
 | 15   | Mon 11/27 <br> Wed 11/29 <br> Thur 11/30 <br> Sun 12/4 | Individual Tutoring ([Developing Oculus VR Apps]()) <br> Individual Tutoring ([Vuforia Engine for Unity AR]()) <br> Individual Tutoring ([Resumes, Portfolios, and LinkedIn]()) <br> Project 2 Office Hours| | [Code Review](Projects/project2checkpoint3.md) |
-| 16   | Mon 12/4 <br> Wed 12/6   | **[Project 2 Final Playtest]()** <br> **Project 2 Final Presentations** | | |
+| 16   | Mon 12/4 <br> Wed 12/6   | **[Project 2 Final Playtest]()** <br> **[Project 2 Final Presentations]()** | | |
 | 17   | Mon 12/11 <br> Wed 12/13 | Individual Tutoring ([Multiplayer with Photon]()) <br> Individual Tutoring ([WebRTC and MQTT]()) | | [**Project 2 Due**]() |
 
 ## ✌️ USC Academic Calendar
