@@ -1,4 +1,4 @@
-site_name: CTIN 583 Game Development (Fall 2023)
+site_name: CTIN 583 Game Development
 # site_url: https://usc-ctin583.github.io/
 site_description: "Course website for USC's Game Development class"
 site_author: Debbie Yuen
@@ -41,6 +41,8 @@ extra_css:
 
 
 extra:
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/USCCinema
@@ -83,6 +85,17 @@ extra_javascript:
   - javascripts/katex.js 
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+plugins:
+  - mike:
+      # These fields are all optional; the defaults are as below...
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
 
 copyright: |
   &copy; 2023 <a href="https://github.com/debbieyuen"  target="_blank" rel="noopener">Debbie Yuen</a>

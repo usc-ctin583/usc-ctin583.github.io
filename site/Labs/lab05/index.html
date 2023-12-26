@@ -12,7 +12,7 @@
         <meta name="author" content="Debbie Yuen">
       
       
-        <link rel="canonical" href="https://ctin583.usc.edu/Labs/lab05/">
+        <link rel="canonical" href="https://ctin583.usc.edu/fa23/Labs/lab05/">
       
       
         <link rel="prev" href="../lab04/">
@@ -25,7 +25,7 @@
     
     
       
-        <title>🍩 Lab 5: Quaternions - CTIN 583 Game Development (Fall 2023)</title>
+        <title>🍩 Lab 5: Quaternions - CTIN 583 Game Development</title>
       
     
     
@@ -90,12 +90,16 @@
       
     </div>
     
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
     
       
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CTIN 583 Game Development (Fall 2023)" class="md-header__button md-logo" aria-label="CTIN 583 Game Development (Fall 2023)" data-md-component="logo">
+    <a href="../.." title="CTIN 583 Game Development" class="md-header__button md-logo" aria-label="CTIN 583 Game Development" data-md-component="logo">
       
   <img src="../../usclogo2-03.png" alt="logo">
 
@@ -107,7 +111,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            CTIN 583 Game Development (Fall 2023)
+            CTIN 583 Game Development
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -147,41 +151,6 @@
       
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
-        </button>
-      </nav>
-      
-        <div class="md-search__suggest" data-md-component="search-suggest"></div>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
   </nav>
@@ -291,12 +260,12 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CTIN 583 Game Development (Fall 2023)" class="md-nav__button md-logo" aria-label="CTIN 583 Game Development (Fall 2023)" data-md-component="logo">
+    <a href="../.." title="CTIN 583 Game Development" class="md-nav__button md-logo" aria-label="CTIN 583 Game Development" data-md-component="logo">
       
   <img src="../../usclogo2-03.png" alt="logo">
 
     </a>
-    CTIN 583 Game Development (Fall 2023)
+    CTIN 583 Game Development
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -535,13 +504,6 @@
           <li class="md-nav__item">
   <a href="#gimbal-lock" class="md-nav__link">
     Gimbal Lock
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rotations-in-unity" class="md-nav__link">
-    Rotations in Unity
   </a>
   
 </li>
@@ -813,27 +775,39 @@
 <ul>
 <li><a href="https://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/">Maths - Quaternions</a></li>
 <li><a href="https://mathworld.wolfram.com/Quaternion.html">Wolfram: Quaternion</a></li>
-<li><a href="https://docs.unity3d.com/2019.3/Documentation/Manual/GenericFunctions.html">Unity Documentation: Generic Functions</a></li>
-<li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics">Microsoft Learn: Generic Classes and Methods</a></li>
-<li><a href="https://www.programiz.com/csharp-programming/generics">C# Generics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quaternion#:~:text=For%20example%2C%20the%20equation%20z,dimensional%20space%20of%20vector%20quaternions.">Wikipedia: Quaternion</a></li>
+<li><a href="https://docs.unity3d.com/ScriptReference/Quaternion.html">Unity Scripting: Quaternion</a></li>
+<li><a href="https://www.youtube.com/watch?v=hd1QzLf4ZH8&amp;ab_channel=Unity">C# Quaternions in Unity!</a></li>
+<li><a href="https://docs.unity.cn/ru/2019.4/Manual/QuaternionAndEulerRotationsInUnity.html">Rotation and Orientation in Unity</a></li>
+<li><a href="https://vionixstudio.com/2022/06/16/unity-quaternion-and-rotation-guide/">Unity Quaternion and Rotation Guide for Beginners</a></li>
+<li><a href="https://medium.com/@spicuzza157/quatern-b5cf7b83b1d1">Quaternions in Unity</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gimbal_lock">Wikipedia: Gimbal Lock</a></li>
 </ul>
 <h2 id="quaternions">Quaternions</h2>
-<p>In Division Algebra, Quaternions are a method to represent a solid 3D object's three dimensional orientations or other rotational quantity. The algebra for Quaternions consists of 4 dimensions, aka 4 scalar variables that are added and multipled as a single unit. These variables are also known as <strong>Euler Parameters</strong> and hold one real dimension and 3 imaginary dimensions. Each of these imaginary dimensions has a unit value of the square root of -1, but they are different square roots of -1 all mutually perpendicular to each other, known as i,j and k. So a quaternion can be represented as follows:</p>
-<p>a + i b + j c + k d </p>
-<p>It may seem strange that there are 3 square roots of -1, but we have to remember that we are working in 4 dimensions so there are at least 3 ways to get round from +1 to -1. It is not very practical to try to draw 4 dimensions in 2 dimensions, but here is an attempt:</p>
-<p>The fundamental formula for Quaternion algebra is as follows: </p>
 <h3 id="quaternions-in-math">Quaternions in Math</h3>
+<p>In Division Algebra, Quaternions are a method to represent a solid 3D object's three dimensional orientations or other rotational quantity. The algebra for Quaternions consists of 4 dimensions, aka 4 scalar variables that are added and multipled as a single unit. These variables are also known as <strong>Euler Parameters</strong> and hold one real dimension and 3 imaginary dimensions. Each of these imaginary dimensions has a unit value of the square root of -1, but they are different square roots of -1 all mutually perpendicular to each other, known as i,j and k. So a quaternion can be represented as <span class="arithmatex">\(a + i b + j c + k d\)</span>.</p>
+<p>For example, the equation <span class="arithmatex">\(z^2 + 1 = 0\)</span>, has infinitely many quaternion solutions, which are the quaternions <span class="arithmatex">\(z = b i + c j + d k\)</span>. The fundamental formula for Quaternion algebra is as follows: </p>
+<div class="arithmatex">\[
+a + i b + j c + k d
+\]</div>
+<p>As such, these "roots of -1" form a unit square in the 3D space of vector quaternions. It may seem strange that there are 3 square roots of -1, but we have to remember that we are working in 4 dimensions so there are at least 3 ways to get round from +1 to -1. It is not very practical to try to draw 4 dimensions in 2 dimensions</p>
+<div class="arithmatex">\[
+b^2 + c^2 + d^2 = 1
+\]</div>
 <h3 id="gimbal-lock">Gimbal Lock</h3>
-<h3 id="rotations-in-unity">Rotations in Unity</h3>
+<p>Gimbal lock is the loss of one degree of freedom in a three-dimensional, three-gimbal mechanism that occurs when the axes of two of the three gimbals are driven into a parallel configuration, "locking" the system into rotation in a degenerate two-dimensional space. (Wikipedia)</p>
+<p>The term gimbal-lock can be misleading in the sense that none of the individual gimbals are actually restrained. All three gimbals can still rotate freely about their respective axes of suspension. Nevertheless, because of the parallel orientation of two of the gimbals' axes, there is no gimbal available to accommodate rotation about one axis, leaving the suspended object effectively locked (i.e. unable to rotate) around that axis. (Wikipeda)</p>
+<!-- ### Rotations in Unity -->
+
 <h3 id="quaternions-in-unity">Quaternions in Unity</h3>
 <p>Quaternions are useful in accurately representing rotations. They are compact, don't suffer from gimbal lock and can easily be interpolated. Unity internally uses Quaternions to represent all rotations and expects Quaternions to be normalized. Luckily in Unity, the individual Quaternion components (x,y,z,w) do not need to be individually accessed or modified. You can take the existing rotations and from there, construct new rotations to smoothly interpolate between two rotations. The Quaternion functions that you will use 9% of the time are:</p>
 <ul>
-<li><code>Quaternion.LookRotation</code></li>
-<li><code>Quaternion.Quaternion.Angle</code></li>
-<li><code>Quaternion.Euler</code></li>
-<li><code>Quaternion.Slerp</code></li>
-<li><code>Quaternion.FromToRotation</code></li>
-<li><code>Quaternion.identity</code></li>
+<li><code>Quaternion.LookRotation</code> z axis will be aligned with forward, X axis aligned with cross product between forward and upwards, and Y axis aligned with cross product between Z and X.</li>
+<li><code>Quaternion.Quaternion.Angle</code> Think of two GameObjects (A and B) moving around a third GameObject (C). Lines from C to A and C to B create a triangle which can change over time. The angle between CA and CB is the value Quaternion.Angle provides.</li>
+<li><code>Quaternion.Euler</code> Returns a rotation that rotates z degrees around the z axis, x degrees around the x axis, and y degrees around the y axis; applied in that order.</li>
+<li><code>Quaternion.Slerp</code> Use this to create a rotation which smoothly interpolates between the first quaternion a to the second quaternion b, based on the value of the parameter t. If the value of the parameter is close to 0, the output will be close to a, if it is close to 1, the output will be close to b.</li>
+<li><code>Quaternion.FromToRotation</code> Usually you use this to rotate a transform so that one of its axes eg. the y-axis - follows a target direction toDirection in world space.</li>
+<li><code>Quaternion.identity</code> This quaternion corresponds to "no rotation" - the object is perfectly aligned with the world or parent axes.</li>
 <li><code>Quaternion.operator</code> rotate one rotation by another, or to rotate a vector by a rotation</li>
 </ul>
 
@@ -922,7 +896,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
