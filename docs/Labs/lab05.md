@@ -41,10 +41,10 @@ The term gimbal-lock can be misleading in the sense that none of the individual 
 ### Quaternions in Unity
 Quaternions are useful in accurately representing rotations. They are compact, don't suffer from gimbal lock and can easily be interpolated. Unity internally uses Quaternions to represent all rotations and expects Quaternions to be normalized. Luckily in Unity, the individual Quaternion components (x,y,z,w) do not need to be individually accessed or modified. You can take the existing rotations and from there, construct new rotations to smoothly interpolate between two rotations. The Quaternion functions that you will use 9% of the time are:
 
-* `Quaternion.LookRotation`
-* `Quaternion.Quaternion.Angle`
-* `Quaternion.Euler`
-* `Quaternion.Slerp`
-* `Quaternion.FromToRotation`
-* `Quaternion.identity`
+* `Quaternion.LookRotation` z axis will be aligned with forward, X axis aligned with cross product between forward and upwards, and Y axis aligned with cross product between Z and X.
+* `Quaternion.Quaternion.Angle` Think of two GameObjects (A and B) moving around a third GameObject (C). Lines from C to A and C to B create a triangle which can change over time. The angle between CA and CB is the value Quaternion.Angle provides.
+* `Quaternion.Euler` Returns a rotation that rotates z degrees around the z axis, x degrees around the x axis, and y degrees around the y axis; applied in that order.
+* `Quaternion.Slerp` Use this to create a rotation which smoothly interpolates between the first quaternion a to the second quaternion b, based on the value of the parameter t. If the value of the parameter is close to 0, the output will be close to a, if it is close to 1, the output will be close to b.
+* `Quaternion.FromToRotation` Usually you use this to rotate a transform so that one of its axes eg. the y-axis - follows a target direction toDirection in world space.
+* `Quaternion.identity` This quaternion corresponds to "no rotation" - the object is perfectly aligned with the world or parent axes.
 * `Quaternion.operator` rotate one rotation by another, or to rotate a vector by a rotation
