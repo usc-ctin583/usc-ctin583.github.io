@@ -50,6 +50,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -87,10 +89,6 @@
     <div data-md-component="announce">
       
     </div>
-    
-      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
-        
-      </div>
     
     
       
@@ -524,6 +522,40 @@
     Quaternions
   </a>
   
+    <nav class="md-nav" aria-label="Quaternions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quaternions-in-math" class="md-nav__link">
+    Quaternions in Math
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gimbal-lock" class="md-nav__link">
+    Gimbal Lock
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rotations-in-unity" class="md-nav__link">
+    Rotations in Unity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quaternions-in-unity" class="md-nav__link">
+    Quaternions in Unity
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -779,13 +811,31 @@
 <p><img alt="Image title" src="../Fv21c.png" /></p>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
-<li><a href="https://learn.unity.com/tutorial/generics#5c8923c5edbc2a113b6bc335">Unity Learn: Generics</a></li>
-<li><a href="https://onewheelstudio.com/blog/2020/12/27/c-generics-and-unity">C# Generics and Unity</a></li>
+<li><a href="https://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/">Maths - Quaternions</a></li>
+<li><a href="https://mathworld.wolfram.com/Quaternion.html">Wolfram: Quaternion</a></li>
 <li><a href="https://docs.unity3d.com/2019.3/Documentation/Manual/GenericFunctions.html">Unity Documentation: Generic Functions</a></li>
 <li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics">Microsoft Learn: Generic Classes and Methods</a></li>
 <li><a href="https://www.programiz.com/csharp-programming/generics">C# Generics</a></li>
 </ul>
 <h2 id="quaternions">Quaternions</h2>
+<p>In Division Algebra, Quaternions are a method to represent a solid 3D object's three dimensional orientations or other rotational quantity. The algebra for Quaternions consists of 4 dimensions, aka 4 scalar variables that are added and multipled as a single unit. These variables are also known as <strong>Euler Parameters</strong> and hold one real dimension and 3 imaginary dimensions. Each of these imaginary dimensions has a unit value of the square root of -1, but they are different square roots of -1 all mutually perpendicular to each other, known as i,j and k. So a quaternion can be represented as follows:</p>
+<p>a + i b + j c + k d </p>
+<p>It may seem strange that there are 3 square roots of -1, but we have to remember that we are working in 4 dimensions so there are at least 3 ways to get round from +1 to -1. It is not very practical to try to draw 4 dimensions in 2 dimensions, but here is an attempt:</p>
+<p>The fundamental formula for Quaternion algebra is as follows: </p>
+<h3 id="quaternions-in-math">Quaternions in Math</h3>
+<h3 id="gimbal-lock">Gimbal Lock</h3>
+<h3 id="rotations-in-unity">Rotations in Unity</h3>
+<h3 id="quaternions-in-unity">Quaternions in Unity</h3>
+<p>Quaternions are useful in accurately representing rotations. They are compact, don't suffer from gimbal lock and can easily be interpolated. Unity internally uses Quaternions to represent all rotations and expects Quaternions to be normalized. Luckily in Unity, the individual Quaternion components (x,y,z,w) do not need to be individually accessed or modified. You can take the existing rotations and from there, construct new rotations to smoothly interpolate between two rotations. The Quaternion functions that you will use 9% of the time are:</p>
+<ul>
+<li><code>Quaternion.LookRotation</code></li>
+<li><code>Quaternion.Quaternion.Angle</code></li>
+<li><code>Quaternion.Euler</code></li>
+<li><code>Quaternion.Slerp</code></li>
+<li><code>Quaternion.FromToRotation</code></li>
+<li><code>Quaternion.identity</code></li>
+<li><code>Quaternion.operator</code> rotate one rotation by another, or to rotate a vector by a rotation</li>
+</ul>
 
 
 
@@ -872,10 +922,34 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="../../javascripts/mathjax.js"></script>
+        
+      
+        
+          <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        
+      
+        
+          <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+      
+        
+          <script src="../../javascripts/katex.js"></script>
+        
+      
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+        
+      
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+        
       
     
   </body>

@@ -50,6 +50,8 @@
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -87,10 +89,6 @@
     <div data-md-component="announce">
       
     </div>
-    
-      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
-        
-      </div>
     
     
       
@@ -809,7 +807,7 @@
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/1K64ALJFeedkcwUc6C" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 <p><a href="https://giphy.com/gifs/build-built-memeland-1K64ALJFeedkcwUc6C">via GIPHY</a></p>
 
-<p>During class, we have been running our projects within the Unity Editor. This is a great way to quickly test things and iterate. Now we want players to experience our games! </p>
+<p>During class, we have been running our projects within the Unity Editor. This is a great way to quickly test things and iterate. Now we want players to experience our games! In order to publish your game or any program you create, we will need to take our compiled program. Then, we want to put it into the form we want to deliver it in and make it available to other playeers. The form you publish your game as is heavily depenedntly on what type of project you are working on. In Unity, a <code>WebGL</code> build allows you to publish to a web server like a website so that players can access it through their browsers. A mobile app typically goes through a store like Google Play or Apple's App Store. A <code>desktop</code> build might be published on Steam. The starting point shares a common theme - complile the code and then package the compiled code and files together. </p>
 <p>What is a <strong>build</strong>? A <strong>build</strong> is a standalone version of your game, so our players don't need to open our projects in Unity. They can double-click on the program to run the game. The term <strong>Build</strong> is used interchangeably with <strong>application</strong> or <strong>executable</strong>. They all mean the same thing. </p>
 <p>It isn't possible to run a Windows application on an OSX device. Same goes for a PlayStation game on an iPhone. Each requires its own special format. The operating system the player is using is referred to as a platform or within Unity, a <strong>build target</strong>. Some examples include:</p>
 <ul>
@@ -830,6 +828,7 @@
 <li>It is not recommended to rename the folder name that was automatically generated for you. It might break things. If you want to change the name, make a whole new and separate build</li>
 <li>Be careful and precise as you follow the steps, including all punctuation and capitalization</li>
 </ul>
+<p>After you build your Unity game, don't forget to publish and deploy! Publishing assembles the ouutput into the desired format but does not deploy the prog ram. Deployment doesn't have to be complicatd. Putting everything into a <em>.zip</em> file or another archive format and then email the file or place it on a website for people to download is a fast way of deploying your gae. </p>
 <h2 id="rendering-quality">Rendering Quality</h2>
 <p>For each device or platform you build to, it is important to consider the quality and the rendering settings of the game. Feel free to adjust and set a certain quality level for different platforms and levels within the game. This will take some experimentation to get to a setting that works best for your game. Edit the settings under <code>Edit/Project Settings/Quality</code>.</p>
 <p><img alt="Image title" src="../Screenshot%202023-10-08%20at%208.53.04%20PM.png" /></p>
@@ -929,10 +928,34 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="../../javascripts/mathjax.js"></script>
+        
+      
+        
+          <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        
+      
+        
+          <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+      
+        
+          <script src="../../javascripts/katex.js"></script>
+        
+      
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+        
+      
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+        
       
     
   </body>
