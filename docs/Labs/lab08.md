@@ -1,8 +1,5 @@
 # 💡 Lab 8: Illumination
 
 ## Resources and Links
-* [Unity Learn: Generics](https://learn.unity.com/tutorial/generics#5c8923c5edbc2a113b6bc335)
-* [C# Generics and Unity](https://onewheelstudio.com/blog/2020/12/27/c-generics-and-unity)
-* [Unity Documentation: Generic Functions](https://docs.unity3d.com/2019.3/Documentation/Manual/GenericFunctions.html)
-* [Microsoft Learn: Generic Classes and Methods](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics)
-* [C# Generics](https://www.programiz.com/csharp-programming/generics)
+* [Unity Manual: Introduction to Lighting](https://docs.unity3d.com/Manual/LightingInUnity.html)
+* [Unity Learn: Get Started with Lighting](https://learn.unity.com/tutorial/get-started-with-lighting?pathwayId=61a65568edbc2a00206076dd&missionId=61a106efedbc2a5554f0dcba)
