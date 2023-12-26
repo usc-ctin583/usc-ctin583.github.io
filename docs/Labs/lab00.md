@@ -3,7 +3,18 @@
 In our next two class sessions, we will be learning Godot and Unreal Engine with the Perforce as our primary source control tool. 
 
 ## Perforce
-Perforce is known for its roots with version control. However, Perforce as a whole does much more than create version control tools. Perforce is ideal for large files and binaries that have a lot of assets. Perforce also allows users to lock certain files which is helpful in collaborating on projects.
+Perforce is known for its roots with version control. However, Perforce as a whole does much more than create version control tools. Perforce is ideal for large files and binaries that have a lot of assets. Perforce also allows users to lock certain files which is helpful in collaborating on projects. Within the game industry, Perforce is the industry standard tool for version control and code-sharing at the enterprise level. To use it, you'll have to download the Helix Visual Client (P4V) from the Perforce website.
+
+**Why is Perforce the industry standard?**
+You may have used other version control software in the past, like Git or SVN. These are great options because they're free to use.
+In an enterprise environment, there's something much more valuable than the cost of subscription software: access to support.
+
+There are a couple other reasons to prefer Perforce over Git.
+
+* Perforce handles binary files differently than Git in ways that are especially important in game development.
+* Perforce stores version history on a central server, which means each developer only needs the latest version on their computer.
+
+If you need help accessing or using Perforce for class, you can email [creativetech@cinema.usc.edu](creativetech@cinema.usc.edu).
 
 !!! note "Download Perforce"
 

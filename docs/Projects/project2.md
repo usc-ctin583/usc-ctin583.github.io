@@ -37,6 +37,8 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 
 ## 🧐 Questions
 
+### Game Experience
+
 * What is a digital and software experience that you find interesting? Is there anything you've always wanted to try making? Think of an idea that gets you excited and let's try to create it with Unity, Unreal, or Godot! 
 
 * Art has a responsibility to contribute cultural and humanist dimensions to our definition of the future. How does the intersection of art and technology move us from ephemeral performance to sustainable innovation? Ideate on ideas for a project and then write about it in your research paper.
@@ -45,7 +47,29 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 
 * What is your experience's potential use case in the releam of emerging digital technologies? How does it impact users and citizens? Does your experience confront any major challenges of our time?
 
+### Game Design
+
+* Can I make a cozy, relaxing roguelike?
+
+* What happens if the player’s ability regresses as the game progresses?
+
+* Can I make a game where the mechanic is trying to understand an alien language?
+
+* What happens if the player needs to solve violent problems nonviolently?
+
+* What happens if you combine environment destruction gameplay with a cooking game?
+
+* Can I make a game where the player is neither the protagonist nor the antagonist?
+
+* Can I create the game version of the phrase “wrong answers only”?
+
+
 ## 👾 The Game
+
+The goal of your final project for this class is twofold:
+
+- [x] Put into practice the prototyping skills you have learned over the past 12 weeks. You are capable of expressing your design ideas in software, so let’s come up with some interesting design ideas and express them!
+- [x] Start thinking about “design problems,” that is, the kinds of questions you can answer through prototyping. These are often questions of the form “What happens if?” or “Can I?”
 
 Pick the platform you want to build for and publish to intentionally. Tailor your experience to the platform you selected. In project 2, I would like you to try publishing your experience or game and experiment with how you can take it to market. Consider the most natural inputs for your experience. Please note that many of these platforms do require a fee; however, you are welcome to use the instructor's account at no additional cost. 
 
