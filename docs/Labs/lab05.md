@@ -16,6 +16,9 @@
 ## Quaternions
 
 ### Quaternions in Math
+
+![Image title](../Labs/quaternions2.png)
+
 In Division Algebra, Quaternions are a method to represent a solid 3D object's three dimensional orientations or other rotational quantity. The algebra for Quaternions consists of 4 dimensions, aka 4 scalar variables that are added and multipled as a single unit. These variables are also known as **Euler Parameters** and hold one real dimension and 3 imaginary dimensions. Each of these imaginary dimensions has a unit value of the square root of -1, but they are different square roots of -1 all mutually perpendicular to each other, known as i,j and k. So a quaternion can be represented as $a + i b + j c + k d$.
 
 For example, the equation $z^2 + 1 = 0$, has infinitely many quaternion solutions, which are the quaternions $z = b i + c j + d k$. The fundamental formula for Quaternion algebra is as follows: 
@@ -32,6 +35,8 @@ $$
 
 ### Gimbal Lock
 
+![Image title](../Labs/gimballock.jpeg)
+
 Gimbal lock is the loss of one degree of freedom in a three-dimensional, three-gimbal mechanism that occurs when the axes of two of the three gimbals are driven into a parallel configuration, "locking" the system into rotation in a degenerate two-dimensional space. (Wikipedia)
 
 The term gimbal-lock can be misleading in the sense that none of the individual gimbals are actually restrained. All three gimbals can still rotate freely about their respective axes of suspension. Nevertheless, because of the parallel orientation of two of the gimbals' axes, there is no gimbal available to accommodate rotation about one axis, leaving the suspended object effectively locked (i.e. unable to rotate) around that axis. (Wikipeda)
@@ -39,6 +44,9 @@ The term gimbal-lock can be misleading in the sense that none of the individual 
 <!-- ### Rotations in Unity -->
 
 ### Quaternions in Unity
+
+![Image title](../Labs/quaternions3.png)
+
 Quaternions are useful in accurately representing rotations. They are compact, don't suffer from gimbal lock and can easily be interpolated. Unity internally uses Quaternions to represent all rotations and expects Quaternions to be normalized. Luckily in Unity, the individual Quaternion components (x,y,z,w) do not need to be individually accessed or modified. You can take the existing rotations and from there, construct new rotations to smoothly interpolate between two rotations. The Quaternion functions that you will use 9% of the time are:
 
 * `Quaternion.LookRotation` z axis will be aligned with forward, X axis aligned with cross product between forward and upwards, and Y axis aligned with cross product between Z and X.
