@@ -29,7 +29,7 @@ Code collaboration tools improve code quality (and therefore quality of the fina
 
     ![Image title](../Projects/Project2/Pair%20Programming/perforcestreams.png)
 
-!!! note "Windows VSCode Plugin"
+<!-- !!! note "Windows VSCode Plugin"
 
     Sign in and connect to the Perforce server. Navigate to our class folder.
 
@@ -49,4 +49,4 @@ Code collaboration tools improve code quality (and therefore quality of the fina
 
     Fill out the [Google form](https://forms.gle/VzmmsTqbDHXrFVrM7) after you have given each each classmate verbal feedback. The feedback will be shared with your classmate.
 
-    ![Image title](../Projects/Screenshot%202023-10-02%20at%203.01.03%20PM.png)
+    ![Image title](../Projects/Screenshot%202023-10-02%20at%203.01.03%20PM.png) -->
