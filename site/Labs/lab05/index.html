@@ -12,7 +12,7 @@
         <meta name="author" content="Debbie Yuen">
       
       
-        <link rel="canonical" href="https://ctin583.usc.edu/fa23/Labs/lab05/">
+        <link rel="canonical" href="https://ctin583.usc.edu/0.1/Labs/lab05/">
       
       
         <link rel="prev" href="../lab04/">
@@ -785,6 +785,7 @@
 </ul>
 <h2 id="quaternions">Quaternions</h2>
 <h3 id="quaternions-in-math">Quaternions in Math</h3>
+<p><img alt="Image title" src="../quaternions2.png" /></p>
 <p>In Division Algebra, Quaternions are a method to represent a solid 3D object's three dimensional orientations or other rotational quantity. The algebra for Quaternions consists of 4 dimensions, aka 4 scalar variables that are added and multipled as a single unit. These variables are also known as <strong>Euler Parameters</strong> and hold one real dimension and 3 imaginary dimensions. Each of these imaginary dimensions has a unit value of the square root of -1, but they are different square roots of -1 all mutually perpendicular to each other, known as i,j and k. So a quaternion can be represented as <span class="arithmatex">\(a + i b + j c + k d\)</span>.</p>
 <p>For example, the equation <span class="arithmatex">\(z^2 + 1 = 0\)</span>, has infinitely many quaternion solutions, which are the quaternions <span class="arithmatex">\(z = b i + c j + d k\)</span>. The fundamental formula for Quaternion algebra is as follows: </p>
 <div class="arithmatex">\[
@@ -795,11 +796,13 @@ a + i b + j c + k d
 b^2 + c^2 + d^2 = 1
 \]</div>
 <h3 id="gimbal-lock">Gimbal Lock</h3>
+<p><img alt="Image title" src="../gimballock.jpeg" /></p>
 <p>Gimbal lock is the loss of one degree of freedom in a three-dimensional, three-gimbal mechanism that occurs when the axes of two of the three gimbals are driven into a parallel configuration, "locking" the system into rotation in a degenerate two-dimensional space. (Wikipedia)</p>
 <p>The term gimbal-lock can be misleading in the sense that none of the individual gimbals are actually restrained. All three gimbals can still rotate freely about their respective axes of suspension. Nevertheless, because of the parallel orientation of two of the gimbals' axes, there is no gimbal available to accommodate rotation about one axis, leaving the suspended object effectively locked (i.e. unable to rotate) around that axis. (Wikipeda)</p>
 <!-- ### Rotations in Unity -->
 
 <h3 id="quaternions-in-unity">Quaternions in Unity</h3>
+<p><img alt="Image title" src="../quaternions3.png" /></p>
 <p>Quaternions are useful in accurately representing rotations. They are compact, don't suffer from gimbal lock and can easily be interpolated. Unity internally uses Quaternions to represent all rotations and expects Quaternions to be normalized. Luckily in Unity, the individual Quaternion components (x,y,z,w) do not need to be individually accessed or modified. You can take the existing rotations and from there, construct new rotations to smoothly interpolate between two rotations. The Quaternion functions that you will use 9% of the time are:</p>
 <ul>
 <li><code>Quaternion.LookRotation</code> z axis will be aligned with forward, X axis aligned with cross product between forward and upwards, and Y axis aligned with cross product between Z and X.</li>

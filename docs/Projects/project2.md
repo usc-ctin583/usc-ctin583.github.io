@@ -63,6 +63,8 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 
 * Can I create the game version of the phrase “wrong answers only”?
 
+* What actions should the player take?
+
 
 ## 👾 The Game
 
