@@ -27,14 +27,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: purple
-      accent: purple
-    - scheme: slate 
+      primary: blue
+      accent: blue
+    - scheme: "slate"
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: purple
-      accent: purple
+      primary: blue
+      accent: amber
 extra_css: 
     - stylesheets/extra.css
     - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css

@@ -12,7 +12,7 @@
         <meta name="author" content="Debbie Yuen">
       
       
-        <link rel="canonical" href="https://ctin583.usc.edu/0.1/Labs/lab08/">
+        <link rel="canonical" href="https://ctin583.usc.edu/fa23/labs/lab08/">
       
       
         <link rel="prev" href="../lab07/">
@@ -230,7 +230,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Projects/project1/" class="md-tabs__link">
+      <a href="../../projects/proj1/" class="md-tabs__link">
         Projects
       </a>
     </li>
@@ -636,7 +636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Projects/project1/" class="md-nav__link">
+      <a href="../../projects/proj1/" class="md-nav__link">
         ❤️ Project 1: Advocacy
       </a>
     </li>
@@ -650,7 +650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Projects/project1checkpoint/" class="md-nav__link">
+      <a href="../../projects/proj1c/" class="md-nav__link">
         ✅ Checkpoint
       </a>
     </li>
@@ -664,7 +664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Projects/project1due/" class="md-nav__link">
+      <a href="../../projects/proj1s/" class="md-nav__link">
         🏆 Project 1: Submission
       </a>
     </li>
@@ -678,7 +678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Projects/project2/" class="md-nav__link">
+      <a href="../../projects/proj2/" class="md-nav__link">
         🧃 Project 2: Outside the Box
       </a>
     </li>
@@ -692,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Projects/project2checkpoint1/" class="md-nav__link">
+      <a href="../../projects/proj2c1/" class="md-nav__link">
         👾 Pair Programming
       </a>
     </li>
@@ -706,7 +706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Projects/project2checkpoint2/" class="md-nav__link">
+      <a href="../../projects/proj2c2/" class="md-nav__link">
         📝 Paper Checkpoint
       </a>
     </li>
@@ -720,7 +720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Projects/project2checkpoint3/" class="md-nav__link">
+      <a href="../../projects/proj2s/" class="md-nav__link">
         👾 Code Review
       </a>
     </li>
@@ -750,7 +750,7 @@
 
 
 <h1 id="lab-8-illumination">💡 Lab 8: Illumination</h1>
-<p><img alt="Image title" src="../illumination2.png" /></p>
+<p><img alt="Image title" src="../Labs/illumination2.png" /></p>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
 <li><a href="https://docs.unity3d.com/Manual/LightingInUnity.html">Unity Manual: Introduction to Lighting</a></li>
@@ -761,10 +761,10 @@
 <li><a href="https://www.pluralsight.com/blog/film-games/understanding-global-illumination">Understanding Global Illumination</a></li>
 </ul>
 <h2 id="global-illumination">Global Illumination</h2>
-<p><img alt="Image title" src="../illumination1.png" /></p>
+<p><img alt="Image title" src="../Labs/illumination1.png" /></p>
 <p>Our eyes works interpret light by picking up rays of light. These rays of light bounce around and everytime it hits an object, the light responds in a certain way depending on the object's properties. For example, the light may be absorbed or reflected depending on the object's properties it hits and the object's material. In computer graphics, we are now able to simulate light properties. Global illumination plays an essential part in simulating indirect lighting by serving as a set of algorithms whose purpose is to add more realistic lighting to 3D scenes. Global illumination simulates indirect lighting, like light bouncing and color bleeding. Global illumination is an important part of 3D animation and design that helps give it a more realistic feel. Without global illumination, objects simply would look right in certain cases, which would lead to pulling the audience out of the moment. It is also a group of techniques that model both direct and indirect lighting to provide realistic lighting results.</p>
 <p>For example, in Unity you can have multiple objects of various colors where the colors are cast onto a reflective sphere. That effect is referred to as indirect lighting because the colored light isn't being cast directly from a light but rather is the result of light being cast onto a colored object which is then bleeding into the nearby reflective sphere. Global illumination plays a big role in getting this distinctive and often necessary look.  <strong>Unity has two, main global illumination systems, which combine direct and indirect lighting - Progressive Lightmapper (baked) and Enlighten Realtime Global Illumination  (real-time).</strong></p>
-<p><img alt="Image title" src="../light1.png" /></p>
+<p><img alt="Image title" src="../Labs/light1.png" /></p>
 <p>This act of light bouncing around is categorized into two types. Such algorithms take into account not only the light that comes directly from a light source (direct illumination), but also subsequent cases in which light rays from the same source are reflected by other surfaces in the scene, whether reflective or not (indirect illumination). Unity can calculate direct lighting, indirect lighting, or both direct and indirect lighting. The lighting techniques that Unity uses depends on how you configure your Project.</p>
 <ul>
 <li>
