@@ -26,4 +26,4 @@ jobs:
       - run: git fetch origin gh-pages --depth=1
       - run: mike deploy sp24 latest
       - run: mike set-default latest
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy --force --ignore-version
