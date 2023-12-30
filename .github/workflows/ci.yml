@@ -25,6 +25,6 @@ jobs:
       - run: pip install mike
       # - run: mike delete --all
       - run: git fetch origin gh-pages --depth=1
-      - run: mike deploy sp24 latest
+      - run: mike deploy --push --update-aliases sp24 latest
       - run: mike set-default latest
       - run: mkdocs gh-deploy --force --ignore-version
