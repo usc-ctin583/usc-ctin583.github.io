@@ -23,8 +23,8 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: pip install mike
-      - run: mike delete --all --ignore-remote-status
+      # - run: mike delete --all --ignore-remote-status
       - run: git fetch origin gh-pages --depth=1
       - run: mike deploy sp24 latest --ignore-remote-status
-      - run: mike set-default latest --ignore-remote-status
-      - run: mkdocs gh-deploy --force --ignore-version
+      - run: mike set-default --push latest --ignore-remote-status
+      - run: mkdocs gh-deploy --force
