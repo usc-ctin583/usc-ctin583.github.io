@@ -18,12 +18,12 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: mike delete --all
       - run: git config user.name debbieyuen
       - run: git config user.email deborahyuen2016@berkeley.edu
       - run: pip install mkdocs-material
-      - run: pip install mike
       - run: pip install pillow cairosvg
+      - run: pip install mike
+      - run: mike delete --all
       - run: git fetch origin gh-pages --depth=1
       - run: mike deploy sp24 latest
       - run: mike set-default latest
