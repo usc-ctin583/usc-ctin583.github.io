@@ -21,7 +21,6 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mike
       - run: pip install pillow cairosvg
-      - run: mike delete-all
       - run: mike deploy sp24
       - run: mike set-default latest
       - run: mkdocs gh-deploy --force
