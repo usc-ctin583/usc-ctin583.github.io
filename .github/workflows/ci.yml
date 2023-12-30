@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.1
+        fetch-depth: 0 # fetch all commits/branches
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -18,7 +19,6 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-          fetch-depth: 0 # fetch all commits/branches
       - run: git config user.name debbieyuen
       - run: git config user.email deborahyuen2016@berkeley.edu
       - run: pip install mkdocs-material
