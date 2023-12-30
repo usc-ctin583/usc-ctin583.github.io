@@ -18,6 +18,7 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
+      - run: mike delete --all
       - run: git config user.name debbieyuen
       - run: git config user.email deborahyuen2016@berkeley.edu
       - run: pip install mkdocs-material
