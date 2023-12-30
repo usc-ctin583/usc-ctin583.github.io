@@ -19,11 +19,11 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: git config user.name debbieyuen
-      - run: git config user.email deborahyuen2016@berkeley.edu
+      - run: git config user.email myemail@gmail.com
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: pip install mike
       - run: git fetch origin gh-pages --depth=1
       - run: mike deploy --push --update-aliases spring2024 latest
       - run: mike set-default --push latest
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy --force --ignore-version
