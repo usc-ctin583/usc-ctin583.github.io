@@ -22,7 +22,7 @@ jobs:
       - run: git config user.email deborahyuen2016@berkeley.edu
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
-      - run: pip install mike
-      - run: git checkout gh-pages
-      - run: mike delete --all
+      # - run: pip install mike
+      # - run: git checkout gh-pages
+      # - run: mike delete --all
       - run: mkdocs gh-deploy --force
