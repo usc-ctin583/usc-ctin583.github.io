@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.1
-          fetch-depth: 1
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -24,6 +23,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: pip install mike
+      - run: git fetch origin gh-pages --depth=1
       - run: mike deploy --push --update-aliases spring2024 latest
       - run: mike set-default --push latest
       - run: mkdocs gh-deploy --force
