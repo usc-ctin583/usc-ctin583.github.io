@@ -43,7 +43,6 @@ extra_css:
 extra:
   version:
     provider: mike
-    default: sp24
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/USCCinema
