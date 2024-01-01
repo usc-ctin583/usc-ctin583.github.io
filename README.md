@@ -47,6 +47,33 @@ Run and build Website
 $ mkdocs serve
 ```
 
+Run with the different versions. See @squidfunk's example [here](https://github.com/squidfunk/mkdocs-material-example-versioning/tree/master).
+```bash
+$ mike deploy --push --update-aliases 0.1 latest
+$ mike set-default --push latest
+$ mike deploy --push --update-aliases 0.2 latest
+```
+
+If you encounter this error:
+```
+error: failed to push branch gh-pages to origin:
+  To https://github.com/usc-ctin583/usc-ctin583.github.io.git
+   ! [rejected]          gh-pages -> gh-pages (fetch first)
+  error: failed to push some refs to 'https://github.com/usc-ctin583/usc-ctin583.github.io.git'
+  hint: Updates were rejected because the remote contains work that you do not
+  hint: have locally. This is usually caused by another repository pushing to
+  hint: the same ref. If you want to integrate the remote changes, use
+  hint: 'git pull' before pushing again.
+  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+Try:
+```bash
+$ git branch -D gh-pages
+$ git push origin :gh-pages
+$ mkdocs build --clean
+```
+
 ## Usage
 Fork this GitHub repo to build upon this course or create next year's website.
 
