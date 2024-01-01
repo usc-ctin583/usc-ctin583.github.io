@@ -1,6 +1,6 @@
 # Calendars
 
-## 📓 Course Calendar
+## 📓 Course Calendar (Spring 2025)
 | Week | Date                     | Lecture                                           | Lab              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
 | 1    | Mon 8/21 <br> Wed 8/23   | No Class <br> [Introduction to Game Engines](https://www.icloud.com/keynote/0b9Z3oJLZPPXEXypJu4s9P11w#Lecture1) | <br> [Lab 0: Set up](Labs/lab00.md) | |
