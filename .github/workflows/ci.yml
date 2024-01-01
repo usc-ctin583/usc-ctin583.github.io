@@ -23,9 +23,10 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: pip install mike
+      - run: git fetch origin gh-pages --depth=1
       - run: mike deploy sp24
       - run: git push origin gh-pages --force
-      # - run: git fetch origin gh-pages --depth=1
+      
       # - run: mike deploy sp24 latest -f
       # - run: mike deploy --push --update-aliases spring2024 latest
       # - run: mike set-default --push latest
