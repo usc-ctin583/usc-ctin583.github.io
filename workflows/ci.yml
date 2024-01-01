@@ -1,0 +1,30 @@
+name: ci 
+on:
+  push:
+    branches:
+      - master 
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+      - run: git config user.name debbieyuen
+      - run: git config user.email deborahyuen2016@berkeley.edu
+      - run: pip install mkdocs-material
+      - run: pip install pillow cairosvg
+      - run: pip install mike
+      # - run: git fetch origin gh-pages --depth=1
+      # - run: mike deploy sp24 latest -f
+      # - run: mike deploy --push --update-aliases spring2024 latest
+      # - run: mike set-default --push latest
+      - run: mkdocs gh-deploy --force
