@@ -27,4 +27,4 @@ jobs:
       # - run: mike deploy sp24 latest -f
       # - run: mike deploy --push --update-aliases spring2024 latest
       # - run: mike set-default --push latest
-      - run: mkdocs gh-deploy --force
+      # - run: mkdocs gh-deploy --force
