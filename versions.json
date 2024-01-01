@@ -1,5 +1,12 @@
 [
   {
+    "version": "sp24",
+    "title": "sp24",
+    "aliases": [
+      "latest"
+    ]
+  },
+  {
     "version": "fa23",
     "title": "fa23",
     "aliases": []
