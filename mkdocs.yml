@@ -3,6 +3,11 @@ site_name: CTIN 583 Game Development
 site_description: "Course website for USC's Game Development class"
 site_author: Debbie Yuen
 site_url: https://ctin583.usc.edu/
+
+nav: 
+  - index.md
+  - courseinfo.md
+  - resources.md
   
 theme:
   name: material
@@ -43,6 +48,8 @@ extra_css:
 extra:
   version:
     provider: mike
+  tags:
+    <tag>: <HW 1>
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/USCCinema
@@ -87,6 +94,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
 plugins:
+  - tags
   - mike:
       # These fields are all optional; the defaults are as below...
       alias_type: symlink
