@@ -4,11 +4,11 @@ site_description: "Course website for USC's Game Development class"
 site_author: Debbie Yuen
 site_url: https://ctin583.usc.edu/
 
-nav: 
-  - index.md
-  - courseinfo.md
-  - resources.md
-  
+# nav: 
+#   - index.md
+#   - courseinfo.md
+#   - resources.md
+
 theme:
   name: material
   logo: usclogo2-03.png

@@ -1,4 +1,4 @@
-# 🧰 Lab 0: Set Up
+# 🧰 HW 0: Getting Started
 
 In our next two class sessions, we will be learning Godot and Unreal Engine with the Perforce as our primary source control tool. 
 
@@ -49,7 +49,7 @@ GitHub is a platform and cloud-based service for software development and versio
 
     ![Image title](../Labs/gitinstalllfs.png) 
 
-## Unity
+## Unity Engine
 Unity is a cross-platform game engine for mobile, desktop, web, console, and headset games. In this course, we will be working primarily in Unity. If you do not have a Unity account, make sure to sign up with you usc.edu email to get access to Unity's Student Plan.
 
 !!! note "Install Unity Hub (Student)"
@@ -73,7 +73,7 @@ Unity is a cross-platform game engine for mobile, desktop, web, console, and hea
 
     ![Image title](../Labs/Screenshot%202023-08-22%20at%203.45.39%20PM.png) 
 
-## Godot
+## Godot Engine
 Godot is a cross-platform game engine for 2D and 3D games. The cool part of Godot is that it is free and open source! If you're interested, you can contribute to the Godot Engine community on GitHub!
 
 !!! abstract "Reading: Godot Docs"

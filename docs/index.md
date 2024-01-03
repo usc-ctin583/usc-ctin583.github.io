@@ -3,13 +3,13 @@
 ## 📓 Course Calendar
 | Week | Date                     | Lecture                                           | Homework              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
-| 0    | | ==No Class (Winter Recess)== | HW 0: [Software Setup]()  <br> READ: [Course Syllabus ]()               |
-| 1    | Mon 1/08 <br> Wed 1/10   | Introduction to Game Engines <br> Godot Platformer Game and GitHub | HW 1 [What Would C# Do?]() <br> READ: [History of Game Engines]()  | [Godot Platformer]()  |
+| 0    | | ==No Class (Winter Recess)== | HW 0: [Getting Started](./Homework/hw0.md)  <br> READ: [Course Syllabus](./courseinfo.md)               |
+| 1    | Mon 1/08 <br> Wed 1/10   | Introduction to Game Engines <br> Godot Platformer Game and GitHub | HW 1: [What Would C# Do?]() <br> READ: [History of Game Engines]()  | [Godot Platformer]()  |
 | 2    | Mon 1/15 <br> Wed 1/17   | ==No Class (Martin Luther King's Birthday)== <br> Unreal Engine and Perforce | HW 2: Unreal Engine <br> READ: Which Game Engine? | Metahuman DeepFake|
-| 3    | Mon 1/22 <br> Wed 1/24     | Unreal Engine: Metahumans <br> C# and .NET | HW 3: Classes and Coroutines <br> READ: Programming as a Designer | Kitchen Chaos |
+| 3    | Mon 1/22 <br> Wed 1/24     | Unreal Engine: Metahumans with Live Link <br> C# Functions, Control, and .NET | HW 3: Classes and Coroutines <br> READ: Programming as a Designer | Kitchen Chaos |
 | 4    | Mon 1/29 <br> Wed 1/31   | C#: Arrays, Linked Lists, Doubly Linked Lists <br> Unity: Awake, Update, Start| HW 4: Polymorphism <br> READ: Game User Experiences |
-| 5    | Mon 2/05 <br> Wed 2/07   | C#: Coroutines, Recursion <br> Unity: Player Movement | HW 5: Generics and Inheritence <br> READ: Designing Spatial Spaces | Midterm: Advocacy |
-| 6    | Mon 2/12 <br> Wed 2/14   | Unity: Collisions and Physics <br> Unity C#: OOP, DOTS, ECS | HW 6: Quaternions <br> READ: Fostering Empathy Through Media | <br> Midterm Checkpoint |
+| 5    | Mon 2/05 <br> Wed 2/07   | C#: Coroutines, Recursion <br> Unity: Transform and Character Controller | HW 5: Generics and Inheritence <br> READ: Designing Spatial Spaces | Midterm: Advocacy |
+| 6    | Mon 2/12 <br> Wed 2/14   | Unity: RigidBody Collisions and Physics <br> Unity C#: OOP, DOTS, ECS | HW 6: Quaternions <br> READ: Fostering Empathy Through Media | <br> Midterm Checkpoint |
 | 7    | Mon 2/19 <br> Wed 2/21   | ==No Class (President's Day)== <br> WebGL and ReactJS| HW 7: Publishing Builds <br> READ: How to Give Good Feedback |
 | 8    | Mon 2/26 <br> Wed 2/28  | **Midterm Playtest** <br> Unity uGUI and UIToolkit| HW 8: Raycasting <br> READ: The Importance of Presentation | **Midterm Due** |
 | 9    | Mon 3/04 <br> Wed 3/06 | Unity UIToolkit in Worldspace <br> Unity: Mecanim Animation and Rigging | HW 9: Illumination <br> READ: Spatial Computing | Final: Outside the Box |
