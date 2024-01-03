@@ -4,9 +4,9 @@
 | Week | Date                     | Lecture                                           | Homework              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
 | 0    | | ==No Class (Winter Recess)== | HW 0: [Getting Started](./Homework/hw0.md)  <br> READ: [Course Syllabus](./courseinfo.md)               |
-| 1    | Mon 1/08 <br> Wed 1/10   | Introduction to Game Engines <br> Godot Platformer Game and GitHub | HW 1: [What Would C# Do?]() <br> READ: [History of Game Engines]()  | [Godot Platformer]()  |
-| 2    | Mon 1/15 <br> Wed 1/17   | ==No Class (Martin Luther King's Birthday)== <br> Unreal Engine and Perforce | HW 2: Unreal Engine <br> READ: Which Game Engine? | Metahuman DeepFake|
-| 3    | Mon 1/22 <br> Wed 1/24     | Unreal Engine: Metahumans with Live Link <br> C# Functions, Control, and .NET | HW 3: Classes and Coroutines <br> READ: Programming as a Designer | Kitchen Chaos |
+| 1    | Mon 1/08 <br> Wed 1/10   | Introduction to Game Engines <br> Perforce, Git, and Command Line | HW 1: [What Would C# Do?]() <br> READ: [History of Game Engines]()  | [Kitchen Chaos]()  |
+| 2    | Mon 1/15 <br> Wed 1/17   | ==No Class (Martin Luther King's Birthday)== <br> C# Functions, Control, and .NET | HW 2: Unreal Engine <br> READ: Which Game Engine? | |
+| 3    | Mon 1/22 <br> Wed 1/24     | Unity: 2D, 3D, AR, VR <br>  Unity: GetComponents, MeshRenderer | HW 3: Classes and Coroutines <br> READ: Programming as a Designer |  |
 | 4    | Mon 1/29 <br> Wed 1/31   | C#: Arrays, Linked Lists, Doubly Linked Lists <br> Unity: Awake, Update, Start| HW 4: Polymorphism <br> READ: Game User Experiences |
 | 5    | Mon 2/05 <br> Wed 2/07   | C#: Coroutines, Recursion <br> Unity: Transform and Character Controller | HW 5: Generics and Inheritence <br> READ: Designing Spatial Spaces | Midterm: Advocacy |
 | 6    | Mon 2/12 <br> Wed 2/14   | Unity: RigidBody Collisions and Physics <br> Unity C#: OOP, DOTS, ECS | HW 6: Quaternions <br> READ: Fostering Empathy Through Media | <br> Midterm Checkpoint |
