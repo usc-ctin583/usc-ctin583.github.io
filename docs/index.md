@@ -4,11 +4,11 @@
 | Week | Date                     | Lecture                                           | Homework              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
 | 0    | | ==No Class (Winter Recess)== | HW 0: [Getting Started](./Homework/hw0.md)  <br> READ: [Course Syllabus](./courseinfo.md)               |
-| 1    | Mon 1/08 <br> Wed 1/10   | Introduction to Game Engines <br> Perforce, Git, and Command Line | HW 1: [What Would C# Do?]() <br> READ: [History of Game Engines]()  | [Kitchen Chaos]()  |
-| 2    | Mon 1/15 <br> Wed 1/17   | ==No Class (Martin Luther King's Birthday)== <br> C# Functions, Control, and .NET | HW 2: Unreal Engine <br> READ: Which Game Engine? | |
-| 3    | Mon 1/22 <br> Wed 1/24     | Unity: 2D, 3D, AR, VR <br>  Unity: GetComponents, MeshRenderer | HW 3: Classes and Coroutines <br> READ: Programming as a Designer |  |
-| 4    | Mon 1/29 <br> Wed 1/31   | C#: Arrays, Linked Lists, Doubly Linked Lists <br> Unity: Awake, Update, Start| HW 4: Polymorphism <br> READ: Game User Experiences |
-| 5    | Mon 2/05 <br> Wed 2/07   | C#: Coroutines, Recursion <br> Unity: Transform and Character Controller | HW 5: Generics and Inheritence <br> READ: Designing Spatial Spaces | Midterm: Advocacy |
+| 1    | Mon 1/08 <br> Wed 1/10   | Introduction to Game Engines <br> C# Functions, Control, and .NET | HW 1: [What Would C# Do?]() <br> READ: [History of Game Engines]()  | [Kitchen Chaos]()  |
+| 2    | Mon 1/15 <br> Wed 1/17   | ==No Class (Martin Luther King's Birthday)== <br> Unity: 2D, 3D, AR, VR | HW 2: Unreal Engine <br> READ: Which Game Engine? | |
+| 3    | Mon 1/22 <br> Wed 1/24     | Unity: GetComponents, MeshRenderer <br> Unity: Awake, Update, Start | HW 3: Classes and Coroutines <br> READ: Programming as a Designer | Midterm: Advocacy |
+| 4    | Mon 1/29 <br> Wed 1/31   | Unity: Transform and Character Controller  <br> C#: Arrays, Linked Lists, Doubly Linked Lists | HW 4: Polymorphism <br> READ: Game User Experiences |
+| 5    | Mon 2/05 <br> Wed 2/07   |  **Midterm Project Party** <br>  C#: Coroutines, Recursion | HW 5: Generics and Inheritence <br> READ: Designing Spatial Spaces | |
 | 6    | Mon 2/12 <br> Wed 2/14   | Unity: RigidBody Collisions and Physics <br> Unity C#: OOP, DOTS, ECS | HW 6: Quaternions <br> READ: Fostering Empathy Through Media | <br> Midterm Checkpoint |
 | 7    | Mon 2/19 <br> Wed 2/21   | ==No Class (President's Day)== <br> WebGL and ReactJS| HW 7: Publishing Builds <br> READ: How to Give Good Feedback |
 | 8    | Mon 2/26 <br> Wed 2/28  | **Midterm Playtest** <br> Unity uGUI and UIToolkit| HW 8: Raycasting <br> READ: The Importance of Presentation | **Midterm Due** |
