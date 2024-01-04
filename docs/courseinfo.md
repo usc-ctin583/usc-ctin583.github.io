@@ -1,9 +1,9 @@
 # Course Info
 
 !!! tip "Dates and Times"
-    We hope to see you at our in-person lectures and labs every Monday and Wednesday **4:00 - 5:50pm PST** at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/)
+    We hope to see you at our in-person lectures and labs every Monday and Wednesday **8:00 - 10:00am PST** at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/)
 
-This page provides an overview of the policies for this course as taught at [USC Games](https://games.usc.edu/) within the [University of Southern California, School of Cinematic Arts](https://cinema.usc.edu/). We meet Mondays and Wednesdays 4:00pm - 5:50pm PST at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/). Please direct any questions you have in the `# landing-page` channel in the CTIN 583 Discord.
+This page provides an overview of the policies for this course as taught at [USC Games](https://games.usc.edu/) within the [University of Southern California, School of Cinematic Arts](https://cinema.usc.edu/). We meet Mondays and Wednesdays 8:00am- 10:00pm PST at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/). Please direct any questions you have in the `# landing-page` channel in the CTIN 583 Discord.
 
 ## 🧜‍♀️ Staff
 * **Course Instructor:** Deborah (Debbie) Yuen
