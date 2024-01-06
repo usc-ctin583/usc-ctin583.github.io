@@ -7,10 +7,10 @@ This page provides an overview of the policies for this course as taught at [USC
 
 ## 🧜‍♀️ Staff
 * **Course Instructor:** Deborah (Debbie) Yuen
-* **Student Assistant:** Haocheng (Hao) Liu
+* **Student Assistant:** Nile Imatiz
 
 ## 📅 Section Dates
-* **First day of classes:** Monday, August 21, 2023
+* **First day of classes:** Monday, January 8, 2023
 * **Last day to add:** Friday, September 8, 2023
 * **Last day to change to Pass/No Pass:** Friday, September 8, 2023
 * **Last day to drop without a mark of "W" and receive a refund:** Friday, September 8, 2023
