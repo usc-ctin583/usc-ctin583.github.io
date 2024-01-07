@@ -72,7 +72,7 @@ If you need help accessing or using Perforce for class, you can email [creativet
 
 !!! note "Sign in"
 
-    Sign in with your USC credentials.
+    Sign in with your USC NetID credentials and follow the [Setting Up Perforce for Unity](https://docs.google.com/document/d/11HlB3eySUYSPJsy0d9rvQhqTV6lCz00ypQGFg92ZCn8/edit#heading=h.tcv6ud1pa7p) Guide by [Aaron Cheney](https://cinema.usc.edu/directories/profile.cfm?id=65408&first=&last=&title=&did=18&referer=%2Finteractive%2Ffaculty%2Ecfm&startpage=1&startrow=1).
 
     ![Image title](../Homework/hw0/perforcesignin.png) 
 
