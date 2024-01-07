@@ -458,6 +458,34 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#ide-and-text-editors" class="md-nav__link">
+    <span class="md-ellipsis">
+      IDE and Text Editors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Source Control
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Source Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#perforce" class="md-nav__link">
     <span class="md-ellipsis">
       Perforce
@@ -465,8 +493,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#github" class="md-nav__link">
     <span class="md-ellipsis">
       GitHub
@@ -474,8 +502,23 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
+  <a href="#game-engines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Game Engines
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Game Engines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#unity-engine" class="md-nav__link">
     <span class="md-ellipsis">
       Unity Engine
@@ -483,8 +526,8 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#godot-engine" class="md-nav__link">
     <span class="md-ellipsis">
       Godot Engine
@@ -492,11 +535,43 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#unreal-engine" class="md-nav__link">
     <span class="md-ellipsis">
       Unreal Engine
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gradescope" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gradescope
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources-and-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources and Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      Submission
     </span>
   </a>
   
@@ -606,8 +681,53 @@
 
 
 <h1 id="hw-0-getting-started">🧰 HW 0: Getting Started</h1>
-<p>In our next two class sessions, we will be learning Godot and Unreal Engine with the Perforce as our primary source control tool. </p>
-<h2 id="perforce">Perforce</h2>
+<div class="admonition tip">
+<p class="admonition-title">Assignment Deadline</p>
+<p>Please have the setup done by the beginning of the second week of classes. The optional Gradescope assignment is due <strong>January 12th, 2024</strong>.</p>
+</div>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/tZU2GT1fL08xi" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<p><a href="https://giphy.com/gifs/vevo-vevo-tZU2GT1fL08xi">via GIPHY</a></p>
+
+<p>This assignment explains how to setup your computer to complete assignments. If you need help at any time, please feel free to attend office hours or post on <code>Discord</code>. The setup is necessary in completing class labs, homework, and projects. While this lab is required, it is not a graded assignment. If you joined the course late, you can request an extension. </p>
+<p>Here's a breakdown of the major parts of the assignment:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Setup:</strong> Setting up the essential software for the course. This will require several components, listed below.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Source Control:</strong> Install <code>Perforce</code> and create a <code>GitHub Education</code> account. We will be using Perforce for all projects and GitHub for homework assignments.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Install a Terminal:</strong> Install a terminal so you can use <code>Git</code> and <code>Jupyter Notebook</code>. If you have a terminal on your computer and feel comfortable using it, you can skip this part.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Install C# .NET Core:</strong> Install the .NET SDK to your computer. If you already have .NET 6.0 or higher you can skip this part.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Install a Text Editor:</strong> Install software to edit .cs files for this course (e.g. VSCode, Visual Studio, Rider JETBrains, Atom, etc.). You can skip this part if you already have a text editor you like.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Walkthrough: Using the Terminal:</strong> This walks you through how to use the terminal. If you already feel comfortable with both of these you do not need to read this section.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Game Engines:</strong> You must complete an installation for Unity in order to make the most out of this course. Godot and Unreal will be optional.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Gradescope:</strong> In future homework assignments, you must complete this section to get points for the assignment. This will walk you through how to turn in your work after completing the previous section and how to verify that your work is turned in on Gradescope.</li>
+</ul>
+<h2 id="ide-and-text-editors">IDE and Text Editors</h2>
+<p>We will spending most of our time in class writing C# scripts in a text editor. Visual Studio Code (VSCode), Visual Studio, and Rider are the most popular choices amongst Unity game developers. There are a couple of catches.</p>
+<ul>
+<li>VSCode does not have Intellisense for Unity working on most computers. If you figure out how to get Unity C# Intellisense working -- please let me know! </li>
+<li>Visual Studio for Mac is different from the Visual Studio for Windows. They have the same name but they are different. The version for Mac has limited features and extensions you can use.</li>
+<li>Rider is a .NET IDE by JetBrains. You must pay to use it.</li>
+</ul>
+<p>We highly recommend using <strong>Visual Studio</strong> and <strong>Terminal</strong> for this class. This will help us support you best since it has Intellisense and Copilot available for the Unity Engine. Please do not use word processors such as Microsoft Word to edit programs. Word processors can add extra content to documents that will confuse the interpreter.</p>
+<p>For your reference, here are some other text editors:</p>
+<ul>
+<li>Atom: A more lightweight desktop editor.</li>
+<li>Vim: A command-line editor.</li>
+<li>Emacs: A command-line editor.</li>
+<li>PyCharm: A desktop editor designed for Python.</li>
+<li>Sublime Text: A text editor that works with code.</li>
+</ul>
+<h2 id="terminal">Terminal</h2>
+<p>The terminal is a program that allows you to interact with your computer by entering commands. You already have a program called <code>Terminal</code> or <code>Command Line</code> or something similar on your computer. Open that up and you should be good to go. When I am working on my MacBook, I default to <code>iTerm</code>. On my Windows, I default to <code>Command Line</code>.</p>
+<h2 id="source-control">Source Control</h2>
+<p>What is source control? Source control and version control can used interchangeably. However, source control is specific to source code. Version control also covers large binary files and digital assets. Source control is important for maintaining a single source of truth for development teams. Using it helps facilitate collaboration and accelerates release velocity. Source control is a vital component of the development process with source code management systems allowing you to track your code change, see a revision history for your code, and revert to previous versions of a project when needed. With source code management systems, you can collaborate on code with your team, isolate your work until it is ready, and quickly trouble-shoot issues by identifying who made changes and what the changes were. Source code management systems help streamline the development process and provide a centralized source for all your code.</p>
+<p>Some benefits of source control are:</p>
+<ul>
+<li>It allows multiple developers to work on the same codebase.</li>
+<li>Developers can commit and merge code without conflicts.</li>
+<li>Developers can edit shared code without unknowingly overwriting each other’s work.</li>
+</ul>
+<p><img alt="Image title" src="sourcecontrol.png" /> </p>
+<h3 id="perforce">Perforce</h3>
 <p>Perforce is known for its roots with version control. However, Perforce as a whole does much more than create version control tools. Perforce is ideal for large files and binaries that have a lot of assets. Perforce also allows users to lock certain files which is helpful in collaborating on projects. Within the game industry, Perforce is the industry standard tool for version control and code-sharing at the enterprise level. To use it, you'll have to download the Helix Visual Client (P4V) from the Perforce website.</p>
 <p><strong>Why is Perforce the industry standard?</strong>
 You may have used other version control software in the past, like Git or SVN. These are great options because they're free to use.
@@ -617,76 +737,85 @@ In an enterprise environment, there's something much more valuable than the cost
 <li>Perforce handles binary files differently than Git in ways that are especially important in game development.</li>
 <li>Perforce stores version history on a central server, which means each developer only needs the latest version on their computer.</li>
 </ul>
-<p>If you need help accessing or using Perforce for class, you can email <a href="creativetech@cinema.usc.edu">creativetech@cinema.usc.edu</a>.</p>
+<p>If you need help accessing or using Perforce for class, you can email <a href="creativetech@cinema.usc.edu">creativetech@cinema.usc.edu</a> or join USC's <code>Perforce Support Discord</code> channel.</p>
 <div class="admonition note">
 <p class="admonition-title">Download Perforce</p>
 <p>Download <a href="https://www.perforce.com/downloads/helix-visual-client-p4v">Perforce Helix Visual Client (P4V)</a>.</p>
-<p><img alt="Image title" src="../Labs/downloadperforce.png" /> </p>
+<p><img alt="Image title" src="downloadperforce.png" /> </p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Sign in</p>
 <p>Sign in with your USC credentials.</p>
-<p><img alt="Image title" src="../Labs/perforcesignin.png" /> </p>
+<p><img alt="Image title" src="perforcesignin.png" /> </p>
 </div>
-<h2 id="github">GitHub</h2>
-<p>GitHub is a platform and cloud-based service for software development and version control using Git. In order to use GitHub for large files, we must also download Git Large File Storage (LFS)</p>
+<h3 id="github">GitHub</h3>
+<p>GitHub is a platform and cloud-based service for software development and version control using Git. In order to use GitHub for large files, we must also download Git Large File Storage (LFS). In class, we will be learning how to use <code>Git</code> with the terminal and with <a href="https://desktop.github.com/">GitHub Desktop</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Create a GitHub account</p>
 <p><a href="https://education.github.com/">Apply for GitHub Education</a> and create an <a href="https://github.com/">account</a>.</p>
-<p><img alt="Image title" src="../Labs/githubeducation.png" /> </p>
+<p><img alt="Image title" src="githubeducation.png" /> </p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Install Git</p>
 <p><a href="https://git-scm.com/">Install Git</a>.</p>
-<p><img alt="Image title" src="../Labs/gitinstall.png" /> </p>
+<p><img alt="Image title" src="gitinstall.png" /> </p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Install Git LFS</p>
 <p><a href="https://git-lfs.com/">Download Git LFS</a>.</p>
-<p><img alt="Image title" src="../Labs/gitinstalllfs.png" /> </p>
+<p><img alt="Image title" src="gitinstalllfs.png" /> </p>
 </div>
-<h2 id="unity-engine">Unity Engine</h2>
+<h2 id="game-engines">Game Engines</h2>
+<h3 id="unity-engine">Unity Engine</h3>
 <p>Unity is a cross-platform game engine for mobile, desktop, web, console, and headset games. In this course, we will be working primarily in Unity. If you do not have a Unity account, make sure to sign up with you usc.edu email to get access to Unity's Student Plan.</p>
 <div class="admonition note">
 <p class="admonition-title">Install Unity Hub (Student)</p>
 <p>Install the latest version of <a href="https://unity.com/products/unity-student">Unity Hub</a>.
 Below is a screenshot of the latest Unity Hub. Check your version by going to <code>UnityHub/ About Unity Hub</code>.</p>
-<p><img alt="Image title" src="../Labs/unityhubinstall.png" /> </p>
+<p><img alt="Image title" src="unityhubinstall.png" /> </p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Install Unity</p>
 <p>Install Unity Editor Version 2021.3.29f1 or above.
 Make sure to also unclude the <code>WebGL Build Support</code> module.</p>
-<p><img alt="Image title" src="../Labs/unityeditorinstall.png" /> </p>
+<p><img alt="Image title" src="unityeditorinstall.png" /> </p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Download the LEGO Microgame</p>
-<p>Download the LEGO Microgame template. We will be experimenting with the <a href="https://learn.unity.com/project/lego-template">Lego Microgame</a> in future labs. </p>
-<p><img alt="Image title" src="../Labs/Screenshot%202023-08-22%20at%203.45.39%20PM.png" /> </p>
-</div>
-<h2 id="godot-engine">Godot Engine</h2>
+<h3 id="godot-engine">Godot Engine</h3>
 <p>Godot is a cross-platform game engine for 2D and 3D games. The cool part of Godot is that it is free and open source! If you're interested, you can contribute to the Godot Engine community on GitHub!</p>
 <div class="admonition abstract">
 <p class="admonition-title">Reading: Godot Docs</p>
-<p>In the next class, we will be walking through your first Godot 2D and 3D game. Please read the <code>Getting Started/Introduction</code> section before class.</p>
-<p><img alt="Image title" src="../Labs/Screenshot%202023-08-22%20at%204.12.15%20PM.png" /></p>
+<p>If you are intersted in learning Godot, reading the <code>Getting Started/Introduction</code> would be a great place to start!</p>
+<p><img alt="Image title" src="godotdownload.png" /></p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Install Godot</p>
+<p class="admonition-title">Install Godot (Optional)</p>
 <p>Install Godot Engine .NET <a href="https://godotengine.org/download/macos/">Version 4.1.1</a>.</p>
-<p><img alt="Image title" src="../Labs/godot.png" /></p>
+<p><img alt="Image title" src="godot.png" /></p>
 </div>
-<h2 id="unreal-engine">Unreal Engine</h2>
+<h3 id="unreal-engine">Unreal Engine</h3>
 <p>Unreal Engine is a game engine specifically designed for advanced real-time 3D creations and graphics. Unreal Engine is ideal for photoreal visuals and immersive experiences. </p>
 <div class="admonition note">
-<p class="admonition-title">Download Epic Games launcher</p>
+<p class="admonition-title">Download Epic Games launcher (Optional)</p>
 <p>Follow the download <a href="https://www.unrealengine.com/en-US/download">instructions</a>.</p>
-<p><img alt="Image title" src="../Labs/unrealengine.png" /></p>
+<p><img alt="Image title" src="unrealengine.png" /></p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Install Unreal Engine</p>
+<p class="admonition-title">Install Unreal Engine (Optional)</p>
 <p>Download <a href="https://www.unrealengine.com/en-US/tech-blog/unreal-engine-5-2-brings-native-support-for-apple-silicon-and-other-developments-for-macos">Unreal Engine 5.2</a>. This version brings native support to Apple Silion and other developments for macOS.</p>
-<p><img alt="Image title" src="../Labs/Screenshot%202023-08-22%20at%204.35.11%20PM.png" /></p>
+<p><img alt="Image title" src="unrealenginedownload5.png" /></p>
+</div>
+<h2 id="gradescope">Gradescope</h2>
+<h2 id="resources-and-links">Resources and Links</h2>
+<ul>
+<li><a href="">Terminal</a></li>
+<li><a href="">Source Control</a></li>
+<li>[]</li>
+</ul>
+<h2 id="submission">Submission</h2>
+<div class="admonition note">
+<p class="admonition-title">Download the LEGO Microgame</p>
+<p>Download the LEGO Microgame template. We will be experimenting with the <a href="https://learn.unity.com/project/lego-template">Lego Microgame</a> in future labs. </p>
+<p><img alt="Image title" src="lego.png" /> </p>
 </div>
 
 
