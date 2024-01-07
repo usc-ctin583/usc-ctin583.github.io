@@ -20,7 +20,7 @@
 | 14   | Mon 4/08 <br> Wed 4/10 | C#: Delegates and Polymorphism <br> C#: Vectors, Mathf, Matrix, Quaternions | HW 14: Delegates and Events <br> READING: Something| |
 | 15   | Mon 4/15 <br> Wed 4/17 <br> | **Playtest and Code Review** <br> Unity Mathematics | HW 15: Polymorphism <br> What is Computer Graphics? | Code Review |
 | 16   | Mon 4/22 <br> Wed 4/24   | **Paper Peer Review** <br> Unity: Pathfinding Algorithms | HW 16: Godot and Unreal <br> READ: Pair Programming | |
-| 17   | Mon 4/29 <br> Wed 5/01 | **Final Playtest and Presentation** <br> AR/VR Workshop | HW 17: Technical Interviews <br> READ: Technical Interviews| |
+| 17   | Mon 4/29 <br> Wed 5/01 | **Final Playtest and Presentation** <br> Oculus SDK and visionOS Workshop | HW 17: Technical Interviews <br> READ: Technical Interviews| |
 | 18   | Mon 5/06 <br> Wed 5/08 | iOS/Android Mobile Workshop <br> Lua for Game Consoles Workshop | HW 18: The Endgame <br> READ: Something | **Final Project Due** |
 
 ## ✌️ USC Academic Calendar
