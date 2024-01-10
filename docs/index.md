@@ -3,7 +3,7 @@
 ## 📓 Course Calendar
 | Week | Date                     | Lecture                                           | Homework              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
-| 1    | Mon 1/08 <br> Wed 1/10   | [Introduction to Game Engines](https://www.icloud.com/keynote/08aZs5s_uUorg5jJGt1aVn1UQ#Lecture1) <br> C# Functions, Control, and .NET | HW 1: [Getting Started](./Homework/hw00.md)  <br> READ: [Course Syllabus](./courseinfo.md)  | [Kitchen Chaos](./Projects/kitchenchaos.md)  |
+| 1    | Mon 1/08 <br> Wed 1/10   | [Introduction to Game Engines](https://www.icloud.com/keynote/08aZs5s_uUorg5jJGt1aVn1UQ#Lecture1) <br> [C# Functions, Control, and .NET](https://www.icloud.com/keynote/021rBpeSLAtnFPZgx8e1kmDuQ#Lecture2) | HW 1: [Getting Started](./Homework/hw00.md)  <br> READ: [Course Syllabus](./courseinfo.md)  | [Kitchen Chaos](./Projects/kitchenchaos.md)  |
 | 2    | Mon 1/15 <br> Wed 1/17   | ==No Class (Martin Luther King's Birthday)== <br> Unity: 2D, 3D, AR, VR, MR| HW 2: [Classes and Coroutines](./Homework/hw01.md) <br> READ: [URP vs HDRP]() | Midterm: Advocacy |
 | 3    | Mon 1/22 <br> Wed 1/24     | Unity: GetComponents, MeshRenderer <br> Unity: Awake, Update, Start | HW 3: AR and XR Foundation <br> READ: Which Game Engine?  | |
 | 4    | Mon 1/29 <br> Wed 1/31   | Unity: Transform and Character Controller  <br> C#: Arrays, Linked Lists, Doubly Linked Lists | HW 4: Generics and Inheritence <br> READ: Designing Spatial Spaces| Checkpoint |
