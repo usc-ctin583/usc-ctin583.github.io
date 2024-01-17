@@ -1,9 +1,15 @@
-# ❤️ Project 1: Advocacy
+# ❤️ Midterm: Advocacy
 
 !!! tip "Important Dates"
-    **Checkpoint 1:** Monday, October 2nd
+    **Checkpoint 1:** Monday, January 29th
     
-    **Project Due:** Monday, October 9th
+    **Project Party:**  Monday, February 5th
+
+    **Checkpoint 2:** Wednesday, February 14th
+
+    **Project Playtest:** Monday, February 26th
+
+    **Project Due:** Monday, February 26th
 
 
 
@@ -35,6 +41,8 @@ The intent of this project is to build, run, and publish a 3D Unity game that ta
 ## 👾 The Game
 Games have the power to reach, engage, and educate the public. No matter where we end up in life, sharing our knowledge, having and finding purpose, and inspiring others through our works are important in building a more equitable and sustainable world. Select a cause, set of values, or mission you care about and come up with an idea for a game that achieves meaningful social change. Pick something that matters to you and promote the cause and ideas through your game. Advocacy can take many forms such as storytelling, gameplay, and narrative mechanics that inspire players to take action. I challenge you to use your skills and creativity to create a short, fun, and complete game that challenges beliefs, investigates one’s purpose, uplifts others, and spreads compassion. 
 
+Whatever your background is in, use your skills and expertise to create something fun with Unity that has a positive, educational, or impactful message.
+
 **Some potential topics:**
 
 * Animal rights
@@ -52,40 +60,40 @@ Games have the power to reach, engage, and educate the public. No matter where w
 
     Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
 
-    ![Image title](../Projects/urpUnity.png)
+    ![Image title](../Projects/midterm/urpUnity.png)
 
 ???+ note "Step 2: Scene set up"
 
     Right click in the **Hierarchy** and create a new plane at (0, 0, 0) and a 3D cube at (0, 1, 0).
 
-    ![Image title](../Projects/unityEditor.png)
+    ![Image title](../Projects/midterm/unityEditor.png)
 
 ???+ note "Step 3: Package Manager"
 
     In the Windows/Package Manager tab, add [Cinemachine](https://github.com/Unity-Technologies/com.unity.cinemachine) and [AI Navigation](https://github.com/Unity-Technologies/NavMeshComponents/tree/master) packages. If you are workinng in Unity versions older than 2022, please add the **AI Navigation** package by name `com.unity.ai.navigation`
 
-    ![Image title](../Projects/packageManager.png)
+    ![Image title](../Projects/midterm/packageManager.png)
 
 ???+ note "Step 4: Rigidbody and Box Collider"
 
     In your Inspector panel, add the [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) and [Box Collider](https://docs.unity3d.com/Manual/class-BoxCollider.html) components. 
 
-    ![Image title](../Projects/rigidbody.png)
+    ![Image title](../Projects/midterm/rigidbody.png)
 
 
 ???+ note "Step 5: Camera and Cinemachine"
 
     Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
 
-    ![Image title](../Projects/cinemachine.png)
+    ![Image title](../Projects/midterm/cinemachine.png)
 
 ???+ note "Step 6: Opponent Movement and NavMesh"
 
     Unity URP is the best overall pipeline for general purposes. URP has higher rendering quality compared to Unity 3D. Unity 3D is recommended for prototypes that don't require high quality graphics.
 
-    ![Image title](../Projects/navmeshSurface.png)
+    ![Image title](../Projects/midterm/navmeshSurface.png)
 
-    ![Image title](../Projects/navmeshAgent.png)
+    ![Image title](../Projects/midterm/navmeshAgent.png)
 
     === "C#"
 
@@ -151,6 +159,21 @@ We will be play testing your game during class!! Please make sure your game is p
 | Published Website | By **Monday, October 9th (Playtest day)** you must have your game published on itch.io. | 30% |
 | Playtest during class | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on **Wednesday, October 11th**. | 40% |
 | **Total** | | **100%** |
+
+## ✅ Checkpoint
+
+By now, you have worked on project 1 for a week! It is time now to get feedback on your game before play test day. Each student should meet with two classmates to give and receive feedback. Every student will also meet with one of the instructors. Please feel free to ask the instructors for help and advice. We are here to support you!! by the end of the week, you should have met with your instructors and students and have enough feedback to bring your game to the next level! 
+
+!!! note "Peer Feedback Form"
+
+    Fill out the [Google form](https://forms.gle/VzmmsTqbDHXrFVrM7) after you have given each each classmate verbal feedback. The feedback will be shared with your classmate.
+
+    ![Image title](../Projects/midterm/feedback.png)
+
+!!! note "Instructor Check-In"
+
+    Please schedule an office hours appointment with Debbie via Discord or email (yuend@usc.edu).
+    
 
 ## 🦄 Support
 Ask for help! Don't be afraid to reach out to us and ask for help. Work together with your classmates and schedule office hours with the instructors whenever you need help and support.

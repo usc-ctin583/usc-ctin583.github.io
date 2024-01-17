@@ -7,7 +7,7 @@ This page provides an overview of the policies for this course as taught at [USC
 
 ## 🧜‍♀️ Staff
 * **Course Instructor:** Deborah (Debbie) Yuen
-* **Student Assistant:** Nile Imatiz
+* **Student Assistant:** Nile Imtiaz
 
 ## 📅 Section Dates
 * **First day of classes:** Monday, January 8, 2023

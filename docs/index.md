@@ -3,8 +3,8 @@
 ## 📓 Course Calendar
 | Week | Date                     | Lecture                                           | Homework              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
-| 1    | Mon 1/08 <br> Wed 1/10   | [Introduction to Game Engines](https://www.icloud.com/keynote/08aZs5s_uUorg5jJGt1aVn1UQ#Lecture1) <br> [C# Functions, Control, and .NET](https://www.icloud.com/keynote/021rBpeSLAtnFPZgx8e1kmDuQ#Lecture2) | HW 1: [Getting Started](./Homework/hw00.md)  <br> READ: [Course Syllabus](./courseinfo.md)  | [Kitchen Chaos](./Projects/kitchenchaos.md)  |
-| 2    | Mon 1/15 <br> Wed 1/17   | ==No Class (Martin Luther King's Birthday)== <br> Unity: 2D, 3D, AR, VR, MR| HW 2: [Classes and Coroutines](./Homework/hw01.md) <br> READ: [URP vs HDRP]() | Midterm: Advocacy |
+| 1    | Mon 1/08 <br> Wed 1/10   | [Introduction to Game Engines](https://www.icloud.com/keynote/08aZs5s_uUorg5jJGt1aVn1UQ#Lecture1) <br> [C# Functions, Control, and .NET](https://www.icloud.com/keynote/021rBpeSLAtnFPZgx8e1kmDuQ#Lecture2) | HW 1: [Getting Started](./Homework/hw01.md)  <br> READ: [Course Syllabus](./courseinfo.md)  | [Kitchen Chaos](./Projects/kitchenchaos.md)  |
+| 2    | Mon 1/15 <br> Wed 1/17   | ==No Class (Martin Luther King's Birthday)== <br> [Unity: 2D, 3D, AR, VR, MR](https://www.icloud.com/keynote/050xrnFQzZLyjkKliTs21EQkA#Lecture2)| HW 2: [Classes and Coroutines](./Homework/hw02.md) <br> READ: [The MDA Framework](https://users.cs.northwestern.edu/~hunicke/MDA.pdf) | [Midterm: Advocacy](./Projects/midterm.md) |
 | 3    | Mon 1/22 <br> Wed 1/24     | Unity: GetComponents, MeshRenderer <br> Unity: Awake, Update, Start | HW 3: AR and XR Foundation <br> READ: Which Game Engine?  | |
 | 4    | Mon 1/29 <br> Wed 1/31   | Unity: Transform and Character Controller  <br> C#: Arrays, Linked Lists, Doubly Linked Lists | HW 4: Generics and Inheritence <br> READ: Designing Spatial Spaces| Checkpoint |
 | 5    | Mon 2/05 <br> Wed 2/07   |  **Midterm Project Party** <br>  C#: Coroutines, Recursion | HW 5: MR Foundation <br> READ: Game User Experiences | |
@@ -42,8 +42,8 @@
     * MW 12:00 pm - 3:00 pm PST ([On Campus](https://calendly.com/debbieyuen/30min))
     * TuTh 7:00 pm - 10:00 pm PST ([Google Meet]())
 
-* **Nile Imatiz:**
-    *  M 10:00 am - 12:00 pm PST ([On Campus & Discord Voice Channel]())
+* **Nile Imtiaz:**
+    *  To be determined ([On Campus & Discord Voice Channel]())
 
 ## 🏆 Contest Calendar
 | Contest        | Category | Deadline |
