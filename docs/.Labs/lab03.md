@@ -1,4 +1,4 @@
-<!-- # 🎹 Lab 3: Classes and Coroutines
+# 🎹 Lab 3: Classes and Coroutines
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/29irwFioHzxeyjGLQ0" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/Dumativa-jogo-shieldmaiden-remix-edition-29irwFioHzxeyjGLQ0">via GIPHY</a></p>
 
@@ -98,4 +98,4 @@ yield return new WaitForSeconds(2.0f);
 
     Follow along Unity Learn's Intermediate tutorial on [C# Coroutines](https://www.youtube.com/watch?v=5L9ksCs6MbE&ab_channel=Unity). Then watch [Coroutines in Unity](https://www.youtube.com/watch?v=kUP6OK36nrM&t=186s&ab_channel=GameDevBeginner) and [Ienumerator & Corountine in Unity](https://www.youtube.com/watch?v=CU1GHT9tHqQ&ab_channel=DaniKrossing)
 
-    ![Image title](../Labs/Screenshot%202023-10-02%20at%2011.20.39%20AM.png) -->
+    ![Image title](../Labs/Screenshot%202023-10-02%20at%2011.20.39%20AM.png)
