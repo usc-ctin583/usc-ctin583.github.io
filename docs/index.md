@@ -39,11 +39,11 @@
     
     There will be opportunities for weekly or bi-weekly check-ins with the instructor. These check-ins are for lab and project support in addition to any questions covered or not covered within lecture. Feel free to work with Debbie with your projects and for resume/portfolio help! Below are some time frames Debbie is typically available:
 
-    * MW 12:00 pm - 3:00 pm PST ([On Campus](https://calendly.com/debbieyuen/30min))
+    * MW 10:00 am - 12:00 pm PST (On Campus)
     * TuTh 7:00 pm - 10:00 pm PST ([Google Meet]())
 
 * **Nile Imtiaz:**
-    *  To be determined ([On Campus & Discord Voice Channel]())
+    *  Wednesday and Friday after 4 pm
 
 ## 🏆 Contest Calendar
 | Contest        | Category | Deadline |
