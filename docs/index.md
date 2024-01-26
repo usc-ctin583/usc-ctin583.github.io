@@ -10,8 +10,8 @@
 | 5    | Mon 2/05 <br> Wed 2/07   |  **Midterm Project Party** <br>  C#: Coroutines, Recursion | HW 5: MR Foundation <br> READ: Game User Experiences | |
 | 6    | Mon 2/12 <br> Wed 2/14   | Unity: RigidBody Collisions and Physics <br> Unity C#: OOP, DOTS, ECS | HW 6: Quaternions <br> READ: Fostering Empathy Through Media | <br> Checkpoint |
 | 7    | Mon 2/19 <br> Wed 2/21   | ==No Class (President's Day)== <br> WebGL and ReactJS| HW 7: Publishing Builds <br> READ: How to Give Good Feedback |
-| 8    | Mon 2/26 <br> Wed 2/28  | **Midterm Playtest with 🔥 Snapchat 🔥** <br> Unity uGUI and UIToolkit| HW 8: Raycasting <br> READ: The Importance of Presentation | **Midterm Due** |
-| 9    | Mon 3/04 <br> Wed 3/06 | Unity UIToolkit in Worldspace <br> Unity: Mecanim Animation and Rigging | HW 9: Cinematic Studio <br> READ: Spatial Computing | Final: Outside the Box |
+| 8    | Mon 2/26 <br> Wed 2/28  |  **Midterm Project Party** <br> **Midterm Playtest with 🔥 Snapchat 🔥**| HW 8: Raycasting <br> READ: The Importance of Presentation | **Midterm Due** |
+| 9    | Mon 3/04 <br> Wed 3/06 | Unity uGUI and UIToolkit <br> Unity: Mecanim Animation and Rigging | HW 9: Cinematic Studio <br> READ: Spatial Computing | Final: Outside the Box |
 | 10   | Mon 3/11 <br> Wed 3/13 | ==No Class (Spring Recess)== <br> ==No Class (Spring Recess)== | HW 10: Illumination <br> READ: The Future of AR/VR |
 | 11   | Mon 3/18 <br> Wed 3/20  | ==Game Developer Conference== <br> ==Game Developer Conference== | HW 11: Visual Effects Graph <br> READ: The Future of Games in XR |
 | 12   | Mon 3/25 <br> Wed 3/27   | Unity: Humanoid Animation <br> Unity: Advanced Cinemachine | HW 12: Unity AI/MUSE <br> The Impact of AI in Game Dev |
