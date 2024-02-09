@@ -12,13 +12,13 @@
         <meta name="author" content="Debbie Yuen">
       
       
-        <link rel="canonical" href="https://ctin583.usc.edu/sp24/Homework/hw03/">
+        <link rel="canonical" href="https://ctin583.usc.edu/sp24/Homework/hw06/">
       
       
-        <link rel="prev" href="../hw02/">
+        <link rel="prev" href="../hw05/">
       
       
-        <link rel="next" href="../hw04/">
+        <link rel="next" href="../../Projects/kitchenchaos/">
       
       
       <link rel="icon" href="../../favicon3.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>HW 3: AR and XR Foundation - CTIN 583 Game Development</title>
+        <title>HW 6: Quaternions - CTIN 583 Game Development</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hw-3-ar-and-xr-foundation" class="md-skip">
+        <a href="#hw-6-quaternions" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              HW 3: AR and XR Foundation
+              HW 6: Quaternions
             
           </span>
         </div>
@@ -461,30 +461,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    HW 3: AR and XR Foundation
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../hw03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -493,71 +473,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#augmented-reality" class="md-nav__link">
-    <span class="md-ellipsis">
-      Augmented Reality
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#virtual-reality" class="md-nav__link">
-    <span class="md-ellipsis">
-      Virtual Reality
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mixed-reality" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mixed Reality
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#resources-and-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resources and Links
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#submission" class="md-nav__link">
-    <span class="md-ellipsis">
-      Submission
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -609,10 +524,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../hw06/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    HW 6: Quaternions
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -621,6 +556,77 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#resources-and-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources and Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quaternions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quaternions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quaternions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quaternions-in-math" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quaternions in Math
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gimbal-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gimbal Lock
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quaternions-in-unity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quaternions in Unity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -743,94 +749,50 @@
                   
 
 
-<h1 id="hw-3-ar-and-xr-foundation">HW 3: AR and XR Foundation</h1>
-<div class="admonition tip">
-<p class="admonition-title">Assignment Deadline</p>
-<p><a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, January 26th, 2024</strong></p>
-<p><a class="md-button md-button--primary" href="https://www.gradescope.com/courses/696965/assignments/3876763">Submit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.7l167.6-182.9c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg></span></a></p>
-</div>
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/mp6RbySJrSrXF2jdtq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-<p><a href="https://giphy.com/gifs/Futurebiz-ar-augmented-reality-snapchat-mp6RbySJrSrXF2jdtq">via GIPHY</a></p>
-
-<p>Extended Reality (XR) is an umbrella term encapsulating Augmented Reality (AR), Virtual Reality (VR), Mixed Reality (MR), and everything in between. XR is “reality-plus” tech using any kind of display. XR is VR plus AR. XR stands for “extended reality,” an umbrella term that covers VR, AR, and MR. All XR tech takes the human-to-PC screen interface and modifies it, either by 1) immersing you in the virtual environment (VR), 2) adds to, or augments, the user’s surroundings (AR), or 3) both of those (MR).</p>
-<p>The term XR has been around for decades. It first popped up in the 1960s when Charles Wyckoff filed a patent for his silver-halide “XR” film, intended for photographing extremely bright light events, such as nuclear explosions.
-More recently, the term has moved into the mainstream as device makers struggle to describe the different display upgrades they’re working with. A couple of examples are immersing gamers in the action by putting a screen (a smartphone display or headset) right in front of the eyes (VR) or adding game characters to real-world surroundings like in the popular Pokémon Go (AR).</p>
-<h2 id="augmented-reality">Augmented Reality</h2>
-<p>What is AR? Augmented reality is an enhanced, interactive version of a real-world environment achieved through digital visual elements, sounds, and other sensory stimuli via holographic technology. AR incorporates three features: a combination of digital and physical worlds, interactions made in real time, and accurate 3D identification of virtual and real objects.</p>
-<p>Augmented reality offers an alternative way to design, curate, and deliver consumable instructions by overlaying digital content in real-world work environments.</p>
-<ul>
-<li><strong>Augmented reality (AR)</strong>— designed to add digital elements over real-world views with limited interaction.</li>
-<li><strong>Virtual reality (VR)</strong>— immersive experiences helping to isolate users from the real world, usually via a headset device and headphones designed for such activities.</li>
-<li><strong>Mixed reality (MR)</strong>— combining AR and VR elements so that digital objects can interact with the real world, means businesses can design elements anchored within a real environment.</li>
-<li><strong>Extended reality (XR)</strong>— covering all types of technologies that enhance our senses, including the three types previously mentioned.</li>
-</ul>
-<p>There are various types of AR including marker-based and no marker-based. </p>
-<ul>
-<li>
-<p><strong>Marker-based AR</strong> is created using image recognition to identify objects already programmed into your AR device or application. When placing objects in view as points of reference, they can help your AR device determine the position and orientation of the camera. This is generally achieved by switching your camera to grayscale and detecting a marker to compare that marker with all the others in its information bank. Once your device finds a match, it uses that data to mathematically determine the pose and place the AR image in the right spot.</p>
-</li>
-<li>
-<p><strong>Marker-less AR</strong> is more complex as there’s no point in which your device will focus on. Because of this, your device must recognize items as they appear in view. Using a recognition algorithm, the device will look for colors, patterns, and similar features to determine what that object is and then, using time, accelerometer, GPS, and compass information, it will or orient itself and use a camera to overlay an image of whatever you’d like within your real-world surroundings.</p>
-</li>
-</ul>
-<h2 id="virtual-reality">Virtual Reality</h2>
-<p>Virtual reality is a simulated 3D environment that enables users to explore and interact with a virtual surrounding in a way that approximates reality, as it is perceived through the users' senses. The environment is created with computer hardware and software, although users might also need to wear devices such as helmets or goggles to interact with the environment. The more deeply users can immerse themselves in a VR environment -- and block out their physical surroundings -- the more they are able to suspend their belief and accept it as real, even if it is fantastical in nature.</p>
-<p>Some main types:</p>
-<ul>
-<li>
-<p>Non-immersive. This type of VR typically refers to a 3D simulated environment that's accessed through a computer screen. The environment might also generate sound, depending on the program. The user has some control over the virtual environment using a keyboard, mouse or other device, but the environment does not directly interact with the user. A video game is a good example of non-immersive VR, as is a website that enables a user to design a room's decor.</p>
-</li>
-<li>
-<p>Semi-immersive. This type of VR offers a partial virtual experience that's accessed through a computer screen or some type of glasses or headset. It focuses primarily on the visual 3D aspect of virtual reality and does not incorporate physical movement in the way that full immersion does. A common example of semi-immersive VR is the flight simulator, which is used by airlines and militaries to train their pilots.</p>
-</li>
-<li>
-<p>Fully immersive. This type of VR delivers the greatest level of virtual reality, completely immersing the user in the simulated 3D world. It incorporates sight, sound and, in some cases, touch. There have even been some experiments with the addition of smell. Users wear special equipment such as helmets, goggles or gloves and are able to fully interact with the environment. The environment might also incorporate such equipment as treadmills or stationary bicycles to provide users with the experience of moving through the 3D space. Fully immersive VR technology is a field still in its infancy, but it has made important inroads into the gaming industry and to some extent the healthcare industry, and it's generating a great deal of interest in others.</p>
-</li>
-</ul>
-<h2 id="mixed-reality">Mixed Reality</h2>
-<p>Mixed reality is the next wave in computing following mainframes, PCs, and smartphones. Mixed reality is going mainstream for consumers and businesses. It liberates us from screen-bound experiences by offering instinctual interactions with data in our living spaces and with our friends. Online explorers, in hundreds of millions around the world, have experienced mixed reality through their handheld devices. Mobile AR offers the most mainstream mixed reality solutions today on social media. People may not even realize that the AR filters they use on Instagram are mixed reality experiences. Windows Mixed Reality takes all these user experiences to the next level with stunning holographic representations of people, high fidelity holographic 3D models, and the real world around them.</p>
-<p>Mixed reality is a blend of physical and digital worlds, unlocking natural and intuitive 3D human, computer, and environmental interactions. This new reality is based on advancements in computer vision, graphical processing, display technologies, input systems, and cloud computing. The term "mixed reality" was introduced in a 1994 paper by Paul Milgram and Fumio Kishino, "A Taxonomy of Mixed reality Visual Displays." Their paper explored the concept of a virtuality continuum and the taxonomy of visual displays. Since then, the application of mixed reality has gone beyond displays to include:</p>
-<ul>
-<li>Environmental understanding: spatial mapping and anchors.</li>
-<li>Human understanding: hand-tracking, eye-tracking, and speech input.</li>
-<li>Spatial sound.</li>
-<li>Locations and positioning in both physical and virtual spaces.</li>
-<li>Collaboration on 3D assets in mixed reality spaces.</li>
-</ul>
+<h1 id="hw-6-quaternions">HW 6: Quaternions</h1>
+<p><img alt="Image title" src="../Labs/Fv21c.png" /></p>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=fWsPGINexYI&amp;ab_channel=JamesSmith">Dual Body Bimanual Coordination in Immersive Environments</a></li>
-<li><a href="https://www.youtube.com/watch?v=qHSx5f6fRts&amp;ab_channel=JamesSmith">GeneratiVR: Spatial Interactions in Virtual Reality to Explore Generative Design Spaces</a></li>
-<li><a href="https://www.8thwall.com/blog/post/126815603359/wave-hello-to-hand-tracking">8th Wall: Wave Hello to Hand Tracking</a></li>
-<li><a href="https://www.8thwall.com/blog/post/113939468379/new-improved-face-effects-webar#:~:text=Face%20Effects%20also%20features%20all,and%20to%20control%20lip%20movements.">8th Wall: Introducing new and improved Face Effects</a></li>
-<li><a href="https://dynamics.microsoft.com/en-us/mixed-reality/guides/what-is-augmented-reality-ar/">Microsoft: What is augmented reality or AR?</a></li>
-<li><a href="https://www.hp.com/us-en/shop/tech-takes/what-is-xr-changing-world">HP: What Is Extended Reality (XR) and How Is it Changing the Future?</a></li>
-<li><a href="https://docs.snap.com/lens-studio/references/guides/general/lens-studio-for-unity#scene-vs-scene">Lens Studio for Unity Developers</a></li>
-<li><a href="https://learn.microsoft.com/en-us/windows/mixed-reality/discover/mixed-reality">Microsoft: What is Mixed Reality?</a></li>
-<li><a href="https://www.techtarget.com/whatis/definition/virtual-reality">Tech Target: VR</a></li>
+<li><a href="https://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/">Maths - Quaternions</a></li>
+<li><a href="https://mathworld.wolfram.com/Quaternion.html">Wolfram: Quaternion</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quaternion#:~:text=For%20example%2C%20the%20equation%20z,dimensional%20space%20of%20vector%20quaternions.">Wikipedia: Quaternion</a></li>
+<li><a href="https://docs.unity3d.com/ScriptReference/Quaternion.html">Unity Scripting: Quaternion</a></li>
+<li><a href="https://www.youtube.com/watch?v=hd1QzLf4ZH8&amp;ab_channel=Unity">C# Quaternions in Unity!</a></li>
+<li><a href="https://docs.unity.cn/ru/2019.4/Manual/QuaternionAndEulerRotationsInUnity.html">Rotation and Orientation in Unity</a></li>
+<li><a href="https://vionixstudio.com/2022/06/16/unity-quaternion-and-rotation-guide/">Unity Quaternion and Rotation Guide for Beginners</a></li>
+<li><a href="https://medium.com/@spicuzza157/quatern-b5cf7b83b1d1">Quaternions in Unity</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gimbal_lock">Wikipedia: Gimbal Lock</a></li>
 </ul>
-<h2 id="submission">Submission</h2>
-<p>Please pick one of the options below. Pick whichever you find the most interesting and fun. </p>
-<div class="admonition note">
-<p class="admonition-title">Option 1: Unity AR, VR, MR Core</p>
-<p>Install the Unity AR, VR, and MR Core templates. Depending on which Unity version you are on, the name and content of the template may vary. Download the templates and explore what transforms a 3D scene into one that is compatible with AR, VR, or MR. </p>
-<p>Then, try building the template to a device! Here, I tried building my AR template to my iPhone. If you are on Mac, you will need to be on the latest version of MacOS and have XCode installed.</p>
-<p><img alt="Image title" src="../hw3/ARMobile.png" />
-<img alt="Image title" src="../hw3/ARBuild.png" />
-<img alt="Image title" src="../hw3/XCode.png" /></p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Option 2: 8th Wall Effects API</p>
-<p>Last semester, we welcomed a guest speaker from Niantic Labs. 8th Wall is a cross-platform development solution for building AR experiences that run on the mobile web and iOS/Android applications developed by Niantic Labs. 8th Wall is a great tool in simplifying the prototyping process for AR applications. </p>
-<p>If you are interested in learning more about 8th Wall or Niantic Labs feel free to connect with <a href="https://joshmao.com/about">Josh Mao</a> (he/him) on LinkedIn. </p>
-<p>In the meantime, lets give the <a href="https://www.8thwall.com/blog/post/113939468379/new-improved-face-effects-webar#:~:text=Face%20Effects%20also%20features%20all,and%20to%20control%20lip%20movements.">8th Wall Face Effects API</a> a try. You can also find and clone the project at the following link: <a href="https://www.8thwall.com/8thwall/face-makeup-aframe"><code>https://www.8thwall.com/8thwall/face-makeup-aframe</code></a>. </p>
-<p><img alt="Image title" src="../hw3/8thWall.png" /></p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Option 3: Snapchat Lens Studio</p>
-<p>This semester, a Design Manager from Snapchat will be attending our playtest for our midterm projects. Feel free to explore Snapchat's <a href="https://docs.snap.com/lens-studio/references/guides/general/lens-studio-for-unity#unity-to-lens-studio-glossary">Lens Studio for Unity Developers</a> and select any of the <a href="https://docs.snap.com/lens-studio/references/guides/general/lens-studio-for-unity#unity-to-lens-studio-glossary">"Getting Started" tutorials</a> with Snapchat's Developer Toolkit. For your Gradescope submission, please take a screenshot of what something you tried making with Snapchat Lens Studio.</p>
-<p><img alt="Image title" src="../hw3/LensStudio.png" /></p>
-</div>
+<h2 id="quaternions">Quaternions</h2>
+<h3 id="quaternions-in-math">Quaternions in Math</h3>
+<p><img alt="Image title" src="../Labs/quaternions2.png" /></p>
+<p>In Division Algebra, Quaternions are a method to represent a solid 3D object's three dimensional orientations or other rotational quantity. The algebra for Quaternions consists of 4 dimensions, aka 4 scalar variables that are added and multipled as a single unit. These variables are also known as <strong>Euler Parameters</strong> and hold one real dimension and 3 imaginary dimensions. Each of these imaginary dimensions has a unit value of the square root of -1, but they are different square roots of -1 all mutually perpendicular to each other, known as i,j and k. So a quaternion can be represented as <span class="arithmatex">\(a + i b + j c + k d\)</span>.</p>
+<p>For example, the equation <span class="arithmatex">\(z^2 + 1 = 0\)</span>, has infinitely many quaternion solutions, which are the quaternions <span class="arithmatex">\(z = b i + c j + d k\)</span>. The fundamental formula for Quaternion algebra is as follows: </p>
+<div class="arithmatex">\[
+a + i b + j c + k d
+\]</div>
+<p>As such, these "roots of -1" form a unit square in the 3D space of vector quaternions. It may seem strange that there are 3 square roots of -1, but we have to remember that we are working in 4 dimensions so there are at least 3 ways to get round from +1 to -1. It is not very practical to try to draw 4 dimensions in 2 dimensions</p>
+<div class="arithmatex">\[
+b^2 + c^2 + d^2 = 1
+\]</div>
+<h3 id="gimbal-lock">Gimbal Lock</h3>
+<p><img alt="Image title" src="../Labs/gimballock.jpeg" /></p>
+<p>Gimbal lock is the loss of one degree of freedom in a three-dimensional, three-gimbal mechanism that occurs when the axes of two of the three gimbals are driven into a parallel configuration, "locking" the system into rotation in a degenerate two-dimensional space. (Wikipedia)</p>
+<p>The term gimbal-lock can be misleading in the sense that none of the individual gimbals are actually restrained. All three gimbals can still rotate freely about their respective axes of suspension. Nevertheless, because of the parallel orientation of two of the gimbals' axes, there is no gimbal available to accommodate rotation about one axis, leaving the suspended object effectively locked (i.e. unable to rotate) around that axis. (Wikipeda)</p>
+<!-- ### Rotations in Unity -->
+
+<h3 id="quaternions-in-unity">Quaternions in Unity</h3>
+<p><img alt="Image title" src="../Labs/quaternions3.png" /></p>
+<p>Quaternions are useful in accurately representing rotations. They are compact, don't suffer from gimbal lock and can easily be interpolated. Unity internally uses Quaternions to represent all rotations and expects Quaternions to be normalized. Luckily in Unity, the individual Quaternion components (x,y,z,w) do not need to be individually accessed or modified. You can take the existing rotations and from there, construct new rotations to smoothly interpolate between two rotations. The Quaternion functions that you will use 9% of the time are:</p>
+<ul>
+<li><code>Quaternion.LookRotation</code> z axis will be aligned with forward, X axis aligned with cross product between forward and upwards, and Y axis aligned with cross product between Z and X.</li>
+<li><code>Quaternion.Quaternion.Angle</code> Think of two GameObjects (A and B) moving around a third GameObject (C). Lines from C to A and C to B create a triangle which can change over time. The angle between CA and CB is the value Quaternion.Angle provides.</li>
+<li><code>Quaternion.Euler</code> Returns a rotation that rotates z degrees around the z axis, x degrees around the x axis, and y degrees around the y axis; applied in that order.</li>
+<li><code>Quaternion.Slerp</code> Use this to create a rotation which smoothly interpolates between the first quaternion a to the second quaternion b, based on the value of the parameter t. If the value of the parameter is close to 0, the output will be close to a, if it is close to 1, the output will be close to b.</li>
+<li><code>Quaternion.FromToRotation</code> Usually you use this to rotate a transform so that one of its axes eg. the y-axis - follows a target direction toDirection in world space.</li>
+<li><code>Quaternion.identity</code> This quaternion corresponds to "no rotation" - the object is perfectly aligned with the world or parent axes.</li>
+<li><code>Quaternion.operator</code> rotate one rotation by another, or to rotate a vector by a rotation</li>
+</ul>
 
 
 

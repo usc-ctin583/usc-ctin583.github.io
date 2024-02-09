@@ -18,7 +18,7 @@
         <link rel="prev" href="../hw04/">
       
       
-        <link rel="next" href="../../Projects/kitchenchaos/">
+        <link rel="next" href="../hw06/">
       
       
       <link rel="icon" href="../../favicon3.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>🏡 HW 4: Object-Oriented Concepts - CTIN 583 Game Development</title>
+        <title>HW 5: Object-Oriented Concepts - CTIN 583 Game Development</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hw-4-object-oriented-concepts" class="md-skip">
+        <a href="#hw-5-object-oriented-concepts" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🏡 HW 4: Object-Oriented Concepts
+              HW 5: Object-Oriented Concepts
             
           </span>
         </div>
@@ -380,6 +380,8 @@
       
         
       
+        
+      
     
     
     
@@ -424,7 +426,7 @@
         
   
   <span class="md-ellipsis">
-    🧰 HW 1: Getting Started
+    HW 1: Getting Started
   </span>
   
 
@@ -445,7 +447,7 @@
         
   
   <span class="md-ellipsis">
-    🧰 HW 2: Classes and Coroutines
+    HW 2: Classes and Coroutines
   </span>
   
 
@@ -466,7 +468,7 @@
         
   
   <span class="md-ellipsis">
-    🧰 HW 3: AR and XR Foundation
+    HW 3: AR and XR Foundation
   </span>
   
 
@@ -487,7 +489,7 @@
         
   
   <span class="md-ellipsis">
-    🏡 HW 4: Generics and Inheritence
+    HW 4: Generics and Inheritence
   </span>
   
 
@@ -517,7 +519,7 @@
           
   
   <span class="md-ellipsis">
-    🏡 HW 4: Object-Oriented Concepts
+    HW 5: Object-Oriented Concepts
   </span>
   
 
@@ -528,7 +530,7 @@
         
   
   <span class="md-ellipsis">
-    🏡 HW 4: Object-Oriented Concepts
+    HW 5: Object-Oriented Concepts
   </span>
   
 
@@ -558,10 +560,67 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#enumerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enumerations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tuples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuples
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources-and-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources and Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      Submission
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HW 6: Quaternions
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -684,15 +743,112 @@
                   
 
 
-<h1 id="hw-4-object-oriented-concepts">🏡 HW 4: Object-Oriented Concepts</h1>
+<h1 id="hw-5-object-oriented-concepts">HW 5: Object-Oriented Concepts</h1>
 <div class="admonition tip">
 <p class="admonition-title">Assignment Deadline</p>
-<p><a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, February 2nd, 2024</strong></p>
+<p>Optional <a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, February 9th, 2024</strong></p>
 <p><a class="md-button md-button--primary" href="https://www.gradescope.com/courses/696965/assignments/3876763">Submit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.7l167.6-182.9c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg></span></a></p>
 </div>
 <h2 id="object-oriented-programming">Object-Oriented Programming</h2>
-<p>Object-oriented programming allows us to separate large programs into individual components called objects, each responsible for a small slice of the overall program. Objects belong to a class, which defines a category of things with the same structure and capabilities. </p>
-<p>The basic concept of object-oriened programming is that instead of putting all of our code into a single ever-growing blob of code, we split our program into multiple components called <strong>objects</strong>. </p>
+<p>C# is an object-oriented programming language, meaning that the code we write is organized into little blocks. Each object has its own data and capabilities such as variables and methods. These objects then work together to form a system. Object-oriented programming allows us to separate large programs into individual components called objects, each responsible for a small slice of the overall program. Objects belong to a class, which defines a category of things with the same structure and capabilities. </p>
+<p>The basic concept of object-oriened programming is that instead of putting all of our code into a single ever-growing blob of code, we split our program into multiple components called <strong>objects</strong>. Each object has a singly responsible for something and then collaborate t ogether to solve some problem. </p>
+<p><strong>The four basic principles of object-oriented programming are:</strong></p>
+<ul>
+<li><strong>Abstraction:</strong> Modeling the relevant attributes and interactions of entities as classes to define an abstract representation of a system.</li>
+<li><strong>Encapsulation:</strong> Hiding the internal state and functionality of an object and only allowing access through a public set of functions.</li>
+<li><strong>Inheritance Ability:</strong> to create new abstractions based on existing abstractions.</li>
+<li><strong>Polymorphism Ability:</strong> to implement inherited properties or methods in different ways across multiple abstractions.</li>
+</ul>
+<p><strong>Some key points of OOP:</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Objects can be created/discarded while the program runs. When an object is no longer needed it can be removed</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Objects contain methods and variables. The variables store it data. The methods allow other objects to make requests to it</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Objects can communicate or coorinate with othe objects by calling one of its methods</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> In C#, every object belongs to a specific <strong>class</strong> or <strong>type</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Several objects can belong to the same class. Objects of a particular class are called <strong>instances</strong> of a class</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> There are many predefined classes of objects that exist a part of .NET and/or Unity. However, we can always define our own new classes as well</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> C# provides support on how we can define new types from built-in ones, including enumerations, tuples, structs, and classes</li>
+</ul>
+<h2 id="enumerations">Enumerations</h2>
+<p>In C#, types are important and so far we have used some common data types such as <code>int</code> and <code>string</code>. </p>
+<p>Enumereations are types that are useful when we have a relatively small set of choices. They are custom types that lists the set of allowed values: <code>enum Season { Winter, Spring, Summer, Fall }</code>. We define enumerations always after our all our methods or in a separate file on its own. After defining your enumeration, you are able to use it as variable's type: <code>Season now = Season.Winter;</code></p>
+<p>How do we define an enumeration? </p>
+<p>An enumeration type (or enum type) is a value type defined by a set of named constants of the underlying integral numeric type. To define an enumeration type, use the enum keyword and specify the names of enum members. In the example below, we define a new enumeration by starting with the <code>enum</code> keyword, followed by the enumeration's name <code>(Season)</code>. A set of curly braces contains the options for the enumeration, separated by commas. In C#, remember that it is common practice to use UpperCamelCase for type names (such as enumerations) and enumeration numbers. The first item you list will be the enumeration's default value!</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">C#</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-c# highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">DeclaringEnums.cs</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">6</a></span>
+<span class="normal"><a href="#__codelineno-0-7">7</a></span>
+<span class="normal"><a href="#__codelineno-0-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1">// Declaring a new enumeration to represent seasons</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="k">enum</span><span class="w"> </span><span class="n">Season</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="p">{</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">    </span><span class="n">Spring</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">    </span><span class="n">Summer</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="w">    </span><span class="n">Autumn</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">    </span><span class="n">Winter</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<p>With our <code>Season</code> emumeration defined, w can use it like any other type. For example, we can declare a variable whose type is <code>Season</code>.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">C#</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>// Declaring a variable with type Season
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Season current;
+</span></code></pre></div>
+<p>The compiler can also help us enforce that only legitimate seasons are assigned to this varible. In the example below, we have access to a specific enumeration value through the enumeration type name and the dot operator.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">C#</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>// Declaring a new enumeration to represent seasons
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>Season current = Season.Summer;
+</span></code></pre></div>
+<p>By default, the associated constant values of enum members are of type int; they start with zero and increase by one following the definition text order. You can explicitly specify any other integral numeric type as an underlying type of an enumeration type. You can also explicitly specify the associated constant values, as the following example shows:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">C#</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-c# highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">DeclaringEnums.cs</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
+<span class="normal"><a href="#__codelineno-3-2">2</a></span>
+<span class="normal"><a href="#__codelineno-3-3">3</a></span>
+<span class="normal"><a href="#__codelineno-3-4">4</a></span>
+<span class="normal"><a href="#__codelineno-3-5">5</a></span>
+<span class="normal"><a href="#__codelineno-3-6">6</a></span>
+<span class="normal"><a href="#__codelineno-3-7">7</a></span>
+<span class="normal"><a href="#__codelineno-3-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="c1">// Declaring an enumeration type</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="k">enum</span><span class="w"> </span><span class="n">ErrorCode</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kt">ushort</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="p">{</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="n">None</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">,</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">    </span><span class="n">Unknown</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">,</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="w">    </span><span class="n">ConnectionLost</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">100</span><span class="p">,</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="w">    </span><span class="n">OutlierReading</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">200</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="p">}</span>
+</span></code></pre></div></td></tr></table></div>
+<p>You cannot define a method inside the definition of an enumeration type. To add functionality to an enumeration type, create an extension method.</p>
+<h2 id="tuples">Tuples</h2>
+<p>Tuples in C# are only used occasionally. However, they are useful in combining mulitple pieces into a single element. They combine multiple elements into a single bundle: <code>(double, double) point = (2, 4);</code>. They are sometimes referred to by the number of items in them: a 2-tuple if it has two t hings, an 8-tuple if it has eight things, etc.</p>
+<h2 id="resources-and-links">Resources and Links</h2>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum">Enumeration Types</a></li>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop">Object-Oriented Programming</a></li>
+<li><a href="">The C# Player's Guide</a></li>
+</ul>
+<h2 id="submission">Submission</h2>
+<div class="admonition note">
+<p class="admonition-title">Gradescope Submission</p>
+<p>This assignment will be an optional submission. All students will get full points regardless of whether they submit on Gradescope.</p>
+</div>
 
 
 
