@@ -9,18 +9,18 @@
 | 4    | Mon 1/29 <br> Wed 1/31   | [Unity: Transform and Character Controller](https://www.icloud.com/keynote/0e0UtKy2EkX7bf1c8iZVu4Qiw#Lecture4)  <br> [C#: Arrays, Linked Lists, Doubly Linked Lists]() | HW 4: [Generics and Inheritence](./Homework/hw04.md) <br> READ: [Dual Body Bimanual Coordination](https://dl.acm.org/doi/10.1145/3563657.3596082)| [Checkpoint](./Projects/midterm.md) |
 | 5    | Mon 2/05 <br> Wed 2/07   |  [Unity: RigidBody Collisions]() <br>  [**Midterm Project Party**]() | HW 5: [Object-Oriented Concepts](./Homework/hw05.md) <br> READ: [CHI Game UX Design & Research](https://dl.acm.org/doi/abs/10.1145/3544549.3574181) | |
 | 6    | Mon 2/12 <br> Wed 2/14  |  [Unity: RigidBody Physics](https://www.icloud.com/keynote/010hjZ9tjTwgBLCzRhQpEJgTQ#Lecture4) <br> C#: Recursion and Coroutines | HW 6: [Quaternions](./Homework/hw06.md) <br> READ: [Fostering Empathy Through Media](https://dl.acm.org/doi/10.1145/3383668.3419929) | <br> [Checkpoint](./Projects/midterm.md) |
-| 7    | Mon 2/19 <br> Wed 2/21   | ==No Class (President's Day)== <br> Unity C#: OOP, DOTS, ECS | HW 7: Publishing Builds <br> READ: How to Give Good Feedback |
-| 8    | Mon 2/26 <br> Wed 2/28  |  WebGL and ReactJS <br> **Midterm Playtest with 🔥 Snapchat 🔥**| HW 8: Raycasting <br> READ: The Importance of Presentation | **Midterm Due** |
-| 9    | Mon 3/04 <br> Wed 3/06 | Unity uGUI and UIToolkit <br> Unity: Mecanim Animation and Rigging | HW 9: Cinematic Studio <br> READ: Spatial Computing | Final: Outside the Box |
+| 7    | Mon 2/19 <br> Wed 2/21   | ==No Class (President's Day)== <br> Unity: DOTS and ECS | HW 7: Publishing Builds <br> READ: How to Give Good Feedback |
+| 8    | Mon 2/26 <br> Wed 2/28  |  WebGL and ReactJS <br> **Midterm Playtest with 🔥 Snapchat 🔥**| HW 8: Raycasting <br> READ: Web Dev vs Game Dev | **Midterm Due** |
+| 9    | Mon 3/04 <br> Wed 3/06 | Unity uGUI in Worldspace <br> Unity UIToolkit for In-Game UI | HW 9: Cinematic Studio <br> READ: Real-time Raytracing | Final: Outside the Box |
 | 10   | Mon 3/11 <br> Wed 3/13 | ==No Class (Spring Recess)== <br> ==No Class (Spring Recess)== | HW 10: Illumination <br> READ: The Future of AR/VR |
-| 11   | Mon 3/18 <br> Wed 3/20  | ==Game Developer Conference== <br> ==Game Developer Conference== | HW 11: Visual Effects Graph <br> READ: The Future of Games in XR |
-| 12   | Mon 3/25 <br> Wed 3/27   | Unity: Humanoid Animation <br> Unity: Advanced Cinemachine | HW 12: Unity AI/MUSE <br> The Impact of AI in Game Dev |
-| 13   | Mon 4/01 <br> Wed 4/03 | Yarn Spinner Language Selection <br> Yarn Spinner Variable Management| HW 13: Error Handling <br> READ: Debugging Help | Paper Checkpoint |
-| 14   | Mon 4/08 <br> Wed 4/10 | C#: Delegates and Polymorphism <br> C#: Vectors, Mathf, Matrix, Quaternions | HW 14: Delegates and Events <br> READING: Something| |
-| 15   | Mon 4/15 <br> Wed 4/17 <br> | **Playtest and Code Review** <br> Unity Mathematics | HW 15: Polymorphism <br> What is Computer Graphics? | Code Review |
-| 16   | Mon 4/22 <br> Wed 4/24   | **Paper Peer Review** <br> Unity: Pathfinding Algorithms | HW 16: Godot and Unreal <br> READ: Pair Programming | |
-| 17   | Mon 4/29 <br> Wed 5/01 | **Final Playtest and Presentation** <br> Oculus SDK and visionOS Workshop | HW 17: Technical Interviews <br> READ: Technical Interviews| |
-| 18   | Mon 5/06 <br> Wed 5/08 | iOS/Android Mobile Workshop <br> Lua for Game Consoles Workshop | HW 18: The Endgame <br> READ: Something | **Final Project Due** |
+| 11   | Mon 3/18 <br> Wed 3/20  | ==Game Developer Conference== <br> ==Game Developer Conference== | HW 11: Visual Effects Graph <br> READ: Computer Graphics for Games |
+| 12   | Mon 3/25 <br> Wed 3/27   | Rigging and Humanoid Animation <br> Advanced Cameras and Cinemachine | HW 12: Unity Generative AI <br> READ: AI and Cinema |
+| 13   | Mon 4/01 <br> Wed 4/03 | Yarn Spinner Language Selection <br> Yarn Spinner Variable Management| HW 13: Tests and Error Handling <br> READ: Narrative Categorization | Paper Checkpoint |
+| 14   | Mon 4/08 <br> Wed 4/10 | C#: Delegates and Polymorphism <br> C#: Vectors, Matrix, Quaternions | HW 14: Delegates and Events <br> READ: Copilot and Stack Overflow | |
+| 15   | Mon 4/15 <br> Wed 4/17 <br> | **Playtest and Code Review** <br> Unity Mathematics vs Mathf | HW 15: Polymorphism <br> READ: Generative AI in Media | Code Review |
+| 16   | Mon 4/22 <br> Wed 4/24   | Navigation AI: A* Algorithm <br> Custom Pathfinding Algorithms| HW 16: Unreal Metahumans <br> READ: Heuristics in Game AI | |
+| 17   | Mon 4/29 <br> Wed 5/01 | **Final Playtest and Presentation** <br> Oculus SDK and visionOS Workshop | HW 17: Problem Solving Assessment <br> READ: Game Dev Portfolios | |
+| 18   | Mon 5/06 <br> Wed 5/08 | iOS/Android Mobile Workshop <br> Lua for Game Consoles Workshop | HW 18: CodeSignal Technicals <br> READ: Cracking the Coding Interview | **Final Project Due** |
 
 
 ## ✌️ USC Academic Calendar
