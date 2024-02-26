@@ -14,9 +14,9 @@
 | 9    | Mon 3/04 <br> Wed 3/06 | Unity uGUI in Worldspace <br> Unity UIToolkit for In-Game UI | HW 9: Cinematic Studio <br> READ: Real-time Raytracing | Final: Outside the Box |
 | 10   | Mon 3/11 <br> Wed 3/13 | ==No Class (Spring Recess)== <br> ==No Class (Spring Recess)== | HW 10: Illumination <br> READ: The Future of AR/VR |
 | 11   | Mon 3/18 <br> Wed 3/20  | ==Game Developer Conference== <br> ==Game Developer Conference== | HW 11: Visual Effects Graph <br> READ: Computer Graphics for Games |
-| 12   | Mon 3/25 <br> Wed 3/27   | Rigging and Humanoid Animation <br> Advanced Cameras and Cinemachine | HW 12: Unity Generative AI <br> READ: AI and Cinema |
-| 13   | Mon 4/01 <br> Wed 4/03 | Yarn Spinner Language Selection <br> Yarn Spinner Variable Management| HW 13: Tests and Error Handling <br> READ: Narrative Categorization | Paper Checkpoint |
-| 14   | Mon 4/08 <br> Wed 4/10 | C#: Delegates and Polymorphism <br> C#: Vectors, Matrix, Quaternions | HW 14: Delegates and Events <br> READ: Copilot and Stack Overflow | |
+| 12   | Mon 3/25 <br> Wed 3/27   | Rigging and Humanoid Animation <br> Advanced Cameras and Cinemachine | HW 12: Hugging Face Unity API <br> READ: AI and Cinema |
+| 13   | Mon 4/01 <br> Wed 4/03 | Yarn Spinner Language Selection <br> Yarn Spinner Variable Management| HW 13: Unity ML-Agents Toolkit <br> READ: Narrative Categorization | Paper Checkpoint |
+| 14   | Mon 4/08 <br> Wed 4/10 | C#: Delegates and Polymorphism <br> C#: Vectors, Matrix, Quaternions | HW 14: Delegates and Events <br> READ: Machine Learning Agents| |
 | 15   | Mon 4/15 <br> Wed 4/17 <br> | **Playtest and Code Review** <br> Unity Mathematics vs Mathf | HW 15: Polymorphism <br> READ: Generative AI in Media | Code Review |
 | 16   | Mon 4/22 <br> Wed 4/24   | Navigation AI: A* Algorithm <br> Custom Pathfinding Algorithms| HW 16: Unreal Metahumans <br> READ: Heuristics in Game AI | |
 | 17   | Mon 4/29 <br> Wed 5/01 | **Final Playtest and Presentation** <br> Oculus SDK and visionOS Workshop | HW 17: Problem Solving Assessment <br> READ: Game Dev Portfolios | |
