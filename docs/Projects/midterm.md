@@ -154,10 +154,10 @@ We will be play testing your game during class!! Please make sure your game is p
 | Assignment | Description | Percentage |
 | :--------- | :--------- | :--------- |
 | Documentation | Spend some time writing taglines and descriptions for your project. Take some videos and screenshots that you can use for your portfolio and resume. The instructors will be giving you feedback on this project through your portfolio. | 10% |
-| Peer Feedback | During *Week 7*, please meet with 2 of your classmates to give and receive feedback. It is important to give verbal and written feedback. Please fill out the google form for each student you gave feedback to. | 10% |
+| Peer Feedback | Please meet with 2 of your classmates to give and receive feedback. It is important to give verbal and written feedback. Please fill out the google form for each student you gave feedback to. | 10% |
 | Checkpoint 1 | Check in with any instructor. Show they what you've been working on and ask them any questions you have. | 10% |
-| Published Website | By **Monday, October 9th (Playtest day)** you must have your game published on itch.io. | 30% |
-| Playtest during class | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on **Wednesday, October 11th**. | 40% |
+| Published Website | By **Monday, February 25th** you must have your game published on itch.io. | 30% |
+| Playtest during class | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on after **Monday, February 25th**. | 40% |
 | **Total** | | **100%** |
 
 ## ✅ Checkpoint
