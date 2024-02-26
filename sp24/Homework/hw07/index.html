@@ -12,13 +12,13 @@
         <meta name="author" content="Debbie Yuen">
       
       
-        <link rel="canonical" href="https://ctin583.usc.edu/sp24/Homework/hw06/">
+        <link rel="canonical" href="https://ctin583.usc.edu/sp24/Homework/hw07/">
       
       
-        <link rel="prev" href="../hw05/">
+        <link rel="prev" href="../hw06/">
       
       
-        <link rel="next" href="../hw07/">
+        <link rel="next" href="../../Projects/kitchenchaos/">
       
       
       <link rel="icon" href="../../favicon3.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>HW 6: Quaternions - CTIN 583 Game Development</title>
+        <title>👷‍♀️ HW 07: Publishing Builds - CTIN 583 Game Development</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hw-6-quaternions" class="md-skip">
+        <a href="#hw-07-publishing-builds" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              HW 6: Quaternions
+              👷‍♀️ HW 07: Publishing Builds
             
           </span>
         </div>
@@ -529,6 +529,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HW 6: Quaternions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -545,7 +566,7 @@
           
   
   <span class="md-ellipsis">
-    HW 6: Quaternions
+    👷‍♀️ HW 07: Publishing Builds
   </span>
   
 
@@ -556,7 +577,7 @@
         
   
   <span class="md-ellipsis">
-    HW 6: Quaternions
+    👷‍♀️ HW 07: Publishing Builds
   </span>
   
 
@@ -578,57 +599,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quaternions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quaternions
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Quaternions">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#quaternions-in-math" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quaternions in Math
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gimbal-lock" class="md-nav__link">
-    <span class="md-ellipsis">
-      Gimbal Lock
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#quaternions-in-unity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quaternions in Unity
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#problems" class="md-nav__link">
-    <span class="md-ellipsis">
-      Problems
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#resources-and-links" class="md-nav__link">
     <span class="md-ellipsis">
       Resources and Links
@@ -638,9 +608,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#submission" class="md-nav__link">
+  <a href="#builds" class="md-nav__link">
     <span class="md-ellipsis">
-      Submission
+      Builds
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendering-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rendering Quality
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Player Settings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#marketing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marketing
     </span>
   </a>
   
@@ -650,27 +647,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../hw07/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    👷‍♀️ HW 07: Publishing Builds
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -793,80 +769,54 @@
                   
 
 
-<h1 id="hw-6-quaternions">HW 6: Quaternions</h1>
-<div class="admonition tip">
-<p class="admonition-title">Assignment Deadline</p>
-<p><a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, February 16th, 2024</strong></p>
-<p><a class="md-button md-button--primary" href="https://www.gradescope.com/courses/696965/assignments/3876770">Submit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.7l167.6-182.9c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg></span></a></p>
-</div>
-<p><img alt="Image title" src="../hw6/Fv21c.png" /></p>
-<h2 id="quaternions">Quaternions</h2>
-<h3 id="quaternions-in-math">Quaternions in Math</h3>
-<p><img alt="Image title" src="../hw6/quaternions2.png" /></p>
-<p>In Division Algebra, Quaternions are a method to represent a solid 3D object's three dimensional orientations or other rotational quantity. The algebra for Quaternions consists of 4 dimensions, aka 4 scalar variables that are added and multipled as a single unit. These variables are also known as <strong>Euler Parameters</strong> and hold one real dimension and 3 imaginary dimensions. Each of these imaginary dimensions has a unit value of the square root of -1, but they are different square roots of -1 all mutually perpendicular to each other, known as i,j and k. So a quaternion can be represented as <span class="arithmatex">\(a + i b + j c + k d\)</span>.</p>
-<p>For example, the equation <span class="arithmatex">\(z^2 + 1 = 0\)</span>, has infinitely many quaternion solutions, which are the quaternions <span class="arithmatex">\(z = b i + c j + d k\)</span>. The fundamental formula for Quaternion algebra is as follows: </p>
-<div class="arithmatex">\[
-a + i b + j c + k d
-\]</div>
-<p>As such, these "roots of -1" form a unit square in the 3D space of vector quaternions. It may seem strange that there are 3 square roots of -1, but we have to remember that we are working in 4 dimensions so there are at least 3 ways to get round from +1 to -1. It is not very practical to try to draw 4 dimensions in 2 dimensions</p>
-<div class="arithmatex">\[
-b^2 + c^2 + d^2 = 1
-\]</div>
-<h3 id="gimbal-lock">Gimbal Lock</h3>
-<p><img alt="Image title" src="../hw6/gimballock.jpeg" /></p>
-<p>Gimbal lock is the loss of one degree of freedom in a three-dimensional, three-gimbal mechanism that occurs when the axes of two of the three gimbals are driven into a parallel configuration, "locking" the system into rotation in a degenerate two-dimensional space. (Wikipedia)</p>
-<p>The term gimbal-lock can be misleading in the sense that none of the individual gimbals are actually restrained. All three gimbals can still rotate freely about their respective axes of suspension. Nevertheless, because of the parallel orientation of two of the gimbals' axes, there is no gimbal available to accommodate rotation about one axis, leaving the suspended object effectively locked (i.e. unable to rotate) around that axis. (Wikipeda)</p>
-<!-- ### Rotations in Unity -->
-
-<h3 id="quaternions-in-unity">Quaternions in Unity</h3>
-<p><img alt="Image title" src="../hw6/quaternions3.png" /></p>
-<p>Quaternions are useful in accurately representing rotations. They are compact, don't suffer from gimbal lock and can easily be interpolated. Unity internally uses Quaternions to represent all rotations and expects Quaternions to be normalized. Luckily in Unity, the individual Quaternion components (x,y,z,w) do not need to be individually accessed or modified. You can take the existing rotations and from there, construct new rotations to smoothly interpolate between two rotations. The Quaternion functions that you will use 9% of the time are:</p>
-<ul>
-<li><code>Quaternion.LookRotation</code> z axis will be aligned with forward, X axis aligned with cross product between forward and upwards, and Y axis aligned with cross product between Z and X.</li>
-<li><code>Quaternion.Quaternion.Angle</code> Think of two GameObjects (A and B) moving around a third GameObject (C). Lines from C to A and C to B create a triangle which can change over time. The angle between CA and CB is the value Quaternion.Angle provides.</li>
-<li><code>Quaternion.Euler</code> Returns a rotation that rotates z degrees around the z axis, x degrees around the x axis, and y degrees around the y axis; applied in that order.</li>
-<li><code>Quaternion.Slerp</code> Use this to create a rotation which smoothly interpolates between the first quaternion a to the second quaternion b, based on the value of the parameter t. If the value of the parameter is close to 0, the output will be close to a, if it is close to 1, the output will be close to b.</li>
-<li><code>Quaternion.FromToRotation</code> Usually you use this to rotate a transform so that one of its axes eg. the y-axis - follows a target direction toDirection in world space.</li>
-<li><code>Quaternion.identity</code> This quaternion corresponds to "no rotation" - the object is perfectly aligned with the world or parent axes.</li>
-<li><code>Quaternion.operator</code> rotate one rotation by another, or to rotate a vector by a rotation</li>
-</ul>
-<h2 id="problems">Problems</h2>
-<p>Before we get can get started with the homework problems, please clone the following repository <a href="https://github.com/debbieyuen/ctin583-hw06.git"><code>https://github.com/debbieyuen/ctin583-hw06.git</code></a>.</p>
-<details class="note" open="open">
-<summary>Step 1: Cloning with Terminal</summary>
-<p>If you are using terminal, use <code>cd</code> to change into the your desired directory. Then <code>git clone https://github.com/debbieyuen/ctin583-hw06.git</code>.</p>
-<p><img alt="Image title" src="../hw2/cddirectory.png" /></p>
-<p><img alt="Image title" src="../hw2/gitclone.png" /></p>
-<p><img alt="Image title" src="../hw2/gitcloneend.png" /></p>
-</details>
-<p>Now that you have successfully cloned the repository to your computer, it is time to create your own branch! Creating a branch will allow you to have your own version of the code to work off of without making changes to the main branch. In this way, each student will have a copy of the homework assignment to work on on their own respective branches. </p>
-<p>Replace "debbie" with your first name. Here we create a new branch.
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>$ git branch debbie
-</span></code></pre></div></p>
-<p>Here we check-in to the branch we just created
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>$ git checkout debbie 
-</span></code></pre></div></p>
+<h1 id="hw-07-publishing-builds">👷‍♀️ HW 07: Publishing Builds</h1>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
-<li><a href="https://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/">Maths - Quaternions</a></li>
-<li><a href="https://mathworld.wolfram.com/Quaternion.html">Wolfram: Quaternion</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Quaternion#:~:text=For%20example%2C%20the%20equation%20z,dimensional%20space%20of%20vector%20quaternions.">Wikipedia: Quaternion</a></li>
-<li><a href="https://docs.unity3d.com/ScriptReference/Quaternion.html">Unity Scripting: Quaternion</a></li>
-<li><a href="https://www.youtube.com/watch?v=hd1QzLf4ZH8&amp;ab_channel=Unity">C# Quaternions in Unity!</a></li>
-<li><a href="https://docs.unity.cn/ru/2019.4/Manual/QuaternionAndEulerRotationsInUnity.html">Rotation and Orientation in Unity</a></li>
-<li><a href="https://vionixstudio.com/2022/06/16/unity-quaternion-and-rotation-guide/">Unity Quaternion and Rotation Guide for Beginners</a></li>
-<li><a href="https://medium.com/@spicuzza157/quatern-b5cf7b83b1d1">Quaternions in Unity</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Gimbal_lock">Wikipedia: Gimbal Lock</a></li>
+<li><a href="https://docs.unity3d.com/Manual/PublishingBuilds.html">Unity Manual: Publishing Builds</a></li>
+<li><a href="https://learn.unity.com/tutorial/creating-and-publishing-webgl-builds">Unity Learn: Create and publish WebGL builds</a></li>
+<li><a href="https://www.youtube.com/watch?v=X8Njwk4IRo0&amp;ab_channel=DALAB">YouTube: Create and Publish WebGL Build in Unity</a></li>
+<li><a href="https://www.youtube.com/watch?v=UXl_C3ZnRLc&amp;ab_channel=CocoCode">YouTube: Publish your Unity game on Google Play Store</a></li>
+<li><a href="https://www.youtube.com/watch?v=fPBv5aflE6Y&amp;ab_channel=MERLINDEV%7CUnityTutorials%26HowTo">YouTube: How to publish a Unity project to itch.io</a></li>
 </ul>
-<h2 id="submission">Submission</h2>
-<div class="admonition note">
-<p class="admonition-title">GitHub Pull Requests</p>
-<p>To receive credit for this homework assignment, please make sure you provide a link to your GitHub branch and name the branch as your first name. 
-Then assign Nile and Debbie as <code>Reviewers</code> and <code>Assignees</code> before you hit the green <code>Create Pull Request</code> button.</p>
-<p><img alt="Image title" src="../hw2/notification.png" /></p>
-<p><img alt="Image title" src="../hw2/pushtogit.png" /></p>
-<p><img alt="Image title" src="../hw2/assignees.png" /></p>
-</div>
+<h2 id="builds">Builds</h2>
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/1K64ALJFeedkcwUc6C" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<p><a href="https://giphy.com/gifs/build-built-memeland-1K64ALJFeedkcwUc6C">via GIPHY</a></p>
+
+<p>During class, we have been running our projects within the Unity Editor. This is a great way to quickly test things and iterate. Now we want players to experience our games! In order to publish your game or any program you create, we will need to take our compiled program. Then, we want to put it into the form we want to deliver it in and make it available to other playeers. The form you publish your game as is heavily depenedntly on what type of project you are working on. In Unity, a <code>WebGL</code> build allows you to publish to a web server like a website so that players can access it through their browsers. A mobile app typically goes through a store like Google Play or Apple's App Store. A <code>desktop</code> build might be published on Steam. The starting point shares a common theme - complile the code and then package the compiled code and files together. </p>
+<p>What is a <strong>build</strong>? A <strong>build</strong> is a standalone version of your game, so our players don't need to open our projects in Unity. They can double-click on the program to run the game. The term <strong>Build</strong> is used interchangeably with <strong>application</strong> or <strong>executable</strong>. They all mean the same thing. </p>
+<p>It isn't possible to run a Windows application on an OSX device. Same goes for a PlayStation game on an iPhone. Each requires its own special format. The operating system the player is using is referred to as a platform or within Unity, a <strong>build target</strong>. Some examples include:</p>
+<ul>
+<li>PS5</li>
+<li>Windows 10</li>
+<li>Oculus Quest 2</li>
+<li>Android 11</li>
+<li>iOS16</li>
+</ul>
+<p>Unity allows developers to build games for a variety of platforms. Exporting your game to some platform is an important part of game development, a task that every game developer will have to do at least once during their career! To test your projects, create a build. To release your game to the public, create development builds by checking the <code>Development Builds</code> box.</p>
+<p><strong>Important notes:</strong></p>
+<ul>
+<li>Install optional modules in Unity Hub</li>
+<li>Easily switch between different platforms but code may look different for each platform</li>
+<li>Must accomodate designing for different platforms and adjust the input system to reflect so</li>
+<li>Create a new folder for your builds. Do not push these buils to GitHub and Perforce</li>
+<li>Sometimes the game within your editor will not look and feel the same as your built game</li>
+<li>It is not recommended to rename the folder name that was automatically generated for you. It might break things. If you want to change the name, make a whole new and separate build</li>
+<li>Be careful and precise as you follow the steps, including all punctuation and capitalization</li>
+</ul>
+<p>After you build your Unity game, don't forget to publish and deploy! Publishing assembles the ouutput into the desired format but does not deploy the prog ram. Deployment doesn't have to be complicatd. Putting everything into a <em>.zip</em> file or another archive format and then email the file or place it on a website for people to download is a fast way of deploying your gae. </p>
+<h2 id="rendering-quality">Rendering Quality</h2>
+<p>For each device or platform you build to, it is important to consider the quality and the rendering settings of the game. Feel free to adjust and set a certain quality level for different platforms and levels within the game. This will take some experimentation to get to a setting that works best for your game. Edit the settings under <code>Edit/Project Settings/Quality</code>.</p>
+<p><img alt="Image title" src="../Labs/Screenshot%202023-10-08%20at%208.53.04%20PM.png" /></p>
+<h2 id="player-settings">Player Settings</h2>
+<p>You may also have different build settings for each player. Under <code>Edit/Project Settings/Player</code>, you may modify player icons, cursors, and names. You can also modify the splash screen animation!</p>
+<p><img alt="Image title" src="../Labs/Screenshot%202023-10-08%20at%208.53.25%20PM.png" /></p>
+<h2 id="marketing">Marketing</h2>
+<p>In 2022, Unity merged with ironSource. ironSource helps bring apps and user experiences by focusing on the app's business expansion in relation to the app economy. ironSource helps with monetization, marketing, analytics, and discovery capabilities that help developers scale their app-based businesses. Unity recommends ironSource  to help you monetize and market your game.</p>
+<p><strong>Resources:</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=LlAc5sBtGkc&amp;t=506s&amp;ab_channel=BraceYourselfGames">How to Consistently Make Profitable Indie Games</a></li>
+<li><a href="https://howtomarketagame.com/">How to Market a Game, Chris Zukowski</a></li>
+</ul>
 
 
 
