@@ -3,6 +3,8 @@
 !!! tip "Dates and Times"
     We hope to see you at our in-person lectures and labs every Monday and Wednesday **8:00 - 10:00am PST** at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/)
 
+Welcome to IMGD's Game Development for Designers course. This resource provides the information you will need regarding the structure of the course, technical considerations, and support available to you for the duration of the course.
+
 This page provides an overview of the policies for this course as taught at [USC Games](https://games.usc.edu/) within the [University of Southern California, School of Cinematic Arts](https://cinema.usc.edu/). We meet Mondays and Wednesdays 8:00am- 10:00pm PST at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/). Please direct any questions you have in the `# landing-page` channel in the CTIN 583 Discord.
 
 ## 🧜‍♀️ Staff
@@ -25,7 +27,11 @@ This page provides an overview of the policies for this course as taught at [USC
 
 This course teaches the art of creating digital game prototypes and introduces the world of game engines. The class briefly introduces industry standard game engines such as Unreal Engine and Godot then dives deep into the Unity game development using C# scripting. In class, students will be creating two games with Unity 3D and Unity AR while learning the fundamentals of C# scripting. 
 
+This course provides insight into how to create various experiences or realities while focusing on programming rather than visual scripting, which are fundamental skills for game development. It will engage you in lab activities that allow you to make personalized and actionable prototypes, rather than just the theoretical aspect of game development.
+
 Unity is a professional tool in widespread use, including on award-winning, high-profile games such as Monument Valley, Hearthstone, Threes!, and Pokémon Go. It can be used to create games for many platforms, from desktop to mobile to consoles. We will also discuss the role of prototyping in the creative process and introduce the use of version control systems in developing code.
+
+Throughout the course, you will not only be provided with the necessary technical skills to create your projects, you will be challenged to apply this game theory principles through hands-on projects. Hopefully, by the end of the course, you will have attempted and challenged yourself to achieve a project of your choice.
 
 ## 💡 Course Rationale
 All designers need the ability to communicate their ideas to others. Because games are interactive, a functioning prototype communicates the designer’s ideas more clearly than any static description can. A game designer’s ability to prototype is thus equivalent to a cinematographer’s ability to sketch – while the skill does not directly appear in the final product, it allows the designer to refine his or her ideas and communicate them in a direct way to both team members and test audiences. In addition, the rules, patterns, and behaviors that form the game experience are a direct reflection of the underlying code. Code is the raw material with which interactive experiences are built, as pottery is made of clay, and paintings are made of paint. The designer who understands code, therefore, has a much deeper understanding of games as a medium.
