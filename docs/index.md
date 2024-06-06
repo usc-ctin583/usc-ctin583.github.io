@@ -18,8 +18,8 @@
 | 13   | Mon 4/01 <br> Wed 4/03 | [Yarn Spinner Language Selection](https://www.icloud.com/keynote/00265rrdORrITcZHQ-5A0WD7g#Lecture13) <br> [Yarn Spinner Variable Management](https://www.icloud.com/keynote/07cQcqY6FK19Bp4yMfbOKMTWg#Lecture13)| HW 13: Unity ML-Agents Toolkit <br> READ: Narrative Categorization | Paper Checkpoint |
 | 14   | Mon 4/08 <br> Wed 4/10 | [C#: Delegates and Polymorphism](https://www.icloud.com/keynote/057tcGgxtT0eROgk05l0Dx7Nw#Lecture14) <br> [C#: Vectors, Matrix, Quaternions]() | HW 14: Delegates and Events <br> READ: Machine Learning Agents| |
 | 15   | Mon 4/15 <br> Wed 4/17 <br> | [**Playtest and Code Review**]() <br> [Unity Mathematics vs Mathf]() | HW 15: Polymorphism <br> READ: Generative AI in Media | Code Review |
-| 16   | Mon 4/22 <br> Wed 4/24   | Navigation AI: A* Algorithm <br> Custom Pathfinding Algorithms| HW 16: Unreal Metahumans <br> READ: Heuristics in Game AI | |
-| 17   | Mon 4/29 <br> Wed 5/01 | **Final Playtest and Presentation** <br> [Oculus SDK and visionOS Workshop]() | HW 17: Problem Solving Assessment <br> READ: Game Dev Portfolios | |
+| 16   | Mon 4/22 <br> Wed 4/24   | [Navigation AI: A* Algorithm]() <br> [Custom Pathfinding Algorithms]() | HW 16: Unreal Metahumans <br> READ: Heuristics in Game AI | |
+| 17   | Mon 4/29 <br> Wed 5/01 | [**Final Playtest and Presentation**]() <br> [Oculus SDK and visionOS Workshop]() | HW 17: Problem Solving Assessment <br> READ: Game Dev Portfolios | |
 | 18   | Mon 5/06 <br> Wed 5/08 | [iOS/Android Mobile Workshop]() <br> [Lua for Game Consoles Workshop]() | HW 18: CodeSignal Technicals <br> READ: Cracking the Coding Interview | **Final Project Due** |
 
 
