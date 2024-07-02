@@ -5,7 +5,7 @@
 
 Welcome to IMGD's Game Development for Designers course. This resource provides the information you will need regarding the structure of the course, technical considerations, and support available to you for the duration of the course.
 
-This page provides an overview of the policies for this course as taught at [USC Games](https://games.usc.edu/) within the [University of Southern California, School of Cinematic Arts](https://cinema.usc.edu/). We meet Mondays and Wednesdays 8:00am- 10:00pm PST at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/). Please direct any questions you have in the `# landing-page` channel in the CTIN 583 Discord.
+This page provides an overview of the policies for this course as taught at [USC Games](https://games.usc.edu/) within the [University of Southern California, School of Cinematic Arts](https://cinema.usc.edu/). We meet **Mondays and Wednesdays 8:00am- 10:00am PST** at [SCI L113](https://maps.usc.edu/?id=1928&reference=SCI#!ct/53723,53722,55414,55415,55418?m/552571?s/). If you have any questions before enrolling, please direct any questions you have in the `# landing-page` channel in the CTIN 583 Discord. Enrolled students will be manually added to the private Discord channels.
 
 ## 🧜‍♀️ Staff
 * **Course Instructor:** Deborah (Debbie) Yuen
