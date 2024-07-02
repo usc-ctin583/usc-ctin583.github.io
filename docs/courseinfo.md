@@ -13,19 +13,19 @@ This page provides an overview of the policies for this course as taught at [USC
 
 ## 📅 Section Dates
 * **First day of classes:** Monday, January 8, 2023
-* **Last day to add:** Friday, September 8, 2023
-* **Last day to change to Pass/No Pass:** Friday, September 8, 2023
-* **Last day to drop without a mark of "W" and receive a refund:** Friday, September 8, 2023
-* **Last day to withdraw without a “W” on transcript or change pass/no pass to letter grade:** Friday, October 6, 2023
-* **Last day to drop with a mark of "W":** Friday, November 10, 2023
-* **Last day of classes:** Friday, December 1, 2023
-* **End of session:** Wednesday, December 13, 2023
+* **Last day to add:** Friday, January 26, 2024
+* **Last day to change to Pass/No Pass:** Friday, January 26, 2024
+* **Last day to drop without a mark of "W" and receive a refund:** Friday, January 26, 2024
+* **Last day to withdraw without a “W” on transcript or change pass/no pass to letter grade:** Friday, February 23, 2024
+* **Last day to drop with a mark of "W":** Friday, April 5, 2024
+* **Last day of classes:** Friday, April 26, 2024
+* **End of session:** Wednesday, May 8, 2024
 
 ## 📇 Course Description
 
 <div style="width:100%;height:0;padding-bottom:67%;position:relative;"><iframe src="https://giphy.com/embed/1fnwSUTsHRyGXEYMos" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/1fnwSUTsHRyGXEYMos">via GIPHY</a></p>
 
-This course teaches the art of creating digital game prototypes and introduces the world of game engines. The class briefly introduces industry standard game engines such as Unreal Engine and Godot then dives deep into the Unity game development using C# scripting. In class, students will be creating two games with Unity 3D and Unity AR while learning the fundamentals of C# scripting. 
+This course teaches the art of creating digital game prototypes and introduces the world of game engines. The class briefly introduces industry standard game engines such as Unreal Engine and Godot then dives deep into Unity game development using C# scripting. In class, students will be creating two games with Unity 3D and Unity AR while learning the fundamentals of C# scripting. 
 
 This course provides insight into how to create various experiences or realities while focusing on programming rather than visual scripting, which are fundamental skills for game development. It will engage you in lab activities that allow you to make personalized and actionable prototypes, rather than just the theoretical aspect of game development.
 
@@ -53,7 +53,7 @@ The final project can be an individual or paired project in which you work on de
 There will be a lot of freedom for you to decide on what you want to work on for your final project. Please take this final project as an opportunity to grow your soft skills of why you love and chose to learn game development. Find something you want to dive into that will challenge the state of the art and enable you to advance through your career. Here is the opportunity to create an experience that excites you with any game engine of your choice in addition to the mentorship of your instructors. Carefully consider what your needs are and what you are trying to accomplish when deciding to develop with Unreal, Godot, Unity, or maybe some other game engine. 
 
 ## ☎️ Communication
-We will be using our Discord channel to communicate. If you have not joined our Discord channel yet, please reach out to the Student Assistant via email or during class. They will be able to provide you the link to join. Within our Discord channel, the main channels we will be using are the `# fa23-general` and `# fa23-announcement`. These two channels are only for students who are currently enrolled. Following the course, you will then be added to the `# alumni` channel of students who have taken the course previously. Open office hours will be via Discord's Voice channel in `# office hours` and remote, individual office hours will be hosted via Discord Call, Zoom, or Google Meet. 
+We will be using our Discord channel to communicate. If you have not joined our Discord channel yet, please reach out to the Student Assistant via email or during class. They will be able to provide you the link to join. Within our Discord channel, the main channels we will be using are the `# sp24-general`. This channel is for students who are currently enrolled in the course. Following the course, you will then be added to the `# alumni` channel of students who have taken the course previously. Open online office hours will be via Discord's Voice channel in `# office hours` and remote, individual office hours will be hosted via Discord Call, Zoom, or Google Meet. 
 
 ## 🛍️ Materials
 * Unity 2020 or higher
