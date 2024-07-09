@@ -12,13 +12,13 @@
         <meta name="author" content="Debbie Yuen">
       
       
-        <link rel="canonical" href="https://ctin583.usc.edu/sp24/Homework/hw08/">
+        <link rel="canonical" href="https://ctin583.usc.edu/sp24/Homework/hw17/">
       
       
-        <link rel="prev" href="../hw07/">
+        <link rel="prev" href="../hw16/">
       
       
-        <link rel="next" href="../hw09/">
+        <link rel="next" href="../hw18/">
       
       
       <link rel="icon" href="../../favicon3.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>HW 8: Raycasting - CTIN 583 Game Development</title>
+        <title>HW 17: A* Algorithm - CTIN 583 Game Development</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hw-8-raycasting" class="md-skip">
+        <a href="#hw-17-a-algorithm" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              HW 8: Raycasting
+              HW 17: A* Algorithm
             
           </span>
         </div>
@@ -593,30 +593,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    HW 8: Raycasting
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../hw08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -625,35 +605,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-raycasting" class="md-nav__link">
-    <span class="md-ellipsis">
-      What is Raycasting?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -831,10 +782,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../hw17/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    HW 17: A* Algorithm
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -843,6 +814,35 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-raycasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Raycasting?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1009,23 +1009,13 @@
                   
 
 
-<h1 id="hw-8-raycasting">HW 8: Raycasting</h1>
+<h1 id="hw-17-a-algorithm">HW 17: A* Algorithm</h1>
 <div class="admonition tip">
 <p class="admonition-title">Assignment Deadline</p>
 <p><a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, March 1st 2024</strong></p>
 <p><a class="md-button md-button--primary" href="https://www.gradescope.com/courses/696965/assignments/3876770">Submit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.7l167.6-182.9c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg></span></a></p>
 </div>
 <h2 id="what-is-raycasting">What is Raycasting?</h2>
-<p>Raycasting is the "ray" or invisible line within a game world that shows what GameObjects are in that direction. Raycasting can be used to draw a ray from the center of one character to another and see whether it hits another object. This is important because a mouse doesn't technically exist within the game world. </p>
-<p>In the game world, the mouse position is just a set of coordinates on a 2D screen. In this case, covert the mouse's screen position into a world position. Then, you can send a ray forward into the game world to see what it hits. </p>
-<p><img alt="Image title" src="../Labs/raycasting1.png" /></p>
-<p><strong>You can use raycasting to answer questions like:</strong></p>
-<ul>
-<li>Where will the player's grappling hook hit the ceiling?</li>
-<li>Can one player see another player's character?</li>
-<li>Is the character standing on solid ground?</li>
-<li>Is the player's mouse hovering over an object? </li>
-</ul>
 
 
 
