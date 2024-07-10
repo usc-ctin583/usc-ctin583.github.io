@@ -26,7 +26,7 @@
     
     
       
-        <title>HW 11: Visual Effects Graph - CTIN 583 Game Development</title>
+        <title>HW 11: Shaders - CTIN 583 Game Development</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hw-11-visual-effects-graph" class="md-skip">
+        <a href="#hw-11-shaders" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              HW 11: Visual Effects Graph
+              HW 11: Shaders
             
           </span>
         </div>
@@ -672,7 +672,7 @@
           
   
   <span class="md-ellipsis">
-    HW 11: Visual Effects Graph
+    HW 11: Shaders
   </span>
   
 
@@ -683,7 +683,7 @@
         
   
   <span class="md-ellipsis">
-    HW 11: Visual Effects Graph
+    HW 11: Shaders
   </span>
   
 
@@ -708,6 +708,15 @@
   <a href="#resources-and-links" class="md-nav__link">
     <span class="md-ellipsis">
       Resources and Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hlsl" class="md-nav__link">
+    <span class="md-ellipsis">
+      HLSL
     </span>
   </a>
   
@@ -1018,7 +1027,7 @@
                   
 
 
-<h1 id="hw-11-visual-effects-graph">HW 11: Visual Effects Graph</h1>
+<h1 id="hw-11-shaders">HW 11: Shaders</h1>
 <div class="admonition tip">
 <p class="admonition-title">Assignment Deadline</p>
 <p><a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, March 1st 2024</strong></p>
@@ -1031,6 +1040,9 @@
 <li><a href="https://unity.com/how-to/introduction-vfx-graph-unity">Introduction to the VFX Graph in Unity</a></li>
 <li><a href="https://www.youtube.com/watch?v=7bMOhNUA1bI&amp;list=PLpPd_BKEUoYhN8CiOoNLTSVh-7U5yjg3n&amp;ab_channel=GabrielAguiarProd.">Unity VFX Graph</a></li>
 </ul>
+<p>Computer graphics allows us to create different things from a single pixel to a group of pixels. Pixel shading is one of many things that can be performed with computer graphics. Pixel shading refers to the process of computing a color for a pixel. On shader-based hardware, this is where your pixel shader is executed. In a basic forward renderer pass, where we are rendering objects into the frame buffer, the pixel is typically first lit and then fogged if fogging is being used. the output of a pixel shader consists of not only an RGB color, bu also an alpha value, which is usually interpreted as the "opacity" of the pixel, used for blending. </p>
+<h2 id="hlsl">HLSL</h2>
+<p>HLSL is similar to the shader language, "Cg", which is a shader language developed by NVIDIA and GLSL, the shading langiage used in OpenGL. </p>
 <h2 id="visual-effect-graph">Visual Effect Graph</h2>
 <p><img alt="Image title" src="../Labs/vfx1.jpeg" /></p>
 <p>Unity's Visual Effect Graph (VFX Graph) allows you to create simple and complex visual effects from a node-based programming language that combines blocks, nodes, and sequences. These effects can range from common particle behaviors to complex scene simulations. Together, these nodes can be combined as building blocks to created advanced procedural effects. </p>
