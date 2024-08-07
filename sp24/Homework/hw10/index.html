@@ -684,6 +684,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#resources-and-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources and Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#global-illumination" class="md-nav__link">
+    <span class="md-ellipsis">
+      Global Illumination
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lighting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lighting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#light-sources" class="md-nav__link">
     <span class="md-ellipsis">
       Light Sources
@@ -693,7 +720,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#resources-and-links" class="md-nav__link">
+  <a href="#resources-and-links_1" class="md-nav__link">
     <span class="md-ellipsis">
       Resources and Links
     </span>
@@ -1033,6 +1060,42 @@
 <p><a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, March 1st 2024</strong></p>
 <p><a class="md-button md-button--primary" href="https://www.gradescope.com/courses/696965/assignments/3876770">Submit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg></span></a></p>
 </div>
+<p><img alt="Image title" src="../Labs/illumination2.png" /></p>
+<h2 id="resources-and-links">Resources and Links</h2>
+<ul>
+<li><a href="https://docs.unity3d.com/Manual/LightingInUnity.html">Unity Manual: Introduction to Lighting</a></li>
+<li><a href="https://learn.unity.com/tutorial/get-started-with-lighting?pathwayId=61a65568edbc2a00206076dd&amp;missionId=61a106efedbc2a5554f0dcba">Unity Learn: Get Started with Lighting</a></li>
+<li><a href="https://www.youtube.com/watch?v=-gzw_DHfoKU&amp;t=12s&amp;ab_channel=WillyDev">Realistic 2D Lights &amp; Shadows in Unity</a></li>
+<li><a href="https://www.youtube.com/watch?v=VnG2gOKV9dw&amp;t=229s&amp;ab_channel=Brackeys">LIGHTING in Unity</a></li>
+<li><a href="https://colinbarrebrisebois.com/2015/11/06/finding-next-gen-part-i-the-need-for-robust-and-fast-global-illumination-in-games/">Finding Next-Gen – Part I – The Need For Robust (and Fast) Global Illumination in Games</a></li>
+<li><a href="https://www.pluralsight.com/blog/film-games/understanding-global-illumination">Understanding Global Illumination</a></li>
+</ul>
+<h2 id="global-illumination">Global Illumination</h2>
+<p><img alt="Image title" src="../Labs/illumination1.png" /></p>
+<p>Our eyes works interpret light by picking up rays of light. These rays of light bounce around and everytime it hits an object, the light responds in a certain way depending on the object's properties. For example, the light may be absorbed or reflected depending on the object's properties it hits and the object's material. In computer graphics, we are now able to simulate light properties. Global illumination plays an essential part in simulating indirect lighting by serving as a set of algorithms whose purpose is to add more realistic lighting to 3D scenes. Global illumination simulates indirect lighting, like light bouncing and color bleeding. Global illumination is an important part of 3D animation and design that helps give it a more realistic feel. Without global illumination, objects simply would look right in certain cases, which would lead to pulling the audience out of the moment. It is also a group of techniques that model both direct and indirect lighting to provide realistic lighting results.</p>
+<p>For example, in Unity you can have multiple objects of various colors where the colors are cast onto a reflective sphere. That effect is referred to as indirect lighting because the colored light isn't being cast directly from a light but rather is the result of light being cast onto a colored object which is then bleeding into the nearby reflective sphere. Global illumination plays a big role in getting this distinctive and often necessary look.  <strong>Unity has two, main global illumination systems, which combine direct and indirect lighting - Progressive Lightmapper (baked) and Enlighten Realtime Global Illumination  (real-time).</strong></p>
+<p><img alt="Image title" src="../Labs/light1.png" /></p>
+<p>This act of light bouncing around is categorized into two types. Such algorithms take into account not only the light that comes directly from a light source (direct illumination), but also subsequent cases in which light rays from the same source are reflected by other surfaces in the scene, whether reflective or not (indirect illumination). Unity can calculate direct lighting, indirect lighting, or both direct and indirect lighting. The lighting techniques that Unity uses depends on how you configure your Project.</p>
+<ul>
+<li>
+<p><strong>Direct Lighting</strong>: Direct light is light that is emitted, hits a surface once, and is then reflected directly into a sensor (for example, the eye’s retina or a camera). </p>
+</li>
+<li>
+<p><strong>Indirect Lighting</strong>: Indirect light is all other light that is ultimately reflected into a sensor, including light that hits surfaces several times, and sky light. To achieve realistic lighting results, you need to simulate both direct and indirect light.</p>
+</li>
+</ul>
+<h2 id="lighting">Lighting</h2>
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/XyJZNF8BY9X38ifJMt" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<p><a href="https://giphy.com/gifs/here-theyre-heeere-XyJZNF8BY9X38ifJMt">via GIPHY</a></p>
+
+<p>With Unity, you can achieve realistic lighting that is suitable for a range of art styles. Lighting comes in three formats or modes. To assign a <code>Mode</code>, select the Light in your <code>Scene</code>
+ and, in the <code>Light Inspector window</code>, select <code>Mode</code>.</p>
+<ul>
+<li><strong><a href="https://docs.unity3d.com/Manual/LightMode-Realtime.html">Realtime</a></strong>: Unity calculates and updates the lighting of Realtime Lights every frame at runtime. Unity does not precompute any calculations for Realtime Lights.</li>
+<li><strong><a href="https://docs.unity3d.com/Manual/LightMode-Mixed.html">Mixed</a></strong>: Unity performs some calculations for Mixed Lights in advance, and some calculations at runtime.</li>
+<li><strong><a href="https://docs.unity3d.com/Manual/LightMode-Baked.html">Baked</a></strong>: Unity pre-calculates the illumination from Baked Lights before runtime, and does not include them in any runtime lighting calculations.</li>
+</ul>
+<p>In order to get started with adding lighting to your scene, add lighting and reposition it as needed in your scne. If you are using say, Baked Global Illumination, make sure the feature is turned on. Then, adjust each object's lighting settings accordingly. For baked lighting on objects, each object should be static. Finally, you may bake the lighting. A useful Unity package to help with visual effects is the <a href="https://docs.unity3d.com/Manual/PostProcessingOverview.html">Post Processing package</a>. </p>
 <h2 id="light-sources">Light Sources</h2>
 <p>Standard Abstract Light Types:</p>
 <ul>
@@ -1052,7 +1115,7 @@
 <p><strong>Conical Spot Light:</strong></p>
 </li>
 </ul>
-<h2 id="resources-and-links">Resources and Links</h2>
+<h2 id="resources-and-links_1">Resources and Links</h2>
 <ul>
 <li><a href="https://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/">Maths - Quaternions</a></li>
 <li><a href="https://mathworld.wolfram.com/Quaternion.html">Wolfram: Quaternion</a></li>
