@@ -50,6 +50,12 @@
 * [Android Permission Requests](https://www.youtube.com/watch?v=L3wn4lOczNc&list=PLCWfUPPluOgZNMafpr9T_7dPKJBq9-IC9&index=32&ab_channel=Foxandroid)
 * [Android Studio and Kotlin Tutorial - Music Player](https://www.youtube.com/watch?v=DaLPIC4NbYU&list=PLCWfUPPluOgZNMafpr9T_7dPKJBq9-IC9&index=8&ab_channel=doctorcode)
 
+### 💎 Computer Graphics
+* [The Graphics Codex](https://graphicscodex.com/): A digital reference and learning resource for computer graphics
+* [Experimental Augmented Reality User Experience](https://arxiv.org/abs/2202.06726): A paper on computer graphics from the Human-Computer Interaction perspective
+* [Vulkan Tutorial](https://vulkan-tutorial.com/): A tutorial by the Kronos group on Vulkan
+
+
 ### 👾 Asymptotics
 * [Berkeley CS 61A: Structure and Interpretation of Computer Programs](https://cs61a.org/)
 * [Berkeley CS 61B: Data Structures](https://fa23.datastructur.es/)
