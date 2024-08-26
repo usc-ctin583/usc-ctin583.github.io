@@ -9,9 +9,9 @@ This page provides an overview of the policies for this course as taught at [USC
 
 ## 🧜‍♀️ Staff
 * **Course Instructor:** Deborah (Debbie) Yuen
-* **Student Assistant:** Nile Imtiaz
+* **Student Assistant:** Yicong (Alex) Wu
 
-## 📅 Section Dates
+<!-- ## 📅 Section Dates
 * **First day of classes:** Monday, January 8, 2023
 * **Last day to add:** Friday, January 26, 2024
 * **Last day to change to Pass/No Pass:** Friday, January 26, 2024
@@ -19,7 +19,7 @@ This page provides an overview of the policies for this course as taught at [USC
 * **Last day to withdraw without a “W” on transcript or change pass/no pass to letter grade:** Friday, February 23, 2024
 * **Last day to drop with a mark of "W":** Friday, April 5, 2024
 * **Last day of classes:** Friday, April 26, 2024
-* **End of session:** Wednesday, May 8, 2024
+* **End of session:** Wednesday, May 8, 2024 -->
 
 ## 📇 Course Description
 
@@ -38,22 +38,24 @@ All designers need the ability to communicate their ideas to others. Because gam
 
 ## 📚 Assignments
 
-### 🥼 Labs
-There will be weekly lab assignments that consists of homework assignments including readings, videos, and computer set-up instructionsthat will be completed individually or with a lab partner. These assignments will help inform your two projects later on down the line. 
+### 🥼 Homework
+There will be weekly homework assignments that consists of exercises, readings, videos, and computer set-up instructions that will be completed individually or with a lab partner. These assignments will help inform your two projects later on down the line. 
 
+### ⭐️ **Project 1:** Kitchen Chaos
+To help get familiar with the Unity game engine, we will be following a YouTube tutorial to learn some of the basics! By the end of the tutorial, you will have a working game!
 
-### ⭐️ **Project 1:** Advocacy
-The first project will be an individual individual project to create a 3D Unity game. 
+### ⭐️ **Midterm Project:** Advocacy
+The midterm project will be an individual individual project to create a 3D Unity game. 
 
 The intent of this project is to build, run, and publish a 3D Unity game that tackles a social justice issue. You will be implementing your own version of a WebGL single-player video game with multiple levels. Please feel free to start with the 3D Unity project we have been working on in class as a starting point. I recommend making a copy of the class project to avoid confusing our class project from your project 1. If you would rather not use the 3D Unity project we have been working on in class, feel free to create a new 3D project from scratch. You may use any packages and assets as you see fit; however, please review the project requirements to ensure that you have integrated all required features. Last but not least - make sure the game is created with the Universal Render Pipeline ([URP](https://unity.com/srp/universal-render-pipeline)) and supports [Perforce](https://www.perforce.com/downloads/helix-visual-client-p4v) integration.
 
-### ⭐️ **Project 2:** Outside the Box
+### ⭐️ **Final Project:** Outside the Box
 The final project can be an individual or paired project in which you work on developing a game of your choice. 
 
 There will be a lot of freedom for you to decide on what you want to work on for your final project. Please take this final project as an opportunity to grow your soft skills of why you love and chose to learn game development. Find something you want to dive into that will challenge the state of the art and enable you to advance through your career. Here is the opportunity to create an experience that excites you with any game engine of your choice in addition to the mentorship of your instructors. Carefully consider what your needs are and what you are trying to accomplish when deciding to develop with Unreal, Godot, Unity, or maybe some other game engine. 
 
 ## ☎️ Communication
-We will be using our Discord channel to communicate. If you have not joined our Discord channel yet, please reach out to the Student Assistant via email or during class. They will be able to provide you the link to join. Within our Discord channel, the main channels we will be using are the `# sp24-general`. This channel is for students who are currently enrolled in the course. Following the course, you will then be added to the `# alumni` channel of students who have taken the course previously. Open online office hours will be via Discord's Voice channel in `# office hours` and remote, individual office hours will be hosted via Discord Call, Zoom, or Google Meet. 
+We will be using our Discord channel to communicate. If you have not joined our Discord channel yet, please reach out to the Student Assistant via email or during class. They will be able to provide you the link to join. Within our Discord channel, the main channels we will be using are the `# fa24-general`. This channel is for students who are currently enrolled in the course. Following the course, you will then be added to the `# alumni` channel of students who have taken the course previously. Open online office hours will be via Discord's Voice channel in `# office hours` and remote, individual office hours will be hosted via Discord Call, Zoom, or Google Meet. 
 
 ## 🛍️ Materials
 * Unity 2020 or higher
@@ -83,6 +85,11 @@ Students are expected to attend every class. This is for your own sake – we wi
 
 You must contact me as soon as possible regarding your absence. Generally, I will expect to hear from you before class; in exigent circumstances, I would expect to hear from you within 24 hours. If you are sick, stay home. You need to be healthy to learn, and so do your classmates (and instructors). I also do not distinguish between mental health and physical health. If you cannot complete an
 assignment on time or come to class because of mental health issues, you must contact me promptly, just as with physical health problems.
+
+I understand that this is a very early class. Here are my policies:
+
+- [x] Please arrive on time. Being 15 minutes late or more counts as an absence. It will not count as an absence if you meet with the instructor to catch up on the lab component. 
+- [x] Three no questions asked absences. Sick? Something came up? Overslept? You have 3 passes!
 
 ## 👌 Incompletes 
 The only acceptable reasons for taking an incomplete course are personal illness or a documented family emergency. Students who wish to take incompletes must present documentation of the problem to the instructor before final grades are due. Incompletes are not available before the Week 12 withdrawal deadline.
@@ -119,7 +126,7 @@ The [Office of Disability Services and Programs](dsp.usc.edu) provides certifica
 
 ## 💐 Acknowledgments
 
-Some course handout material were derived from previous terms, professors, and GSIs. Firstly, I would not have been able to teach this course without my Student Assistant, **Haocheng Liu**. Thank you to **Professor Sean Bloom** and **Professor Margaret Moser** for sharing your past lectures, resources, and assignmments with me. Thank you to **Professor Sam Roberts** for showing me the way from day one. Last but not least, thank you to **Professor Peter Brinson** for welcoming me into the VLab and sharing your knowledge, expertise, and wisdom with me throughout the entire semester. 
+Some course handout material were derived from previous terms, professors, and GSIs. Firstly, I would not have been able to teach this course without my Student Assistants, **Haocheng Liu** (Fall 2023) and Nile Imtiaz (Spring 2024). Thank you to **Professor Sean Bloom** and **Professor Margaret Moser** for sharing your past lectures, resources, and assignmments with me. Thank you to **Professor Sam Roberts** for showing me the way from day one. Last but not least, thank you to **Professor Peter Brinson** for welcoming me into the VLab and sharing your knowledge, expertise, and wisdom with me throughout the entire semester. 
 
 This course was heavily inspired by how courses are structured, run, and organized at UC Berkeley's [Computer Science]() and [Industrial Engineering and Operations Research]() departments. It was at my alumna matter where I learned how to make teaching content more accessible through course websites, Gradescope, Jupyter Notebooks, Labs, and much more. The following courses websites listed below significantly improved my learning experience at UC Berkeley and influenced my website's design.
 
