@@ -2,6 +2,11 @@
   {
     "version": "sp24",
     "title": "sp24",
+    "aliases": []
+  },
+  {
+    "version": "fa24",
+    "title": "fa24",
     "aliases": [
       "latest"
     ]
