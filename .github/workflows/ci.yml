@@ -24,7 +24,7 @@ jobs:
       - run: pip install pillow cairosvg
       - run: pip install mike
       - run: git fetch origin gh-pages --depth=1
-      - run: mike deploy sp24
+      - run: mike deploy fa24
       - run: git push origin gh-pages --force
       
       # - run: mike deploy sp24 latest -f
