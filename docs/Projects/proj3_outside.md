@@ -1,11 +1,11 @@
-# 🧃 Final Project: Outside the Box
+# 🧃 Final: Outside the Box
 
 !!! tip "Important Dates"
     | Checkpoint | Play Test | Submission |
     | ---------  | --------- | ---------- |
-    | **CP 1:** Wednesday, November 1st <br> <br> In pairs, pull Perforce projects and pair program in Visual Studio Code. | **PT 1:** Monday, November 11th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Final Presentation:** Wednesday, December 6th <br> <br> In class presentation about your project. Students will have the opportunity to play your game while you present your work. Your presentation should consist of a research poster. |
-    | **CP 2:** Monday, November 11th <br> <br> Read your classmate's papers and give them constructive feedback in their Google Docs. | **PT 2:** Monday, December 4th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Project Due:** Monday, December 11th <br> <br> Your final submission should include a link to your published game, Overleaf link to your research paper, and 2 PDF files for your paper and poster. |
-    | **CP 3:** Monday, November 27th <br> <br> In pairs, host a code review with Perforce. | | |
+    | **CP 1:** Monday, March 18th <br> <br> In pairs, pull Perforce projects and pair program in Visual Studio Code. | **PT 1:** Monday, April 15th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Final Presentation:** Monday, April 29th <br> <br> In class presentation about your project. Students will have the opportunity to play your game while you present your work. Your presentation should consist of a research poster. |
+    | **CP 2:** Monday, April 1st <br> <br> Read your classmate's papers and give them constructive feedback in their Google Docs. | **PT 2:** Monday, April 29th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Project Due:** Monday, May 6th <br> <br> Your final submission should include a link to your published game, Overleaf link to your research paper, and 2 PDF files for your paper and poster. |
+    | **CP 3:** Monday, April 15th <br> <br> In pairs, host a code review with Perforce. | | |
 
 <div style="width:100%;height:0;padding-bottom:35%;position:relative;"><iframe src="https://giphy.com/embed/9age78wuTYN0tzfIR7" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/9age78wuTYN0tzfIR7">via GIPHY</a></p>
 
@@ -84,12 +84,12 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | Requirements |           Resources            |
     | ------------ | ------------------------------ | 
     | Create your own [Steamworks Account](https://partner.steamgames.com/). The instructor/class has their own account as well. | [How to publish your game on Steam](https://fungies.io/2023/03/04/how-to-publish-your-game-on-steam/) | 
-    | $100 USD per game. This is a mandatory fee for each game unless you make $1,000 on your game | [ Joining Steamworks Distribution Program](https://partner.steamgames.com/steamdirect)| 
+    | $100 USD per game. This is a mandatory fee is covered by USC | [ Joining Steamworks Distribution Program](https://partner.steamgames.com/steamdirect)| 
     | Make sure your game meets Steam's [Terms of Service](https://store.steampowered.com/eula/767560_eula_0#:~:text=You%20agree%20not%20to%20use,Terms%20of%20Use%20are%20reserved). | [Steamworks Documentation: Getting Started](https://partner.steamgames.com/doc/gettingstarted) |
     | Supports latest version of Windows. Make sure you have a Windows PC to test your game. | [Integrating Unity Games with Steamworks](https://blog.theknightsofunity.com/integrating-unity-game-steamworks/) |
     | Install [Steamworks SDK](https://docs.unity.com/ugs/manual/authentication/manual/platform-signin-steam) for your selected game engine. | [How to Launch a Game on Steam - Before Release](https://www.youtube.com/watch?v=CAQsIDxI7rU&ab_channel=CodeMonkey)
 
-    ![Image title](../Projects/Project2/steam.png)
+    ![Image title](../Projects/final/steam.png)
 
 ???+ example "Android Mobile"
 
@@ -101,13 +101,13 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | Download [Android Studio](https://developer.android.com/studio) on your computer. | [Android Developers: Build your game in Unity](https://developer.android.com/games/engines/unity/build-in-unity) |
     | Within Unity, build your game to Android and enable the [Build App Bundle](https://docs.unity3d.com/Manual/android-BuildProcess.html) for Android. | [Developer's Guide to Releasing a Unity Game on Google Play](https://www.youtube.com/watch?v=GTaXWgKz0e8&ab_channel=LlamAcademy) |
     
-    ![Image title](../Projects/Project2/GooglePlay.png)
+    ![Image title](../Projects/final/GooglePlay.png)
     Publishing to the Google Play Store is a relatively straightforward process.
     <br>
     <br>
     <br>
     <br>
-    ![Image title](../Projects/Project2/AndroidWidgetGame.png)
+    ![Image title](../Projects/final/AndroidWidgetGame.png)
     An example of Android widget games.
 
 
@@ -121,7 +121,7 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | Within Unity, build your game to iOS and enable the [Build App Bundle](https://docs.unity3d.com/Manual/android-BuildProcess.html) for iOS. There will be other packages to add depending on what kind of Apple platform you are designing for. | [How to Build & Run Unity to iOS for Testing](https://www.youtube.com/watch?v=-Hr4-XNCf8Y&ab_channel=samyam) |
     | You are welcome to build for any Apple platform and experience. This includes [widgets](https://developer.apple.com/design/human-interface-guidelines/widgets), [iMessage games](https://developer.apple.com/imessage/), [App clips](https://developer.apple.com/app-clips/), [Vision Pro](https://developer.apple.com/visionos/), and [standalone apps](https://developer.apple.com/). | [Apple Game Center](https://developer.apple.com/game-center/) |
 
-    ![Image title](../Projects/Project2/AppleStore.png)
+    ![Image title](../Projects/final/AppleStore.png)
 
     A preview of XCode and it's simulator. 
     <br>
@@ -129,7 +129,7 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     <br>
     <br>
 
-    ![Image title](../Projects/Project2/PenguinGame.png)
+    ![Image title](../Projects/final/PenguinGame.png)
 
     An example of an iMessage game, GamePigeon, for text messages. 
 
@@ -143,7 +143,7 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | Install the [Arduinio IDE](https://www.arduino.cc/en/software). This will help you build your project to your selected microcontroller. | [How to integrate Arduino with Unity - hardware work with software](https://www.youtube.com/watch?v=SD3iUnLNjY0&ab_channel=CodetoCreate) |
     | Within Unity, build your game to WebGL. Unity supports microcontrollers like Raspberry Pi. Documentation [here](https://projects.raspberrypi.org/en/projects/unity-guide/0). | [How to Integrate Arduino with Unity 3D](https://www.iottechtrends.com/integrate-arduino-with-unity-3d/) |
 
-    ![Image title](../Projects/Project2/pi.jpeg)
+    ![Image title](../Projects/final/pi.jpeg)
 
 ???+ example "Websites"
 
@@ -154,7 +154,7 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | Install a web framework such as ReactJS | [Custom Domains: GoDaddy domains](https://www.godaddy.com/) |
     | Within Unity, build your game to WebGL | [Awwwwards: Best Unity Websites in 2021](https://www.awwwards.com/websites/unity/) |
 
-    ![Image title](../Projects/Project2/AwwwardsUnity.png)
+    ![Image title](../Projects/final/AwwwardsUnity.png)
 
 
 ???+ example "Social Media Integrations"
@@ -169,7 +169,7 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     | With Snapchat's [Lens Studio](https://ar.snap.com/lens-studio) and [Snap Kit Unity SDKs](https://docs.snap.com/snap-kit/creative-kit/Tutorials/unity) try creating an interactive, AR game.|
     | [Making Games in Discord](https://www.youtube.com/watch?v=KiO5A3s91NA&ab_channel=GeorgiaGameDevelopersAssociation): Create games with Discord's Bot API. |
 
-    ![Image title](../Projects/Project2/twitch.png)
+    ![Image title](../Projects/final/twitch.png)
 
 
 ## 📝 The Paper
