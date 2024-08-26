@@ -1,6 +1,6 @@
 # Calendars
-Fall 2023
-## 📓 Course Calendar
+
+## 📓 Course Calendar Fall 2023
 | Week | Date                     | Lecture                                           | Homework              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
 | 1    | Mon 1/08 <br> Wed 1/10   | [Introduction to Game Engines](https://www.icloud.com/keynote/08aZs5s_uUorg5jJGt1aVn1UQ#Lecture1) <br> [C# Functions, Control, and .NET](https://www.icloud.com/keynote/021rBpeSLAtnFPZgx8e1kmDuQ#Lecture2) | HW 1: [Getting Started](./Homework/hw01.md)  <br> READ: [Course Syllabus](./courseinfo.md)  | [Kitchen Chaos](./Projects/kitchenchaos.md)  |
