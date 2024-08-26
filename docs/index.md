@@ -3,7 +3,7 @@
 ## 📓 Course Calendar
 | Week | Date                     | Lecture                                           | Homework              | Project |
 | :----| :----------------------- | :------------------------------------------------ | :-------------------------------| :--------------|
-| 1    | Mon 8/26 <br> Wed 8/28   | [Introduction to Game Engines](https://www.icloud.com/keynote/08aZs5s_uUorg5jJGt1aVn1UQ#Lecture1) <br> Source Control: Git and Perforce | HW 1: [Getting Started](./Homework/hw01.md)  <br> READ: [Course Syllabus](./courseinfo.md)  | [Project 1](./Projects/kitchenchaos.md)  |
+| 1    | Mon 8/26 <br> Wed 8/28   | [Introduction to Game Engines](https://www.icloud.com/keynote/055cfB5qNWLVUltYjF0Qk-2Ig#Lecture1) <br> Source Control: Git and Perforce | HW 1: [Getting Started](./Homework/hw01.md)  <br> READ: [Course Syllabus](./courseinfo.md)  | [Project 1](./Projects/kitchenchaos.md)  |
 | 2    | Mon 9/02 <br> Wed 9/04   | ==[No Class (Labor Day)]()== <br> C# Functions, Control, and .NET | HW 2: Classes and Coroutines <br> READ: [The MDA Framework](https://users.cs.northwestern.edu/~hunicke/MDA.pdf) |  |
 | 3    | Mon 9/09 <br> Wed 9/11    | C# Statements and Loops <br> Unity: Awake, Update, Start | HW 3: AR and XR Foundation <br> READ: [IEEE Game Engine Comparison](https://ieeexplore.ieee.org/document/9579618) | |
 | 4    | Mon 9/16 <br> Wed 9/18  | Unity: Transform and Character Controller  <br> Unity: GetComponents, MeshRenderer | HW 4: Generics and Inheritence <br> READ: [Dual Body Bimanual Coordination](https://dl.acm.org/doi/10.1145/3563657.3596082)| |
