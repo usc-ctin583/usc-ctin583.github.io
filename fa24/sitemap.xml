@@ -2,27 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ctin583.usc.edu/fa24/</loc>
-         <lastmod>2024-08-29</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-08-31</lastmod>
     </url>
     <url>
          <loc>https://ctin583.usc.edu/fa24/courseinfo/</loc>
-         <lastmod>2024-08-29</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-08-31</lastmod>
     </url>
     <url>
          <loc>https://ctin583.usc.edu/fa24/resources/</loc>
-         <lastmod>2024-08-29</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-08-31</lastmod>
     </url>
     <url>
          <loc>https://ctin583.usc.edu/fa24/Homework/hw01/</loc>
-         <lastmod>2024-08-29</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-08-31</lastmod>
+    </url>
+    <url>
+         <loc>https://ctin583.usc.edu/fa24/Homework/hw02/</loc>
+         <lastmod>2024-08-31</lastmod>
     </url>
     <url>
          <loc>https://ctin583.usc.edu/fa24/Projects/proj1_kitchen/</loc>
-         <lastmod>2024-08-29</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-08-31</lastmod>
     </url>
 </urlset>
