@@ -521,27 +521,81 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-2-enemy-movt" class="md-nav__link">
+  <a href="#problem-2-player-movt" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 2: Enemy Mov't
+      Problem 2: Player Mov't
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-3-which-weapon" class="md-nav__link">
+  <a href="#problem-3-unity-functions" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 3: Which Weapon
+      Problem 3: Unity Functions
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-4-comments" class="md-nav__link">
+  <a href="#problem-4-c-functions" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 4: Comments
+      Problem 4: C# Functions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-5-unity-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem 5: Unity Attributes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-6-input-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem 6: Input System
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-7-public-private" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem 7: Public &amp; Private
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-8-movement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem 8: Movement()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-9-instantiate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem 9: Instantiate()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-10-which-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem 10: Which Weapon
     </span>
   </a>
   
@@ -837,6 +891,12 @@
 <div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>$ git checkout debbie 
 </span></code></pre></div></p>
 <h3 id="problem-1-players-name">Problem 1: Player's Name</h3>
+<p>In Unity, the <code>using</code> directives at the top of a C# script indicate which namespaces are being used in that script. A namespace in C# is a collection of classes, interfaces, enums, and other types that are organized logically. By including a <code>using</code> directive for a particular namespace, you make all the types in that namespace available in your script without needing to fully qualify them with their namespace every time you use them. Please write inline comments within <code>PlayerController.cs</code>. Comments are bits of text placed in your program, meant to be annotations on the code for humans -- you and other programmers. The compiler ignores comments.</p>
+<div class="admonition question">
+<p class="admonition-title">Problem 1: Unity Packages</p>
+<p>Write in the comments what each line of <code>using</code> is doing. What are these packages in Unity?</p>
+</div>
+<h3 id="problem-2-player-movt">Problem 2: Player Mov't</h3>
 <p>In this problem, we will practice creating and using variables in C# in the context of Unity. A variable is declared by listing its type and its name together <code>(string username;)</code>.</p>
 <p>A variable is assigned a value by placing the variable name on the left side of an equal sign and the new value on the right side. This new value may be an expression that the computer will evaluate to determine the value <code>(username = Console.ReadLine();)</code>. </p>
 <p>Retrieving the variable's current value is done by simply using the variable's name in an expression <code>("Hi " + username)</code>. In this case, your program will start by retrieving the current value in <code>username</code>. It then uses that value to produce the complete <code>"Hi [name]"</code> message. This combined message is what is supplied to the <code>WriteLine</code> method. </p>
@@ -860,25 +920,55 @@
 </span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6"></a><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;My player&#39;s name is &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">username</span><span class="p">);</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition question">
-<p class="admonition-title">Problem 1: Printing Variables</p>
+<p class="admonition-title">Problem 2: Printing Variables</p>
 <p>In <code>PlayerController.cs</code>, convert the above code to work in Unity and print out in Unity's console. Define a <code>private</code> variable for your player or character's name. Where should you define the name? What is the syntax to print to Unity's console?</p>
 </div>
-<h3 id="problem-2-enemy-movt">Problem 2: Enemy Mov't</h3>
+<h3 id="problem-3-unity-functions">Problem 3: Unity Functions</h3>
+<p>In Unity, scripts that inherit from MonoBehaviour can override several built-in methods that are automatically called by the Unity engine during the lifecycle of a game object. <code>Start()</code> and <code>Update()</code> are some of the most common Unity functions.</p>
+<div class="admonition question">
+<p class="admonition-title">Problem 3: Unity Functions</p>
+<p>In <code>PlayerController.cs</code>, what are the <code>Start()</code> and <code>Update()</code> functions? Describe what they do in comments. What is the difference between <code>Start()</code> and <code>Update()</code>?</p>
+</div>
+<h3 id="problem-4-c-functions">Problem 4: C# Functions</h3>
+<div class="admonition question">
+<p class="admonition-title">Problem 4: C# Functions</p>
+<p>We would like to transform the player's position along the vertical and horizontal axis. What are if statments? Lets write some if statements to move the player with the <code>WASD</code> Keys. Why is <code>Time.DeltaTime</code> needed here? </p>
+</div>
+<h3 id="problem-5-unity-attributes">Problem 5: Unity Attributes</h3>
+<div class="admonition question">
+<p class="admonition-title">Problem 5: Unity Attributes</p>
+<p>Attributes are markers that can be placed above a class, property or function in a script to indicate special behaviour. For example, you can add the HideInInspector attribute above a property declaration to prevent the Inspector from showing the property, even if it is public. C# contains attribute names within square brackets. What do <code>SerializeField</code>, <code>Header</code>, and <code>Tooltip</code> do? </p>
+</div>
+<h3 id="problem-6-input-system">Problem 6: Input System</h3>
+<div class="admonition question">
+<p class="admonition-title">Problem 6: New Input System</p>
+<p>What are Unity's <code>OnEnable()</code> and <code>OnDisable()</code> functions? What do <code>movement.Enable()</code> and <code>movement.OnDisable</code> do?</p>
+</div>
+<h3 id="problem-7-public-private">Problem 7: Public &amp; Private</h3>
+<div class="admonition question">
+<p class="admonition-title">Problem 7: Public and Private</p>
+<p>What is the difference between <code>public</code> and <code>private</code> classes and functions? What does it mean when there is no <code>public</code> or <code>private</code> in front of the class name is only <code>void</code>? What does <code>void</code> mean?</p>
+</div>
+<h3 id="problem-8-movement">Problem 8: Movement()</h3>
 <p>In your game, the player encounters enemies as well. Colliding with them will cause problems. But before we get to collisions, we need to call two existing functions</p>
 <p>Functions are used to group a block of code. This can be useful in many ways, for example, in the lecture about operations with variables we performed addition on two variables, what if you need to do that often in your code? Functions let you write one piece of code and reuse it over and over again! </p>
 <div class="admonition question">
-<p class="admonition-title">Problem 2: Calling Functions</p>
-<p>How do we call classes and functions? Where should we call them? In <code>EnemyCollision.cs</code>, call the <code>Movement()</code> and <code>Shoot()</code> functions.</p>
+<p class="admonition-title">Problem 8: Movement()</p>
+<p>What are <code>Input.GetAxis</code>, <code>transform.Translate</code>, and <code>transform.Rotate</code>?
+How do we call classes and functions? Where should we call them? In <code>EnemyCollision.cs</code>, call your <code>Movement()</code> and <code>Shoot()</code> functions.</p>
 </div>
-<h3 id="problem-3-which-weapon">Problem 3: Which Weapon</h3>
+<h3 id="problem-9-instantiate">Problem 9: Instantiate()</h3>
+<div class="admonition question">
+<p class="admonition-title">Problem 9: Instantiate()</p>
+<p>Looking at the code in <code>EnemyCollion.cs</code>, is this code written for Unity's old or new input system? Please describe what <code>Instantiate()</code> is doing in the if statement.</p>
+</div>
+<h3 id="problem-10-which-weapon">Problem 10: Which Weapon</h3>
 <p>Before we can use a class, we must define it or use a predefined class (Unity has many!).  Many C# programmers place each class in a separate file for organization. As our programs grow in size, having all our classes in one file can become overwhelming and disorganized. For this homework assignment, we will place them in the same file. </p>
 <p>Defining a new class is done with the <code>class</code> keyword, followed by the class's name, followed by a set of curly braces. Names are usually capitalized with UpperCamelCase. Inside the class's curly braces, we can place the variables and methods that the class will need to do its job. </p>
 <div class="admonition question">
 <p class="admonition-title">Defining Classes</p>
 <p>In <code>EnemyCollision.cs</code> define a new, <code>public</code> class named <code>Weapons</code> and define <code>int</code> variables to represent <code>arrow</code>, <code>sword</code>, <code>rocket</code>. </p>
 </div>
-<h3 id="problem-4-comments">Problem 4: Comments</h3>
-<p>Comments are bits of text placed in your program, meant to be annotations on the code for humans -- you and other programmers. The compiler ignores comments.</p>
 <p>Comments have a variety of uses:</p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> You can add a description about how some tricky piece of code works, so you don't have to try to reverse engineer it later.</li>
@@ -904,14 +994,14 @@
 <div class="admonition note">
 <p class="admonition-title">GitHub Pull Requests</p>
 <p>To receive credit for this homework assignment, please make sure you provide a link to your GitHub branch and name the branch as your first name. 
-Then assign Nile and Debbie as <code>Reviewers</code> and <code>Assignees</code> before you hit the green <code>Create Pull Request</code> button.</p>
+Then assign Jerry and Debbie as <code>Reviewers</code> and <code>Assignees</code> before you hit the green <code>Create Pull Request</code> button.</p>
 <p><img alt="Image title" src="../hw2/notification.png" /></p>
 <p><img alt="Image title" src="../hw2/pushtogit.png" /></p>
 <p><img alt="Image title" src="../hw2/assignees.png" /></p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Kitchen Chaos: Code Style, Naming Rules</p>
-<p>Start watching the Kitchen Chaos tutorial from <code>00:20:28</code> <strong>Create Project</strong>. You are welcome to continue working on the project for as long as you want until the due date but for this homework, please at least watch until <code>00:39:30</code>, the end of <strong>Code Styles, Naming Rules</strong> section. You do not have to submit anything on Gradescope for this section. </p>
+<p class="admonition-title">Kitchen Chaos</p>
+<p>On BrightSpace, submit a screenshot of where you are at with the Kitchen Chaos tutorial. </p>
 <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/AmGSEH7QcDg?si=rZhxDlhNt93Mmt_T&amp;start=1228" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 </div>
 
