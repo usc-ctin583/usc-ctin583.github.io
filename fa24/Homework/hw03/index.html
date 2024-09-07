@@ -744,6 +744,7 @@ More recently, the term has moved into the mainstream as device makers struggle 
 <p><strong>Marker-less AR</strong> is more complex as there’s no point in which your device will focus on. Because of this, your device must recognize items as they appear in view. Using a recognition algorithm, the device will look for colors, patterns, and similar features to determine what that object is and then, using time, accelerometer, GPS, and compass information, it will or orient itself and use a camera to overlay an image of whatever you’d like within your real-world surroundings.</p>
 </li>
 </ul>
+<p>Unity provides support for AR development through frameworks like AR Foundation, which allows developers to create AR applications that can run across multiple platforms, such as Android (ARCore) and iOS (ARKit). AR Foundation is Unity's cross-platform framework designed to simplify the development of Augmented Reality (AR) experiences for both iOS (using ARKit) and Android (using ARCore). It acts as an abstraction layer that provides a unified API for interacting with AR functionalities across multiple platforms, eliminating the need to write platform-specific code.</p>
 <h2 id="virtual-reality">Virtual Reality</h2>
 <p>Virtual reality is a simulated 3D environment that enables users to explore and interact with a virtual surrounding in a way that approximates reality, as it is perceived through the users' senses. The environment is created with computer hardware and software, although users might also need to wear devices such as helmets or goggles to interact with the environment. The more deeply users can immerse themselves in a VR environment -- and block out their physical surroundings -- the more they are able to suspend their belief and accept it as real, even if it is fantastical in nature.</p>
 <p>Some main types:</p>
@@ -771,6 +772,7 @@ More recently, the term has moved into the mainstream as device makers struggle 
 <h2 id="problems">Problems</h2>
 <p>This week's homework will explore how we can create XR applications with code in <a href="https://docs.unity3d.com/Manual/XR.html">Unity</a> and with no-code solutions such as <a href="https://www.8thwall.com/">8th Wall</a> and <a href="https://ar.snap.com/?utm_campaign=LensStudio_Brand_P0&amp;utm_content=LS_ProductPage&amp;utm_medium=PAIDPLATFORM&amp;utm_source=GoogleSEM&amp;utm_term=Snap_AR">Snapchat Lens Studio</a>. Please note that for this homework assignment, hardware compatibility is important to run your Unity app on your selected hardware. </p>
 <p>For <strong>Mac</strong> users, you can only build to iOS devices such as the Apple Vision Pro, iPhone, iPad, Mac. Users on a <strong>Windows</strong> machine can only build to Android devices. If you do not have compatible hardware, please work together with other students in the class on this homework assignment. <strong>On Brightspace, please leave a comment noting who you collaborated with on this homework assignment.</strong></p>
+<p>We can also use <a href="https://docs.unity3d.com/Manual/UnityRemote5.html">Unity Remote</a> to build our AR applications. Unity Remote is a downloadable application that helps with Android, iOS, and tvOS development. Unity Remote connects your target device to the Unity Editor and displays the visual output from the Editor on the target device’s screen at a reduced frame rate. It also sends live inputs from the target device back to the running project in Unity. This is useful to understand how an application looks and handles on the target device without creating a build. In order to use Unity Remote, we will need to download it on your personal phones.</p>
 <p>The <strong>Fish Bowl</strong> is available to checkout devices such as the Oculus Quest and Android phones. </p>
 <h3 id="problem-1-armr-core">Problem 1: AR/MR Core</h3>
 <p>Install the Unity AR or MR Core templates. Feel free to pick whichever template you find more interesting. Depending on which Unity version you are on, the name and content of the template may vary. Download the templates and explore what transforms a 3D scene into one that is compatible with AR, VR, or MR. </p>
@@ -841,55 +843,71 @@ More recently, the term has moved into the mainstream as device makers struggle 
 <p>In your Unity Editor, navigate to <strong>File/ Build Settings</strong>. Since I am on a Mac, I will be building to <strong>iOS</strong>. Make sure you have selected all the scenes you want to include in your build. Then, hit <strong>Build and Run</strong>. If you are on a Windows, you can build to <strong>Android</strong>.</p>
 <p>I recommend connecting your laptop and phone with a cable. Make sure the cords are connected while you build your app. </p>
 <p><img alt="Image title" src="../hw3/ARBuild.png" /></p>
-<p>All applications that are built for iOS will need to go through <strong>XCode</strong>. If you don't have XCode, you can download it from the Apple App Store. This is a heavy application, so if it takes up too much space and time, that is okay. If possible, please work with a student who has XCode. If you are unable to build your app - instead of submitting an image of your application, please write at least 3 sentences on how you would build an AR application to a device. </p>
-<p>If you are on Android Studio or XCode and need a paid developer account, please reach out to Debbie - she has her personal credentials that you can use. 
+<p>All applications that are built for iOS will need to go through <strong>XCode</strong>. If you don't have XCode, you can download it from the Apple App Store. This is a heavy application, so if it takes up too much space and time, that is okay. If possible, please work with a student who has XCode. If you are unable to build your app with XCode, please use download <a href="https://apps.apple.com/us/app/unity-remote-5/id871767552">Unity Remote</a> on your phone. </p>
+<p>Save your build under a <code>builds</code> folder and name it as something like <code>version1.0</code>.
+<img alt="Image title" src="../hw3/Version1Build.png" /></p>
+<p>After saving your build, you should be able to open the project in XCode. If you clicked on <strong>Build and Run</strong>, XCode should open automaticaly. 
 <img alt="Image title" src="../hw3/XCode.png" /></p>
+<p>If you are on Android Studio or XCode and need a paid developer account, please reach out to Debbie - she has her personal credentials that you can use. 
+<img alt="Image title" src="../hw3/AppleProvisioningProfile.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 5: Unity Console</summary>
-<p>Install a Unity AR or MR template of your choice. Here, I installed the <a href="https://docs.unity3d.com/2022.2/Documentation/Manual/xr-template-ar.html">Unity AR Core template</a> from Unity Hub.</p>
-<p><img alt="Image title" src="../hw3/ARBuild.png" /></p>
+<summary>Step 5: Preview on Phone</summary>
+<p>Connect your phone to your laptop. Spend some time playing around with the AR application.
+<img alt="Image title" src="../hw3/PreviewOnPhone.png" /></p>
+<p>If you are using <strong>Unity Preview</strong>, you are required to connect with a USB. Go to <strong>Edit / Project Settings / Editor</strong> and select your phone. 
+<img alt="Image title" src="../hw3/UnityPreview.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 6: BrightSpace Submission</summary>
-<p>Please take an image of your application working on your phone. </p>
-<p><img alt="Image title" src="../hw3/ARBuild.png" /></p>
+<summary>Step 6: Unity Console</summary>
+<p>After you connect your phone to Unity, you should see lines printed out within your Unity Console. They should show data from your phone's gyroscope.</p>
+</details>
+<details class="question" open="open">
+<summary>Step 7: BrightSpace Submission</summary>
+<p>Please take an image of your application working on your phone. 
+<img alt="Image title" src="../hw3/BrightSpaceImage.jpeg" /></p>
 </details>
 <h3 id="problem-2-vr-core">Problem 2: VR Core</h3>
 <details class="question" open="open">
 <summary>Step 1: Meta Quest Developer</summary>
 <p>Create an account with <a href="https://developer.oculus.com/">Meta Quest Developer</a>. For convenience, my account is associated with my Facebook and Instagram accounts. Creating an account with Meta Developer will allow you to build and launch your VR applications on the Oculus Quest headsets. On the USC headsets, I am unsure if a developer account is associated with them already. If they are not, you will need to sign in with your own credentials. After you are done with your VR headset, remember to sign out of your account! </p>
-<p><img alt="Image title" src="../hw3/ARBuild.png" /></p>
+<p><img alt="Image title" src="../hw3/OculusDeveloper.png" /></p>
+<p>The Oculus Quest: 
+<img alt="Image title" src="../hw3/OculusHeadset.png" /></p>
 </details>
 <details class="question" open="open">
 <summary>Step 2: Enable Developer Mode on Oculus Quest</summary>
 <p>Write in the comments what each line of <code>using</code> is doing. What are these packages in Unity?</p>
-<p><img alt="Image title" src="../hw3/ARBuild.png" /></p>
+<p><img alt="Image title" src="../hw3/Debugging.png" /></p>
 </details>
 <details class="question" open="open">
 <summary>Step 3: Create VR App with Unity</summary>
-<p>Write in the comments what each line of <code>using</code> is doing. What are these packages in Unity?</p>
-<p><img alt="Image title" src="../hw3/ARBuild.png" /></p>
+<p>Create a new VR project with the VR Core. Explore its contents!</p>
+<p><img alt="Image title" src="../hw3/VRCore.png" /></p>
 </details>
 <details class="question" open="open">
 <summary>Step 4: Build App to the Oculus Quest</summary>
-<p>Write in the comments what each line of <code>using</code> is doing. What are these packages in Unity?</p>
-<p><img alt="Image title" src="../hw3/ARBuild.png" /></p>
+<p>Build your application as an <strong>Android</strong> build. Select your Oculus Quest when connected to your computer. 
+If you are on a <strong>Mac</strong>, you must build to a headset. If you are on <strong>Windows</strong>, Unity has the <a href="https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/">Meta Quest Quick Link App</a>. <a href="https://www.circuitstream.com/blog/how-to-setup-oculus-quest-2-for-development-in-unity-under-20-minutes">Here</a> are some instructions.</p>
+<p><img alt="Image title" src="../hw3/OculusAndroidBuild.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>Step 5: BrightSpae Submission</summary>
+<p>Have a friend take a photo or video of you with the Oculus Quest! Then, take a screenshot of your view in the Quest.</p>
 </details>
 <h3 id="problem-3-vuforia">Problem 3: Vuforia</h3>
 <p>Vuforia is a software development kit (SDK) which is a consists of an ecosystem of software tools, libraries, and documentation. Thee features enable developers to build augmented reality apps for mobile devices. Vuforia is used in conjunction with other tools such as Unity. The SDK is useful because it adds advanced computer vision functionality to your application. It will then be able to recognize images, objects, and spaces with intuitive options to configure your app to interact with the real world. </p>
 <details class="question" open="open">
-<summary>Problem 1: Unity Packages</summary>
-<p>Write in the comments what each line of <code>using</code> is doing. What are these packages in Unity?</p>
-<p><img alt="Image title" src="../hw3/ARBuild.png" /></p>
+<summary>Step 0: Vuforia In-Class Lab??</summary>
+<p>Adding another section on Vuforia would make the homework assignment too long. Would you be interested in learning in class on how to make a Marker-Based App or an AR app with embedded computer vision? Please comment on BrightSpace and share your opinion! </p>
 </details>
 <h3 id="problem-4-8th-wall">Problem 4: 8th Wall</h3>
 <p>Last year, we welcomed a guest speaker from Niantic Labs who works on 8th Wall. 8th Wall is a cross-platform development solution for building AR experiences that run on the mobile web and iOS/Android applications developed by Niantic Labs. 8th Wall is a great tool in simplifying the prototyping process for AR applications. </p>
-<div class="admonition question">
-<p class="admonition-title">Problem 4: 8th Wall Effects API</p>
+<details class="question" open="open">
+<summary>Problem 4: 8th Wall Effects API</summary>
 <p>Lets give the <a href="https://www.8thwall.com/blog/post/113939468379/new-improved-face-effects-webar#:~:text=Face%20Effects%20also%20features%20all,and%20to%20control%20lip%20movements.">8th Wall Face Effects API</a> a try. You can also find and clone the project at the following link: <a href="https://www.8thwall.com/8thwall/face-makeup-aframe"><code>https://www.8thwall.com/8thwall/face-makeup-aframe</code></a>. </p>
 <p><img alt="Image title" src="../hw3/8thWall.png" /></p>
-</div>
+</details>
 <h3 id="problem-5-snap-lens-studio">Problem 5: Snap Lens Studio</h3>
 <p>Snapchat Lens Studio is a free desktop application developed by Snap Inc. that allows creators and developers to design, build, and publish augmented reality (AR) experiences, known as Lenses, for Snapchat. These Lenses are interactive AR filters that users can apply to their faces, bodies, or surroundings when taking photos or videos.</p>
 <p>Snapchat Lens Studio does not directly integrate with Unity, but you can use Unity to create assets and import them into Lens Studio to enhance the augmented reality (AR) experience. While there isn’t a native plugin or direct connection between the two platforms, developers often use Unity to design and develop 3D models, animations, or environments, and then export those assets in compatible formats for Lens Studio.</p>
@@ -911,6 +929,18 @@ More recently, the term has moved into the mainstream as device makers struggle 
 <li><a href="https://www.techtarget.com/whatis/definition/virtual-reality">Tech Target: VR</a></li>
 </ul>
 <h2 id="submission">Submission</h2>
+<div class="admonition note">
+<p class="admonition-title">XR Applications</p>
+<p>To receive credit for this homework assignment, please make sure you submit videos and images of what you have created! </p>
+<ul>
+<li><strong>Unity AR/MR Core Template</strong>: Share a video/image of your application running on your <strong>phone</strong>. </li>
+<li><strong>Unity VR Core Template</strong>: Share a video/image of you interacting with the Oculus Quest and a screenshot of your experience working in the Quest.</li>
+<li><strong>Vuforia</strong>: Comment if you would like to have an in-class workshop on Marker-based Applications</li>
+<li><strong>8th Wall</strong>: Share a video/image of yourself with something you created in 8th Wall</li>
+<li><strong>Snap Lens Studio</strong>: Share a video/image of yourself with something you created in Lens Studio</li>
+<li><strong>Kitchen Chaos Tutorial</strong>: Share a screenshot of where you are in the tutorial. At this point, you should be about halfway done. </li>
+</ul>
+</div>
 
 
 
