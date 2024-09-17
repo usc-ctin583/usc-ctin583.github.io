@@ -1,11 +1,17 @@
 # 🧑‍🍳 Project 1: Kitchen Chaos
 
-!!! tip "Part 1: Assignment Deadline"
+!!! tip "Project: Assignment Deadline"
     In **@Code Monkey's** YouTube tutorial, you will be learning learning how to create a game similar to Overcooked. The entirety of this project will take some time so spend a little bit of time each week towards this project. The due date for this assignment will be **September 23rd** on Perforce.
     
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/AmGSEH7QcDg?si=PdCzvU1itCiT9yUZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<!-- !!! tip "Part 2: Assignment Deadline"
-    Please have the setup done by the beginning of the second week of classes. The optional Gradescope assignment is due **May 17th, 2024**.
-    
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/7glCsF9fv3s?si=6a6j5w5IkKc6n794" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+!!! tip "Grading: Project 1 Grading Rubric and Assessment"
+    **Project 1** will mainly be graded on completion on whether the student has completed the Kitchen Chaos tutorial. Completing this project is worth 10% of your total grade. If you are caught cheating you will receive 0 points on the project and the incident will be reported to USC. Cheating includes downloading or buying a project from the internet and having an outside party compete the project for you. We will be accessing this based on your in-person exam and your performance during your code review.
+
+    |    Criteria    | Ratings | Points |
+    | :------------- | :-------- | :-------- |
+    | **Publish:** Publish as a **WebGL Build** on [Itch.io](https://itch.io/). Jerry and Debbie should be able to play your game via Itch.io during your assessment slot. Even if you did not fully complete the tutorial, please still publish and build your project. | Full points if the build is playable and published, 5 points credit if published with Unity WebGL, 0 points if only playable in the Unity Editor | 10 |
+    | **Project Walkthrough:** Must be able to explain to the instructors at least three things about something you have learned in the tutorial. Walkthrough the steps in how you created the project, if you would recommend the tutorial for others, problems you have encountered while working on the project, and next steps on what you would do to customize this project | Full points if you speak about your project and attend your in-person assessment slot, 5 points if there is no project to demonstrate, and 0 points for a no show | 10 |
+    | **Execution of Project:** Based on how much you have completed the tutorial. It is okay if you haven't fully completed the project, you will still receive credit for the parts you did complete. Late projects will take 15% deduction each day off of the earned score. After 1 week after the deadline, you will receive no credit | Full points if you complete each feature and finish 10 hours of the tutorial, total points will be determined by the percentage of the tutorial you have completed. For example 6 hours out of 10 hours will mean 60% of the tutorial; therefore, 60% of 60 points | 60 |
+    | **Technical Assessment:** Jerry and Debbie will be asking you three technical questions from the YouTube tutorial. The questions should come directly from the video and you will be asked to write down and explain your answers | Full points for answering all three questions correctly, half points on each question if almost fully correct, 0 points for incorrect answers | 60 |
+    | **Code Review:** Jerry and Debbie will be reviewing your project's code during the in-person assessment. Together, we will comment on best programming practices and ask you about how you implemented your code - why the programmer behind CodeMonkey tutorial's implemented features a certain way. We will ask 4 questions about your code. For example, what a particular function does and what part of the game it contributes to | Being able to explain the files you have written and answering all questions correctly receives full credit | 40 |
