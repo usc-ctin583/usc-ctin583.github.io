@@ -1,15 +1,13 @@
 # ❤️ Midterm: Advocacy
 
 !!! tip "Important Dates"
-    **Checkpoint 1:** Monday, January 29th
-    
-    **Project Party:**  Monday, February 5th
+    **Checkpoint 1:** Monday, September 30th
 
-    **Checkpoint 2:** Wednesday, February 14th
+    **First Playtest:** Monday, October 7th
 
-    **Project Playtest:** Monday, February 26th
+    **Project Due:** Monday, October 14th
 
-    **Project Due:** Monday, February 26th
+    **Second Playtest and Presentation:** Monday, October 16th
 
 
 
