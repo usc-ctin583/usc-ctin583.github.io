@@ -12,13 +12,13 @@
         <meta name="author" content="Debbie Yuen">
       
       
-        <link rel="canonical" href="https://ctin583.usc.edu/fa24/Homework/hw04/">
+        <link rel="canonical" href="https://ctin583.usc.edu/fa24/Homework/hw05/">
       
       
-        <link rel="prev" href="../hw03/">
+        <link rel="prev" href="../hw04/">
       
       
-        <link rel="next" href="../hw05/">
+        <link rel="next" href="../../Projects/proj1_kitchen/">
       
       
       <link rel="icon" href="../../favicon3.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>📔 HW 4: Generics & Inheritence - CTIN 583 Game Development</title>
+        <title>🎹 HW 5: Enumerations - CTIN 583 Game Development</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hw-4-generics-inheritence" class="md-skip">
+        <a href="#hw-5-enumerations" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📔 HW 4: Generics &amp; Inheritence
+              🎹 HW 5: Enumerations
             
           </span>
         </div>
@@ -483,6 +483,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw04/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    📔 HW 4: Generics &amp; Inheritence
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -499,7 +520,7 @@
           
   
   <span class="md-ellipsis">
-    📔 HW 4: Generics &amp; Inheritence
+    🎹 HW 5: Enumerations
   </span>
   
 
@@ -510,7 +531,7 @@
         
   
   <span class="md-ellipsis">
-    📔 HW 4: Generics &amp; Inheritence
+    🎹 HW 5: Enumerations
   </span>
   
 
@@ -532,18 +553,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#generics" class="md-nav__link">
+  <a href="#object-oriented-programming" class="md-nav__link">
     <span class="md-ellipsis">
-      Generics
+      Object-Oriented Programming
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#inheritence" class="md-nav__link">
+  <a href="#enumerations" class="md-nav__link">
     <span class="md-ellipsis">
-      Inheritence
+      Enumerations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tuples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuples
     </span>
   </a>
   
@@ -560,45 +590,45 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#problem-1-generics-short-answers" class="md-nav__link">
+  <a href="#problem-1" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 1: Generics: Short Answers
+      Problem 1:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-2-barbies-careers" class="md-nav__link">
+  <a href="#problem-2" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 2: Barbie's Careers
+      Problem 2:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-3-barbies-account" class="md-nav__link">
+  <a href="#problem-3" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 3: Barbie's Account
+      Problem 3:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-4-inheritence-short-answers" class="md-nav__link">
+  <a href="#problem-4" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 4: Inheritence: Short Answers
+      Problem 4:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-5-barbies-house" class="md-nav__link">
+  <a href="#problem-5" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 5: Barbie's House
+      Problem 5:
     </span>
   </a>
   
@@ -631,27 +661,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../hw05/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    🎹 HW 5: Enumerations
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -774,174 +783,162 @@
                   
 
 
-<h1 id="hw-4-generics-inheritence">📔 HW 4: Generics &amp; Inheritence</h1>
+<h1 id="hw-5-enumerations">🎹 HW 5: Enumerations</h1>
 <div class="admonition tip">
 <p class="admonition-title">Assignment Deadline</p>
-<p><a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, September 20th, 2024</strong></p>
-<p><a class="md-button md-button--primary" href="https://www.gradescope.com/courses/696965/assignments/3876763">Submit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"/></svg></span></a></p>
+<p>This assignment is due <strong>Friday, September 27th</strong> on <a href="https://brightspace.usc.edu/">Brightspace</a></p>
+<p><a class="md-button md-button--primary" href="https://brightspace.usc.edu/">Submit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"/></svg></span></a></p>
 </div>
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/70tblROO7cNSqfc188" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-<p><a href="https://giphy.com/gifs/heyduggee-puzzle-hey-duggee-puzzlebadge-70tblROO7cNSqfc188">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/QDjpIL6oNCVZ4qzGs7" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<p><a href="https://giphy.com/gifs/pudgypenguins-work-computer-working-QDjpIL6oNCVZ4qzGs7">via GIPHY</a></p>
 
-<h2 id="generics">Generics</h2>
-<p>Generics allow us to create code that is more "generic" so that it can be used and reused. Remember <strong>"DRY"</strong> in programming? Also known as <strong>"Don't Repeat Yourself."</strong> Generics are really helpful here in preventing the need for duplicate code - which is always a great thing. They help solve the problem of making classes or methods that would differ only by the types they use, leaving placeholders for types that can be filled in when used.</p>
-<p>Generics are created by adding <code>&lt;T&gt;</code> after the class name. <code>&lt;T&gt;</code> represents the generic type that gets set while being called. We can have multiple generic types in a class by separating them with commas like <code>&lt;T, U, V&gt;</code>. When declaring generics in Unity, the general naming convention starts from T and moves alphabetically down as T, U, V, etc. Feel free to make generic methods and gneeric types with multiple type parameters!</p>
-<p>To make your life easier, here are some existing and common generic types:</p>
+<h2 id="object-oriented-programming">Object-Oriented Programming</h2>
+<p>C# is an object-oriented programming language, meaning that the code we write is organized into little blocks. Each object has its own data and capabilities such as variables and methods. These objects then work together to form a system. Object-oriented programming allows us to separate large programs into individual components called objects, each responsible for a small slice of the overall program. Objects belong to a class, which defines a category of things with the same structure and capabilities. </p>
+<p>The basic concept of object-oriened programming is that instead of putting all of our code into a single ever-growing blob of code, we split our program into multiple components called <strong>objects</strong>. Each object has a singly responsible for something and then collaborate t ogether to solve some problem. </p>
+<p><strong>The four basic principles of object-oriented programming are:</strong></p>
 <ul>
-<li><code>Random</code> generates pseudo-random numbers</li>
-<li><code>DateTime</code> gets the current time and stores time and date values</li>
-<li><code>TimeSpan</code>represents a length of time</li>
-<li><code>List&lt;T&gt;</code> is a popular and versatile generic collection -- use it instead of arrays for most things</li>
-<li><code>IEnumerable&lt;T&gt;</code>is an interface for almost any collection type. The basis for <code>foreach</code> loops</li>
-<li><code>Dictionary&lt;TKeym, TValue&gt;</code> can look up one piece of information from another</li>
-<li><code>Nullable&lt;T&gt;</code> is a struct that can express the concept of a missing value for value types</li>
-<li><code>ValueTuple</code> is the secret sauce behind tuples in C#</li>
-<li><code>StringBuilder</code> is a less memory-intensive way to build strings a little at a time</li>
+<li><strong>Abstraction:</strong> Modeling the relevant attributes and interactions of entities as classes to define an abstract representation of a system.</li>
+<li><strong>Encapsulation:</strong> Hiding the internal state and functionality of an object and only allowing access through a public set of functions.</li>
+<li><strong>Inheritance Ability:</strong> to create new abstractions based on existing abstractions.</li>
+<li><strong>Polymorphism Ability:</strong> to implement inherited properties or methods in different ways across multiple abstractions.</li>
 </ul>
-<p>Any type definition that is defined as a generic is a <strong>generic type</strong>. These include classes, structs, or interfaces that leave placeholders the type it uses. They are similar to methods with parameters where they allow programmers to throw in a value. Below is an example of how you would define a generic type. </p>
+<p><strong>Some key points of OOP:</strong></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Objects can be created/discarded while the program runs. When an object is no longer needed it can be removed</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Objects contain methods and variables. The variables store it data. The methods allow other objects to make requests to it</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Objects can communicate or coorinate with othe objects by calling one of its methods</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> In C#, every object belongs to a specific <strong>class</strong> or <strong>type</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Several objects can belong to the same class. Objects of a particular class are called <strong>instances</strong> of a class</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> There are many predefined classes of objects that exist a part of .NET and/or Unity. However, we can always define our own new classes as well</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> C# provides support on how we can define new types from built-in ones, including enumerations, tuples, structs, and classes</li>
+</ul>
+<h2 id="enumerations">Enumerations</h2>
+<p>In C#, types are important and so far we have used some common data types such as <code>int</code> and <code>string</code>. </p>
+<p>Enumereations are types that are useful when we have a relatively small set of choices. They are custom types that lists the set of allowed values: <code>enum Season { Winter, Spring, Summer, Fall }</code>. We define enumerations always after our all our methods or in a separate file on its own. After defining your enumeration, you are able to use it as variable's type: <code>Season now = Season.Winter;</code></p>
+<p>How do we define an enumeration? </p>
+<p>An enumeration type (or enum type) is a value type defined by a set of named constants of the underlying integral numeric type. To define an enumeration type, use the enum keyword and specify the names of enum members. In the example below, we define a new enumeration by starting with the <code>enum</code> keyword, followed by the enumeration's name <code>(Season)</code>. A set of curly braces contains the options for the enumeration, separated by commas. In C#, remember that it is common practice to use UpperCamelCase for type names (such as enumerations) and enumeration numbers. The first item you list will be the enumeration's default value!</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">C#</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block"></div>
 </div>
 </div>
-<div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-0-10">10</a></span>
-<span class="normal"><a href="#__codelineno-0-11">11</a></span>
-<span class="normal"><a href="#__codelineno-0-12">12</a></span>
-<span class="normal"><a href="#__codelineno-0-13">13</a></span>
-<span class="normal"><a href="#__codelineno-0-14">14</a></span>
-<span class="normal"><a href="#__codelineno-0-15">15</a></span>
-<span class="normal"><a href="#__codelineno-0-16">16</a></span>
-<span class="normal"><a href="#__codelineno-0-17">17</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1">// Defining a Generic Type</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">DefineGenericType</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">  </span><span class="k">private</span><span class="w"> </span><span class="n">T</span><span class="p">[]</span><span class="w"> </span><span class="n">items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">T</span><span class="p">[</span><span class="m">0</span><span class="p">]</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="n">Get</span><span class="w"> </span><span class="nf">ItemAt</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">index</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">items</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">SetItemAt</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">index</span><span class="p">,</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="k">value</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">items</span><span class="p">[</span><span class="n">index</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">value</span><span class="p">;</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Add</span><span class="p">(</span><span class="n">T</span><span class="w"> </span><span class="n">newValue</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="n">T</span><span class="p">[]</span><span class="w"> </span><span class="n">updated</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">T</span><span class="p">[</span><span class="n">items</span><span class="p">.</span><span class="n">Length</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">];</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">index</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span><span class="w"> </span><span class="n">index</span><span class="o">++</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">      </span><span class="n">updated</span><span class="p">[</span><span class="n">index</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13"></a>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="w">    </span><span class="n">updated</span><span class="p">[</span><span class="o">^</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">newValue</span><span class="p">;</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="w">    </span><span class="n">items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">updated</span><span class="p">;</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="w">  </span><span class="p">}</span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="p">}</span>
+<div class="language-c# highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">DeclaringEnums.cs</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">6</a></span>
+<span class="normal"><a href="#__codelineno-0-7">7</a></span>
+<span class="normal"><a href="#__codelineno-0-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1">// Declaring a new enumeration to represent seasons</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="k">enum</span><span class="w"> </span><span class="n">Season</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="p">{</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">    </span><span class="n">Spring</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">    </span><span class="n">Summer</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="w">    </span><span class="n">Autumn</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">    </span><span class="n">Winter</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-<p>When we defined the <code>DefineGenericType</code> class above, the <code>&lt;T&gt;</code> served as a placeholder for some type. This placeholder type is called a <strong>generic type parameter</strong>. It works just like a method parameter, except it works at a higher leve land stands in for a specific type taht will be chosen later. Conveniently, it can be used throughout the class an in several places in your code. </p>
+<p>With our <code>Season</code> emumeration defined, w can use it like any other type. For example, we can declare a variable whose type is <code>Season</code>.</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">C#</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block"></div>
 </div>
 </div>
-<p><div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
-<span class="normal"><a href="#__codelineno-1-2">2</a></span>
-<span class="normal"><a href="#__codelineno-1-3">3</a></span>
-<span class="normal"><a href="#__codelineno-1-4">4</a></span>
-<span class="normal"><a href="#__codelineno-1-5">5</a></span>
-<span class="normal"><a href="#__codelineno-1-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="c1">// Generic Class Example</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">GenericClass</span><span class="w"> </span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="n">Type</span><span class="w"> </span><span class="nf">GetMyType</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nf">typeof</span><span class="w"> </span><span class="p">(</span><span class="n">T</span><span class="p">);</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">  </span><span class="p">}</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="p">}</span>
-</span></code></pre></div></td></tr></table></div>
-The <a href="https://docs.unity3d.com/2023.3/Documentation/ScriptReference/MonoBehaviour.html">Unity Scripting API Reference</a> documentation lists some functions (for example, the various GetComponent functions) with a variant that has a letter <code>&lt;T&gt;</code> or a type name in angle brackets after the function name. These are generic functions. You can use them to specify the types of parameters and/or the return type when you call the function.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>// Declaring a variable with type Season
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Season current;
+</span></code></pre></div>
+<p>The compiler can also help us enforce that only legitimate seasons are assigned to this varible. In the example below, we have access to a specific enumeration value through the enumeration type name and the dot operator.</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">C#</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block"></div>
 </div>
 </div>
-<div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
-<span class="normal"><a href="#__codelineno-2-2">2</a></span>
-<span class="normal"><a href="#__codelineno-2-3">3</a></span>
-<span class="normal"><a href="#__codelineno-2-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="k">void</span><span class="w"> </span><span class="n">FuncName</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">();</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="c1">// The type is correctly inferred because it is defined in the function call</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="kt">var</span><span class="w"> </span><span class="n">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Rigidbody</span><span class="o">&gt;</span><span class="p">();</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="n">Rigidbody</span><span class="w"> </span><span class="n">rb</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">go</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Rigidbody</span><span class="o">&gt;</span><span class="p">();</span>
-</span></code></pre></div></td></tr></table></div>
-<h2 id="inheritence">Inheritence</h2>
-<p>Class inheritance means that a class can inherit from any other class that isn't sealed. Other classes can also inherit and override from your class. Classes that inherit must derive from another base class so that it can inherit data and behavior. This base class is specified by appending a colon and the name of the base class bollowing the derived class name. Inheritence lets you derive new classes based on existing ones. The new class inherits everything except constructors from the base class. Inheritence is important in accomplishing two things. </p>
-<ul>
-<li>Enables the treatment of subtypes as the more generalized type</li>
-<li>Consolides code that would have otherwise been duplicated or copy-and-pasted</li>
-</ul>
-<p>In the C# language, a class can only directly inherit from one base class. You cannot directly derive from moe than one. The class then can directly implement one or more interfaces. By default, all classes inherit from <code>object</code> aka their base class, but you are able to claim a different class as the base class as well. </p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>// Declaring a new enumeration to represent seasons
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>Season current = Season.Summer;
+</span></code></pre></div>
+<p>By default, the associated constant values of enum members are of type int; they start with zero and increase by one following the definition text order. You can explicitly specify any other integral numeric type as an underlying type of an enumeration type. You can also explicitly specify the associated constant values, as the following example shows:</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">C#</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block"></div>
 </div>
 </div>
-<div class="language-c# highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">ClassInheritance.cs</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
+<div class="language-c# highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">DeclaringEnums.cs</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
 <span class="normal"><a href="#__codelineno-3-2">2</a></span>
 <span class="normal"><a href="#__codelineno-3-3">3</a></span>
 <span class="normal"><a href="#__codelineno-3-4">4</a></span>
 <span class="normal"><a href="#__codelineno-3-5">5</a></span>
-<span class="normal"><a href="#__codelineno-3-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="c1">// Declaring an object of type MyClass.</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">Manager</span><span class="p">:</span><span class="w"> </span><span class="n">Employee</span>
+<span class="normal"><a href="#__codelineno-3-6">6</a></span>
+<span class="normal"><a href="#__codelineno-3-7">7</a></span>
+<span class="normal"><a href="#__codelineno-3-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="c1">// Declaring an enumeration type</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="k">enum</span><span class="w"> </span><span class="n">ErrorCode</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kt">ushort</span>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="p">{</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="c1">// Employee fields, properties, methods and events are inherited</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">    </span><span class="c1">// New Manager fields, properties, methods and events go here</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="p">}</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="n">None</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">,</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">    </span><span class="n">Unknown</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">,</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="w">    </span><span class="n">ConnectionLost</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">100</span><span class="p">,</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="w">    </span><span class="n">OutlierReading</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">200</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
+<p>You cannot define a method inside the definition of an enumeration type. To add functionality to an enumeration type, create an extension method.</p>
+<h2 id="tuples">Tuples</h2>
+<p>Tuples in C# are only used occasionally. However, they are useful in combining mulitple pieces into a single element. They combine multiple elements into a single bundle: <code>(double, double) point = (2, 4);</code>. They are sometimes referred to by the number of items in them: a 2-tuple if it has two t hings, an 8-tuple if it has eight things, etc. Tuples are value types, like <code>int</code>, <code>bool</code>, and <code>double</code>. That means they store their data inside them. Assigning one variable to another will copy all the data from all the items in the process. That is made a bit more complicated because tuples are composite types. If a tuple has parts that are value types themselves, those byptes will get copied. But if an item is a reference type, then the reference is copied.</p>
+<p>Forming a new tuple value - you can take the pieces you need and place them in parantheses, separated by commas.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:1"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">C#</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>// Forming a new tuple value
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>(string, int, int) score = (&quot;Debbie&quot;, 20, 15);
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>// Forming a variable type
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>var score = (&quot;Debbie&quot;, 20, 15);
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>// Access the items inside a tuple
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>Console.WriteLine($&quot;Name:{score.Item1} Level:{score.Item3} Score:{score.Item2}&quot;);
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>// Tuple with different types
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>(string, int, int) score1 = (&quot;Debbie&quot;, 20, 15);
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>(string, int, int) score2 = score1;
+</span></code></pre></div>
+<p>What about deconstructing or taking apart tuples?</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:1"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">C#</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>var score = (Name: &quot;Debbie&quot;, Points: 20, Level: 15);
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>// Grab data out of a tuple by referencing the item by name
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>string playerName = score.Name;
+</span></code></pre></div>
+<p>When you only need a single item from the tuple, this is a good way to do it. </p>
+<p><strong>Deconstruction</strong> or <strong>unpacking</strong> is a way to take all of the parts of a tuple and place them each into separate variables all at once. Tuple deconstruction has many uses, but a clever usage is swapping the contents of two variables. It is done by listing each of the variables to store the deconstructed tuple in parentheses:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:1"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">C#</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>string name;
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>int points;
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>int level;
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>(name, points, level) = score;
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>Console.WriteLine($&quot;{name} reached level {level} with {points} points.&quot;);
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>// Can also write the above lines like this
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>(string name, int points, int level) = score;
+</span></code></pre></div>
 <h2 id="problems">Problems</h2>
-<p>We will be continuing with our programming assignments off of your own forked repositories. In order to grab the latest homework assignment, please sync your branch with Debbie's original repository which can be found at the following link: <a href="https://github.com/debbieyuen/ctin583-fa24-hw/"><code>https://github.com/debbieyuen/ctin583-fa24-hw/</code></a>.</p>
-<h3 id="problem-1-generics-short-answers">Problem 1: Generics: Short Answers</h3>
-<p>An important part of learning is feeling comfortable researching, looking stuff up, debugging problems, and reading documentation. Please do your own research to answer the questions in this section. In your <code>BarbieWorld.cs</code> file, please write short answers between 2 - 5 sentences for the following questions:</p>
-<div class="admonition question">
-<p class="admonition-title">Problem 1: Generics: Short Answers</p>
-<ul>
-<li>What is Unity's <code>GetComponent&lt;T&gt;</code>? Why is it considered a generic method?</li>
-<li>In generics, there is a particular convention we follow in defining generics. What leter do we use to represent a placeholder type or generic? In generics, what are the naming conventions used if we have more than one parameter? </li>
-<li>What does the generic variable do? Why does it end up as the return type and argument type for a method? </li>
-<li>Give a realistic and detailed example of when you would want to use generics in your game. When would type variables be useful?</li>
-<li>What are the performance implications of using generic arrays as opposed to non-generic arrays in C#?</li>
-<li>What does it mean to instantiate? </li>
-</ul>
-</div>
-<h3 id="problem-2-barbies-careers">Problem 2: Barbie's Careers</h3>
-<div class="admonition question">
-<p class="admonition-title">Problem 2: Barbie's Careers</p>
-<p>Barbie wears many hats. She is a photographer, singer, athlete, painter, musician, rockstar, and much more. What is the function below trying to accomplish? How are we using the T variable in this case? Please instantiate an item of this class in your <code>BarbieWalletBalance.cs</code> file in your <code>Start()</code> or <code>Update()</code> functions.</p>
-</div>
-<h3 id="problem-3-barbies-account">Problem 3: Barbie's Account</h3>
-<div class="admonition question">
-<p class="admonition-title">Problem 3: Barbie's Account</p>
-<p>Convert the following function to a generic if needed. Then, write a private generic function named <code>BarbieBank</code>. <code>BarbieBank</code> should take in the parameters: <code>numOfPennies</code>, <code>cashAmount</code>, and <code>numOfCreditCards</code>. Have the function return a new generic array with the correct parameters. </p>
-</div>
-<h3 id="problem-4-inheritence-short-answers">Problem 4: Inheritence: Short Answers</h3>
-<div class="admonition question">
-<p class="admonition-title">Problem 4: Inheritence: Short Answers</p>
-<ul>
-<li>What is the "Protected" access modifier? How does it relate to inheritence and between two classes. </li>
-<li>What is MonoBehaviour? Why do Unity C# scripts inherit from MonoBehaviour? Give some examples of Unity functions that come from MonoBehaviour. </li>
-<li>What is multiple inheritance? Can we perform multiple inheritance in C#? Why or why not?</li>
-<li>What does "Protected virtual void" mean? When is it needed and what does virtual do in your code?</li>
-<li>What happens when a constructor in a parent class is called? How do we control which base class contructor is being called?</li>
-</ul>
-</div>
-<h3 id="problem-5-barbies-house">Problem 5: Barbie's House</h3>
-<div class="admonition question">
-<p class="admonition-title">Problem 5: Barbie's House</p>
-<p>Barbie's House needs to inherit everything from the BarbieWorld class in your <code>BarbieWorld.cs</code> file. Please modify the BarbieHouse class to inherit from BarbieWorld and write at least three methods within BarbieHouse representing furniture, pets, household items, food, etc. within her house. </p>
-</div>
+<h3 id="problem-1">Problem 1:</h3>
+<h3 id="problem-2">Problem 2:</h3>
+<h3 id="problem-3">Problem 3:</h3>
+<h3 id="problem-4">Problem 4:</h3>
+<h3 id="problem-5">Problem 5:</h3>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
-<li><a href="https://learn.unity.com/tutorial/generics#5c8923c5edbc2a113b6bc335">Unity Learn: Generics</a></li>
-<li><a href="https://onewheelstudio.com/blog/2020/12/27/c-generics-and-unity">C# Generics and Unity</a></li>
-<li><a href="https://docs.unity3d.com/2019.3/Documentation/Manual/GenericFunctions.html">Unity Documentation: Generic Functions</a></li>
-<li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics">Microsoft Learn: Generic Classes and Methods</a></li>
-<li><a href="https://www.programiz.com/csharp-programming/generics">C# Generics</a></li>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum">Enumeration Types</a></li>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop">Object-Oriented Programming</a></li>
+<li><a href="">The C# Player's Guide</a></li>
 </ul>
 <h2 id="submission">Submission</h2>
 <div class="admonition note">
@@ -955,11 +952,6 @@ The <a href="https://docs.unity3d.com/2023.3/Documentation/ScriptReference/MonoB
 <p><img alt="Image title" src="../hw2/notification.png" /></p>
 <p><img alt="Image title" src="../hw2/pushtogit.png" /></p>
 <p><img alt="Image title" src="../hw2/assignees.png" /></p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Kitchen Chaos</p>
-<p>On BrightSpace, submit a screenshot of where you are at with the Kitchen Chaos tutorial. </p>
-<p><iframe width="100%" height="315" src="https://www.youtube.com/embed/AmGSEH7QcDg?si=rZhxDlhNt93Mmt_T&amp;start=1228" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 </div>
 
 
