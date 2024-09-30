@@ -154,11 +154,11 @@ We will be play testing your game during class!! Please make sure your game is p
 | Documentation | Spend some time writing taglines and descriptions for your project. Take some videos and screenshots that you can use for your portfolio and resume. The instructors will be giving you feedback on this project through your portfolio. | 10% |
 | Peer Feedback | Please meet with 2 of your classmates to give and receive feedback. It is important to give verbal and written feedback. Please fill out the google form for each student you gave feedback to. | 10% |
 | Checkpoint 1 | Check in with any instructor. Show they what you've been working on and ask them any questions you have. | 10% |
-| Published Website | By **Monday, February 25th** you must have your game published on itch.io. | 30% |
-| Playtest during class | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on after **Monday, February 25th**. | 40% |
+| Published Website | By **Monday, October 18th** you must have your game published on itch.io. | 30% |
+| Playtest during class | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on after **Monday, October 16th**. | 40% |
 | **Total** | | **100%** |
 
-## ✅ Checkpoint
+<!-- ## ✅ Checkpoint
 
 By now, you have worked on project 1 for a week! It is time now to get feedback on your game before play test day. Each student should meet with two classmates to give and receive feedback. Every student will also meet with one of the instructors. Please feel free to ask the instructors for help and advice. We are here to support you!! by the end of the week, you should have met with your instructors and students and have enough feedback to bring your game to the next level! 
 
@@ -170,7 +170,7 @@ By now, you have worked on project 1 for a week! It is time now to get feedback 
 
 !!! note "Instructor Check-In"
 
-    Please schedule an office hours appointment with Debbie via Discord or email (yuend@usc.edu).
+    Please schedule an office hours appointment with Debbie via Discord or email (yuend@usc.edu). -->
     
 
 ## 🦄 Support
