@@ -151,11 +151,11 @@ We will be play testing your game during class!! Please make sure your game is p
 
 | Assignment | Description | Percentage |
 | :--------- | :--------- | :--------- |
-| Documentation | Spend some time writing taglines and descriptions for your project. Take some videos and screenshots that you can use for your portfolio and resume. The instructors will be giving you feedback on this project through your portfolio. | 10% |
-| Peer Feedback | Please meet with 2 of your classmates to give and receive feedback. It is important to give verbal and written feedback. Please fill out the google form for each student you gave feedback to. | 10% |
-| Checkpoint 1 | Check in with any instructor. Show they what you've been working on and ask them any questions you have. | 10% |
-| Published Website | By **Monday, October 18th** you must have your game published on itch.io. | 30% |
-| Playtest during class | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on after **Monday, October 16th**. | 40% |
+| Documentation | Spend some time writing taglines and descriptions for your project. Take some videos and screenshots that you can use for your portfolio and resume. The instructors will be giving you feedback on this project through your portfolio or presentation slide deck. | 10% |
+| Published Website | By **Monday, October 18th** you must have your game published on itch.io or some web link. | 5% |
+| Checkpoint 1 | Check in with any instructor outside of class. Show they what you've been working on and ask them any questions you have. Last day to check-in is **Wednesday, October 9th** | 5% |
+| Implementation | We will be asking you questions on how you implemented your projects. Please make sure that your projects are on Perforce and are able to answer questions about your code, artistic assets, shaders, etc. | 50% |
+| Playtest during class | It is important to be present in class on this day. Participation is important here in giving and receiving feedback. This is the day your game should be working! The instructors will begin grading your project on after **Monday, October 26th**. | 30% |
 | **Total** | | **100%** |
 
 <!-- ## ✅ Checkpoint
