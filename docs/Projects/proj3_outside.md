@@ -1,11 +1,21 @@
 # 🧃 Final: Outside the Box
 
 !!! tip "Important Dates"
-    | Checkpoint | Play Test | Submission |
+    **Homework:** HW09 - HW14 will require a submission via [BrightSpace](brightspace.usc.edu). Please record a short video of your project's progress showcasing the prototype.
+
+    **Checkpoint:** Check-ins with the instructors with Debbie and/or Jerry. Check-in will be on **Tuesday, November 5th** or **Wednesday, November 6th**. 
+
+    **Playtest:** In-class playtest on **Wednesday, November 13th**. Your project should be working and playable. 
+
+    **Presentation:** In-class final presentation and playtest on **Wednesday, December 4th**. Your project should be finished. 
+
+    **Final Submission:** Submit your final projects on Perforce along with a presentation side deck.
+    
+    <!-- | Checkpoint | Play Test | Submission |
     | ---------  | --------- | ---------- |
     | **CP 1:** Monday, March 18th <br> <br> In pairs, pull Perforce projects and pair program in Visual Studio Code. | **PT 1:** Monday, April 15th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Final Presentation:** Monday, April 29th <br> <br> In class presentation about your project. Students will have the opportunity to play your game while you present your work. Your presentation should consist of a research poster. |
     | **CP 2:** Monday, April 1st <br> <br> Read your classmate's papers and give them constructive feedback in their Google Docs. | **PT 2:** Monday, April 29th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Project Due:** Monday, May 6th <br> <br> Your final submission should include a link to your published game, Overleaf link to your research paper, and 2 PDF files for your paper and poster. |
-    | **CP 3:** Monday, April 15th <br> <br> In pairs, host a code review with Perforce. | | |
+    | **CP 3:** Monday, April 15th <br> <br> In pairs, host a code review with Perforce. | | | -->
 
 <div style="width:100%;height:0;padding-bottom:35%;position:relative;"><iframe src="https://giphy.com/embed/9age78wuTYN0tzfIR7" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/9age78wuTYN0tzfIR7">via GIPHY</a></p>
 
@@ -17,10 +27,11 @@ Take this final project as an opportunity to grow your soft skills of why you lo
 
 **By the end of this project you will:**
 
-* Participate in code reviews with [Perforce]()
+<!-- * Participate in code reviews with [Perforce]()
 * Create UI to bring your project together with [UI Toolkit]()
 * Master UXML, USS, C# and/or HTML, CSS, and Javascript
-* Collaborate and share builds with [GitHub repositories]()
+* Collaborate and share builds with [GitHub repositories]() -->
+* Learn a new skill with the game engine of your choice
 * Pair programming in [Visual Studio Code]()
 * Create an software experience that you are proud of - game, AR/VR experience, app, website, etc.
 * Gain experience in what goes into publishing your projects and experiences
@@ -172,7 +183,7 @@ Pick the platform you want to build for and publish to intentionally. Tailor you
     ![Image title](../Projects/final/twitch.png)
 
 
-## 📝 The Paper
+<!-- ## 📝 The Paper
 
 Your research paper can span areas including but not limited to animation, simulation, imaging, geometry, modeling, rendering, human-computer interaction, haptics, fabrication, robotics, visualization, audio, optics, programming languages, immersive experiences, and anything that aims to advance the state of the art that is related to your game or software experience.
 
@@ -214,7 +225,7 @@ Your research paper can span areas including but not limited to animation, simul
 
     You are welcome to make a game for a specific social media platform such as Snapchat, Facebook Messenger, YouTube, Twitch, and Discord. Please see some of the resources listed below.
 
-    ![Image title](../Projects/Project2)
+    ![Image title](../Projects/Project2) -->
 
 ## 🎟️ Requirements
 In short, the main requirement is to create a game and write a paper. 
@@ -235,7 +246,7 @@ We will be play testing your game during class!! Please make sure your game is p
 | :--------- | :--------- | :--------- |
 | Peer Feedback | Please meet with your classmates to give and receive feedback. It is important to give verbal and written feedback. Collaborate on your projects and support each other. Please fill out the google form for each student you gave feedback to. | 10% |
 | Checkpoints and Playtests | Check in with any instructor. Show they what you've been working on and ask them any questions you have. Complete the [check in assignments](../Projects/project2checkpoint1.md) with your classmates to practice collaborating over code. Participation is mandatory on playtest days and your game should be working and running on your selected hardware.| 10% |
-| Research Paper | Write your research paper in Google Docs and share it with the instructors. For your submission, your research paper should be properly formated with [Overleaf](https://www.overleaf.com/) and exported as a PDF. It should also come in the format as a poster, designed with [Adobe InDesign](https://www.adobe.com/products/indesign.html). | 20% |
+| Technical Implementation | Submit your projects via Perforce if possible. The instructors will evauate how you created your projects | 20% |
 | Game Design | We will be evaluating your game's overall experience. Your game should look and feel complete with assets, sounds, and user interface. Your game should be completed by **Monday, December 4th** and you are free to use the rest of the time to prepare your project to be published. | 30% |
 | Published Game | It is mandatory to publish your game. The process of publishing your game can be as long as 1 - 3 weeks. Please plan ahead and have your published game submitted by **Monday, December 11th**. | 30% |
 | **Total** | | **100%** |
@@ -248,9 +259,9 @@ Ask for help! Don't be afraid to reach out to us and ask for help. Work together
 
     Don't worry! You don't need to know all the languages and don't need to know everything about each language. You will work a little bit in those languages to make minor tweaks. Plus, the instructors are here to help you!
 
-!!! question "A research paper usually takes a lot of work. Are we really going to write out a full research paper ?"
+<!-- !!! question "A research paper usually takes a lot of work. Are we really going to write out a full research paper ?"
 
-    It will be a research paper but it will be scaled down and shortened! We will be learning how to style write a professional paper that can be submitted for conferences in the future. 
+    It will be a research paper but it will be scaled down and shortened! We will be learning how to style write a professional paper that can be submitted for conferences in the future.  -->
 
 !!! question "What if they don't approve the game I submitted ?"
 
