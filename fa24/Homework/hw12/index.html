@@ -749,15 +749,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#unity-urp-and-hdrp" class="md-nav__link">
-    <span class="md-ellipsis">
-      Unity URP and HDRP
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#light-sources" class="md-nav__link">
     <span class="md-ellipsis">
       Light Sources
@@ -777,9 +768,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#light-probes-and-volumes" class="md-nav__link">
+  <a href="#light-probes-lightmaps-and-volumes" class="md-nav__link">
     <span class="md-ellipsis">
-      Light Probes and Volumes
+      Light Probes, Lightmaps, and Volumes
     </span>
   </a>
   
@@ -803,7 +794,12 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#post-processing" class="md-nav__link">
     <span class="md-ellipsis">
       Post-Processing
@@ -811,9 +807,13 @@
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#unity-illumination" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unity Illumination
+    </span>
+  </a>
   
 </li>
       
@@ -1049,7 +1049,6 @@
 <p>In order to get started with adding lighting to your scene, add lighting and reposition it as needed in your scne. If you are using say, Baked Global Illumination, make sure the feature is turned on. Then, adjust each object's lighting settings accordingly. For baked lighting on objects, each object should be static. Finally, you may bake the lighting. A useful Unity package to help with visual effects is the <a href="https://docs.unity3d.com/Manual/PostProcessingOverview.html">Post Processing package</a>. </p>
 <h3 id="volumetric-lighting">Volumetric Lighting</h3>
 <h3 id="dynamic-lighting">Dynamic Lighting</h3>
-<h2 id="unity-urp-and-hdrp">Unity URP and HDRP</h2>
 <h2 id="light-sources">Light Sources</h2>
 <p>Standard Abstract Light Types:</p>
 <ul>
@@ -1083,11 +1082,37 @@
 <p><strong>Indirect Lighting</strong>: Indirect light is all other light that is ultimately reflected into a sensor, including light that hits surfaces several times, and sky light. To achieve realistic lighting results, you need to simulate both direct and indirect light.</p>
 </li>
 </ul>
-<h3 id="light-probes-and-volumes">Light Probes and Volumes</h3>
-<p>Formery Bloom. </p>
+<h3 id="light-probes-lightmaps-and-volumes">Light Probes, Lightmaps, and Volumes</h3>
+<p><img alt="Image title" src="../hw10/illumination1.png" />
+What are light probes? Light probes in Unity Scenes are ways to capture and use information about light that is passing through empty spaces. They store "baked" information about lighting in our scene - information about light passing through <strong>empty space</strong> in our scenes. In Unity, Light Probes are positions within the scene where the light is measured, or probed, during the bake. During runtime, the indirect light that hits dynamic GameObjects is approximated using the values from the nearest Light Probes to that object.</p>
+<p>Light probes have two main use cases. The techniques we use for these use cases are not the same. </p>
+<ul>
+<li>
+<p>Provide high quality lighting including indirect bounced light</p>
+</li>
+<li>
+<p>Provide lighting information for static scenery when the scenery is using Unity's LOD system</p>
+</li>
+</ul>
+<p><img alt="Image title" src="../hw10/illumination1.png" />
+Lightmaps, on the other hand, store lighting information about light hitting the <strong>surfaces</strong> in our scenes. </p>
 <h3 id="realtime-global-illumination">Realtime Global Illumination</h3>
 <h3 id="screen-space-global-illumination">Screen Space Global Illumination</h3>
-<h3 id="post-processing">Post-Processing</h3>
+<h2 id="post-processing">Post-Processing</h2>
+<p>Post-processing is a vital part in making our games look and feel good through improved visuals, . This is important in making our games more fun to play and experience. </p>
+<h2 id="unity-illumination">Unity Illumination</h2>
+<p>Illumination and lighting resources for Unity: </p>
+<ul>
+<li><a href="https://docs.unity3d.com/560/Documentation/Manual/PostProcessing-Bloom.html"><strong>Unity Bloom:</strong></a> In Unity, Bloom is a post-processing effect that creates a glow around bright areas by simulating light bleed, enhancing realism and visual appeal. It captures intense light sources and softly diffuses them, especially noticeable in high-luminance areas, adding atmosphere to scenes. Unity's bloom effect includes settings for intensity, threshold, and scatter, giving developers control over how much glow and spread is applied.</li>
+<li>Unity Asset Store Plugins<ul>
+<li><a href="https://store.kronnect.com/products/radiant-global-illumination"><strong>Kronnect Radient Global Illumination:</strong></a> Radiant Global Illumination is a Unity asset that adds real-time global illumination to 3D scenes, enhancing lighting realism by simulating indirect light without pre-baking. It supports multiple rendering pipelines, various light sources, and works with both static and dynamic content. Key features include customizable light bounce, noise reduction filters, organic lighting options, and spatial settings for finer control. It’s compatible with Unity 2021.3+ for Windows, Mac, and high-end mobile devices but excludes VR support.</li>
+<li><a href="https://assetstore.unity.com/packages/vfx/shaders/erebus-ray-traced-ao-shadows-with-sdfs-235851?srsltid=AfmBOoolxETujoM_LBw1A39Z6RgooHBbM_WBMtw63jmvCUcO8oXAk_LI"><strong>Erebus</strong>:</a> The Erebus Unity plugin offers real-time ray-traced ambient occlusion (AO) and shadow effects using signed distance fields (SDFs) for enhanced realism in lighting and shadows. It works across Unity’s Built-in, Universal, and High Definition Render Pipelines (URP, HDRP) and is suitable for dynamic and static content. It’s particularly useful for creating detailed, high-quality visual effects with efficient performance on compatible Unity versions.</li>
+</ul>
+</li>
+<li><a href="https://unity.com/resources/introduction-to-urp-advanced-creators-unity-6"><strong>Unity 6 URP RenderGraph:</strong></a> Render Graph in Unity's Universal Render Pipeline (URP) is a framework for managing rendering processes efficiently. It allows developers to define rendering steps in a modular, organized way, enabling better control over resource usage and rendering performance. Render Graph optimizes resource allocation, minimizes redundant processing, and provides tools for debugging and visualization, helping to streamline complex rendering tasks for real-time applications.</li>
+<li><a href="https://docs.unity3d.com/6000.0/Documentation/Manual/urp/probevolumes-concept.html"><strong>Adaptive Prob Volumes (APVs) for URP and HDRP:</strong></a> APV generates densely placed probes in areas with more geometry, and fewer probes in areas with less densely placed objects, like the background of Scene. This volume-based system helps us automate the placement of probes rather than placing them by hand, enhancing your scene without manual setup. The automated placement system is useful in creating smoother, per-pixel lighting transitions, improving realism in both complex and sparse areas. APVs support lighting consistency across scenes and large areas through probe "bricks," and they include memory optimization through streaming. </li>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Override-Screen-Space-GI.html"><strong>Screen Space Global Illumination for HDRP:</strong></a> Screen Space Global Illumination (SSGI) in Unity's High Definition Render Pipeline (HDRP) is a lighting feature that calculates diffuse light bounces using screen-space data. It supports ray marching, ray tracing, or a mixed mode for optimized lighting and shadow detail. SSGI dynamically adjusts to the scene’s geometry, improving lighting realism without baked lighting. This feature offers options for quality, denoising, and ray settings, enhancing visual fidelity in real-time environments.</li>
+</ul>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
 <li><a href="https://docs.unity3d.com/Manual/LightingInUnity.html">Unity Manual: Introduction to Lighting</a></li>
