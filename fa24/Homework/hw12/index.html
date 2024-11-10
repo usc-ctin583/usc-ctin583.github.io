@@ -1213,41 +1213,47 @@ We can adjust many things including the sky and post processing. </p>
 <details class="question" open="open">
 <summary>Step 1: Read Documentation on Realtime GI</summary>
 <p>First read the documentation on Realtime Global Illumination: <a href="https://docs.unity3d.com/Manual/realtime-gi-using-enlighten.html">Introduction to Realtime Global Illumination using Enlighten</a></p>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 5: Enable Enlighten Realtime Global Illumination</summary>
+<summary>Step 2: Enable Enlighten Realtime Global Illumination</summary>
 <p>Enable Realtime Global Illumination in your Scene by going to <code>Window</code> &gt; <code>Rendering</code> &gt; <code>Lighting</code> then enable <code>Realtime Global Illumination</code>.</p>
 <p>Recall that baked lightmaps are textures that store the lighting. They are cheap at runtime but take time to generate. To generate lightmaps, we use the <code>Lighting</code> window. Select <code>Baked Indirect</code> as your <strong>Lighting Mode</strong>.</p>
-<p>Then, select <code>Progressive GPU</code> as the progressive <strong>Lightmapper</strong>. </p>
-<p>If you like, you may customize sample counts and denoising options. </p>
-<p>Feel free to check out the documentation: <a href="https://docs.unity3d.com/Manual/realtime-gi-using-enlighten-use.html">Enble Enlighten Realtime Global Illumination</a></p>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="problemTwo/p2_2_rgi.png" /></p>
+<p>Then, select <code>Progressive GPU</code> as the progressive <strong>Lightmapper</strong>. 
+If you like, you may customize sample counts and denoising options. 
+Feel free to check out the documentation: <a href="https://docs.unity3d.com/Manual/realtime-gi-using-enlighten-use.html">Enble Enlighten Realtime Global Illumination</a></p>
+<p><img alt="Image title" src="problemTwo/p2_2_2_progressive.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 6: Baked Lightmaps</summary>
-<p>For the objects to participate in the Global Illumination (GI) computation, we will need to check the Contribute GI in our meshes. Make sure they all receive lighting from our lightmaps. </p>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<summary>Step 3: Baked Lightmaps</summary>
+<p>For the objects to participate in the Global Illumination (GI) computation, we will need to check <strong>Contribute Global Illumination</strong> in our meshes. Make sure they all receive lighting from our lightmaps. </p>
+<p><img alt="Image title" src="problemTwo/p2_3_contributegi.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 7: Generate Lighting</summary>
-<p>In the <code>Lighting</code> panel, we can then press on <code>Generate Lighting</code> to produce lightmaps. Using the Unity Realtime Global Illumination system with Enlighten, it should take a couple of minutes to generate or less than a minute. During this time, the lightmaps are gettting denoised, compressed, and stored as EXR.</p>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<summary>Step 4: Light Probe Group</summary>
+<p>Unity's legacy <a href="https://docs.unity3d.com/2019.3/Documentation/Manual/class-LightProbeGroup.html">Light Probe Groups</a> are a collection of points that store information about light hitting surfaces in a scene. They can be used to add high-quality light to moving objects, including indirect bounced light. In your <code>Hierarchy</code> &gt; <code>Lighting</code> &gt; <code>Light Probe Group</code>, check out the <code>Inspector</code> window. You will see yellow probes scattered around the Scene. These probes were all manually placed by someone who worked on a project!!</p>
+<p><img alt="Image title" src="problemTwo/p2_4_lightgroup.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 8: Rendering Debugger</summary>
-<p>We may also visualize our work with the <strong>Rendering Debugger</strong>. Open the debugger by going to <code>Window</code> &gt; <code>Analysis</code> &gt; <code>Rendering Debugger</code>. When in <strong>Play Mode</strong>, we can press <code>LeftCtrl</code> + <code>Backspace</code> (<code>LeftCtrl</code> + <code>Delete</code> on macOS). On a console controller, press <code>L3</code> and <code>R3</code> (Left Stick and Right Stick).</p>
-<p>Feel free to read the documentation: <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.1/manual/features/rendering-debugger.html#how-to-access">Rendering Debugger</a></p>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
-</details>
-<details class="question" open="open">
-<summary>Step 9: Reflection Probes</summary>
+<summary>Step 5: Reflection Probes</summary>
 <p>Reflection probes help capture local specular lighting. They are objects that can capture the surrounding environment into a cube map. The cube map is then used to provide specular lighting to the nearby objects. </p>
-<p>Lets start with adding a <strong>reflection probe</strong> in front of the camera. By default, it is a baked reflection probe and looks like a black sphere. Once baked, it has successfully captured the surrounding environment.</p>
+<p>Lets start with adding a <strong>reflection probe</strong> in front of the camera. </p>
+<p><img alt="Image title" src="problemTwo/p2_5_1_addprobe.png" /></p>
+<p>By default, it is a baked reflection probe and looks like a black sphere. Once baked, it has successfully captured the surrounding environment.</p>
+<p><img alt="Image title" src="problemTwo/p2_5_2_blacksphere.png" /></p>
 <p>To capture correct local reflections, we need to place more reflection probes. Updating the bounds, the capture point, and the fade distance for each probe can be a time-consuming task. </p>
 <p>How should we place our relection probes? We can group them by the same lighting condition. If they have the same lighting condition, we can share the same reflection probe. Usually the more probes, the more exact the reflections. However, this will have a memory cost. </p>
-<p>To test your reflections, you may change your materials to <strong>Mirrors</strong>. 
-<img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p>To test your reflections, you may change your materials to <strong>Mirrors</strong>. </p>
+</details>
+<details class="question" open="open">
+<summary>Step 6: Generate Lighting</summary>
+<p>In the <code>Lighting</code> panel, we can then press on <code>Generate Lighting</code> to produce lightmaps. Using the Unity Realtime Global Illumination system with Enlighten, it should take a couple of minutes to generate or less than a minute. During this time, the lightmaps are gettting denoised, compressed, and stored as EXR.</p>
+<p><img alt="Image title" src="problemTwo/p2_6_generate.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>Step 7: Rendering Debugger</summary>
+<p>We may also visualize our work with the <strong>Rendering Debugger</strong>. Open the debugger by going to <code>Window</code> &gt; <code>Analysis</code> &gt; <code>Rendering Debugger</code>. When in <strong>Play Mode</strong>, we can press <code>LeftCtrl</code> + <code>Backspace</code> (<code>LeftCtrl</code> + <code>Delete</code> on macOS). On a console controller, press <code>L3</code> and <code>R3</code> (Left Stick and Right Stick).</p>
+<p>Feel free to read the documentation: <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.1/manual/features/rendering-debugger.html#how-to-access">Rendering Debugger</a></p>
 </details>
 <h3 id="problem-3-adaptive-probe-volumes">Problem 3: Adaptive Probe Volumes</h3>
 <p>What about lighting of dynamic objects that cannot rely on baked lightmaps because they can move in very dark or bright parts of the scene. These objects need to be lit by a different type of lighting provided by lightprobes. </p>
