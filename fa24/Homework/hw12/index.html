@@ -1071,7 +1071,7 @@
 <p><a href="https://giphy.com/gifs/here-theyre-heeere-XyJZNF8BY9X38ifJMt">via GIPHY</a></p>
 
 <h2 id="lighting">Lighting</h2>
-<p><img alt="Image title" src="../hw10/illumination2.png" /></p>
+<p><img alt="Image title" src="../Homework/hw10/illumination2.png" /></p>
 <p>With Unity, you can achieve realistic lighting that is suitable for a range of art styles. Lighting comes in three formats or modes. To assign a <code>Mode</code>, select the Light in your <code>Scene</code>
  and, in the <code>Light Inspector window</code>, select <code>Mode</code>.</p>
 <ul>
@@ -1104,9 +1104,9 @@
 </ul>
 <h2 id="global-illumination">Global Illumination</h2>
 <p>Our eyes works interpret light by picking up rays of light. These rays of light bounce around and everytime it hits an object, the light responds in a certain way depending on the object's properties. For example, the light may be absorbed or reflected depending on the object's properties it hits and the object's material. In computer graphics, we are now able to simulate light properties. Global illumination plays an essential part in simulating indirect lighting by serving as a set of algorithms whose purpose is to add more realistic lighting to 3D scenes. Global illumination simulates indirect lighting, like light bouncing and color bleeding. Global illumination is an important part of 3D animation and design that helps give it a more realistic feel. Without global illumination, objects simply would look right in certain cases, which would lead to pulling the audience out of the moment. It is also a group of techniques that model both direct and indirect lighting to provide realistic lighting results.</p>
-<p><img alt="Image title" src="../hw10/light1.png" /></p>
+<p><img alt="Image title" src="../Homework/hw10/light1.png" /></p>
 <p>For example, in Unity you can have multiple objects of various colors where the colors are cast onto a reflective sphere. That effect is referred to as indirect lighting because the colored light isn't being cast directly from a light but rather is the result of light being cast onto a colored object which is then bleeding into the nearby reflective sphere. Global illumination plays a big role in getting this distinctive and often necessary look.  <strong>Unity has two, main global illumination systems, which combine direct and indirect lighting - Progressive Lightmapper (baked) and Enlighten Realtime Global Illumination  (real-time).</strong></p>
-<p><img alt="Image title" src="../hw10/illumination1.png" /></p>
+<p><img alt="Image title" src="../Homework/hw10/illumination1.png" /></p>
 <p>This act of light bouncing around is categorized into two types. Such algorithms take into account not only the light that comes directly from a light source (direct illumination), but also subsequent cases in which light rays from the same source are reflected by other surfaces in the scene, whether reflective or not (indirect illumination). Unity can calculate direct lighting, indirect lighting, or both direct and indirect lighting. The lighting techniques that Unity uses depends on how you configure your Project.</p>
 <ul>
 <li>
@@ -1117,7 +1117,7 @@
 </li>
 </ul>
 <h3 id="light-probes-lightmaps-and-volumes">Light Probes, Lightmaps, and Volumes</h3>
-<p><img alt="Image title" src="../hw10/illumination1.png" />
+<p><img alt="Image title" src="../Homework/hw10/illumination1.png" />
 What are light probes? Light probes in Unity Scenes are ways to capture and use information about light that is passing through empty spaces. They store "baked" information about lighting in our scene - information about light passing through <strong>empty space</strong> in our scenes. In Unity, Light Probes are positions within the scene where the light is measured, or probed, during the bake. During runtime, the indirect light that hits dynamic GameObjects is approximated using the values from the nearest Light Probes to that object.</p>
 <p>Light probes have two main use cases. The techniques we use for these use cases are not the same. </p>
 <ul>
@@ -1128,7 +1128,7 @@ What are light probes? Light probes in Unity Scenes are ways to capture and use 
 <p>Provide lighting information for static scenery when the scenery is using Unity's LOD system</p>
 </li>
 </ul>
-<p><img alt="Image title" src="../hw10/illumination1.png" />
+<p><img alt="Image title" src="../Homework/hw10/illumination1.png" />
 Lightmaps, on the other hand, store lighting information about light hitting the <strong>surfaces</strong> in our scenes. </p>
 <h3 id="realtime-global-illumination">Realtime Global Illumination</h3>
 <h3 id="screen-space-global-illumination">Screen Space Global Illumination</h3>
@@ -1154,43 +1154,43 @@ Lightmaps, on the other hand, store lighting information about light hitting the
 <p class="admonition-title">Step 1: Create a new Volume</p>
 <p>Unity's volume system is the main way to control the visual settings per camera in HDRP. Multiple volumes may share the same profile. We are able to adjust the size of the volume, contrast, saturation, and much more. When the camera enters the volume, the settings then are applied to the frame. </p>
 <p>First, lets create a new volume</p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 2: Create a new Profile</p>
 <p>Then, create a new profile</p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 3: Add Override</p>
 <p>Then, <code>Add Override</code> and <code>Color Adjustments</code></p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 4: Experiment!</p>
 <p>Apply your overrides to your frame and try moving in and out of your volume. Try setting your Mode to <code>Global</code> or <code>Local</code>.
 We can adjust many things including the sky and post processing. </p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 5: Disable the Fog</p>
 <p>Now lets try to set up the sky for HDRI with the volume system. This is done with a visual override. If we deselect the <code>Fog</code>, we can see that the HDRI unobstructed. </p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 6: Visual Environment</p>
 <p>In your <code>Hierarchy</code> window, you may go to <code>Lighting</code> &gt; <code>Volumes</code> &gt; <code>Volume Global</code>. Then, in your <code>Inspector</code>, you will see <code>Visual Environment</code>. There, you can choose between four types of skies including: non-HDRI sky, HDRI Sky, Physically Based Sky, and Gradient Sky. </p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 7: Sky Exposure Values</p>
 <p>Remember to make sure all your baked data is cleared so that we can see that in the absence, of proper indirect lighting, HDRP will always fall back to the sky probe. Now you can try adjusting the exposure values.</p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 8: Sun Light</p>
 <p>What if we would like to have bounce lighting? HDRP is physically based, so we can control the color temperature of the light using the Kelvin scale.  In your <code>Hierarchy</code> window, you may go to <code>Lighting</code> &gt; <code>Directional Light Sun</code>. Then in your <code>Inspector</code> window, we can find the <code>Light</code> component and then the <code>Emission</code> tab. We can try using the <strong>Day Light</strong> preset. Now try experimenting with the <strong>Shadows</strong> override components and the <strong>Indirect Lighting Controller</strong> component. Adjusting the Indirect Lighting Controller values can be a quick way to dim unwanted ambient lighting without using Unity Global Illumination. </p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <h3 id="problem-2-realtime-global-illumination">Problem 2: Realtime Global Illumination</h3>
 <p>Unity's Realtime Global Illumination (GI) system relies on Enlighten, so that lighting precomputes take minutes rather than hours. It is useful for Lights that change slowly and have a significant visual impact on our game. This includes the sun moving across the sky, or a slowly pulsating light in a closed corridor. </p>
@@ -1198,22 +1198,22 @@ We can adjust many things including the sky and post processing. </p>
 <div class="admonition question">
 <p class="admonition-title">Step 1: Read Documentation on Realtime GI</p>
 <p>First read the documentation on Realtime Global Illumination: <a href="https://docs.unity3d.com/Manual/realtime-gi-using-enlighten.html">Introduction to Realtime Global Illumination using Enlighten</a></p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 2: Create HDRP Project</p>
 <p>Create a new Unity HDRP project such as starting with the <strong>High Definition 3D Sample</strong> template in Unity. </p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 3: HDRP Tutorial</p>
 <p>Step through the <strong>High Definition Render Pipeline</strong> tutorials. </p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 4: Clear Baked Lighting Data</p>
 <p>Unbake all Lighting data. This way we can start with a base scene and recreate our own lighting.</p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 5: Enable Enlighten Realtime Global Illumination</p>
@@ -1222,23 +1222,23 @@ We can adjust many things including the sky and post processing. </p>
 <p>Then, select <code>Progressive GPU</code> as the progressive <strong>Lightmapper</strong>. </p>
 <p>If you like, you may customize sample counts and denoising options. </p>
 <p>Feel free to check out the documentation: <a href="https://docs.unity3d.com/Manual/realtime-gi-using-enlighten-use.html">Enble Enlighten Realtime Global Illumination</a></p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 6: Baked Lightmaps</p>
 <p>For the objects to participate in the Global Illumination (GI) computation, we will need to check the Contribute GI in our meshes. Make sure they all receive lighting from our lightmaps. </p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 7: Generate Lighting</p>
 <p>In the <code>Lighting</code> panel, we can then press on <code>Generate Lighting</code> to produce lightmaps. Using the Unity Realtime Global Illumination system with Enlighten, it should take a couple of minutes to generate or less than a minute. During this time, the lightmaps are gettting denoised, compressed, and stored as EXR.</p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 8: Rendering Debugger</p>
 <p>We may also visualize our work with the <strong>Rendering Debugger</strong>. Open the debugger by going to <code>Window</code> &gt; <code>Analysis</code> &gt; <code>Rendering Debugger</code>. When in <strong>Play Mode</strong>, we can press <code>LeftCtrl</code> + <code>Backspace</code> (<code>LeftCtrl</code> + <code>Delete</code> on macOS). On a console controller, press <code>L3</code> and <code>R3</code> (Left Stick and Right Stick).</p>
 <p>Feel free to read the documentation: <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.1/manual/features/rendering-debugger.html#how-to-access">Rendering Debugger</a></p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <div class="admonition question">
 <p class="admonition-title">Step 9: Reflection Probes</p>
@@ -1247,16 +1247,99 @@ We can adjust many things including the sky and post processing. </p>
 <p>To capture correct local reflections, we need to place more reflection probes. Updating the bounds, the capture point, and the fade distance for each probe can be a time-consuming task. </p>
 <p>How should we place our relection probes? We can group them by the same lighting condition. If they have the same lighting condition, we can share the same reflection probe. Usually the more probes, the more exact the reflections. However, this will have a memory cost. </p>
 <p>To test your reflections, you may change your materials to <strong>Mirrors</strong>. 
-<img alt="Image title" src="../hw13/MLProject.png" /></p>
+<img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
 </div>
 <h3 id="problem-3-adaptive-probe-volumes">Problem 3: Adaptive Probe Volumes</h3>
 <p>What about lighting of dynamic objects that cannot rely on baked lightmaps because they can move in very dark or bright parts of the scene. These objects need to be lit by a different type of lighting provided by lightprobes. </p>
 <p>Unity's legacy stystem is called the <a href="https://docs.unity3d.com/520/Documentation/Manual/class-LightProbeGroup.html">Light Probe Group</a>. It relies on a network of probes to capture lighting. This network is usually set up by hand, and the artists will need to place every probe manually, which is very time consuming. Usually, the probe needs to be placed around areas of highlighting contrast to capture as much lighting variations as possible. Not only do lightmap UVs need to be authored, probes need to be placed for dynamic objects to be lit correctly, and we will need to deal with large textures that is heavy on our application's runtime memory. This solution is usually efficient on mobile, as the lighting calculations are extremely cheap. However, it is not great visually for high-end scenarios. </p>
 <p>Unity's new, <a href="https://docs.unity3d.com/6000.0/Documentation/Manual/urp/probevolumes-concept.html">Adaptive Probe Volumes (APV)</a> system gives us a new way to apply global illumination in our worlds. It is a new and more robust <strong>light baking architecture</strong> to authoring light-probe lit environments, a group of lightprobes that Unity places automatically based on the geometry density in our Scene, to build bake indirect lighting.</p>
-<p>Because it is adaptive, APV generates more densely placed probes in areas with more geometry and fewer probes in areas with less placed objects, like the background of a Scene. </p>
+<p>Because it is adaptive, APV generates more densely placed probes in areas with more geometry and fewer probes in areas with less placed objects, like the background of a Scene. This system also allows for objects to receive many lighting variations on its surface and receives correct per pixel lighting, something the legacy system cannot provide. </p>
 <div class="admonition question">
-<p class="admonition-title">Step 1: Placing Probes with APV</p>
-<p><img alt="Image title" src="../hw13/MLProject.png" /></p>
+<p class="admonition-title">Step 1: Enable APV</p>
+<p>By default, the project is using the <strong>Light Probe Group</strong> system. We need to switch our system over to <strong>Adaptive Probe Volumes</strong>. </p>
+<p>First:</p>
+<ul>
+<li>From the main menu, select <code>Edit</code> &gt; <code>Project Settings</code> &gt; <code>Quality</code> &gt; <code>HDRP</code>.</li>
+<li>Expand <code>Lighting</code> &gt; <code>Light Probe Lighting</code>.</li>
+<li>Set <code>Light Probe System</code> to <code>Probe Volumes</code>. </li>
+</ul>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p>Then:</p>
+<ul>
+<li>Select the <code>Graphics</code> &gt; <code>Pipeline Specific Settings</code> &gt; <code>HDRP</code> tab.</li>
+<li>Go to Frame Settings.</li>
+<li>Expand <code>Camera</code> &gt; <code>Lighting</code> and enable <code>Probe Volumes</code>.</li>
+</ul>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p>Finally, to make sure our reflection probes also capture lighting data from APV, we should also do the following: </p>
+<ul>
+<li>Expand <code>Realtime Reflection</code> &gt; <code>Lighting</code> and enable <code>Probe Volumes</code>.</li>
+<li>Expand <code>Baked</code> or <code>Custom Reflection</code> &gt; <code>Lighting</code> and enable <code>Probe Volumes</code>.</li>
+</ul>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p>Feel free to reference the documentation: <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/probevolumes-use.html">Use Adaptive Probe Volumes (HDRP)</a></p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Step 2: Add an APV to the Scene</p>
+<p>To automatically generate probes, you can create an <strong>Adaptive Probe Volume</strong>. While you’re working, you can see live updates, allowing you to preview probe placement without baking. These updates are based on bricks and the subdivision levels you previously defined, which then adjusts according to the proximity of nearby geometry.</p>
+<ul>
+<li>From the main menu, select <code>GameObject</code> &gt; <code>Light</code> &gt; <code>Probe Volume (Experimental)</code> &gt; <code>Probe Volume</code>.</li>
+</ul>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<ul>
+<li>Select the <code>Probe Volume</code> GameObject and under the <code>Lighting</code> tab, uncheck <strong>Realtime Lighting</strong> since using Enlighten at the same time is not compatible. </li>
+</ul>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<ul>
+<li>In the Inspector for the Adaptive Probe Volume, set Mode to <code>Global</code> to make this Adaptive Probe Volume cover your entire Scene.</li>
+</ul>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Step 3: Light and Mesh Renderer Settings</p>
+<ul>
+<li>To include a Light in an Adaptive Probe Volume’s baked lighting data, open the Inspector for the Light then set the <strong>Light Mode</strong> to <code>Mixed</code> or <code>Baked</code>.</li>
+</ul>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<ul>
+<li>To include a <strong>GameObject</strong> in an Adaptive Probe Volume’s baked lighting data, open the Inspector for the GameObject and enable <code>Contribute Global Illumination</code>. </li>
+</ul>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<ul>
+<li>To make a GameObject receive baked lighting, open the Inspector for the GameObject and set <code>Receive Global Illumination</code> to <code>Light Probes</code>.</li>
+</ul>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Step 4: Bake your Lighting</p>
+<ul>
+<li>
+<p>From the main menu, select <code>Window</code> &gt; <code>Rendering</code> &gt; <code>Lighting</code>. If you do not see this panel, instead of <code>Lighting</code>, visit <code>Light Explorer</code> &gt; <code>Light Probes</code>.
+<img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+</li>
+<li>
+<p>Select the <code>Adaptive Probe Volumes</code> panel if needed. </p>
+</li>
+<li>Set <code>Baking Mode</code> to <code>Scene</code>.
+<img alt="Image title" src="../Homework/hw13/MLProject.png" /></li>
+</ul>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Step 5: Generate Lighting</p>
+<p>Generate Lighting precomputes all lighting data, including light probes, which you can visualize in your scene. As previewed using bricks, you can see the various subdivision levels that have been applied when placing probes.
+* Select <code>Generate Lighting</code>.
+<img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Step 6: Probe Placement with APV</p>
+<p>APV is a volume-based system that automates the placement of probes rather than placing them by hand. To control globally how probes are placed in the world, you can use the <strong>Probe Volume Settings</strong> tools. </p>
+<p>The general settings tab for APV lets you control parameters like Min and Max Probe Spacing to control the distances between probes. By default, dense areas will use the highest resolution, while areas with less geometry will use lower density levels. This automatic and adaptive behavior ensures efficient resource allocation, focusing on areas where they are most needed.</p>
+<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Step 7: Light Leaking</p>
+<p>However, a problem with automated probes placement is that sometimes probes can sometimes end up inside objects and create invalid lighting data. This can produce <strong>light leaking</strong>, especially when dealing with high-contrast lighting. However, the Unity APV system can automatically mark probes within objecas as invalid, such as the ones between floors and walls. </p>
+<p>The APV system also has a virtual offset that will slightly move the probes in case they are inside the geometry or too close to their surface. Within debug view, we can see how much the probes have been nudged before the irradiance was captured. </p>
 </div>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
@@ -1268,6 +1351,7 @@ We can adjust many things including the sky and post processing. </p>
 <li><a href="https://www.pluralsight.com/blog/film-games/understanding-global-illumination">Understanding Global Illumination</a></li>
 <li><a href="https://unity.com/blog/engine-platform/new-ways-of-applying-global-illumination-in-unity-6">New ways of applying global illumination to your worlds in Unity 6</a></li>
 <li><a href="https://blog.logrocket.com/exploring-post-processing-unity/">Exploring Post-Processing in Unity</a></li>
+<li><a href="https://www.youtube.com/watch?v=DlxuvvYZO4Q&amp;t=1494s">Lighting tutorial: 4 techniques to light environments in Unity | Unite 2022</a></li>
 </ul>
 <!-- - [x] URP is better when it comes to optimization for virtual reality experiences 
 - [x] When developing for the Oculus Quest, HDRP has a high performance cost
