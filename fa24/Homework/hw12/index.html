@@ -868,6 +868,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#submission" class="md-nav__link">
+    <span class="md-ellipsis">
+      Submission
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1230,28 +1239,23 @@ Feel free to check out the documentation: <a href="https://docs.unity3d.com/Manu
 <p><img alt="Image title" src="problemTwo/p2_3_contributegi.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 4: Light Probe Group</summary>
-<p>Unity's legacy <a href="https://docs.unity3d.com/2019.3/Documentation/Manual/class-LightProbeGroup.html">Light Probe Groups</a> are a collection of points that store information about light hitting surfaces in a scene. They can be used to add high-quality light to moving objects, including indirect bounced light. In your <code>Hierarchy</code> &gt; <code>Lighting</code> &gt; <code>Light Probe Group</code>, check out the <code>Inspector</code> window. You will see yellow probes scattered around the Scene. These probes were all manually placed by someone who worked on a project!!</p>
-<p><img alt="Image title" src="problemTwo/p2_4_lightgroup.png" /></p>
-</details>
-<details class="question" open="open">
-<summary>Step 5: Reflection Probes</summary>
+<summary>Step 4: Reflection Probes</summary>
 <p>Reflection probes help capture local specular lighting. They are objects that can capture the surrounding environment into a cube map. The cube map is then used to provide specular lighting to the nearby objects. </p>
 <p>Lets start with adding a <strong>reflection probe</strong> in front of the camera. </p>
-<p><img alt="Image title" src="problemTwo/p2_5_1_addprobe.png" /></p>
+<p><img alt="Image title" src="problemTwo/p2_4_1_addprobe.png" /></p>
 <p>By default, it is a baked reflection probe and looks like a black sphere. Once baked, it has successfully captured the surrounding environment.</p>
-<p><img alt="Image title" src="problemTwo/p2_5_2_blacksphere.png" /></p>
+<p><img alt="Image title" src="problemTwo/p2_4_2_blacksphere.png" /></p>
 <p>To capture correct local reflections, we need to place more reflection probes. Updating the bounds, the capture point, and the fade distance for each probe can be a time-consuming task. </p>
 <p>How should we place our relection probes? We can group them by the same lighting condition. If they have the same lighting condition, we can share the same reflection probe. Usually the more probes, the more exact the reflections. However, this will have a memory cost. </p>
 <p>To test your reflections, you may change your materials to <strong>Mirrors</strong>. </p>
 </details>
 <details class="question" open="open">
-<summary>Step 6: Generate Lighting</summary>
+<summary>Step 5: Generate Lighting</summary>
 <p>In the <code>Lighting</code> panel, we can then press on <code>Generate Lighting</code> to produce lightmaps. Using the Unity Realtime Global Illumination system with Enlighten, it should take a couple of minutes to generate or less than a minute. During this time, the lightmaps are gettting denoised, compressed, and stored as EXR.</p>
-<p><img alt="Image title" src="problemTwo/p2_6_generate.png" /></p>
+<p><img alt="Image title" src="problemTwo/p2_5_generate.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 7: Rendering Debugger</summary>
+<summary>Step 6: Rendering Debugger</summary>
 <p>We may also visualize our work with the <strong>Rendering Debugger</strong>. Open the debugger by going to <code>Window</code> &gt; <code>Analysis</code> &gt; <code>Rendering Debugger</code>. When in <strong>Play Mode</strong>, we can press <code>LeftCtrl</code> + <code>Backspace</code> (<code>LeftCtrl</code> + <code>Delete</code> on macOS). On a console controller, press <code>L3</code> and <code>R3</code> (Left Stick and Right Stick).</p>
 <p>Feel free to read the documentation: <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.1/manual/features/rendering-debugger.html#how-to-access">Rendering Debugger</a></p>
 </details>
@@ -1261,7 +1265,12 @@ Feel free to check out the documentation: <a href="https://docs.unity3d.com/Manu
 <p>Unity's new, <a href="https://docs.unity3d.com/6000.0/Documentation/Manual/urp/probevolumes-concept.html">Adaptive Probe Volumes (APV)</a> system gives us a new way to apply global illumination in our worlds. It is a new and more robust <strong>light baking architecture</strong> to authoring light-probe lit environments, a group of lightprobes that Unity places automatically based on the geometry density in our Scene, to build bake indirect lighting.</p>
 <p>Because it is adaptive, APV generates more densely placed probes in areas with more geometry and fewer probes in areas with less placed objects, like the background of a Scene. This system also allows for objects to receive many lighting variations on its surface and receives correct per pixel lighting, something the legacy system cannot provide. </p>
 <details class="question" open="open">
-<summary>Step 1: Enable APV</summary>
+<summary>Step 1: Light Probe Group</summary>
+<p>Unity's legacy <a href="https://docs.unity3d.com/2019.3/Documentation/Manual/class-LightProbeGroup.html">Light Probe Groups</a> are a collection of points that store information about light hitting surfaces in a scene. They can be used to add high-quality light to moving objects, including indirect bounced light. In your <code>Hierarchy</code> &gt; <code>Lighting</code> &gt; <code>Light Probe Group</code>, check out the <code>Inspector</code> window. You will see yellow probes scattered around the Scene. These probes were all manually placed by someone who worked on a project!!</p>
+<p><img alt="Image title" src="problemThree/p3_1_lightgroup.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>Step 2: Enable APV</summary>
 <p>By default, the project is using the <strong>Light Probe Group</strong> system. We need to switch our system over to <strong>Adaptive Probe Volumes</strong>. </p>
 <p>First:</p>
 <ul>
@@ -1269,83 +1278,90 @@ Feel free to check out the documentation: <a href="https://docs.unity3d.com/Manu
 <li>Expand <code>Lighting</code> &gt; <code>Light Probe Lighting</code>.</li>
 <li>Set <code>Light Probe System</code> to <code>Probe Volumes</code>. </li>
 </ul>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="problemThree/p3_2_1_probevolume.png" /></p>
 <p>Then:</p>
 <ul>
 <li>Select the <code>Graphics</code> &gt; <code>Pipeline Specific Settings</code> &gt; <code>HDRP</code> tab.</li>
 <li>Go to Frame Settings.</li>
 <li>Expand <code>Camera</code> &gt; <code>Lighting</code> and enable <code>Probe Volumes</code>.</li>
 </ul>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="problemThree/p3_2_2_graphics.png" /></p>
 <p>Finally, to make sure our reflection probes also capture lighting data from APV, we should also do the following: </p>
 <ul>
 <li>Expand <code>Realtime Reflection</code> &gt; <code>Lighting</code> and enable <code>Probe Volumes</code>.</li>
 <li>Expand <code>Baked</code> or <code>Custom Reflection</code> &gt; <code>Lighting</code> and enable <code>Probe Volumes</code>.</li>
 </ul>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="problemThree/p3_2_3_realtimereflection.png" /></p>
 <p>Feel free to reference the documentation: <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/probevolumes-use.html">Use Adaptive Probe Volumes (HDRP)</a></p>
 </details>
 <details class="question" open="open">
-<summary>Step 2: Add an APV to the Scene</summary>
+<summary>Step 3: Add an APV to the Scene</summary>
 <p>To automatically generate probes, you can create an <strong>Adaptive Probe Volume</strong>. While you’re working, you can see live updates, allowing you to preview probe placement without baking. These updates are based on bricks and the subdivision levels you previously defined, which then adjusts according to the proximity of nearby geometry.</p>
 <ul>
 <li>From the main menu, select <code>GameObject</code> &gt; <code>Light</code> &gt; <code>Probe Volume (Experimental)</code> &gt; <code>Probe Volume</code>.</li>
 </ul>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="problemThree/p3_3_1_probevolumeobject.png" /></p>
 <ul>
 <li>Select the <code>Probe Volume</code> GameObject and under the <code>Lighting</code> tab, uncheck <strong>Realtime Lighting</strong> since using Enlighten at the same time is not compatible. </li>
 </ul>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="problemThree/p3_3_2_unchecked.png" /></p>
 <ul>
 <li>In the Inspector for the Adaptive Probe Volume, set Mode to <code>Global</code> to make this Adaptive Probe Volume cover your entire Scene.</li>
 </ul>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="problemThree/p3_3_3_global.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 3: Light and Mesh Renderer Settings</summary>
+<summary>Step 4: Light and Mesh Renderer Settings</summary>
 <ul>
 <li>To include a Light in an Adaptive Probe Volume’s baked lighting data, open the Inspector for the Light then set the <strong>Light Mode</strong> to <code>Mixed</code> or <code>Baked</code>.</li>
 </ul>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
-<ul>
-<li>To include a <strong>GameObject</strong> in an Adaptive Probe Volume’s baked lighting data, open the Inspector for the GameObject and enable <code>Contribute Global Illumination</code>. </li>
-</ul>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
-<ul>
-<li>To make a GameObject receive baked lighting, open the Inspector for the GameObject and set <code>Receive Global Illumination</code> to <code>Light Probes</code>.</li>
-</ul>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
-</details>
-<details class="question" open="open">
-<summary>Step 4: Bake your Lighting</summary>
+<p><img alt="Image title" src="problemThree/p3_4_1_modes.png" /></p>
 <ul>
 <li>
-<p>From the main menu, select <code>Window</code> &gt; <code>Rendering</code> &gt; <code>Lighting</code>. If you do not see this panel, instead of <code>Lighting</code>, visit <code>Light Explorer</code> &gt; <code>Light Probes</code>.
-<img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p>To include a <strong>GameObject</strong> in an Adaptive Probe Volume’s baked lighting data, open the Inspector for the GameObject and enable <code>Contribute Global Illumination</code>. </p>
 </li>
 <li>
-<p>Select the <code>Adaptive Probe Volumes</code> panel if needed. </p>
+<p>To make a GameObject receive baked lighting, open the Inspector for the GameObject and set <code>Receive Global Illumination</code> to <code>Light Probes</code>.</p>
 </li>
-<li>Set <code>Baking Mode</code> to <code>Scene</code>.
-<img alt="Image title" src="../Homework/hw13/MLProject.png" /></li>
+</ul>
+<p><img alt="Image title" src="problemThree/p3_4_2_bakelight.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>Step 5: Bake your Lighting</summary>
+<ul>
+<li>
+<p>From the main menu, select <code>Window</code> &gt; <code>Rendering</code> &gt; <code>Lighting</code>. If you do not see this panel, instead of <code>Lighting</code>, visit <code>Light Explorer</code> &gt; <code>Light Probes</code>.</p>
+</li>
+<li>
+<p>Select the <code>Adaptive Probe Volumes</code> panel or <code>Light Probes</code> tab.
+<img alt="Image title" src="problemThree/p3_5_lightexplorer.png" /></p>
+</li>
 </ul>
 </details>
 <details class="question" open="open">
-<summary>Step 5: Generate Lighting</summary>
+<summary>Step 6: Baking Sets with APV</summary>
+<p>Open up the **Probe Volume Settings (Experimental) panel under <code>Window</code> &gt; <code>Rendering</code>. 
+<img alt="Image title" src="problemThree/p3_6_1_bakingsets.png" /></p>
+<p>Then, create <code>New Baking Set</code> and add your scene. 
+<img alt="Image title" src="problemThree/p3_6_2_addscene.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>Step 7: Generate Lighting</summary>
 <p>Generate Lighting precomputes all lighting data, including light probes, which you can visualize in your scene. As previewed using bricks, you can see the various subdivision levels that have been applied when placing probes.
 * Select <code>Generate Lighting</code>.
-<img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<img alt="Image title" src="problemThree/p3_7_generate.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 6: Probe Placement with APV</summary>
+<summary>Step 8: Probe Placement with APV</summary>
 <p>APV is a volume-based system that automates the placement of probes rather than placing them by hand. To control globally how probes are placed in the world, you can use the <strong>Probe Volume Settings</strong> tools. </p>
 <p>The general settings tab for APV lets you control parameters like Min and Max Probe Spacing to control the distances between probes. By default, dense areas will use the highest resolution, while areas with less geometry will use lower density levels. This automatic and adaptive behavior ensures efficient resource allocation, focusing on areas where they are most needed.</p>
-<p><img alt="Image title" src="../Homework/hw13/MLProject.png" /></p>
+<p><img alt="Image title" src="problemThree/p3_8_placement.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 7: Light Leaking</summary>
+<summary>Step 9: Light Leaking</summary>
 <p>However, a problem with automated probes placement is that sometimes probes can sometimes end up inside objects and create invalid lighting data. This can produce <strong>light leaking</strong>, especially when dealing with high-contrast lighting. However, the Unity APV system can automatically mark probes within objecas as invalid, such as the ones between floors and walls. </p>
 <p>The APV system also has a virtual offset that will slightly move the probes in case they are inside the geometry or too close to their surface. Within debug view, we can see how much the probes have been nudged before the irradiance was captured. </p>
+<p><img alt="Image title" src="problemThree/p3_9_lightleaking.png" /></p>
 </details>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
@@ -1359,6 +1375,11 @@ Feel free to check out the documentation: <a href="https://docs.unity3d.com/Manu
 <li><a href="https://blog.logrocket.com/exploring-post-processing-unity/">Exploring Post-Processing in Unity</a></li>
 <li><a href="https://www.youtube.com/watch?v=DlxuvvYZO4Q&amp;t=1494s">Lighting tutorial: 4 techniques to light environments in Unity | Unite 2022</a></li>
 </ul>
+<h2 id="submission">Submission</h2>
+<div class="admonition note">
+<p class="admonition-title">Illumination</p>
+<p>Please share three videos of what you have created - one for each problem on BrightSpace. Screenshots will not count and will be marked as incomplete.</p>
+</div>
 <!-- - [x] URP is better when it comes to optimization for virtual reality experiences 
 - [x] When developing for the Oculus Quest, HDRP has a high performance cost
 - [x] URP is better for projects that need to run on a variety of devices including older hardware
@@ -1369,8 +1390,7 @@ Feel free to check out the documentation: <a href="https://docs.unity3d.com/Manu
     - [x] Create or start with a Unity URP project 
     - [x] Complete the []() tutorial  -->
 
-<div class="language-text highlight"><pre><span></span><code>&lt;!-- First, please create a Unity URP project or start with an existing URP project with 3D objects within the scene. For the first problem, you may complete the equivalent in Unity HDRP. The second problem depends on Unity URP. --&gt;
-</code></pre></div>
+<!-- First, please create a Unity URP project or start with an existing URP project with 3D objects within the scene. For the first problem, you may complete the equivalent in Unity HDRP. The second problem depends on Unity URP. -->
 
 
 
