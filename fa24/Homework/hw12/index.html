@@ -1091,7 +1091,9 @@
 <p>In order to get started with adding lighting to your scene, add lighting and reposition it as needed in your scne. If you are using say, Baked Global Illumination, make sure the feature is turned on. Then, adjust each object's lighting settings accordingly. For baked lighting on objects, each object should be static. Finally, you may bake the lighting. A useful Unity package to help with visual effects is the <a href="https://docs.unity3d.com/Manual/PostProcessingOverview.html">Post Processing package</a>. </p>
 <h3 id="volumetric-lighting">Volumetric Lighting</h3>
 <p>Unity's volume system is the main way to control the visual settings per camera in HDRP. Multiple volumes may share the same profile. We are able to adjust the size of the volume, contrast, saturation, and much more. When the camera enters the volume, the settings then are applied to the frame. </p>
+<p>Volumetric lighting is useful in creating depth, therefore, directing attention to a specific object or space. Some examples of volumetric lighting include illuminating specific subjets, sunbeams shining through windows, and radiating when the sun is below the horizon. </p>
 <h3 id="dynamic-lighting">Dynamic Lighting</h3>
+<p>Dynamic lighting is typically a type of simulated lighting that calculates lighting in real time. It is helpful in bringing suspense to games, especially horror experiences. In dynamic lighting, pulses of current are used to light a device. GameObjects that are dynamically lit usually requires some change in the Scene. In these cases, pre-calculated lighting aren't options. </p>
 <h2 id="light-sources">Light Sources</h2>
 <p>Standard Abstract Light Types:</p>
 <ul>
@@ -1140,9 +1142,13 @@ What are light probes? Light probes in Unity Scenes are ways to capture and use 
 <p><img alt="Image title" src="illumination1.png" />
 Lightmaps, on the other hand, store lighting information about light hitting the <strong>surfaces</strong> in our scenes. </p>
 <h3 id="realtime-global-illumination">Realtime Global Illumination</h3>
+<p>Global illumination allows us to m imic how light interacts with surfaces in the real world in a virtual environment. Realtime Global Illumination with Enlighten is Unity's middleware solution. </p>
+<p>We can use Enlighten Realtime Global Illumination (Realtime GI) for lights that change slowly and have a significant visual impact on our Scene. This feature is not intended for special effors or lights that change really quickly. </p>
 <h3 id="screen-space-global-illumination">Screen Space Global Illumination</h3>
+<p>The Screen Space Global Illumination (SSGI) override is a High Definition Render Pipeline (HDRP) feature that uses the depth and color buffer of the screen to calculate diffuse light bounces. HDRP implements ray-traced global illumination (RTGI) on top of this override. This means that the properties visible in the Inspector change depending on whether you enable ray tracing.</p>
+<p>SSGI and RTGI replace all lightmap and Light Probe data. If you enable this override on a Volume that affects the Camera, Light Probes and the ambient probe stop contributing to lighting for GameObjects.</p>
 <h2 id="post-processing">Post-Processing</h2>
-<p>Post-processing is a vital part in making our games look and feel good through improved visuals, . This is important in making our games more fun to play and experience. </p>
+<p>Post-processing is a vital part in making our games look and feel good through improved visuals, . This is important in making our games more fun to play and experience. Screen-based image effects add specialized filters to the application camera which can be used to drastically increase the visual quality of a project. Unity’s Post-Processing Stack replaces previous iterations of screen-based image effects and combines them all together in an easily configurable way.  In this tutorial, you will learn to create and configure the post processing stack. </p>
 <h2 id="unity-illumination">Unity Illumination</h2>
 <p>Illumination and lighting resources for Unity: </p>
 <ul>
@@ -1374,6 +1380,8 @@ Feel free to check out the documentation: <a href="https://docs.unity3d.com/Manu
 <li><a href="https://unity.com/blog/engine-platform/new-ways-of-applying-global-illumination-in-unity-6">New ways of applying global illumination to your worlds in Unity 6</a></li>
 <li><a href="https://blog.logrocket.com/exploring-post-processing-unity/">Exploring Post-Processing in Unity</a></li>
 <li><a href="https://www.youtube.com/watch?v=DlxuvvYZO4Q&amp;t=1494s">Lighting tutorial: 4 techniques to light environments in Unity | Unite 2022</a></li>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Override-Screen-Space-GI.html">Screen Space Global Illumination</a></li>
+<li><a href="https://learn.unity.com/tutorial/creating-a-global-post-processing-volume-2019-3">Creating a Global Post Processing Volume</a></li>
 </ul>
 <h2 id="submission">Submission</h2>
 <div class="admonition note">
