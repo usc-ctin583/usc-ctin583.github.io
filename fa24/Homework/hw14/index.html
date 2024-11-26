@@ -783,36 +783,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#problem-1-character" class="md-nav__link">
+  <a href="#problem-1-design-character" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 1: Character
+      Problem 1: Design Character
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-2-live-link" class="md-nav__link">
+  <a href="#problem-2-animating-characters" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 2: Live Link
+      Problem 2: Animating Characters
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-3-calibrating" class="md-nav__link">
+  <a href="#problem-3-deepfake" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 3: Calibrating
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#problem-4-deepfake" class="md-nav__link">
-    <span class="md-ellipsis">
-      Problem 4: Deepfake
+      Problem 3: Deepfake
     </span>
   </a>
   
@@ -1063,7 +1054,7 @@
 </details>
 <h2 id="digital-humans">Digital Humans</h2>
 <h2 id="problems">Problems</h2>
-<h3 id="problem-1-character">Problem 1: Character</h3>
+<h3 id="problem-1-design-character">Problem 1: Design Character</h3>
 <details class="question" open="open">
 <summary>Step 1: Documentation</summary>
 <p>Read Unreal's <a href="https://dev.epicgames.com/documentation/en-us/metahuman/creating-a-metahuman-in-metahuman-creator">documentation</a> on creating Metahumans. Please not that you must be workin in Unreal Engine 5 or above. </p>
@@ -1077,40 +1068,50 @@
 <p><img alt="Image title" src="problem1_2_metahumancretor.png" /></p>
 <p>Both MetaHuman Plugin and MetaHuman Creator allow you to design your own character; however, in my experience, MetaHuman Creator seemed to be more laggy.</p>
 </details>
-<h3 id="problem-2-live-link">Problem 2: Live Link</h3>
+<h3 id="problem-2-animating-characters">Problem 2: Animating Characters</h3>
+<details class="question" open="open">
+<summary>Step 1: Download Live Link</summary>
+<p>After creating our 3D Metahuman Character, we would like to animate our characters by mapping our facial expressions to our 3D model.
+Fist, install <a href="https://apps.apple.com/us/app/live-link-face/id1495370836">Live Link for Unreal Engine</a> on your iOS devices. </p>
+<p><img alt="Image title" src="problem2_1_livelink.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>Step 2: Calibrating</summary>
+<p>We need to take some calibration videos! 
+* Take a video of yourself looking: straight ahead, left angle, right angle, smile with teeth
+* Take our main calibration video making a variety of facial expressions.</p>
+<p><img alt="Image title" src="problem2_2_calibration.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>Step 4: Capture Source</summary>
+<p>Import footages and source files. One for each device.</p>
+<p><img alt="Image title" src="problem2_3_capturesource.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>Step 5: IP Address</summary>
+<p>Make sure your IP address is matching. </p>
+<p><img alt="Image title" src="problem2_4_ipaddress.png" /></p>
+</details>
+<details class="question" open="open">
+<summary>Step 6: Metahuman Identity</summary>
+<p>Calibrate a new human face based on footage.</p>
+<p><img alt="Image title" src="problem2_5_metahumanidentity.png" /></p>
+</details>
+<h3 id="problem-3-deepfake">Problem 3: Deepfake</h3>
 <details class="question" open="open">
 <summary>Step 1: Light Leaking</summary>
 <p>Hello</p>
 <p><img alt="Image title" src="../hw12/problemThree/p3_9_lightleaking.png" /></p>
 </details>
-<details class="question" open="open">
-<summary>Step 2: Light Leaking</summary>
-<p>Hello</p>
-<p><img alt="Image title" src="../hw12/problemThree/p3_9_lightleaking.png" /></p>
-</details>
-<h3 id="problem-3-calibrating">Problem 3: Calibrating</h3>
-<details class="question" open="open">
-<summary>Step 9: Light Leaking</summary>
-<p>Hello</p>
-<p><img alt="Image title" src="../hw12/problemThree/p3_9_lightleaking.png" /></p>
-</details>
-<details class="question" open="open">
-<summary>Step 9: Light Leaking</summary>
-<p>Hello</p>
-<p><img alt="Image title" src="../hw12/problemThree/p3_9_lightleaking.png" /></p>
-</details>
-<h3 id="problem-4-deepfake">Problem 4: Deepfake</h3>
-<details class="question" open="open">
-<summary>Step 9: Light Leaking</summary>
-<p>Hello</p>
-<p><img alt="Image title" src="../hw12/problemThree/p3_9_lightleaking.png" /></p>
-</details>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
-<li><a href="https://docs-multiplayer.unity3d.com/">Unity Multiplayer</a></li>
-<li><a href="https://www.youtube.com/watch?v=3yuBOB3VrCk&amp;t=197s">Code Monkey's COMPLETE Unity Multiplayer Tutorial</a></li>
-<li><a href="https://fish-networking.gitbook.io/docs">FishNet: Networking Evolved</a></li>
-<li><a href="https://www.photonengine.com/pun#">Photon: Multiplayer for Unity</a></li>
+<li><a href="https://apps.apple.com/us/app/live-link-face/id1495370836">Live Link for Unreal Engine</a></li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/metahuman/animating-metahumans-with-livelink-in-unreal-engine">Animating with Live Link</a></li>
+<li><a href="https://metahuman.unrealengine.com/">MetaHuman Creator</a></li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/metahuman/downloading-and-exporting-metahumans">Downloading and Exporting MetaHumans</a></li>
+<li><a href="https://www.youtube.com/watch?v=qJ596eXPqHc">Unreal Engine Metahuman Deepfake Tutorial</a></li>
+<li><a href="https://medium.com/@researchgraph/how-to-use-deep-live-cam-real-time-face-swap-and-one-click-video-deepfake-with-a-single-image-bfd3e948e0c0">How to use Deep Live Cam Real-Time Face Swap and One-Click Video Deepfake with a Single Image</a></li>
+<li><a href="https://convai.com/blog/create-ai-characters-with-metahumans-unreal-engine">Integrate AI Characters with MetaHuman Avatars in Unreal Engine 5 - Convai</a></li>
 </ul>
 <h2 id="submission">Submission</h2>
 <div class="admonition note">
