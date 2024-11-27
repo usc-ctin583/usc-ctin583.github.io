@@ -764,6 +764,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#digital-twins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Digital Twins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#digital-humans" class="md-nav__link">
     <span class="md-ellipsis">
       Digital Humans
@@ -1052,12 +1061,24 @@
 <p>This assignment is due <strong>Friday, November 29th</strong> on <a href="https://brightspace.usc.edu/">Brightspace</a>.</p>
 <p><a class="md-button md-button--primary" href="https://brightspace.usc.edu/">Submit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"/></svg></span></a></p>
 </details>
+<h2 id="digital-twins">Digital Twins</h2>
+<p>What are digital twins and how does Unreal Engine play a role in this context? According to Unreal Engine, a "digital twin is a 3D model of a physical entity". They can refer to highly detailed, real-time 3D representations of physical entities, people, or systems. These virtual counterparts replicate the behavior, appearance, and sometimes even the functionality of their real-world counterparts in a digital environment. </p>
+<p>Digital twins in Unreal Engine allows us to create real-time, high-fidelity simulations of a real-world object, process, or environment. As users, we can visualize, interact with, and analyze data or scenarios virtually. </p>
+<p>Some use cases include: </p>
+<ul>
+<li><strong>Architecture and Construction:</strong> Simulating buildings, cities, and infrastructure for planning and visualization.</li>
+<li><strong>Manufacturing:</strong> Monitoring and predicting machinery performance and factory workflows.</li>
+<li><strong>Healthcare:</strong> Creating detailed anatomical models for training, diagnostics, or treatment planning.</li>
+<li><strong>Gaming and Entertainment:</strong> Creating immersive environments that mirror real-world locations.</li>
+</ul>
 <h2 id="digital-humans">Digital Humans</h2>
+<p>Virtual avatars and representations of people can be used as part of a digital twin. In Unreal Engine, MetaHumans are realistic-looking 3D human models generated with the MetaHuman Creator. Unreal is able to bring details in skin, fair, and facial expressions with Unreal. We can create MetaHumans to represent individuals for virtual meetings, trainings, simulations, and much more. In healthcare, we can also simulate patient behaviors for medical training or telehealth. In films and games, we can create realistic characters based on real-world individuals including ourselves! </p>
 <h2 id="problems">Problems</h2>
 <h3 id="problem-1-design-character">Problem 1: Design Character</h3>
 <details class="question" open="open">
 <summary>Step 1: Documentation</summary>
 <p>Read Unreal's <a href="https://dev.epicgames.com/documentation/en-us/metahuman/creating-a-metahuman-in-metahuman-creator">documentation</a> on creating Metahumans. Please not that you must be workin in Unreal Engine 5 or above. </p>
+<p>Here is also a corresponding YouTube tutorial that is helpful: <a href="https://www.youtube.com/watch?v=hZ2mkcd4C7M&amp;t=3s">MetaHuman Animator Tutorial</a></p>
 <p><img alt="Image title" src="problem1_1_documentation.png" /></p>
 </details>
 <details class="question" open="open">
@@ -1083,25 +1104,31 @@ Fist, install <a href="https://apps.apple.com/us/app/live-link-face/id1495370836
 <p><img alt="Image title" src="problem2_2_calibration.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 4: Capture Source</summary>
+<summary>Step 3: Capture Source</summary>
 <p>Import footages and source files. One for each device.</p>
 <p><img alt="Image title" src="problem2_3_capturesource.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 5: IP Address</summary>
+<summary>Step 4: IP Address</summary>
 <p>Make sure your IP address is matching. </p>
 <p><img alt="Image title" src="problem2_4_ipaddress.png" /></p>
 </details>
 <details class="question" open="open">
-<summary>Step 6: Metahuman Identity</summary>
+<summary>Step 5: Metahuman Identity</summary>
 <p>Calibrate a new human face based on footage.</p>
 <p><img alt="Image title" src="problem2_5_metahumanidentity.png" /></p>
 </details>
 <h3 id="problem-3-deepfake">Problem 3: Deepfake</h3>
 <details class="question" open="open">
-<summary>Step 1: Light Leaking</summary>
-<p>Hello</p>
-<p><img alt="Image title" src="../hw12/problemThree/p3_9_lightleaking.png" /></p>
+<summary>Step 1: DeepFaceLab (Optional)</summary>
+<p>Turning your MetaHuman into a deepfake is optional for this homework assignment. However, creating a deep fake can be really fun! I recommend that you try making something :) 
+To train your own deepfake we can follow the following resources:</p>
+<ul>
+<li><a href="https://github.com/iperov/DeepFaceLab?tab=readme-ov-file">DeepFaceLab</a>: provides an overview of how we can make our own deepfake by inputting videos and images</li>
+<li>Then we can go to <a href="https://colab.research.google.com/github/dream80/DeepFakes_Colab/blob/master/DeepFaceLab_Colab.ipynb">Google's DeepFaceLab Colab</a> or the <a href="https://colab.research.google.com/github/JaumeClave/deepfakes_first_order_model/blob/master/first_order_model_deepfakes.ipynb">First Order Model Deepfakes Notebook</a>. </li>
+</ul>
+<p><img alt="Image title" src="problem3_1_deepfake.png" />
+<img alt="Image title" src="problem3_2_deepfake2.png" /></p>
 </details>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
@@ -1112,6 +1139,7 @@ Fist, install <a href="https://apps.apple.com/us/app/live-link-face/id1495370836
 <li><a href="https://www.youtube.com/watch?v=qJ596eXPqHc">Unreal Engine Metahuman Deepfake Tutorial</a></li>
 <li><a href="https://medium.com/@researchgraph/how-to-use-deep-live-cam-real-time-face-swap-and-one-click-video-deepfake-with-a-single-image-bfd3e948e0c0">How to use Deep Live Cam Real-Time Face Swap and One-Click Video Deepfake with a Single Image</a></li>
 <li><a href="https://convai.com/blog/create-ai-characters-with-metahumans-unreal-engine">Integrate AI Characters with MetaHuman Avatars in Unreal Engine 5 - Convai</a></li>
+<li><a href="https://dev.epicgames.com/community/learning/talks-and-demos/DqK/customizing-metahuman-textures-unreal-engine">Customizing MetaHuman Textures | Unreal Engine</a></li>
 </ul>
 <h2 id="submission">Submission</h2>
 <div class="admonition note">
