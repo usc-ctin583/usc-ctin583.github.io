@@ -821,6 +821,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problems
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#resources-and-links" class="md-nav__link">
     <span class="md-ellipsis">
       Resources and Links
@@ -1034,13 +1043,13 @@
 <h1 id="hw-15-shaders-and-vfx">❄️ HW 15: Shaders and VFX</h1>
 <div class="admonition tip">
 <p class="admonition-title">Assignment Deadline</p>
-<p><a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, March 22nd 2024</strong></p>
+<p><a href="https://www.gradescope.com/">Gradescope</a> assignment due <strong>Friday, December 6th 2024</strong></p>
 <p><a class="md-button md-button--primary" href="https://www.gradescope.com/courses/696965/assignments/3876770">Submit <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"/></svg></span></a></p>
 </div>
-<p><img alt="Image title" src="../Homework/hw11/VFX%20Graph%20Shader%20Graph.jpg" /></p>
+<p><img alt="Image title" src="headerImage.png" /></p>
 <p>Computer graphics allows us to create different things from a single pixel to a group of pixels. Pixel shading is one of many things that can be performed with computer graphics. Pixel shading refers to the process of computing a color for a pixel. On shader-based hardware, this is where your pixel shader is executed. In a basic forward renderer pass, where we are rendering objects into the frame buffer, the pixel is typically first lit and then fogged if fogging is being used. the output of a pixel shader consists of not only an RGB color, bu also an alpha value, which is usually interpreted as the "opacity" of the pixel, used for blending. </p>
 <h2 id="shaders">Shaders</h2>
-<p><img alt="Image title" src="../Homework/hw11/vfx1.jpeg" /></p>
+<p><img alt="Image title" src="glslViewer.gif" /></p>
 <p>A shader is a shader program, a program that runs on a GPU. In Unity, shaders are categorized as such: </p>
 <ul>
 <li>The most common type of shaders are the ones part of the graphics pipeline. They are important because they help perform calculations that determine the color of pixels on the screen. In Unity, we work with Shader objects. </li>
@@ -1049,8 +1058,64 @@
 </ul>
 <p>Shaders are an important part of the computer graphics rendering pipeline because they inform the computer how to render and shade objects within a scene. Shaders can powerfully enable speed and detail enhancements in a program and can provide special effects in 2D and 3D computer graphics. </p>
 <h2 id="hlsl">HLSL</h2>
-<p><img alt="Image title" src="../Homework/hw11/vfx1.jpeg" /></p>
+<p><img alt="Image title" src="hlsl.png" /></p>
 <p>HLSL is similar to the shader language, "Cg", which is a shader language developed by NVIDIA and GLSL, the shading langiage used in OpenGL. HLSL is the language that is behind Unity's shaders, a flexible and powerful shader that can be used within the context of Unity and other contexts. We can write many different kinds of shaders, they usually come in six forms including vertex shaders, geometry shaders, pixel shaders, compute shaders, ray tacing shaders, and tessellation shaders. Microsoft also uses this language for their Direct3D API to create GPU programs.</p>
+<p>Here is an example of HLSL Shader code from <a href="https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-writing-shaders-9">Microsoft's Documentation</a>. This example uses a structure to provide multiple vertex shader inputs. </p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">HLSL</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>vector<span class="w"> </span>vClr<span class="p">;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>struct<span class="w"> </span>VS_INPUT
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="o">{</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span>float4<span class="w"> </span>vPosition<span class="w"> </span>:<span class="w"> </span>POSITION<span class="p">;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span>float3<span class="w"> </span>vNormal<span class="w"> </span>:<span class="w"> </span>NORMAL<span class="p">;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span>float4<span class="w"> </span>vBlendWeights<span class="w"> </span>:<span class="w"> </span>BLENDWEIGHT<span class="p">;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="o">}</span><span class="p">;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>struct<span class="w"> </span>VS_OUTPUT
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="o">{</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span>float4<span class="w">  </span>vPosition<span class="w"> </span>:<span class="w"> </span>POSITION<span class="p">;</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span>float4<span class="w">  </span>vDiffuse<span class="w"> </span>:<span class="w"> </span>COLOR<span class="p">;</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="o">}</span><span class="p">;</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>float4x4<span class="w"> </span>mWld1<span class="p">;</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>float4x4<span class="w"> </span>mWld2<span class="p">;</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>float4x4<span class="w"> </span>mWld3<span class="p">;</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>float4x4<span class="w"> </span>mWld4<span class="p">;</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>float<span class="w"> </span>Len<span class="p">;</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>float4<span class="w"> </span>vLight<span class="p">;</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>float4x4<span class="w"> </span>mTot<span class="p">;</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>VS_OUTPUT<span class="w"> </span>VS_Skinning_Example<span class="o">(</span>const<span class="w"> </span>VS_INPUT<span class="w"> </span>v,<span class="w"> </span>uniform<span class="w"> </span>float<span class="w"> </span><span class="nv">len</span><span class="o">=</span><span class="m">100</span><span class="o">)</span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="o">{</span>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">    </span>VS_OUTPUT<span class="w"> </span>out<span class="p">;</span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">    </span>//<span class="w"> </span>Skin<span class="w"> </span>position<span class="w"> </span><span class="o">(</span>to<span class="w"> </span>world<span class="w"> </span>space<span class="o">)</span>
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">    </span>float3<span class="w"> </span><span class="nv">vPosition</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">        </span>mul<span class="o">(</span>v.vPosition,<span class="w"> </span><span class="o">(</span>float4x3<span class="o">)</span><span class="w"> </span>mWld1<span class="o">)</span><span class="w"> </span>*<span class="w"> </span>v.vBlendWeights.x<span class="w"> </span>+
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="w">        </span>mul<span class="o">(</span>v.vPosition,<span class="w"> </span><span class="o">(</span>float4x3<span class="o">)</span><span class="w"> </span>mWld2<span class="o">)</span><span class="w"> </span>*<span class="w"> </span>v.vBlendWeights.y<span class="w"> </span>+
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="w">        </span>mul<span class="o">(</span>v.vPosition,<span class="w"> </span><span class="o">(</span>float4x3<span class="o">)</span><span class="w"> </span>mWld3<span class="o">)</span><span class="w"> </span>*<span class="w"> </span>v.vBlendWeights.z<span class="w"> </span>+
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="w">        </span>mul<span class="o">(</span>v.vPosition,<span class="w"> </span><span class="o">(</span>float4x3<span class="o">)</span><span class="w"> </span>mWld4<span class="o">)</span><span class="w"> </span>*<span class="w"> </span>v.vBlendWeights.w<span class="p">;</span>
+</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="w">    </span>//<span class="w"> </span>Skin<span class="w"> </span>normal<span class="w"> </span><span class="o">(</span>to<span class="w"> </span>world<span class="w"> </span>space<span class="o">)</span>
+</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">    </span>float3<span class="w"> </span><span class="nv">vNormal</span><span class="w"> </span><span class="o">=</span>
+</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">        </span>mul<span class="o">(</span>v.vNormal,<span class="w"> </span><span class="o">(</span>float3x3<span class="o">)</span><span class="w"> </span>mWld1<span class="o">)</span><span class="w"> </span>*<span class="w"> </span>v.vBlendWeights.x<span class="w"> </span>+<span class="w"> </span>
+</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="w">        </span>mul<span class="o">(</span>v.vNormal,<span class="w"> </span><span class="o">(</span>float3x3<span class="o">)</span><span class="w"> </span>mWld2<span class="o">)</span><span class="w"> </span>*<span class="w"> </span>v.vBlendWeights.y<span class="w"> </span>+<span class="w"> </span>
+</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="w">        </span>mul<span class="o">(</span>v.vNormal,<span class="w"> </span><span class="o">(</span>float3x3<span class="o">)</span><span class="w"> </span>mWld3<span class="o">)</span><span class="w"> </span>*<span class="w"> </span>v.vBlendWeights.z<span class="w"> </span>+<span class="w"> </span>
+</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">        </span>mul<span class="o">(</span>v.vNormal,<span class="w"> </span><span class="o">(</span>float3x3<span class="o">)</span><span class="w"> </span>mWld4<span class="o">)</span><span class="w"> </span>*<span class="w"> </span>v.vBlendWeights.w<span class="p">;</span>
+</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>
+</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">    </span>//<span class="w"> </span>Output<span class="w"> </span>stuff
+</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">    </span>out.vPosition<span class="w">    </span><span class="o">=</span><span class="w"> </span>mul<span class="o">(</span>float4<span class="o">(</span>vPosition<span class="w"> </span>+<span class="w"> </span>vNormal<span class="w"> </span>*<span class="w"> </span>Len,<span class="w"> </span><span class="m">1</span><span class="o">)</span>,<span class="w"> </span>mTot<span class="o">)</span><span class="p">;</span>
+</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="w">    </span>out.vDiffuse<span class="w">  </span><span class="o">=</span><span class="w"> </span>dot<span class="o">(</span>vLight,vNormal<span class="o">)</span><span class="p">;</span>
+</span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a>
+</span><span id="__span-0-48"><a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span>out<span class="p">;</span>
+</span><span id="__span-0-49"><a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a><span class="o">}</span>
+</span></code></pre></div>
 <p><strong>Important notes about HLSL syntax:</strong></p>
 <ul>
 <li><strong>DirectX 9-style syntax</strong>: Uses sampler2D, tex2D(), and similar functions. This syntax works on all platforms and is considered legacy syntax</li>
@@ -1058,10 +1123,10 @@
 <li>It is important to note the different HLSL syntax because different hardware may be specific in what they need</li>
 </ul>
 <h2 id="shader-graph">Shader Graph</h2>
-<p><img alt="Image title" src="../Homework/hw11/vfx1.jpeg" /></p>
+<p><img alt="Image title" src="VFX%20Graph%20Shader%20Graph.jpg" /></p>
 <p>In Unity, Shader Graph is a tool that helps build shaders in a visual way. Instead of writing code, we are able to use a node-based system to create a graph framework. It is great in giving instant feedback that reflects our changes. </p>
 <h2 id="visual-effect-graph">Visual Effect Graph</h2>
-<p><img alt="Image title" src="../Homework/hw11/vfx1.jpeg" /></p>
+<p><img alt="Image title" src="vfx1.jpeg" /></p>
 <p>Unity's Visual Effect Graph (VFX Graph) allows you to create simple and complex visual effects from a node-based programming language that combines blocks, nodes, and sequences. These effects can range from common particle behaviors to complex scene simulations. Together, these nodes can be combined as building blocks to created advanced procedural effects. </p>
 <p>According to the Unity Manual, the Visual Effect Graph is useful for:</p>
 <ul>
@@ -1073,6 +1138,16 @@
 <li>Use a Visual Effect Graph in another Visual Effect Graph. For example, you can reuse and customize a simple but configurable explosion in more complex graphs.</li>
 <li>Previews changes immediately, so you can simulate effects at various rates and perform step-by-step simulation. For instructions on how to install the Visual Effect Graph, see Getting started with Visual Effect Graph.</li>
 </ul>
+<h2 id="problems">Problems</h2>
+<details class="question" open="open">
+<summary>ShaderGraph with Unity</summary>
+<p>Please follow the guides linked and reach at least <strong>Part 6</strong>. </p>
+<ul>
+<li>GitHub: <a href="https://github.com/daniel-ilett/shader-graph-basics-2022-3?tab=readme-ov-file">Intro to Shader Graph in Unity 2022</a></li>
+<li>Tutorial: <a href="https://danielilett.com/2024-03-26-tut7-9-mgs-stealth-camo/">MGS Stealth Camo in Shader Graph</a></li>
+</ul>
+<p><img alt="Image title" src="shaderGraphHomework.png" /></p>
+</details>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
 <li><a href="https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@12.0/manual/index.html">Unity Manual: Visual Effect Graph</a></li>
@@ -1082,15 +1157,12 @@
 <li><a href="https://www.ronja-tutorials.com/post/002-hlsl/">HLSL - Ronja's tutorials</a></li>
 <li><a href="https://github.com/Centribo/Unity-Shader-Basics-Tutorial">Unity-Shader-Basics-Tutorial</a></li>
 <li><a href="https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl">High-level shader language (HLSL)</a></li>
+<li><a href="https://thebookofshaders.com/04/">The Book of Shaders by Patricio Gonzalez Vivo and Jen Lowe</a></li>
 </ul>
 <h2 id="submission">Submission</h2>
 <div class="admonition note">
-<p class="admonition-title">GitHub Pull Requests</p>
-<p>To receive credit for this homework assignment, please make sure you provide a link to your GitHub branch and name the branch as your first name. 
-Then assign Nile and Debbie as <code>Reviewers</code> and <code>Assignees</code> before you hit the green <code>Create Pull Request</code> button.</p>
-<p><img alt="Image title" src="../hw2/notification.png" /></p>
-<p><img alt="Image title" src="../hw2/pushtogit.png" /></p>
-<p><img alt="Image title" src="../hw2/assignees.png" /></p>
+<p class="admonition-title">BrightSpace Submission</p>
+<p>Please take a video of the shaders you have created.</p>
 </div>
 
 
