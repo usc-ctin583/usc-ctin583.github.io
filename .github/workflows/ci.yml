@@ -25,6 +25,7 @@ jobs:
       - run: pip install mike
       - run: git fetch origin gh-pages --depth=1
       - run: mike deploy sp25
+      - run: make set-default --push latest
       - run: git push origin gh-pages --force
       
       # - run: mike deploy sp24 latest -f
