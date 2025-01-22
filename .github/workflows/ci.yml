@@ -24,7 +24,7 @@ jobs:
       - run: pip install pillow cairosvg
       - run: pip install mike
       - run: git fetch origin gh-pages --depth=1
-      - run: mike deploy sp25 latest
+      - run: mike deploy sp25
       - run: mike set-default --push latest
       - run: git push origin gh-pages --force
       
