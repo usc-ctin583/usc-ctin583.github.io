@@ -68,12 +68,13 @@ We will be using our Discord channel to communicate. If you have not joined our 
 * Visual Studio Code
 
 ## 💯 Grading
-| Assignment | Percentage |
-| :--------- | :--------- |
-| Participation | 10% |
-| Labs | 10% |
-| Project 1 | 30% |
-| Project 2 | 50% |
+| Assignment | Percentage | Details |
+| :--------- | :--------- | :------ |
+| Participation | 10% | Includes attendance, coming to class on time, completing in-class labs | 
+| Homework | 10% | Due every Friday, may drop three of your lowest homework assignments | 
+| Project 1 | 10% | Kitchen Chaos project |
+| Project 2 (Midterm Project) | 30% | Independent project of your choice in the Unity engine | 
+| Project 3 (Final Project)| 40% | Independent/Team project of your choice in any engine | 
 | Total | 100% |
 
 ## 🏫 Absence Policy
