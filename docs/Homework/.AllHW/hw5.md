@@ -1,7 +1,7 @@
-# 📔 HW 4: Generics & Inheritence
+# 📔 HW 5: Generics & Inheritence
 
 !!! tip "Assignment Deadline"
-    [Gradescope](https://www.gradescope.com/) assignment due **Friday, February 2nd, 2024**
+    Assignment due **Friday, February 14th** on GitHub
 
     [Submit :fontawesome-solid-paper-plane:](https://www.gradescope.com/courses/696965/assignments/3876763){ .md-button .md-button--primary }
 
