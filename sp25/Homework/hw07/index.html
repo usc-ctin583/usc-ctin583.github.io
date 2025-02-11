@@ -12,13 +12,13 @@
         <meta name="author" content="Debbie Yuen">
       
       
-        <link rel="canonical" href="https://ctin583.usc.edu/sp25/Homework/hw05/">
+        <link rel="canonical" href="https://ctin583.usc.edu/sp25/Homework/hw07/">
       
       
-        <link rel="prev" href="../hw04/">
+        <link rel="prev" href="../hw06/">
       
       
-        <link rel="next" href="../hw06/">
+        <link rel="next" href="../hw08/">
       
       
       <link rel="icon" href="../../favicon3.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>📔 HW 5: Generics & Inheritence - CTIN 583 Game Development</title>
+        <title>🎁 HW 7: 3D Orientations - CTIN 583 Game Development</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hw-5-generics-inheritence" class="md-skip">
+        <a href="#hw-7-3d-orientations" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📔 HW 5: Generics &amp; Inheritence
+              🎁 HW 7: 3D Orientations
             
           </span>
         </div>
@@ -518,6 +518,50 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    📔 HW 5: Generics &amp; Inheritence
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hw06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🎹 HW 6: Enumerations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -534,7 +578,7 @@
           
   
   <span class="md-ellipsis">
-    📔 HW 5: Generics &amp; Inheritence
+    🎁 HW 7: 3D Orientations
     
   </span>
   
@@ -546,7 +590,7 @@
         
   
   <span class="md-ellipsis">
-    📔 HW 5: Generics &amp; Inheritence
+    🎁 HW 7: 3D Orientations
     
   </span>
   
@@ -569,20 +613,71 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#generics" class="md-nav__link">
+  <a href="#vector-dot-product" class="md-nav__link">
     <span class="md-ellipsis">
-      Generics
+      Vector Dot Product
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#inheritence" class="md-nav__link">
+  <a href="#vector-cross-product" class="md-nav__link">
     <span class="md-ellipsis">
-      Inheritence
+      Vector Cross Product
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#euler-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Euler Angles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quaternions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quaternions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quaternions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quaternions-in-math" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quaternions in Math
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gimbal-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gimbal Lock
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quaternions-in-unity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quaternions in Unity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -597,45 +692,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#problem-1-generics-short-answers" class="md-nav__link">
+  <a href="#problem-1-barbies-pinata" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 1: Generics: Short Answers
+      Problem 1: Barbie's Pinata
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-2-barbies-careers" class="md-nav__link">
+  <a href="#problem-2-barbies-focus" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 2: Barbie's Careers
+      Problem 2: Barbie's Focus
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#problem-3-barbies-account" class="md-nav__link">
+  <a href="#problem-3-spinning-pinata" class="md-nav__link">
     <span class="md-ellipsis">
-      Problem 3: Barbie's Account
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#problem-4-inheritence-short-answers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Problem 4: Inheritence: Short Answers
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#problem-5-barbies-house" class="md-nav__link">
-    <span class="md-ellipsis">
-      Problem 5: Barbie's House
+      Problem 3: Spinning Pinata
     </span>
   </a>
   
@@ -668,50 +745,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../hw06/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    🎹 HW 6: Enumerations
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../hw07/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    🎁 HW 7: 3D Orientations
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -860,36 +893,36 @@
 
 
 
-<h1 id="hw-5-generics-inheritence">📔 HW 5: Generics &amp; Inheritence</h1>
+<h1 id="hw-7-3d-orientations">🎁 HW 7: 3D Orientations</h1>
 <div class="admonition tip">
 <p class="admonition-title">Assignment Deadline</p>
-<p>This assignment is due <strong>Friday, February 14th</strong> on GitHub</p>
+<p>This assignment is due <strong>Friday, February 28th</strong>. Nothing to submit on <a href="https://brightspace.usc.edu/">Brightspace</a>. Please complete your homework on GitHub.</p>
 </div>
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/70tblROO7cNSqfc188" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-<p><a href="https://giphy.com/gifs/heyduggee-puzzle-hey-duggee-puzzlebadge-70tblROO7cNSqfc188">via GIPHY</a></p>
-
-<h2 id="generics">Generics</h2>
-<p>Generics allow us to create code that is more "generic" so that it can be used and reused. Remember <strong>"DRY"</strong> in programming? Also known as <strong>"Don't Repeat Yourself."</strong> Generics are really helpful here in preventing the need for duplicate code - which is always a great thing. They help solve the problem of making classes or methods that would differ only by the types they use, leaving placeholders for types that can be filled in when used.</p>
-<p>Generics are created by adding <code>&lt;T&gt;</code> after the class name. <code>&lt;T&gt;</code> represents the generic type that gets set while being called. We can have multiple generic types in a class by separating them with commas like <code>&lt;T, U, V&gt;</code>. When declaring generics in Unity, the general naming convention starts from T and moves alphabetically down as T, U, V, etc. Feel free to make generic methods and gneeric types with multiple type parameters!</p>
-<p>To make your life easier, here are some existing and common generic types:</p>
+<p><img alt="Image title" src="../hw6/Fv21c.png" /></p>
+<p>What is an orientation? In general terms, the orientation of an object tells the direction the object is facing. An orientation in a 3D space is related to direction, angular displacement, and rotation. An example of this would be with vectors. A vector may have a direction but not an orientation in which a vector points in a certain direction with no real change to the vector itself. However, a 3D object has a certain direction. When the object is rotated and twisted, the orientation will also change.</p>
+<p>In numeric terms, a big difference between direction and orientation can be expressed by how we parameterize a direction in 3D. A direction requires two numbers - <strong>spherical coordinate angles</strong>. An orientatipn requires at least three numbers - <strong>Euler angles</strong> and <strong>Quaternions</strong>.</p>
+<h2 id="vector-dot-product">Vector Dot Product</h2>
+<p>When multiplying two vectors together, there are two types of vector products. The first vector product is the <strong>dot product</strong> or <strong>inner product</strong>. The dot product is important in video game programming, computer graphics, simulation, and AI.  Therefore, the dot product is an important concept and formula to grasp.</p>
+<p>The name "dot product" comes from the dot symbol used in the notation: <code>a * b</code>. Just like the scalar-times-vector multiplication, the vector dot product is performed before addition and subtraction, unless parantheses are used to override this default order of operations. While we usually omit the multiplication symbol when multiplying two scalars or a scalar and a vector, we must not forget the dot symbol when performing a vector dot product. The dot product of two vectors is the sum of the products of corresponding components, resulting in a scalar.</p>
+<p><img alt="Image title" src="../hw16/dotproduct.png" /></p>
+<p><strong>What does the vector dot product mean geometrically?</strong></p>
+<p>The vector dot product is fundamental to almost every aspect of 3D math. There are two main ways to interpet the dot product:</p>
 <ul>
-<li><code>Random</code> generates pseudo-random numbers</li>
-<li><code>DateTime</code> gets the current time and stores time and date values</li>
-<li><code>TimeSpan</code>represents a length of time</li>
-<li><code>List&lt;T&gt;</code> is a popular and versatile generic collection -- use it instead of arrays for most things</li>
-<li><code>IEnumerable&lt;T&gt;</code>is an interface for almost any collection type. The basis for <code>foreach</code> loops</li>
-<li><code>Dictionary&lt;TKeym, TValue&gt;</code> can look up one piece of information from another</li>
-<li><code>Nullable&lt;T&gt;</code> is a struct that can express the concept of a missing value for value types</li>
-<li><code>ValueTuple</code> is the secret sauce behind tuples in C#</li>
-<li><code>StringBuilder</code> is a less memory-intensive way to build strings a little at a time</li>
+<li>
+<p><strong>Projection:</strong> Assume that <code>a^</code> is a unit vector and <code>b</code> is a vector of any length. Now take <code>b</code> and project it onto a line parallel to <code>a^</code>. Then, we can define the dot product (<code>a^ * b</code>) as the signed length of the projection of <code>b</code> onto this line. This projection of <code>b</code> can be thought of as a shadow onto a. The result of a dot product is scalar, not a vector. The dot product <code>a * b</code> is equal to the signed length of the projection of <code>b</code> onto any line parallel to <code>a</code>, multiplied by the length of <code>a</code>.</p>
+</li>
+<li>
+<p><strong>Trigonometry:</strong> We can also examine the dot product through the lens of trigonometry.</p>
+</li>
 </ul>
-<p>Any type definition that is defined as a generic is a <strong>generic type</strong>. These include classes, structs, or interfaces that leave placeholders the type it uses. They are similar to methods with parameters where they allow programmers to throw in a value. Below is an example of how you would define a generic type. </p>
+<p><img alt="Image title" src="../hw16/dotproductmatrix.png" /></p>
+<p>Unity has <code>Vector3.Dot</code> that gets the Dot Product of two vectors. The dot product is a float value equal to the magnitudes of two vectors multiplied to gether and then multiplied by the cosine of the angle between them. </p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">C#</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block"></div>
 </div>
 </div>
-<div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
+<div class="language-c# highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">DeclaringClasses.cs</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
 <span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
@@ -905,135 +938,122 @@
 <span class="normal"><a href="#__codelineno-0-14">14</a></span>
 <span class="normal"><a href="#__codelineno-0-15">15</a></span>
 <span class="normal"><a href="#__codelineno-0-16">16</a></span>
-<span class="normal"><a href="#__codelineno-0-17">17</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1">// Defining a Generic Type</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">DefineGenericType</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">  </span><span class="k">private</span><span class="w"> </span><span class="n">T</span><span class="p">[]</span><span class="w"> </span><span class="n">items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">T</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="n">Get</span><span class="w"> </span><span class="nf">ItemAt</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">index</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">items</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">SetItemAt</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">index</span><span class="p">,</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="k">value</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">items</span><span class="p">[</span><span class="n">index</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">value</span><span class="p">;</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Add</span><span class="p">(</span><span class="n">T</span><span class="w"> </span><span class="n">newValue</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="n">T</span><span class="p">[]</span><span class="w"> </span><span class="n">updated</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">T</span><span class="p">[</span><span class="n">items</span><span class="p">.</span><span class="n">Length</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">];</span>
+<span class="normal"><a href="#__codelineno-0-17">17</a></span>
+<span class="normal"><a href="#__codelineno-0-18">18</a></span>
+<span class="normal"><a href="#__codelineno-0-19">19</a></span>
+<span class="normal"><a href="#__codelineno-0-20">20</a></span>
+<span class="normal"><a href="#__codelineno-0-21">21</a></span>
+<span class="normal"><a href="#__codelineno-0-22">22</a></span>
+<span class="normal"><a href="#__codelineno-0-23">23</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1">// detects if other transform is behind this object</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="k">using</span><span class="w"> </span><span class="nn">UnityEngine</span><span class="p">;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="k">using</span><span class="w"> </span><span class="nn">System.Collections</span><span class="p">;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">ExampleClass</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">MonoBehaviour</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="p">{</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="k">public</span><span class="w"> </span><span class="n">Transform</span><span class="w"> </span><span class="n">other</span><span class="p">;</span>
 </span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">index</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">items</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span><span class="w"> </span><span class="n">index</span><span class="o">++</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">      </span><span class="n">updated</span><span class="p">[</span><span class="n">index</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">items</span><span class="p">[</span><span class="n">index</span><span class="p">];</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13"></a>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="w">    </span><span class="n">updated</span><span class="p">[</span><span class="o">^</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">newValue</span><span class="p">;</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="w">    </span><span class="n">items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">updated</span><span class="p">;</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="w">  </span><span class="p">}</span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="p">}</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">    </span><span class="k">void</span><span class="w"> </span><span class="nf">Update</span><span class="p">()</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">other</span><span class="p">)</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="w">        </span><span class="p">{</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="w">            </span><span class="n">Vector3</span><span class="w"> </span><span class="n">forward</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">transform</span><span class="p">.</span><span class="n">TransformDirection</span><span class="p">(</span><span class="n">Vector3</span><span class="p">.</span><span class="n">forward</span><span class="p">);</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="w">            </span><span class="n">Vector3</span><span class="w"> </span><span class="n">toOther</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Vector3</span><span class="p">.</span><span class="n">Normalize</span><span class="p">(</span><span class="n">other</span><span class="p">.</span><span class="n">position</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">transform</span><span class="p">.</span><span class="n">position</span><span class="p">);</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">Vector3</span><span class="p">.</span><span class="n">Dot</span><span class="p">(</span><span class="n">forward</span><span class="p">,</span><span class="w"> </span><span class="n">toOther</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="w">            </span><span class="p">{</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="w">                </span><span class="n">print</span><span class="p">(</span><span class="s">&quot;The other transform is behind me!&quot;</span><span class="p">);</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20"></a><span class="w">            </span><span class="p">}</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21"></a><span class="w">        </span><span class="p">}</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-<p>When we defined the <code>DefineGenericType</code> class above, the <code>&lt;T&gt;</code> served as a placeholder for some type. This placeholder type is called a <strong>generic type parameter</strong>. It works just like a method parameter, except it works at a higher leve land stands in for a specific type taht will be chosen later. Conveniently, it can be used throughout the class an in several places in your code. </p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">C#</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block"></div>
-</div>
-</div>
-<p><div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
-<span class="normal"><a href="#__codelineno-1-2">2</a></span>
-<span class="normal"><a href="#__codelineno-1-3">3</a></span>
-<span class="normal"><a href="#__codelineno-1-4">4</a></span>
-<span class="normal"><a href="#__codelineno-1-5">5</a></span>
-<span class="normal"><a href="#__codelineno-1-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="c1">// Generic Class Example</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">GenericClass</span><span class="w"> </span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="n">Type</span><span class="w"> </span><span class="nf">GetMyType</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nf">typeof</span><span class="w"> </span><span class="p">(</span><span class="n">T</span><span class="p">);</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">  </span><span class="p">}</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="p">}</span>
-</span></code></pre></div></td></tr></table></div>
-The <a href="https://docs.unity3d.com/2023.3/Documentation/ScriptReference/MonoBehaviour.html">Unity Scripting API Reference</a> documentation lists some functions (for example, the various GetComponent functions) with a variant that has a letter <code>&lt;T&gt;</code> or a type name in angle brackets after the function name. These are generic functions. You can use them to specify the types of parameters and/or the return type when you call the function.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">C#</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block"></div>
-</div>
-</div>
-<div class="language-c# highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
-<span class="normal"><a href="#__codelineno-2-2">2</a></span>
-<span class="normal"><a href="#__codelineno-2-3">3</a></span>
-<span class="normal"><a href="#__codelineno-2-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="k">void</span><span class="w"> </span><span class="n">FuncName</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">();</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="c1">// The type is correctly inferred because it is defined in the function call</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="kt">var</span><span class="w"> </span><span class="n">obj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Rigidbody</span><span class="o">&gt;</span><span class="p">();</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="n">Rigidbody</span><span class="w"> </span><span class="n">rb</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">go</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Rigidbody</span><span class="o">&gt;</span><span class="p">();</span>
-</span></code></pre></div></td></tr></table></div>
-<h2 id="inheritence">Inheritence</h2>
-<p>Class inheritance means that a class can inherit from any other class that isn't sealed. Other classes can also inherit and override from your class. Classes that inherit must derive from another base class so that it can inherit data and behavior. This base class is specified by appending a colon and the name of the base class bollowing the derived class name. Inheritence lets you derive new classes based on existing ones. The new class inherits everything except constructors from the base class. Inheritence is important in accomplishing two things. </p>
+<h2 id="vector-cross-product">Vector Cross Product</h2>
+<p>The other vector product is known as the <strong>cross product</strong>. The cross product is only applied in 3D mathematical situations and is not commutative. The term "cross product" comes from the symbol used in the notation <code>a x b</code>. We write the cross symbol, rather than omitting it as we do with scalar multiplication.</p>
+<p><img alt="Image title" src="../hw16/crossproduct.png" /></p>
+<p>The cross product enjoys the same level of operator precedence as the dot product: multiplication occurs before addition and subtraction. When dot product and cross product are used together, the cross product takes precedence: <code>a * b x c = a * (b x c)</code>.</p>
+<h2 id="euler-angles">Euler Angles</h2>
+<p>Euler Angeles are one of the most common ways of representing orientations and 3D rotations in Unity. Euler Angeles define an angular displacement as a sequence of three rotations amongst three mutually perpendicular axes. Together, these angles describe orientation as three rotations about three mutually perpendicular axes amongst any order of axes. They rotate about the body axes, so the axis of rotation for a given step depends on the angeles used in prior rotations. </p>
+<p><strong>Advantages of Euler Angeles:</strong></p>
 <ul>
-<li>Enables the treatment of subtypes as the more generalized type</li>
-<li>Consolides code that would have otherwise been duplicated or copy-and-pasted</li>
+<li>Because Euler angeles parameterize orientation using three numbers, these numbers can be expressed as angles. Working with angles can be more intuitive and convenient to display numerically.</li>
+<li>Euler angeles use the smallest possible representation.</li>
 </ul>
-<p>In the C# language, a class can only directly inherit from one base class. You cannot directly derive from moe than one. The class then can directly implement one or more interfaces. By default, all classes inherit from <code>object</code> aka their base class, but you are able to claim a different class as the base class as well. </p>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">C#</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block"></div>
-</div>
-</div>
-<div class="language-c# highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">ClassInheritance.cs</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
-<span class="normal"><a href="#__codelineno-3-2">2</a></span>
-<span class="normal"><a href="#__codelineno-3-3">3</a></span>
-<span class="normal"><a href="#__codelineno-3-4">4</a></span>
-<span class="normal"><a href="#__codelineno-3-5">5</a></span>
-<span class="normal"><a href="#__codelineno-3-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="c1">// Declaring an object of type MyClass.</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">Manager</span><span class="p">:</span><span class="w"> </span><span class="n">Employee</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="p">{</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="c1">// Employee fields, properties, methods and events are inherited</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">    </span><span class="c1">// New Manager fields, properties, methods and events go here</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="p">}</span>
-</span></code></pre></div></td></tr></table></div>
+<p><strong>Disdvantages of Euler Angeles:</strong></p>
+<ul>
+<li>Because Euler angles are dependent on each other, each representation for a given orientation or rotation is not unique</li>
+<li>Causes Gimbal lock in which a rotation amongst one axis will cause the other rotations to rotate about the same axis</li>
+</ul>
+<h2 id="quaternions">Quaternions</h2>
+<h3 id="quaternions-in-math">Quaternions in Math</h3>
+<p><img alt="Image title" src="../hw6/quaternions2.png" /></p>
+<p>In Division Algebra, Quaternions are a method to represent a solid 3D object's three dimensional orientations or other rotational quantity. The algebra for Quaternions consists of 4 dimensions, aka 4 scalar variables that are added and multipled as a single unit. These variables are also known as <strong>Euler Parameters</strong> and hold one real dimension and 3 imaginary dimensions. Each of these imaginary dimensions has a unit value of the square root of -1, but they are different square roots of -1 all mutually perpendicular to each other, known as i,j and k. So a quaternion can be represented as <span class="arithmatex">\(a + i b + j c + k d\)</span>.</p>
+<p>For example, the equation <span class="arithmatex">\(z^2 + 1 = 0\)</span>, has infinitely many quaternion solutions, which are the quaternions <span class="arithmatex">\(z = b i + c j + d k\)</span>. The fundamental formula for Quaternion algebra is as follows: </p>
+<div class="arithmatex">\[
+a + i b + j c + k d
+\]</div>
+<p>As such, these "roots of -1" form a unit square in the 3D space of vector quaternions. It may seem strange that there are 3 square roots of -1, but we have to remember that we are working in 4 dimensions so there are at least 3 ways to get round from +1 to -1. It is not very practical to try to draw 4 dimensions in 2 dimensions</p>
+<div class="arithmatex">\[
+b^2 + c^2 + d^2 = 1
+\]</div>
+<h3 id="gimbal-lock">Gimbal Lock</h3>
+<p><img alt="Image title" src="../hw6/gimballock.jpeg" /></p>
+<p>Gimbal lock is the loss of one degree of freedom in a three-dimensional, three-gimbal mechanism that occurs when the axes of two of the three gimbals are driven into a parallel configuration, "locking" the system into rotation in a degenerate two-dimensional space. (Wikipedia)</p>
+<p>The term gimbal-lock can be misleading in the sense that none of the individual gimbals are actually restrained. All three gimbals can still rotate freely about their respective axes of suspension. Nevertheless, because of the parallel orientation of two of the gimbals' axes, there is no gimbal available to accommodate rotation about one axis, leaving the suspended object effectively locked (i.e. unable to rotate) around that axis. (Wikipeda)</p>
+<!-- ### Rotations in Unity -->
+
+<h3 id="quaternions-in-unity">Quaternions in Unity</h3>
+<p><img alt="Image title" src="../hw6/quaternions3.png" /></p>
+<p>Quaternions are useful in accurately representing rotations. They are compact, don't suffer from gimbal lock and can easily be interpolated. Unity internally uses Quaternions to represent all rotations and expects Quaternions to be normalized. Luckily in Unity, the individual Quaternion components (x,y,z,w) do not need to be individually accessed or modified. You can take the existing rotations and from there, construct new rotations to smoothly interpolate between two rotations. The Quaternion functions that you will use 9% of the time are:</p>
+<ul>
+<li><code>Quaternion.LookRotation</code> z axis will be aligned with forward, X axis aligned with cross product between forward and upwards, and Y axis aligned with cross product between Z and X.</li>
+<li><code>Quaternion.Quaternion.Angle</code> Think of two GameObjects (A and B) moving around a third GameObject (C). Lines from C to A and C to B create a triangle which can change over time. The angle between CA and CB is the value Quaternion.Angle provides.</li>
+<li><code>Quaternion.Euler</code> Returns a rotation that rotates z degrees around the z axis, x degrees around the x axis, and y degrees around the y axis; applied in that order.</li>
+<li><code>Quaternion.Slerp</code> Use this to create a rotation which smoothly interpolates between the first quaternion a to the second quaternion b, based on the value of the parameter t. If the value of the parameter is close to 0, the output will be close to a, if it is close to 1, the output will be close to b.</li>
+<li><code>Quaternion.FromToRotation</code> Usually you use this to rotate a transform so that one of its axes eg. the y-axis - follows a target direction toDirection in world space.</li>
+<li><code>Quaternion.identity</code> This quaternion corresponds to "no rotation" - the object is perfectly aligned with the world or parent axes.</li>
+<li><code>Quaternion.operator</code> rotate one rotation by another, or to rotate a vector by a rotation</li>
+</ul>
 <h2 id="problems">Problems</h2>
-<p>We will be continuing with our programming assignments off of your own forked repositories. In order to grab the latest homework assignment, please sync your branch with Debbie's original repository which can be found at the following link: <a href="https://github.com/debbieyuen/ctin583-fa24-hw/"><code>https://github.com/debbieyuen/ctin583-fa24-hw/</code></a>.</p>
-<h3 id="problem-1-generics-short-answers">Problem 1: Generics: Short Answers</h3>
-<p>An important part of learning is feeling comfortable researching, looking stuff up, debugging problems, and reading documentation. Please do your own research to answer the questions in this section. In your <code>BarbieWorld.cs</code> file, please write short answers between 2 - 5 sentences for the following questions:</p>
+<p>It is Barbie's Birthday and she is hosting a birthday party!
+We are in a 2D World celebrating Barbie's Birthday and we are getting ready to break the pinata. 
+First, we would like to position Barbie and the pinata correctly. </p>
+<p>Barbie is 5'9'' or 1.75 meters tall. 
+She is standing 2 feet or 0.6 meters away from the her party pinata.
+The party pinata is hanging 8.2 feet or 2.5 meters high from the ground.
+Assume that the angles between the distance of the pinata to the ground and Barbie's distance to the pinata create a 90 degree angle. </p>
+<h3 id="problem-1-barbies-pinata">Problem 1: Barbie's Pinata</h3>
 <div class="admonition question">
-<p class="admonition-title">Problem 1: Generics: Short Answers</p>
-<ul>
-<li>What is Unity's <code>GetComponent&lt;T&gt;</code>? Why is it considered a generic method?</li>
-<li>In generics, there is a particular convention we follow in defining generics. What leter do we use to represent a placeholder type or generic? In generics, what are the naming conventions used if we have more than one parameter? </li>
-<li>What does the generic variable do? Why does it end up as the return type and argument type for a method? </li>
-<li>Give a realistic and detailed example of when you would want to use generics in your game. When would type variables be useful?</li>
-<li>What are the performance implications of using generic arrays as opposed to non-generic arrays in C#?</li>
-<li>What does it mean to instantiate? </li>
-</ul>
+<p class="admonition-title">Problem 1: Barbie's Pinata</p>
+<p>Barbie is holding a bat to swing at the pinata. What should be the magnitude the bat should swing at? Make sure the check for edge cases including 1. Barbie has only three chances to swing at the pinata before it is the next player's turn. And 2. if Barbie runs out of turns, a message should display that Barbie's turn is over and it is the next player's turn</p>
 </div>
-<h3 id="problem-2-barbies-careers">Problem 2: Barbie's Careers</h3>
+<h3 id="problem-2-barbies-focus">Problem 2: Barbie's Focus</h3>
 <div class="admonition question">
-<p class="admonition-title">Problem 2: Barbie's Careers</p>
-<p>Barbie wears many hats. She is a photographer, singer, athlete, painter, musician, rockstar, and much more. What is the function below trying to accomplish? How are we using the T variable in this case? Please instantiate an item of this class in your <code>BarbieWalletBalance.cs</code> file in your <code>Start()</code> or <code>Update()</code> functions.</p>
+<p class="admonition-title">Problem 2: Barbie's Focus</p>
+<p>Barbie can only make a valid swing when she is looking directly at the pinata. She cannot swing at other objects, players, and items. Check to make sure that Barbie is facing directly at the pinata. </p>
 </div>
-<h3 id="problem-3-barbies-account">Problem 3: Barbie's Account</h3>
+<h3 id="problem-3-spinning-pinata">Problem 3: Spinning Pinata</h3>
 <div class="admonition question">
-<p class="admonition-title">Problem 3: Barbie's Account</p>
-<p>Convert the following function to a generic if needed. Then, write a private generic function named <code>BarbieBank</code>. <code>BarbieBank</code> should take in the parameters: <code>numOfPennies</code>, <code>cashAmount</code>, and <code>numOfCreditCards</code>. Have the function return a new generic array with the correct parameters. </p>
-</div>
-<h3 id="problem-4-inheritence-short-answers">Problem 4: Inheritence: Short Answers</h3>
-<div class="admonition question">
-<p class="admonition-title">Problem 4: Inheritence: Short Answers</p>
-<ul>
-<li>What is the "Protected" access modifier? How does it relate to inheritence and between two classes. </li>
-<li>What is MonoBehaviour? Why do Unity C# scripts inherit from MonoBehaviour? Give some examples of Unity functions that come from MonoBehaviour. </li>
-<li>What is multiple inheritance? Can we perform multiple inheritance in C#? Why or why not?</li>
-<li>What does "Protected virtual void" mean? When is it needed and what does virtual do in your code?</li>
-<li>What happens when a constructor in a parent class is called? How do we control which base class contructor is being called?</li>
-</ul>
-</div>
-<h3 id="problem-5-barbies-house">Problem 5: Barbie's House</h3>
-<div class="admonition question">
-<p class="admonition-title">Problem 5: Barbie's House</p>
-<p>Barbie's House needs to inherit everything from the BarbieWorld class in your <code>BarbieWorld.cs</code> file. Please modify the BarbieHouse class to inherit from BarbieWorld and write at least three methods within BarbieHouse representing furniture, pets, household items, food, etc. within her house. </p>
+<p class="admonition-title">Problem 2: Spinning Pinata</p>
+<p>Barbie swings her bat and the bat hits the pinata. The pinata is now rotating along the x axis. If Barbie hits the bat again, we want the pinata to spin along the x axis and the y axis. How do we get the correct overall rotation of the pinata?</p>
 </div>
 <h2 id="resources-and-links">Resources and Links</h2>
 <ul>
-<li><a href="https://learn.unity.com/tutorial/generics#5c8923c5edbc2a113b6bc335">Unity Learn: Generics</a></li>
-<li><a href="https://onewheelstudio.com/blog/2020/12/27/c-generics-and-unity">C# Generics and Unity</a></li>
-<li><a href="https://docs.unity3d.com/2019.3/Documentation/Manual/GenericFunctions.html">Unity Documentation: Generic Functions</a></li>
-<li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics">Microsoft Learn: Generic Classes and Methods</a></li>
-<li><a href="https://www.programiz.com/csharp-programming/generics">C# Generics</a></li>
+<li><a href="https://www.euclideanspace.com/maths/algebra/realNormedAlgebra/quaternions/">Maths - Quaternions</a></li>
+<li><a href="https://mathworld.wolfram.com/Quaternion.html">Wolfram: Quaternion</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quaternion#:~:text=For%20example%2C%20the%20equation%20z,dimensional%20space%20of%20vector%20quaternions.">Wikipedia: Quaternion</a></li>
+<li><a href="https://docs.unity3d.com/ScriptReference/Quaternion.html">Unity Scripting: Quaternion</a></li>
+<li><a href="https://www.youtube.com/watch?v=hd1QzLf4ZH8&amp;ab_channel=Unity">C# Quaternions in Unity!</a></li>
+<li><a href="https://docs.unity.cn/ru/2019.4/Manual/QuaternionAndEulerRotationsInUnity.html">Rotation and Orientation in Unity</a></li>
+<li><a href="https://vionixstudio.com/2022/06/16/unity-quaternion-and-rotation-guide/">Unity Quaternion and Rotation Guide for Beginners</a></li>
+<li><a href="https://medium.com/@spicuzza157/quatern-b5cf7b83b1d1">Quaternions in Unity</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gimbal_lock">Wikipedia: Gimbal Lock</a></li>
+<li><a href="https://docs.unity3d.com/ScriptReference/Vector3.Dot.html">Vector3.Dot</a></li>
+<li><a href="https://docs.unity3d.com/ScriptReference/Vector3.Cross.html">Vector3.Cross</a></li>
+<li><a href="https://gamemath.com/">3D Math Primer for Graphics and Game Development</a></li>
+<li><a href="https://tutorial.math.lamar.edu/classes/calcii/dotproduct.aspx">Dot Product</a></li>
 </ul>
 <h2 id="submission">Submission</h2>
-<div class="admonition note">
-<p class="admonition-title">CTIN 583 Survey</p>
-<p>Please fill out this anonymous survey about the course so far!</p>
-<p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdeAIj7vF9qtz2Krjt-CVheh4pVCBnkDryfaOzv12s4KBDdmQ/viewform?embedded=true" width="640" height="1043" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
-</div>
 <div class="admonition note">
 <p class="admonition-title">GitHub Pull Requests</p>
 <p>To receive credit for this homework assignment, please Jerry and Debbie as <code>Reviewers</code> and <code>Assignees</code> when you hit the green <code>Create Pull Request</code> button.</p>
@@ -1041,11 +1061,6 @@ The <a href="https://docs.unity3d.com/2023.3/Documentation/ScriptReference/MonoB
 <p><img alt="Image title" src="../hw2/pushtogit.png" /></p>
 <p><img alt="Image title" src="../hw2/assignees.png" /></p>
 </div>
-<!-- !!! note "Kitchen Chaos"
-
-    On BrightSpace, submit a screenshot of where you are at with the Kitchen Chaos tutorial. 
-
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/AmGSEH7QcDg?si=rZhxDlhNt93Mmt_T&amp;start=1228" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 
 
