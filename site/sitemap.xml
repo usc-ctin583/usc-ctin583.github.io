@@ -2,32 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ctin583.usc.edu/sp25/</loc>
-         <lastmod>2025-01-22</lastmod>
+         <lastmod>2025-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ctin583.usc.edu/sp25/courseinfo/</loc>
-         <lastmod>2025-01-22</lastmod>
+         <lastmod>2025-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ctin583.usc.edu/sp25/resources/</loc>
-         <lastmod>2025-01-22</lastmod>
+         <lastmod>2025-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ctin583.usc.edu/sp25/Homework/hw01/</loc>
-         <lastmod>2025-01-22</lastmod>
+         <lastmod>2025-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ctin583.usc.edu/sp25/Homework/hw02/</loc>
-         <lastmod>2025-01-22</lastmod>
+         <lastmod>2025-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ctin583.usc.edu/sp25/Homework/hw03/</loc>
+         <lastmod>2025-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ctin583.usc.edu/sp25/Homework/hw04/</loc>
+         <lastmod>2025-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ctin583.usc.edu/sp25/Homework/hw05/</loc>
+         <lastmod>2025-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ctin583.usc.edu/sp25/Projects/proj1_kitchen/</loc>
-         <lastmod>2025-01-22</lastmod>
+         <lastmod>2025-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ctin583.usc.edu/sp25/Projects/proj2_advocacy/</loc>
+         <lastmod>2025-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
