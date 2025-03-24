@@ -3,19 +3,14 @@
 !!! tip "Important Dates"
     **Homework:** HW09 - HW14 will require a submission via [BrightSpace](brightspace.usc.edu). Please record a short video of your project's progress showcasing the prototype.
 
-    **Checkpoint:** Check-ins with the instructors with Debbie and/or Jerry. Check-in will be on **Tuesday, November 5th** or **Wednesday, November 6th**. 
+    **Checkpoint:** Check-ins with the instructors with Debbie and/or Jerry. Check-in will be on **Monday, March 24th** or **Wednesday, March 26th**. 
 
-    **Playtest:** In-class playtest on **Wednesday, November 13th**. Your project should be working and playable. 
+    **Playtest:** In-class playtest on **Wednesday, April 2nd** and **Wednesday, April 16th**. Your project should be working and playable. 
 
-    **Presentation:** In-class final presentation and playtest on **Wednesday, December 4th**. Your project should be finished. 
+    **Presentation:** In-class final presentation and playtest on **Monday, April 28th** and **Wednesday, April 30th**. Your project should be finished. 
 
     **Final Submission:** Submit your final projects on Perforce along with a presentation side deck.
     
-    <!-- | Checkpoint | Play Test | Submission |
-    | ---------  | --------- | ---------- |
-    | **CP 1:** Monday, March 18th <br> <br> In pairs, pull Perforce projects and pair program in Visual Studio Code. | **PT 1:** Monday, April 15th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Final Presentation:** Monday, April 29th <br> <br> In class presentation about your project. Students will have the opportunity to play your game while you present your work. Your presentation should consist of a research poster. |
-    | **CP 2:** Monday, April 1st <br> <br> Read your classmate's papers and give them constructive feedback in their Google Docs. | **PT 2:** Monday, April 29th <br> <br> You should have a working game by this day. We will be playtesting on your hardware. Fill out the provided Google Form to give and receive feedback. | **Project Due:** Monday, May 6th <br> <br> Your final submission should include a link to your published game, Overleaf link to your research paper, and 2 PDF files for your paper and poster. |
-    | **CP 3:** Monday, April 15th <br> <br> In pairs, host a code review with Perforce. | | | -->
 
 <div style="width:100%;height:0;padding-bottom:35%;position:relative;"><iframe src="https://giphy.com/embed/9age78wuTYN0tzfIR7" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/9age78wuTYN0tzfIR7">via GIPHY</a></p>
 
@@ -231,24 +226,22 @@ Your research paper can span areas including but not limited to animation, simul
 In short, the main requirement is to create a game and write a paper. 
 
 - [x] Build and publish to a specific hardware and platform
-- [x] Must include game user interface with [UI Toolkit]() or [ReactJS]()
-- [x] Utilize Unity’s new [Input Management System]()
+- [x] Must include game user interface. For example with [UI Toolkit]() or [ReactJS]()
+- [x] Utilize an input system. Such as Unity’s new [Input Management System]()
 - [x] The experience must look and feel completed
 - [x] Play and test game on your selected hardware
-- [x] Research paper with [OverLeaf]()
-- [x] Research poster with [Adobe InDesign]()
-- [x] Must code with C# and not node-based 
+- [x] Must code with a programming language or a node-based language (Blueprints, ShaderGraph)
 
 ## 💯 Grading
 We will be play testing your game during class!! Please make sure your game is published on itch.io by play test day and is 100% playable. 
 
 | Assignment | Description | Percentage |
 | :--------- | :--------- | :--------- |
-| Peer Feedback | Please meet with your classmates to give and receive feedback. It is important to give verbal and written feedback. Collaborate on your projects and support each other. Please fill out the google form for each student you gave feedback to. | 10% |
+| Peer Feedback | Please meet with your classmates to give and receive feedback. It is important to give verbal and written feedback. Collaborate on your projects and support each other. Please give feedback on Figma for each student you gave feedback to. | 10% |
 | Checkpoints and Playtests | Check in with any instructor. Show they what you've been working on and ask them any questions you have. Complete the [check in assignments](../Projects/project2checkpoint1.md) with your classmates to practice collaborating over code. Participation is mandatory on playtest days and your game should be working and running on your selected hardware.| 10% |
 | Technical Implementation | Submit your projects via Perforce if possible. The instructors will evauate how you created your projects | 20% |
-| Game Design | We will be evaluating your game's overall experience. Your game should look and feel complete with assets, sounds, and user interface. Your game should be completed by **Monday, December 4th** and you are free to use the rest of the time to prepare your project to be published. | 30% |
-| Published Game | It is mandatory to publish your game. The process of publishing your game can be as long as 1 - 3 weeks. Please plan ahead and have your published game submitted by **Monday, December 11th**. | 30% |
+| Game Design | We will be evaluating your game's overall experience. Your game should look and feel complete with assets, sounds, and user interface. Your game should be completed by **Wednesday, May 14th** and you are free to use the rest of the time to prepare your project to be published. | 30% |
+| Published Game | It is mandatory to publish your game. The process of publishing your game can be as long as 1 - 3 weeks. Please plan ahead and have your published game submitted by **Wednesday, May 14th**. | 30% |
 | **Total** | | **100%** |
 
 ## 🦄 Support
